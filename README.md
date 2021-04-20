@@ -61,3 +61,34 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # pcdOnline_Laravel
+
+#HOW TO RUN THIS PROJECT
+Step 1:
+First download and Install Composer from this link . 
+https://getcomposer.org/Composer-Setup.exe
+
+then check in the comand line is composer installed successfully or not  by typing 
+>>   composer
+
+if you see the menu for composer then you are good to go to next step. 
+
+Step 2: Check is there node.js installed or not. 
+in comman line or terminal type node -v to see node js version. if node is not installed then it wont show any version number. 
+you can download it from here: https://nodejs.org/en/
+
+Step 3: Now install Laravel by this following command. 
+>>    composer global require laravel/installer
+
+then check laravel works or not by typing command line 
+>> laravel
+
+if everything goes fine then go to is projects directory and run this command when running for the first time 
+
+>> php artisan migration 
+
+then to run the project run this command 
+
+>> php artisan serve 
+
+
+every thing should work fine . if you find any problem get from this : https://www.youtube.com/watch?v=ImtZ5yENzgE
