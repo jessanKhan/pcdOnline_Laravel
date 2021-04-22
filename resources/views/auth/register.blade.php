@@ -62,8 +62,15 @@
 
                             <div class="form-group">
                                 <label for="gender"><i class="zmdi zmdi-male-female material-icons-name"></i></label>
-                                <input id="gender" type="text" class="textInput" name="gender" value="{{ old('gender') }}"
-                                    required autocomplete="gender" placeholder="gender" autofocus>
+                                <select class="textInput{{ $errors->has('gender') ? ' is-invalid' : '' }}" id="gender"
+                                    name="gender">
+                                    <option value="" selected>Choose Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                {{-- <input id="gender" type="text" class="textInput" name="gender" value="{{ old('gender') }}"
+                                    required autocomplete="gender" placeholder="gender" autofocus> --}}
                                 @error('gender')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -71,11 +78,21 @@
                                 @enderror
                             </div>
 
+
+
+
                             <div class="form-group">
                                 <label for="nationality"><i class="zmdi zmdi-globe material-icons-name"></i></label>
-                                <input id="nationality" type="text" class="textInput" name="nationality"
+                                {{-- <input id="nationality" type="text" class="textInput" name="nationality"
                                     value="{{ old('nationality') }}" required autocomplete="nationality"
-                                    placeholder="Nationality" autofocus>
+                                    placeholder="Nationality" autofocus> --}}
+                                <select class="textInput{{ $errors->has('nationality') ? ' is-invalid' : '' }}"
+                                    id="nationality" name="nationality">
+                                    <option value="" selected>Choose country</option>
+                                    @foreach ($countries as $country)
+                                        <option value="{{ $country->id }}">{{ $country->name }}</option>
+                                    @endforeach
+                                </select>
                                 @error('nationality')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -86,9 +103,16 @@
 
                             <div class="form-group">
                                 <label for="qualification"><i class="zmdi zmdi-book material-icons-name"></i></label>
-                                <input id="qualification" type="text" class="textInput" name="qualification"
+                                {{-- <input id="qualification" type="text" class="textInput" name="qualification"
                                     value="{{ old('qualification') }}" required autocomplete="qualification"
-                                    placeholder="Qualification" autofocus>
+                                    placeholder="Qualification" autofocus> --}}
+                                <select class="textInput{{ $errors->has('qualification') ? ' is-invalid' : '' }}"
+                                    id="qualification" name="qualification">
+                                    <option value="" selected>Choose Educational Qualification</option>
+                                    <option value="High School Graduate">High School Graduate</option>
+                                    <option value="College Graduate">College Graduate</option>
+                                    <option value="Post Graduate">Post Graduate</option>
+                                </select>
                                 @error('qualification')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -150,8 +174,8 @@
                             <div class="form-group form-button">
 
                                 <!-- <button type="submit" class="btn btn-primary">
-                                                                                                {{ __('Register') }}
-                                                                                            </button> -->
+                                                                                                                                                                                        {{ __('Register') }}
+                                                                                                                                                                                    </button> -->
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
 
                             </div>
@@ -172,6 +196,11 @@
     </div>
 
 
+
+
+@endsection
+
+@section('scripts')
 
 
 @endsection

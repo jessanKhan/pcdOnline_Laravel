@@ -47,6 +47,14 @@
     <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script>
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('../vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css') }}"
+        rel="stylesheet">
+    <link
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css') }}"
+        rel="stylesheet">
+
+
+
 
     <!-- Additional CSS Files -->
     <!-- <link rel="stylesheet" href="{{ asset('../assets/css/fontawesome.css') }}">
@@ -182,8 +190,9 @@
                                 </li>
                                 <li class="has-submenu">
                                     <div class="row">
-                                        <a href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                             document.getElementById('logout-form').submit();">
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                                                         document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -218,6 +227,18 @@
 
             </div>
         </footer>
+
+        <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js') }}"></script>
+        <script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js') }}"></script>
+        <script
+            src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js') }}">
+        </script>
+        <script type="text/javascript">
+            $(function() {
+                $('#datetimepicker').datetimepicker();
+            });
+
+        </script>
     </body>
 
 </html>

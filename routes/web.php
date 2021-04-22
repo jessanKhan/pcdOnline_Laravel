@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/cart', 'App\Http\Controllers\CourseController@cart')->name('cart');
+Route::get('/add-to-cart/{course}', 'App\Http\Controllers\CourseController@addTocart')->name('add');
+Route::get('/remove-from-cart/{id}', 'App\Http\Controllers\CourseController@removeFromcart')->name('remove');
+
+
 Route::get('/language_course', function () {
     return view('course/language');
 })->name('language');
