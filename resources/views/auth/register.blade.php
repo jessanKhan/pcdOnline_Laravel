@@ -26,7 +26,7 @@
 
 
                             <div class="form-group">
-                                <label for="last_name"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <label for="last_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <input id="last_name" type="text" class="textInput" name="last_name"
                                     value="{{ old('last_name') }}" required autocomplete="last_name"
                                     placeholder="Last Name" autofocus>
@@ -38,7 +38,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="dob"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <label for="dob"><i class="zmdi  zmdi-calendar-check material-icons-name"></i></label>
                                 <input id="dob" type="text" class="textInput" name="dob" value="{{ old('dob') }}"
                                     required autocomplete="dob" placeholder="Date of Birth" autofocus>
                                 @error('dob')
@@ -49,7 +49,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="address"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <label for="address"><i class="zmdi zmdi-home material-icons-name"></i></label>
                                 <input id="address" type="text" class="textInput" name="address"
                                     value="{{ old('address') }}" required autocomplete="address" placeholder="address"
                                     autofocus>
@@ -61,7 +61,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="gender"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <label for="gender"><i class="zmdi zmdi-male-female material-icons-name"></i></label>
                                 <input id="gender" type="text" class="textInput" name="gender" value="{{ old('gender') }}"
                                     required autocomplete="gender" placeholder="gender" autofocus>
                                 @error('gender')
@@ -72,7 +72,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="nationality"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <label for="nationality"><i class="zmdi zmdi-globe material-icons-name"></i></label>
                                 <input id="nationality" type="text" class="textInput" name="nationality"
                                     value="{{ old('nationality') }}" required autocomplete="nationality"
                                     placeholder="Nationality" autofocus>
@@ -85,7 +85,7 @@
 
 
                             <div class="form-group">
-                                <label for="qualification"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <label for="qualification"><i class="zmdi zmdi-book material-icons-name"></i></label>
                                 <input id="qualification" type="text" class="textInput" name="qualification"
                                     value="{{ old('qualification') }}" required autocomplete="qualification"
                                     placeholder="Qualification" autofocus>
@@ -150,8 +150,8 @@
                             <div class="form-group form-button">
 
                                 <!-- <button type="submit" class="btn btn-primary">
-                                                    {{ __('Register') }}
-                                                </button> -->
+                                                                                                {{ __('Register') }}
+                                                                                            </button> -->
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
 
                             </div>
