@@ -491,16 +491,16 @@
                                             for
                                             Everyone</a></div>
                                 </li>
+                                <li onclick="blockchain()">
+                                    <div class="row"><a href="{{ route('blockchain') }}">Blockchain for Everyone</a>
+                                    </div>
+                                </li>
                             </ul>
                         </li>
                         <li class="has-submenu">
                             <div class="row"><a href="#section3">Applied Sci-Tech<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             <ul class="sub-menu">
-                                <li onclick="blockchain()">
-                                    <div class="row"><a href="{{ route('blockchain') }}">Blockchain for Everyone</a>
-                                    </div>
-                                </li>
                                 <li onclick="applied_science()">
                                     <div class="row"><a href="{{ route('applied_science') }}">Scientific Data
                                             Handling and
@@ -509,7 +509,7 @@
                             </ul>
                         </li>
                         <li class="has-submenu">
-                            <div class="row"><a href="#section3">Language & Culture<i
+                            <div class="row"><a href="#section3">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -659,7 +659,7 @@
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4>Language & Culture</h4>
+                                <h4>Languages & Culture</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -1000,11 +1000,10 @@
                 <div class="col-md-6">
                     <article class="video-item">
                         <div class="video-caption">
-                            <h4>Power HTML Template</h4>
+                            <h4></h4>
                         </div>
                         <figure>
-                            <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img
-                                    src="assets/images/main-thumb.png"></a>
+                        <a href="/"><img src="{{ asset('assets/images/about.png') }}" alt=""></a>
                         </figure>
                     </article>
                 </div>
@@ -1073,13 +1072,56 @@
     </section>
 
 
-    <footer>
+    <footer id="myFooter">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p>Prudence College Dublin</p>
+                <div class="col-sm-3">
+                <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
                 </div>
+                <div class="col-sm-2">
+                    <h5>Catagories</h5>
+                    <ul>
+                        <li><a href="">Business & Management</a></li>
+                        <li><a href="">Coding & Computing</a></li>
+                        <li><a href="">Applied Sci-Tech</a></li>
+                        <li><a href="">Languages & Culture</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Contact us</h5>
+                    <p>Prudence College Dublin
+                       C3, ACE Enterprise Park
+                       Bawnogue Road
+                       Dublin 22, D22 KW40
+                       IRELAND</p>
+                    <p>Ph: +353 (0)1 254 8998
+                       Email: info@prudencecollege.ie
+                       Mobile/WhatsApp: +353 87 466 9418
+                       Skype: Prudence College</p>
+                </div>
+                <!--
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#">FAQ</a></li>
+                        <li><a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#">Help desk</a></li>
+                        <li><a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#">Forums</a></li>
+                    </ul>
+                </div>
+                -->
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Follow us</button>
+                </div>
+                
             </div>
+        </div>
+        <div class="footer-copyright">
+            <p>©Prudence College Dubline </p>
         </div>
     </footer>
 

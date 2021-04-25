@@ -1038,27 +1038,27 @@ section.courses .owl-carousel button.active {
 /* Video */
 
 section.video {
-    background-image: url(../images/video-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #172238;
+    background-color: white;
     padding: 120px 0px;
 }
 
 section.video .left-content {
-    color: #fff;
+    color: #172238;
 }
-
+section.video .left-content p{
+    color: #172238;
+    font-size: 16px;
+}
 section.video .left-content span {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 0.5px;
 }
 
 section.video .left-content h4 {
     margin-top: 20px;
-    font-size: 30px;
-    color: #fff;
+    font-size: 40px;
+    color: #172238;
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 40px;
@@ -1687,7 +1687,7 @@ section.contact form button {
     border: none;
 }
 
-/* Footer */
+/* Footer 
 
 footer {
     background-color: #152036;
@@ -1707,8 +1707,98 @@ footer p {
 footer p a,
 footer p a:hover {
     color: #f5a425;
+}*/
+#myFooter {
+    background-color: #0c1228;
+    color: white;
+    padding-top: 30px;
+}
+#myFooter .footer-copyright {
+    background-color: #2d3748;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+#myFooter .row {
+    margin-bottom: 60px;
+}
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#myFooter img{
+    height: 140px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    ;
+}
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
 }
 
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+#myFooter .col-sm-2{
+    margin-left: 90px;
+}
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
 @media screen and (max-width: 992px) {
     .features {
         background-color: #0c1228;
