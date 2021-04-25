@@ -1070,6 +1070,9 @@
         </div>
         </div>
     </section>
+    <section class="cpdcourses" data-section="section7">
+
+    </section>
 
 
     <footer id="myFooter">

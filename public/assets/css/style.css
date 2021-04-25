@@ -1794,6 +1794,13 @@ footer p a:hover {
 #myFooter .col-sm-2{
     margin-left: 90px;
 }
+.cpdcourses{
+    background-color: white;
+    color: #0c1228;
+    padding-top: 30px;
+    width: 100%;
+    height: 350px;
+}
 @media screen and (max-width: 767px) {
     #myFooter {
         text-align: center;
