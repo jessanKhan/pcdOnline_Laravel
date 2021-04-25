@@ -434,13 +434,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @endif
                     @endauth
                 </div>
             @endif
@@ -562,7 +562,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -989,12 +989,17 @@
                 <div class="col-md-6 align-self-center">
                     <div class="left-content">
                         <h4>PCDonline</em></h4>
-                        <p>Prudence College Dublin is an independent academic institute registered in Ireland – An initiative of Green Sustainability International Ltd. The college firmly recognizes education systems that are conducive to wisdom and innovation to bring brilliant success to its students.</p>
+                        <p>Prudence College Dublin is an independent academic institute registered in Ireland – An
+                            initiative of Green Sustainability International Ltd. The college firmly recognizes
+                            education systems that are conducive to wisdom and innovation to bring brilliant success to
+                            its students.</p>
 
-                        <p> It is committed to delivering world-class professional and academic programs and courses using both Traditional  (Face-to-Face)  and Virtual  (Interactive, Real-Time, Distance Learning) classroom methodologies to facilitate teaching and learning, as well as to offer E-Learning (online) at a later period.
+                        <p> It is committed to delivering world-class professional and academic programs and courses
+                            using both Traditional (Face-to-Face) and Virtual (Interactive, Real-Time, Distance
+                            Learning) classroom methodologies to facilitate teaching and learning, as well as to offer
+                            E-Learning (online) at a later period.
                         </p>
-                        <div class="main-button"><a rel="" href=""
-                                target="_parent">Read More</a></div>
+                        <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -1003,7 +1008,7 @@
                             <h4></h4>
                         </div>
                         <figure>
-                        <a href="/"><img src="{{ asset('assets/images/about.png') }}" alt=""></a>
+                            <a href="/"><img src="{{ asset('assets/images/about.png') }}" alt=""></a>
                         </figure>
                     </article>
                 </div>
@@ -1072,6 +1077,34 @@
     </section>
     <section class="cpdcourses" data-section="section7">
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="left-content">
+                        <h4>CPD Accreditation</em></h4>
+                        <p>The CPD Certification Service was established in 1996 as the leading independent CPD
+                            accreditation institution operating across industry sectors to complement the Continuing
+                            Professional Development policies of professional institutes and academic bodies.Prudence
+                            College is a CPD accredate college in dublin.</p>
+
+                        <p> The CPD
+                            Certification Service provides support, advice and recognised independent CPD accreditation
+                            compatible with global CPD principles.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <article>
+                        <figure>
+                            <img height="400" class="rounded mx-auto d-block"
+                                src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 
@@ -1079,7 +1112,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                    <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
                 </div>
                 <div class="col-sm-2">
                     <h5>Catagories</h5>
@@ -1093,14 +1126,14 @@
                 <div class="col-sm-2">
                     <h5>Contact us</h5>
                     <p>Prudence College Dublin
-                       C3, ACE Enterprise Park
-                       Bawnogue Road
-                       Dublin 22, D22 KW40
-                       IRELAND</p>
+                        C3, ACE Enterprise Park
+                        Bawnogue Road
+                        Dublin 22, D22 KW40
+                        IRELAND</p>
                     <p>Ph: +353 (0)1 254 8998
-                       Email: info@prudencecollege.ie
-                       Mobile/WhatsApp: +353 87 466 9418
-                       Skype: Prudence College</p>
+                        Email: info@prudencecollege.ie
+                        Mobile/WhatsApp: +353 87 466 9418
+                        Skype: Prudence College</p>
                 </div>
                 <!--
                 <div class="col-sm-2">
@@ -1114,13 +1147,16 @@
                 -->
                 <div class="col-sm-3">
                     <div class="social-networks">
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#" class="google"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
+                            class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
+                            class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
+                            class="google"><i class="fa fa-google-plus"></i></a>
                     </div>
                     <button type="button" class="btn btn-default">Follow us</button>
                 </div>
-                
+
             </div>
         </div>
         <div class="footer-copyright">

@@ -159,7 +159,7 @@
                         <input type="text" placeholder="Find Your Courses">
 
                     </li>
-                    <li class="pp"><a href="#section5">About Us</a></li>
+                    {{-- <li class="pp"><a href="#section5">About Us</a></li> --}}
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
