@@ -988,18 +988,13 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="left-content">
-                        <span>our presentation is for you</span>
-                        <h4>Watch the video to learn more <em>about Grad School</em></h4>
-                        <p>You are NOT allowed to redistribute this template ZIP file on any template collection
-                            website. However, you can use this template to convert into a specific theme for any kind of
-                            CMS platform such as WordPress. You may <a rel="nofollow"
-                                href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for
-                            details.
-                            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec
-                            interdum quam felis non ante.
+                        <h4>PCDonline</em></h4>
+                        <p>Prudence College Dublin is an independent academic institute registered in Ireland – An initiative of Green Sustainability International Ltd. The college firmly recognizes education systems that are conducive to wisdom and innovation to bring brilliant success to its students.</p>
+
+                        <p> It is committed to delivering world-class professional and academic programs and courses using both Traditional  (Face-to-Face)  and Virtual  (Interactive, Real-Time, Distance Learning) classroom methodologies to facilitate teaching and learning, as well as to offer E-Learning (online) at a later period.
                         </p>
-                        <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo"
-                                target="_parent">External URL</a></div>
+                        <div class="main-button"><a rel="" href=""
+                                target="_parent">Read More</a></div>
                     </div>
                 </div>
                 <div class="col-md-6">
