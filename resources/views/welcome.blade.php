@@ -989,9 +989,9 @@
                 <div class="col-md-6 align-self-center">
                     <div class="left-content">
                         <h4>PCDonline</em></h4>
-                        <p>Prudence College Dublin is an independent academic institute registered in Ireland – An initiative of Green Sustainability International Ltd. The college firmly recognizes education systems that are conducive to wisdom and innovation to bring brilliant success to its students.</p>
+                        <p>PCDonline is an e-learning platform of Prudence College Dublin (PCD) with a difference to offer high quality, accredited and industry-focused online courses driven by well-educated and experienced tutors as well as globally recognised partners. We offer professional diplomas and short courses to learn anywhere at your own pace with or without tutor support.</p>
 
-                        <p> It is committed to delivering world-class professional and academic programs and courses using both Traditional  (Face-to-Face)  and Virtual  (Interactive, Real-Time, Distance Learning) classroom methodologies to facilitate teaching and learning, as well as to offer E-Learning (online) at a later period.
+                        <p> Our online course materials are developed in a virtual classroom environment to facilitate engagement, gain knowledge, and  secure real-world experience and skills for career development while getting workplace ready. Flexible payment plans are in place to accommodate learners from various socio-economic backgrounds.
                         </p>
                         <div class="main-button"><a rel="" href=""
                                 target="_parent">Read More</a></div>
@@ -1071,7 +1071,13 @@
         </div>
     </section>
     <section class="cpdcourses" data-section="section7">
-
+    <div class="col-md-6">
+    <img src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="">
+    </div>
+    <div class="col-md-6">
+        <p>we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime, distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
+        <p>The vision of PCD is to get recognition as an academic center of excellence in higher education in Europe by attracting brilliant and deserving students from home and abroad; and providing advanced education and training to satisfy present and the future global needs.</p>
+    </div>
     </section>
 
 
