@@ -1070,12 +1070,14 @@
         </div>
     </section>
     <section class="cpdcourses" data-section="section7">
+    <div class="col-md-6">
+                    <img class="rounded mx-auto d-block"
+                        src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
+        </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 align-self-center">
+        <div class="col-md-6 ">
             <div class="left-content">
-                <h4>CPD Accreditation</em></h4>
+            <h4><b> CPD Accreditation</b></h4>
                 <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
                     distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
 
@@ -1087,18 +1089,9 @@
 
             </div>
         </div>
-        <div class="col-md-6">
-            <article>
-                <figure>
-                    <img height="400" class="rounded mx-auto d-block"
-                        src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
-                </figure>
-            </article>
-        </div>
-    </div>
-</div>
+        
+    </section>
 
-</section>
     <footer id="myFooter">
         <div class="container">
             <div class="row">
