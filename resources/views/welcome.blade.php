@@ -675,7 +675,7 @@
             </div>
         </div>
     </section>
-
+<!--
     <section class="section why-us" data-section="section2">
         <div class="container">
             <div class="row">
@@ -744,7 +744,7 @@
             </div>
         </div>
     </section>
-    <!-- Temporary 
+     
 
   <section class="section coming-soon" data-section="section3">
     <div class="container">
@@ -819,7 +819,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Choose Your Course</h2>
+                        <h2>Courses Currently Offering</h2>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme">
@@ -982,7 +982,10 @@
         </div>
     </section>
     <!-- Temporary  -->
-
+    <section class="lead" data-section="section3">
+    <div class="col-md-12">
+    <h2><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+    </div></section>
     <section class="section video" data-section="section5">
         <div class="container">
             <div class="row">
@@ -1009,7 +1012,12 @@
             </div>
         </div>
     </section>
-
+    <section class="enroll" data-section="section4">
+    <div class="col-md-12">
+    <h2><b> Enroll Now and Begin Your New Career</b></h2>
+    <p>NEXT INTAKE: SUMMER, SUMMER+ AND AUTUMN 2021</p>
+    <button type="button" class="btn btn-default"><b> ENROLL NOW</b></a></div>
+    </div></section>
     <section class="section contact" data-section="section6">
         <div class="container" style="background-color: #2d3748">
             <div class="row">
