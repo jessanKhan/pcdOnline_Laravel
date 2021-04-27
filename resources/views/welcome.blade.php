@@ -590,10 +590,10 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Leading the transition towards a brighter future</h6>
+                <h6></h6>
                 <h2><em>PCD</em> ONLINE</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+                    <div class="scroll-to-section"><a href="#section2">Discover Courses</a></div>
                 </div>
             </div>
         </div>
