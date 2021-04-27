@@ -981,6 +981,124 @@
             </div>
         </div>
     </section>
+
+        <!-- Categories Section Start -->
+        <div id="rs-categories" class="rs-categories gray-bg style1 pt-94 pb-70 md-pt-64 md-pb-40">
+                <div class="container">
+                    <div class="row y-middle mb-50 md-mb-30">
+                        <div class="col-md-6 sm-mb-30">
+                            <div class="sec-title">
+                                <div class="sub-title primary"></div>
+                                <h2 class="title mb-0"><b> Our Top Courses </b></h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/1.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Genarel Education</h4>
+                                    <span class="courses">05 Courses</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/2.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Computer Science</h4>
+                                    <span class="courses">05 Courses</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/3.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Civil Engineering</h4>
+                                    <span class="courses">05 Courses</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/4.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Artificial Intelligence</h4>
+                                    <span class="courses">05 Courses</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/5.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Business Studies</h4>
+                                    <span class="courses">05 Courses</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/6.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Web Development</h4>
+                                    <span class="courses">05 Courses</span>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/7.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Life Course</h4>
+                                    <span class="courses">8 Courses</span>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/8.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Lawyer Course</h4>
+                                    <span class="courses">1 Courses</span>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                            <a class="categories-item" href="#">
+                                <div class="icon-part">
+                                    <img src="assets/images/categories/icons/9.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <h4 class="title">Recipes</h4>
+                                    <span class="courses">7 Courses</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Categories Section End -->
+    
     <!-- Temporary  -->
     <section class="lead" data-section="section3">
     <div class="col-md-12">
