@@ -434,13 +434,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
                     @endauth
                 </div>
             @endif
@@ -449,8 +449,11 @@
         </div> -->
 
     <header class="main-header clearfix" role="header">
-        <div class="logo">
+        <div class="logo row">
             <a href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+            <a href="/">
+                <h6 style="color: white; margin: 35px 10px;">Leading the transition <br />towards a brighter future</h6>
+            </a>
         </div>
         <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
         <nav id="menu" class="main-nav" role="navigation">
@@ -562,7 +565,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -590,7 +593,7 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Leading the transition towards a brighter future</h6>
+
                 <h2><em>PCD</em> ONLINE</h2>
                 <div class="main-button">
                     <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
@@ -1102,7 +1105,8 @@
     <!-- Temporary  -->
     <section class="lead" data-section="section3">
         <div class="col-md-12">
-            <h2><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+            <h2 style="
+            margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
         </div>
     </section>
     <section class="section video" data-section="section5">
@@ -1149,62 +1153,50 @@
         </div>
     </section>
     <section class="section contact" data-section="section6">
-        <div class="container" style="background-color: #2d3748">
+        <div class="container">
             <div class="row">
-
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Top Courses</h2>
+                        <h2>Let’s Keep In Touch</h2>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-6">
 
 
-
-                    <div class="row" style="
-                    justify-content: center;
-                    padding-bottom: 120px;">
-
-                        <div>
-                            <h4 style="color: #cbd5e0">● Business English for Beginners/Intermediate Learners</h4>
-                            <h4 style="color: #cbd5e0">● Blockchain for Beginners/Intermediate Leaners</h4>
-
-                            <h4 style="color: #cbd5e0">● Machine Learning with Python for Advanced Learners</h4>
-
-                            <h4 style="color: #cbd5e0">● .NET Programming for Advanced Learners</h4>
-                            <h4 style="color: #cbd5e0">● Scienitific Data Handling and Programming for
-                                Beginners/Intermediate Learners</h4>
-                            <h4 style="color: #cbd5e0">● Digital Enterprise and Business Management for
-                                Beginners/Intermediate Learners</h4>
-                            <h4 style="color: #cbd5e0">● Accounting and Finance for Advanced Learners</h4>
-
-
-                        </div>
-                        {{-- <div class="col-md-6">
-                            <div style="background-color: #2d3748">
-                                <h4>Top Business Courses</h4>
-                                <ul>
-                                    <li>kkk</li>
-                                    <li>kkk</li>
-                                    <li>kkk</li>
-                                    <li>kkk</li>
-                                </ul>
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name"
+                                        placeholder="Your Name" required="">
+                                </fieldset>
                             </div>
-                        </div> --}}
-
-                    </div>
-
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="email" type="text" class="form-control" id="email"
+                                        placeholder="Your Email" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message"
+                                        placeholder="Your message..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-
-            </div>
-            {{-- <div class="col-md-6">
+                <div class="col-md-6">
                     <div id="map">
-                        <iframe
-                            src="https://maps.google.com/maps?q=Prudence%20College%20Dublin%20C3,%20ACE%20Enterprise%20Park%20Bawnogue%20Road%20Dublin%2022,%20D22%20KW40%20IRELAND.&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <img style="margin: 30px;" src="{{ asset('assets/images/contactimage.png') }}" />
                     </div>
-                </div> --}}
-        </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="cpdcourses" data-section="section7">

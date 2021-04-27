@@ -75,8 +75,12 @@
 
         <!-- Theme section -->
         <header class="main-header clearfix" role="header">
-            <div class="logo">
+            <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                <a href="/">
+                    <h6 style="color: white; margin: 35px 10px;">Leading the transition <br />towards a brighter future
+                    </h6>
+                </a>
             </div>
             <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
             <nav id="menu" class="main-nav" role="navigation">
@@ -192,7 +196,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                         document.getElementById('logout-form').submit();">
+                                                                                                                                                         document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
