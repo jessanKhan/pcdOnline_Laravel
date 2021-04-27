@@ -424,7 +424,28 @@
     <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}"></script>
     <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script>
 
-
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.css') }}">
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/slick.css') }}">
+    <!-- off canvas css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/off-canvas.css') }}">
+    <!-- linea-font css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/linea-fonts.css') }}">
+    <!-- flaticon css  -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/flaticon.css') }}">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets / css / magnific - popup . css') }}">
+    <!-- Main Menu css -->
+    <link rel="stylesheet" href="{{ asset('assets/css/rsmenu-main.css') }}">
+    <!-- spacing css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/rs-spacing.css') }}">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This stylesheet dynamically changed from style.less -->
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
 
 </head>
@@ -434,13 +455,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @endif
                     @endauth
                 </div>
             @endif
@@ -565,7 +586,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -644,7 +665,7 @@
                     <div class="features-post third-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4>Applied Sci-Tech</h4>
+                                <h4>Applied Sci-Tech </h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -1289,6 +1310,46 @@
     <script src="{{ asset('assets/js/video.js') }}"></script>
     <script src="{{ asset('assets/js/slick-slider.js') }}"></script>
     <script src="{{ asset('assets/js/custom.js') }}"></script>
+
+
+    {{-- for top course need to optimize --}}
+    <script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
+    <!-- jquery latest version -->
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <!-- Bootstrap v4.4.1 js -->
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <!-- Menu js -->
+    <script src="{{ asset('assets/js/rsmenu-main.js') }}"></script>
+    <!-- op nav js -->
+    <script src="{{ asset('assets/js/jquery.nav.js') }}"></script>
+    <!-- owl.carousel js -->
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <!-- Slick js -->
+    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
+    <!-- isotope.pkgd.min js -->
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <!-- imagesloaded.pkgd.min js -->
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <!-- wow js -->
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <!-- Skill bar js -->
+    <script src="{{ asset('assets/js/skill.bars.jquery.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <!-- counter top js -->
+    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <!-- video js -->
+    <script src="{{ asset('assets/js/jquery.mb.YTPlayer.min.js') }}"></script>
+    <!-- magnific popup js -->
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <!-- plugins js -->
+    <script src="{{ asset('assets/js/plugins.js') }}"></script>
+    <!-- contact form js -->
+    <script src="{{ asset('assets/js/contact.form.js') }}"></script>
+    <!-- main js -->
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+
+
+
     <script>
         function Loginpage() {
             window.location = "/login"

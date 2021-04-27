@@ -1686,20 +1686,18 @@ section.contact form button {
     box-shadow: none;
     border: none;
 }
-.enroll{
+.enroll {
     width: 100%;
     height: 200px;
     background-color: #f5a425;
     color: white;
     text-align: center;
-    
 }
 
-.enroll h2{
+.enroll h2 {
     font-size: 45px;
-    
 }
-.enroll p{
+.enroll p {
     font-size: 16px;
 }
 .enroll .btn {
@@ -1718,14 +1716,14 @@ section.contact form button {
 /* ------------------------------------
     10. Categories Section CSS
 ---------------------------------------*/
-.rs-categories{
+.rs-categories {
     width: 100%;
-    height: 700px;
+    height: 780px;
     background-color: white;
 }
-.rs-categories h2{
+.rs-categories h2 {
     color: #0a2d72;
-    
+
     font-size: 40px;
     text-align: left;
     padding-bottom: 50px;
@@ -1742,8 +1740,8 @@ section.contact form button {
     border-radius: 5px;
     display: flex;
     align-items: center;
-  }
-  .rs-categories.style1 .categories-item .icon-part {
+}
+.rs-categories.style1 .categories-item .icon-part {
     float: left;
     margin-right: 25px;
     width: 70px;
@@ -1753,44 +1751,44 @@ section.contact form button {
     background: rgba(22, 170, 202, 0.2);
     text-align: center;
     transition: all 0.3s ease;
-  }
-  .rs-categories.style1 .categories-item .icon-part img {
+}
+.rs-categories.style1 .categories-item .icon-part img {
     -webkit-transition: all 0.4s ease;
     transform: scale(1);
-  }
-  .rs-categories.style1 .categories-item .content-part .title {
+}
+.rs-categories.style1 .categories-item .content-part .title {
     color: #111111;
     margin-bottom: 5px;
     font-size: 22px;
     transition: all 0.3s ease;
-  }
-  .rs-categories.style1 .categories-item:hover {
+}
+.rs-categories.style1 .categories-item:hover {
     background: #21a7d0;
     color: #ffffff;
     border-color: #21a7d0;
-  }
-  .rs-categories.style1 .categories-item:hover .icon-part {
+}
+.rs-categories.style1 .categories-item:hover .icon-part {
     background: #ffffff;
-  }
-  .rs-categories.style1 .categories-item:hover .icon-part img {
+}
+.rs-categories.style1 .categories-item:hover .icon-part img {
     transform: scale(0.9);
-  }
-  .rs-categories.style1 .categories-item:hover .content-part .title {
+}
+.rs-categories.style1 .categories-item:hover .content-part .title {
     color: #ffffff;
-  }
-  .rs-categories.main-home .categories-items {
+}
+.rs-categories.main-home .categories-items {
     position: relative;
     transition: all 0.3s ease;
-  }
-  .rs-categories.main-home .categories-items .cate-images a img {
+}
+.rs-categories.main-home .categories-items .cate-images a img {
     box-shadow: 0 0 30px #eee;
     background: #fff;
     border-radius: 0 0 5px 5px;
     position: relative;
     transition: all 500ms ease;
     border-radius: 5px;
-  }
-  .rs-categories.main-home .categories-items .contents {
+}
+.rs-categories.main-home .categories-items .contents {
     position: absolute;
     left: 0px;
     z-index: 3;
@@ -1801,36 +1799,49 @@ section.contact form button {
     bottom: 0;
     display: flex;
     align-items: center;
-  }
-  .rs-categories.main-home .categories-items .contents .img-part img {
+}
+.rs-categories.main-home .categories-items .contents .img-part img {
     width: 42px;
     margin: 0 20px 8px 0;
-  }
-  .rs-categories.main-home .categories-items .contents .content-wrap .title {
+}
+.rs-categories.main-home .categories-items .contents .content-wrap .title {
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
     margin-bottom: 5px;
-  }
-  .rs-categories.main-home .categories-items .contents .content-wrap .title a {
+}
+.rs-categories.main-home .categories-items .contents .content-wrap .title a {
     color: #ffffff;
-  }
-  .rs-categories.main-home .categories-items .contents .content-wrap .title a:hover {
+}
+.rs-categories.main-home
+    .categories-items
+    .contents
+    .content-wrap
+    .title
+    a:hover {
     color: #ff5421;
-  }
-  .rs-categories.main-home .categories-items .contents .content-wrap .course-qnty {
+}
+.rs-categories.main-home
+    .categories-items
+    .contents
+    .content-wrap
+    .course-qnty {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
     color: #ffffff;
     transition: all 500ms ease;
     margin: 0px;
-  }
-  .rs-categories.main-home .categories-items:before {
+}
+.rs-categories.main-home .categories-items:before {
     content: "";
     background: -moz-linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0) 50%);
     background: linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0) 50%);
-    background: -webkit-linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0) 50%);
+    background: -webkit-linear-gradient(
+        bottom,
+        #000000 0%,
+        rgba(0, 0, 0, 0) 50%
+    );
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1839,25 +1850,25 @@ section.contact form button {
     border-radius: 5px;
     transition: all 500ms ease;
     z-index: 1;
-  }
-  .rs-categories.main-home .categories-items:hover {
+}
+.rs-categories.main-home .categories-items:hover {
     transform: translateY(-10px);
-  }
-  .rs-categories.home9-style .categories-items {
+}
+.rs-categories.home9-style .categories-items {
     position: relative;
     transition: all 0.3s ease;
-  }
-  .rs-categories.home9-style .categories-items .images-part a img {
+}
+.rs-categories.home9-style .categories-items .images-part a img {
     border-radius: 4px 4px 0px 0px;
-  }
-  .rs-categories.home9-style .categories-items .image-content {
+}
+.rs-categories.home9-style .categories-items .image-content {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.18);
     padding: 70px 30px 25px 40px;
     background-color: #ffffff;
     position: relative;
-  }
-  .rs-categories.home9-style .categories-items .image-content .effect-icon {
+}
+.rs-categories.home9-style .categories-items .image-content .effect-icon {
     background: #1c335e;
     border-radius: 50%;
     width: 80px;
@@ -1872,109 +1883,132 @@ section.contact form button {
     right: 0;
     margin: 0 auto;
     box-shadow: 0 0 50px #eee;
-  }
-  .rs-categories.home9-style .categories-items .image-content .effect-icon i {
+}
+.rs-categories.home9-style .categories-items .image-content .effect-icon i {
     color: #f4bf00;
     font-size: 35px;
-  }
-  .rs-categories.home9-style .categories-items .image-content .title {
+}
+.rs-categories.home9-style .categories-items .image-content .title {
     font-size: 25px;
     line-height: 32px;
     font-weight: 700;
     color: #101010;
     margin-bottom: 17px;
-  }
-  .rs-categories.home9-style .categories-items .image-content .title a {
+}
+.rs-categories.home9-style .categories-items .image-content .title a {
     color: #101010;
-  }
-  .rs-categories.home9-style .categories-items .image-content .title a:hover {
+}
+.rs-categories.home9-style .categories-items .image-content .title a:hover {
     color: #f4bf00;
-  }
-  .rs-categories.home9-style .categories-items .image-content .description p {
+}
+.rs-categories.home9-style .categories-items .image-content .description p {
     font-weight: 400;
     color: #505050;
     font-size: 16px;
     padding-right: 50px;
-  }
-  .rs-categories.home9-style .categories-items .image-content .button-bottom .button-effect {
+}
+.rs-categories.home9-style
+    .categories-items
+    .image-content
+    .button-bottom
+    .button-effect {
     position: absolute;
     left: 50%;
     bottom: -14px;
     transform: translateX(-50%);
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     width: 100%;
     text-align: center;
     visibility: hidden;
     opacity: 0;
-  }
-  .rs-categories.home9-style .categories-items .image-content .button-bottom .button-effect a {
+}
+.rs-categories.home9-style
+    .categories-items
+    .image-content
+    .button-bottom
+    .button-effect
+    a {
     text-transform: uppercase;
     color: #1c335f;
     padding: 13px 35px 13px 35px;
     background-color: #f4bf00;
     border-radius: 30px 30px 30px 30px;
-  }
-  .rs-categories.home9-style .categories-items .image-content .button-bottom .button-effect a:hover {
+}
+.rs-categories.home9-style
+    .categories-items
+    .image-content
+    .button-bottom
+    .button-effect
+    a:hover {
     color: #ffffff;
     background: #1c335f;
-  }
-  .rs-categories.home9-style .categories-items:hover {
+}
+.rs-categories.home9-style .categories-items:hover {
     transform: translateY(-10px);
-  }
-  .rs-categories.home9-style .categories-items:hover .image-content .title a {
+}
+.rs-categories.home9-style .categories-items:hover .image-content .title a {
     color: #f4bf00;
-  }
-  .rs-categories.home9-style .categories-items:hover .image-content .button-bottom .button-effect {
+}
+.rs-categories.home9-style
+    .categories-items:hover
+    .image-content
+    .button-bottom
+    .button-effect {
     opacity: 1;
     visibility: visible;
-  }
-  .rs-categories.home11-style {
+}
+.rs-categories.home11-style {
     background-position: center;
-  }
-  .rs-categories.home11-style .img-part {
+}
+.rs-categories.home11-style .img-part {
     background: url(assets/images/categories/home11/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .rs-categories.home11-style .main-part {
+}
+.rs-categories.home11-style .main-part {
     background: #e7f8fb;
     padding: 100px 300px 100px 70px;
-  }
-  .rs-categories.home11-style .main-part .categories-item {
+}
+.rs-categories.home11-style .main-part .categories-item {
     display: flex;
-  }
-  .rs-categories.home11-style .main-part .categories-item .icon-part {
+}
+.rs-categories.home11-style .main-part .categories-item .icon-part {
     margin-right: 15px;
-  }
-  .rs-categories.home11-style .main-part .categories-item .content-part .title {
+}
+.rs-categories.home11-style .main-part .categories-item .content-part .title {
     font-size: 22px;
     line-height: 32px;
     font-weight: 800;
     margin-bottom: 10px;
-  }
-  .rs-categories.home11-style .main-part .categories-item .content-part .title a {
+}
+.rs-categories.home11-style .main-part .categories-item .content-part .title a {
     color: #4e49a1;
-  }
-  .rs-categories.home11-style .main-part .categories-item .content-part .title a:hover {
+}
+.rs-categories.home11-style
+    .main-part
+    .categories-item
+    .content-part
+    .title
+    a:hover {
     color: #21a7d0;
-  }
-  .rs-categories.home11-style .main-part .categories-item .content-part p {
+}
+.rs-categories.home11-style .main-part .categories-item .content-part p {
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
     color: #54647b;
     margin: 0;
-  }
-  .rs-categories.home-style14 .categories-items {
+}
+.rs-categories.home-style14 .categories-items {
     position: relative;
     transition: all 0.3s ease;
     overflow: hidden;
-  }
-  .rs-categories.home-style14 .categories-items .cate-images {
+}
+.rs-categories.home-style14 .categories-items .cate-images {
     position: relative;
     transition: all 500ms ease;
-  }
-  .rs-categories.home-style14 .categories-items .cate-images:before {
+}
+.rs-categories.home-style14 .categories-items .cate-images:before {
     content: "";
     left: 0;
     display: block;
@@ -1985,16 +2019,16 @@ section.contact form button {
     top: 0;
     z-index: 1;
     border-radius: 5px;
-  }
-  .rs-categories.home-style14 .categories-items .cate-images a img {
+}
+.rs-categories.home-style14 .categories-items .cate-images a img {
     box-shadow: 0 0 30px #eee;
     background: #fff;
     border-radius: 0 0 5px 5px;
     position: relative;
     transition: all 500ms ease;
     border-radius: 5px;
-  }
-  .rs-categories.home-style14 .categories-items .contents {
+}
+.rs-categories.home-style14 .categories-items .contents {
     position: absolute;
     left: 50%;
     bottom: -185px;
@@ -2004,32 +2038,41 @@ section.contact form button {
     transform: translate(-50%, -50%);
     transition: all 500ms ease;
     padding: 26px 20px 20px 20px;
-  }
-  .rs-categories.home-style14 .categories-items .contents .img-part img {
+}
+.rs-categories.home-style14 .categories-items .contents .img-part img {
     width: 42px;
     margin: 0 0px 15px 0;
-  }
-  .rs-categories.home-style14 .categories-items .contents .content-wrap .title {
+}
+.rs-categories.home-style14 .categories-items .contents .content-wrap .title {
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
     margin-bottom: 5px;
-  }
-  .rs-categories.home-style14 .categories-items .contents .content-wrap .title a {
+}
+.rs-categories.home-style14 .categories-items .contents .content-wrap .title a {
     color: #ffffff;
-  }
-  .rs-categories.home-style14 .categories-items .contents .content-wrap .title a:hover {
+}
+.rs-categories.home-style14
+    .categories-items
+    .contents
+    .content-wrap
+    .title
+    a:hover {
     color: #ff5421;
-  }
-  .rs-categories.home-style14 .categories-items .contents .content-wrap .course-qnty {
+}
+.rs-categories.home-style14
+    .categories-items
+    .contents
+    .content-wrap
+    .course-qnty {
     color: #fff;
     opacity: 0;
     visibility: hidden;
     transition: all 500ms ease;
     margin: 7px 0;
     display: inline-block;
-  }
-  .rs-categories.home-style14 .categories-items .contents .content-wrap .btn2 a {
+}
+.rs-categories.home-style14 .categories-items .contents .content-wrap .btn2 a {
     opacity: 0;
     visibility: hidden;
     transition: all 500ms ease;
@@ -2039,32 +2082,39 @@ section.contact form button {
     display: inline-block;
     padding: 6px 22px;
     border-radius: 5px;
-  }
-  .rs-categories.home-style14 .categories-items:hover {
+}
+.rs-categories.home-style14 .categories-items:hover {
     transform: translateY(-10px);
-  }
-  .rs-categories.home-style14 .categories-items:hover .contents {
+}
+.rs-categories.home-style14 .categories-items:hover .contents {
     bottom: -80px;
-  }
-  .rs-categories.home-style14 .categories-items:hover .contents .content-wrap .course-qnty {
+}
+.rs-categories.home-style14
+    .categories-items:hover
+    .contents
+    .content-wrap
+    .course-qnty {
     visibility: visible;
     opacity: 1;
-  }
-  .rs-categories.home-style14 .categories-items:hover .contents .content-wrap .btn2 a {
+}
+.rs-categories.home-style14
+    .categories-items:hover
+    .contents
+    .content-wrap
+    .btn2
+    a {
     visibility: visible;
     opacity: 1;
-  }
+}
 
- 
-.lead{
+.lead {
     width: 100%;
     height: 150px;
     background-color: #062872;
     color: white;
     text-align: center;
-    
 }
-.lead h2{
+.lead h2 {
     padding: 20 px;
 }
 /* Footer 
@@ -2180,23 +2230,21 @@ footer p a:hover {
     width: 100%;
     height: 380px;
 }
-.cpdcourses img{
+.cpdcourses img {
     margin-left: 160px;
 }
-.cpdcourses p{
+.cpdcourses p {
     font-size: 16px;
     padding-top: 30px;
     padding-right: 30px;
     text-align: left;
     color: #0c1228;
-
 }
-.cpdcourses h4 b{
+.cpdcourses h4 b {
     font-size: 30px;
     color: #0c1228;
 }
-.cpdcourses .col-md-6{
-    
+.cpdcourses .col-md-6 {
     width: 800px;
 }
 @media screen and (max-width: 767px) {
