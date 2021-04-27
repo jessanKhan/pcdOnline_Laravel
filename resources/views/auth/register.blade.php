@@ -39,7 +39,7 @@
 
                             <div class="form-group">
                                 <label for="dob"><i class="zmdi  zmdi-calendar-check material-icons-name"></i></label>
-                                <input id="dob" type="text" class="textInput" name="dob" value="{{ old('dob') }}"
+                                <input id="dob" type="date" class="textInput" name="dob" value="{{ old('dob') }}"
                                     required autocomplete="dob" placeholder="Date of Birth" autofocus>
                                 @error('dob')
                                     <span class="invalid-feedback" role="alert">
@@ -108,10 +108,11 @@
                                     placeholder="Qualification" autofocus> --}}
                                 <select class="textInput{{ $errors->has('qualification') ? ' is-invalid' : '' }}"
                                     id="qualification" name="qualification">
-                                    <option value="" selected>Choose Educational Qualification</option>
-                                    <option value="High School Graduate">High School Graduate</option>
-                                    <option value="College Graduate">College Graduate</option>
-                                    <option value="Post Graduate">Post Graduate</option>
+                                    <option value="" selected>Choose Your Catagory</option>
+                                    <option value="BUSINESS & MANAGEMENT">BUSINESS & MANAGEMENT</option>
+                                    <option value="CODING & COMPUTING">CODING & COMPUTING</option>
+                                    <option value="APPLIED SCI-TECH">APPLIED SCI-TECH</option>
+                                    <option value="LANGUAGES & CULTURE">LANGUAGES & CULTURE</option>
                                 </select>
                                 @error('qualification')
                                     <span class="invalid-feedback" role="alert">

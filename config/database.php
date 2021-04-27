@@ -49,7 +49,7 @@ return [
             'host' => env('DB_HOST', 'mysql.online.prudencecollege.ie'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'onlineclassdb'),
-            'username' => env('DB_USERNAME', 'pcdadmin'),
+            'username' => env('DB_USERNAME', 'pcdadmin2'),
             'password' => env('DB_PASSWORD', 'OnlinePCD'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
