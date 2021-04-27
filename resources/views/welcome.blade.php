@@ -434,13 +434,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @endif
                     @endauth
                 </div>
             @endif
@@ -562,7 +562,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -675,7 +675,7 @@
             </div>
         </div>
     </section>
-<!--
+    <!--
     <section class="section why-us" data-section="section2">
         <div class="container">
             <div class="row">
@@ -982,137 +982,145 @@
         </div>
     </section>
 
-        <!-- Categories Section Start -->
-        <div id="rs-categories" class="rs-categories gray-bg style1 pt-94 pb-70 md-pt-64 md-pb-40">
-                <div class="container">
-                    <div class="row y-middle mb-50 md-mb-30">
-                        <div class="col-md-6 sm-mb-30">
-                            <div class="sec-title">
-                                <div class="sub-title primary"></div>
-                                <h2 class="title mb-0"><b> Our Top Courses </b></h2>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/1.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Genarel Education</h4>
-                                    <span class="courses">05 Courses</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/2.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Computer Science</h4>
-                                    <span class="courses">05 Courses</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/3.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Civil Engineering</h4>
-                                    <span class="courses">05 Courses</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/4.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Artificial Intelligence</h4>
-                                    <span class="courses">05 Courses</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/5.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Business Studies</h4>
-                                    <span class="courses">05 Courses</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/6.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Web Development</h4>
-                                    <span class="courses">05 Courses</span>
-                                </div>
-                            </a>
-                        </div>  
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/7.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Life Course</h4>
-                                    <span class="courses">8 Courses</span>
-                                </div>
-                            </a>
-                        </div>  
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/8.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Lawyer Course</h4>
-                                    <span class="courses">1 Courses</span>
-                                </div>
-                            </a>
-                        </div>  
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                            <a class="categories-item" href="#">
-                                <div class="icon-part">
-                                    <img src="assets/images/categories/icons/9.png" alt="">
-                                </div>
-                                <div class="content-part">
-                                    <h4 class="title">Recipes</h4>
-                                    <span class="courses">7 Courses</span>
-                                </div>
-                            </a>
-                        </div>
+    <!-- Categories Section Start -->
+    <div id="rs-categories" class="rs-categories gray-bg style1 pt-94 pb-70 md-pt-64 md-pb-40">
+        <div class="container">
+            <div class="row y-middle mb-50 md-mb-30">
+                <div class="col-md-6 sm-mb-30">
+                    <div class="sec-title">
+                        <div class="sub-title primary"></div>
+                        <h2 class="title mb-0"><b> Our Top Courses </b></h2>
                     </div>
                 </div>
+
             </div>
-            <!-- Categories Section End -->
-    
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/1.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Genarel Education</h4>
+                            <span class="courses">05 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/2.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Computer Science</h4>
+                            <span class="courses">05 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/3.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Civil Engineering</h4>
+                            <span class="courses">05 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/4.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Artificial Intelligence</h4>
+                            <span class="courses">05 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/5.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Business Studies</h4>
+                            <span class="courses">05 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/6.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Web Development</h4>
+                            <span class="courses">05 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/7.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Life Course</h4>
+                            <span class="courses">8 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/8.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Lawyer Course</h4>
+                            <span class="courses">1 Courses</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                    <a class="categories-item" href="#">
+                        <div class="icon-part">
+                            <img src="assets/images/categories/icons/9.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <h4 class="title">Recipes</h4>
+                            <span class="courses">7 Courses</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories Section End -->
+
     <!-- Temporary  -->
     <section class="lead" data-section="section3">
-    <div class="col-md-12">
-    <h2><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
-    </div></section>
+        <div class="col-md-12">
+            <h2><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+        </div>
+    </section>
     <section class="section video" data-section="section5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="left-content">
                         <h4>PCDonline</em></h4>
-                        <p>PCDonline is an e-learning platform of Prudence College Dublin (PCD) with a difference to offer high quality, accredited and industry-focused online courses driven by well-educated and experienced tutors as well as globally recognised partners. We offer professional diplomas and short courses to learn anywhere at your own pace with or without tutor support.</p>
+                        <p>PCDonline is an e-learning platform of Prudence College Dublin (PCD) with a difference to
+                            offer high quality, accredited and industry-focused online courses driven by well-educated
+                            and experienced tutors as well as globally recognised partners. We offer professional
+                            diplomas and short courses to learn anywhere at your own pace with or without tutor support.
+                        </p>
 
-                        <p> Our online course materials are developed in a virtual classroom environment to facilitate engagement, gain knowledge, and  secure real-world experience and skills for career development while getting workplace ready. Flexible payment plans are in place to accommodate learners from various socio-economic backgrounds.
+                        <p> Our online course materials are developed in a virtual classroom environment to facilitate
+                            engagement, gain knowledge, and secure real-world experience and skills for career
+                            development while getting workplace ready. Flexible payment plans are in place to
+                            accommodate learners from various socio-economic backgrounds.
                         </p>
                         <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div>
                     </div>
@@ -1131,11 +1139,15 @@
         </div>
     </section>
     <section class="enroll" data-section="section4">
-    <div class="col-md-12">
-    <h2><b> Enroll Now and Begin Your New Career</b></h2>
-    <p>NEXT INTAKE: SUMMER, SUMMER+ AND AUTUMN 2021</p>
-    <button type="button" class="btn btn-default"><b> ENROLL NOW</b></a></div>
-    </div></section>
+        <div class="col-md-12">
+            <h2><b> Enroll Now and Begin Your New Career</b></h2>
+            <p>NEXT INTAKE: SUMMER, SUMMER+ AND AUTUMN 2021</p>
+            <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
+                class="btn btn-default"><b>
+                    ENROLL NOW</b></a>
+        </div>
+        </div>
+    </section>
     <section class="section contact" data-section="section6">
         <div class="container" style="background-color: #2d3748">
             <div class="row">
@@ -1196,14 +1208,14 @@
         </div>
     </section>
     <section class="cpdcourses" data-section="section7">
-    <div class="col-md-6">
-                    <img class="rounded mx-auto d-block"
-                        src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
+        <div class="col-md-6">
+            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
+                alt="" />
         </div>
 
         <div class="col-md-6 ">
             <div class="left-content">
-            <h4><b> CPD Accreditation</b></h4>
+                <h4><b> CPD Accreditation</b></h4>
                 <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
                     distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
 
@@ -1215,7 +1227,7 @@
 
             </div>
         </div>
-        
+
     </section>
 
     <footer id="myFooter">
