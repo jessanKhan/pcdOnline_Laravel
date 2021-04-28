@@ -17,7 +17,10 @@ class CreateCoursesTable extends Migration
             $table->id();
             $table->string('uid', 255);
             $table->string('course_name', 255);
-            $table->string('price', 255);
+            $table->string('course_type', 255);
+            $table->string('class_type', 255);
+            $table->string('course_fee', 255);
+            $table->string('course_image', 255);
             $table->timestamps();
         });
     }

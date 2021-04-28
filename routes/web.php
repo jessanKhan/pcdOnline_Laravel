@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+Route::get('/courses', 'App\Http\Controllers\CourseController@courses')->name('courses');
 Route::get('/cart', 'App\Http\Controllers\CourseController@cart')->name('cart');
 Route::get('/add-to-cart/{course}', 'App\Http\Controllers\CourseController@addTocart')->name('add');
 Route::get('/remove-from-cart/{id}', 'App\Http\Controllers\CourseController@removeFromcart')->name('remove');

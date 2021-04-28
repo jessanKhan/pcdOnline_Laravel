@@ -218,9 +218,9 @@
                                 </h2>
                                 <ul>
                                     <li style="font-size: 12px; ">Virtual classroom : €525 <a
-                                            href="{{ route('add', ["VIrtual$525Accounting"]) }}">Enroll</a></li>
+                                            href="{{ route('add', [11]) }}">Enroll</a></li>
                                     <li style="font-size: 12px;">In classroom : €725 <a
-                                            href="{{ route('add', ["InClass$725Accounting"]) }}">Enroll</a></li>
+                                            href="{{ route('add', [12]) }}">Enroll</a></li>
                                     <div style="font-size: 14px; color:red"> Early bird registration: 20% off
                                         Yearly plan (English + any other 2 courses) : 30% discount
 

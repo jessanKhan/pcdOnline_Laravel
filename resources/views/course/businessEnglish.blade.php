@@ -281,20 +281,24 @@
                                 <ul>
                                     <li style="font-size: 12px; ">Virtual classroom :
                                         <ul>
-                                            <li> Standerd : €385</li>
-                                            <li> Intensive Weekends:€420</li>
-                                        </ul>
+                                            <li> Standerd : €385 <a href="{{ route('add', [7]) }}">Enroll</a></li>
                                     </li>
-                                    <li style="font-size: 12px; ">In classroom :
-                                        <ul>
-                                            <li> Standerd : €550</li>
-                                            <li> Intensive Weekends:€600</li>
-                                        </ul>
+                                    <li> Intensive Weekends:€420<a href="{{ route('add', [8]) }}">Enroll</a></li>
                                     </li>
-                                    <div style="font-size: 14px; color:red"> Early bird registration: 20% off
-                                        Yearly plan (English + any other 2 courses) : 30% discount
+                                </ul>
+                                </li>
+                                <li style="font-size: 12px; ">In classroom :
+                                    <ul>
+                                        <li> Standerd : €550 <a href="{{ route('add', [10]) }}">Enroll</a></li>
+                                </li>
+                                <li> Intensive Weekends:€600<a href="{{ route('add', [9]) }}">Enroll</a></li>
+                                </li>
+                                </ul>
+                                </li>
+                                <div style="font-size: 14px; color:red"> Early bird registration: 20% off
+                                    Yearly plan (English + any other 2 courses) : 30% discount
 
-                                    </div>
+                                </div>
                                 </ul>
                             </div>
 

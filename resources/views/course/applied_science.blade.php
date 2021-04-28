@@ -173,8 +173,10 @@
                                     Course Fees
                                 </h2>
                                 <ul>
-                                    <li style="font-size: 13px; ">Virtual classroom : €770</li>
-                                    <li style="font-size: 13px;">In classroom : €1100</li>
+                                    <li style="font-size: 13px; ">Virtual classroom : €770 <a
+                                            href="{{ route('add', [21]) }}">Enroll</a></li>
+                                    <li style="font-size: 13px;">In classroom : €1100 <a
+                                            href="{{ route('add', [22]) }}">Enroll</a></li>
                                     <div style="font-size: 14px; color:red"> Early bird registration: 20% off
                                         Yearly plan (English + any other 2 courses) : 30% discount
 
