@@ -1882,7 +1882,7 @@ section.contact form button {
     text-align: center;
     right: 0;
     margin: 0 auto;
-    box-shadow: 0 0 50px #eee;
+    box-shadow: 0 0 50px rgb(88, 81, 102);
 }
 .rs-categories.home9-style .categories-items .image-content .effect-icon i {
     color: #f4bf00;
@@ -2221,7 +2221,7 @@ footer p a:hover {
     line-height: 25px;
 }
 #myFooter .col-sm-2 {
-    margin-left: 90px;
+    margin-left: 80px;
 }
 .cpdcourses {
     background-color: white;
