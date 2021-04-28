@@ -59,12 +59,6 @@
                                     to Pay</a>
                             </div>
 
-                            {{-- @csrf --}}
-                            {{-- <input type="hidden" name="amount" value="{{ $total }}"> --}}
-                            {{-- <button
-                                onclick="window.open='https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx"
-                                class="btn btn-success">
-                            </button> --}}
 
 
 
