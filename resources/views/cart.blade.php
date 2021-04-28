@@ -53,17 +53,14 @@
                 <tfoot>
                     <tr>
                         <td>
+                            <div>
+                                <a class="btn btn-success"
+                                    href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Proceed
+                                    to Pay</a>
+                            </div>
 
-                            <form action="" >
-                                {{-- @csrf --}}
-                                <input type="hidden" name="amount" value="">
-                                
 
-                            </form>
-                            <button type=""
-                                    onclick="window.location='https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx"
-                                    class="btn btn-success">Proceed to Pay
-                                </button>
+
 
                         </td>
                         <td colspan="2"></td>
