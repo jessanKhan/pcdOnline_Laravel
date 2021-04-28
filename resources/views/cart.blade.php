@@ -53,16 +53,20 @@
                 <tfoot>
                     <tr>
                         <td>
+                            <div>
+                                <a class="btn btn-success"
+                                    href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Proceed
+                                    to Pay</a>
+                            </div>
 
-                            <form action="" method="post">
-                                {{-- @csrf --}}
-                                <input type="hidden" name="amount" value="">
-                                <button type="submit"
-                                    onclick="window.location='https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx"
-                                    class="btn btn-success">Proceed to Pay
-                                </button>
+                            {{-- @csrf --}}
+                            {{-- <input type="hidden" name="amount" value="{{ $total }}"> --}}
+                            {{-- <button
+                                onclick="window.open='https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx"
+                                class="btn btn-success">
+                            </button> --}}
 
-                            </form>
+
 
                         </td>
                         <td colspan="2"></td>
