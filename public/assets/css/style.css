@@ -1731,7 +1731,7 @@ section.contact form button {
     padding-top: 50px;
 }
 .rs-categories.style1 .categories-item {
-    border: 1px solid #dfe9eb;
+    border: 2px solid #b9d5e2;
     background: #ffffff;
     overflow: hidden;
     padding: 30px;
@@ -1759,7 +1759,7 @@ section.contact form button {
 .rs-categories.style1 .categories-item .content-part .title {
     color: #111111;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 15px;
     transition: all 0.3s ease;
 }
 .rs-categories.style1 .categories-item:hover {
@@ -1774,7 +1774,7 @@ section.contact form button {
     transform: scale(0.9);
 }
 .rs-categories.style1 .categories-item:hover .content-part .title {
-    color: #ffffff;
+    color: white;
 }
 .rs-categories.main-home .categories-items {
     position: relative;

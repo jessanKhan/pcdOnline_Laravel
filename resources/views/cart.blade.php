@@ -54,15 +54,16 @@
                     <tr>
                         <td>
 
-                            <form action="" method="post">
+                            <form action="" >
                                 {{-- @csrf --}}
                                 <input type="hidden" name="amount" value="">
-                                <button type="submit"
+                                
+
+                            </form>
+                            <button type=""
                                     onclick="window.location='https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx"
                                     class="btn btn-success">Proceed to Pay
                                 </button>
-
-                            </form>
 
                         </td>
                         <td colspan="2"></td>

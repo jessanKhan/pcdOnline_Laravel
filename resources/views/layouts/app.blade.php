@@ -124,6 +124,11 @@
                                                 for
                                                 Everyone</a></div>
                                     </li>
+                                    <li>
+                                        <div class="row"><a href="{{ route('computerProgramming') }}">Scientific Data
+                                                Handling and
+                                                Programming</a></div>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="has-submenu">
@@ -134,11 +139,6 @@
                                         <div class="row"><a href="{{ route('blockchain') }}">Blockchain for
                                                 Everyone</a>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="{{ route('applied_science') }}">Scientific Data
-                                                Handling and
-                                                Programming</a></div>
                                     </li>
                                 </ul>
                             </li>
@@ -224,13 +224,61 @@
             @yield('content')
         </main>
         </div>
-        <footer>
-            <div class="footer">
-
-                <p>Prudence College Dublin</p>
+        <footer id="myFooter" style="padding-top: 30px">
+        <div class="container" style="background-color: #0c1228">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Catagories</h5>
+                    <ul>
+                        <li><a href="">Business & Management</a></li>
+                        <li><a href="">Coding & Computing</a></li>
+                        <li><a href="">Applied Sci-Tech</a></li>
+                        <li><a href="">Languages & Culture</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Contact us</h5>
+                    <p style="color: white">Prudence College Dublin
+                        C3, ACE Enterprise Park
+                        Bawnogue Road
+                        Dublin 22, D22 KW40
+                        IRELAND</p>
+                    <p style="color: white">Ph: +353 (0)1 254 8998
+                        Email: info@prudencecollege.ie
+                        Mobile/WhatsApp: +353 87 466 9418
+                        Skype: Prudence College</p>
+                </div>
+                <!--
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#">FAQ</a></li>
+                        <li><a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#">Help desk</a></li>
+                        <li><a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#">Forums</a></li>
+                    </ul>
+                </div>
+                -->
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
+                            class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
+                            class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
+                            class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Follow us</button>
+                </div>
 
             </div>
-        </footer>
+        </div>
+        <div class="footer-copyright">
+            <p>©Prudence College Dubline </p>
+        </div>
+    </footer>
 
         <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js') }}"></script>
         <script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js') }}"></script>
