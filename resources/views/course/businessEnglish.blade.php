@@ -281,17 +281,21 @@
                                 <ul>
                                     <li style="font-size: 12px; ">Virtual classroom :
                                         <ul>
-                                            <li> Standerd : €385 <a href="{{ route('add', [7]) }}">Enroll</a></li>
+                                            <li style="margin: 6px 0px;"> Standerd : €385 <a class="btn btn-success"
+                                                    href="{{ route('add', [7]) }}">Enroll</a></li>
                                     </li>
-                                    <li> Intensive Weekends:€420<a href="{{ route('add', [8]) }}">Enroll</a></li>
+                                    <li style="margin: 6px 0px;"> Intensive Weekends:€420 <a class="btn btn-success"
+                                            href="{{ route('add', [8]) }}">Enroll</a></li>
                                     </li>
                                 </ul>
                                 </li>
                                 <li style="font-size: 12px; ">In classroom :
                                     <ul>
-                                        <li> Standerd : €550 <a href="{{ route('add', [10]) }}">Enroll</a></li>
+                                        <li style="margin: 6px 0px;"> Standerd : €550 <a class="btn btn-success"
+                                                href="{{ route('add', [10]) }}">Enroll</a></li>
                                 </li>
-                                <li> Intensive Weekends:€600<a href="{{ route('add', [9]) }}">Enroll</a></li>
+                                <li style="margin: 6px 0px;"> Intensive Weekends:€600 <a class="btn btn-success"
+                                        href="{{ route('add', [9]) }}">Enroll</a></li>
                                 </li>
                                 </ul>
                                 </li>
