@@ -1017,7 +1017,7 @@
                             <img src="assets/images/categories/icons/2.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">Digital Enterprise and Business Support</h4>
+                            <h4 class="title">Machine Learning with Python</h4>
                             <span class="courses">02 Courses</span>
                         </div>
                     </a>
@@ -1028,7 +1028,7 @@
                             <img src="assets/images/categories/icons/3.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">Machine Learning with Python</h4>
+                            <h4 class="title">.Net Programming for Everyone</h4>
                             <span class="courses">02 Courses</span>
                         </div>
                     </a>
@@ -1039,7 +1039,7 @@
                             <img src="assets/images/categories/icons/4.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">.Net Programming for Everyone</h4>
+                            <h4 class="title">Blockchain for Everyone</h4>
                             <span class="courses">02 Courses</span>
                         </div>
                     </a>
@@ -1050,7 +1050,7 @@
                             <img src="assets/images/categories/icons/5.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">Blockchain for Everyone</h4>
+                            <h4 class="title">General English</h4>
                             <span class="courses">02 Courses</span>
                         </div>
                     </a>
@@ -1061,7 +1061,7 @@
                             <img src="assets/images/categories/icons/6.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">Scientific Data Handling and Programming</h4>
+                            <h4 class="title">Business English</h4>
                             <span class="courses">02 Courses</span>
                         </div>
                     </a>
@@ -1072,7 +1072,7 @@
                             <img src="assets/images/categories/icons/7.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">General English</h4>
+                            <h4 class="title">Scientific Data Handling and Programming</h4>
                             <span class="courses">01 Courses</span>
                         </div>
                     </a>
@@ -1083,7 +1083,7 @@
                             <img src="assets/images/categories/icons/8.png" alt="">
                         </div>
                         <div class="content-part">
-                            <h4 class="title">Business English</h4>
+                            <h4 class="title">Digital Enterprise and Business Support</h4>
                             <span class="courses">02 Courses</span>
                         </div>
                     </a>
