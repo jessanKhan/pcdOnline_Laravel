@@ -635,9 +635,7 @@
                                 <h4>Business & Management</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                    posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                    libero eu, vehicula libero.</p>
+                                <p>Business and Management courses are designed for people who want to understand the concepts and principles of business education while acquiring skills through practical experience in a business environment.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">More Info.</a></div>
@@ -652,9 +650,7 @@
                                 <h4>Coding & Computing</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                    posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                    libero eu, vehicula libero.</p>
+                                <p>Computer literacy is a very important skill to possess for life in a variety of business, scientific and social contexts and a platform through which an individual sees problem in the light of solutions.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">Details</a></div>
@@ -669,9 +665,7 @@
                                 <h4>Applied Sci-Tech </h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                    posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                    libero eu, vehicula libero.</p>
+                                <p>The Applied Science and technology courses provide an extensive understanding of the contents, methods, principles and applications of Science and technology and further insights at the highest level</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">Read More</a></div>
@@ -686,9 +680,7 @@
                                 <h4>Languages & Culture</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                    posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                    libero eu, vehicula libero.</p>
+                                <p>Language impacts the daily lives of members of any race, creed, and region of the world. It helps express our feelings, desires, and queries to the world around us.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">More Info.</a></div>
@@ -950,11 +942,11 @@
                                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
-                    </div><!--
+                    </div>
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4>Social Media</h4>
+                            <h4>.Net Programming for Everyone</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="">
@@ -967,7 +959,7 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>Digital Arts</h4>
+                            <h4>>Machine Learning with Python</h4>
                             <p</p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -980,7 +972,7 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Media Streaming</h4>
+                            <h4>Scientific Data Handling and Programming</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -989,7 +981,7 @@
                                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
