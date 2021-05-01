@@ -1155,6 +1155,28 @@
         </div>
         </div>
     </section>
+    <section class="cpdcourses" data-section="section7">
+        <div class="col-md-6">
+            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
+                alt="" />
+        </div>
+
+        <div class="col-md-6 ">
+            <div class="left-content">
+                <h4><b> CPD Accreditation</b></h4>
+                <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
+                    distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
+
+                <p> The vision of PCD is to get recognition as an academic center of excellence in higher
+                    education
+                    in Europe by attracting brilliant and deserving students from home and abroad; and providing
+                    advanced education and training to satisfy present and the future global needs.
+                </p>
+
+            </div>
+        </div>
+
+    </section>
     <section class="section contact" data-section="section6">
         <div class="container">
             <div class="row">
@@ -1202,28 +1224,7 @@
             </div>
         </div>
     </section>
-    <section class="cpdcourses" data-section="section7">
-        <div class="col-md-6">
-            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
-                alt="" />
-        </div>
-
-        <div class="col-md-6 ">
-            <div class="left-content">
-                <h4><b> CPD Accreditation</b></h4>
-                <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
-                    distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
-
-                <p> The vision of PCD is to get recognition as an academic center of excellence in higher
-                    education
-                    in Europe by attracting brilliant and deserving students from home and abroad; and providing
-                    advanced education and training to satisfy present and the future global needs.
-                </p>
-
-            </div>
-        </div>
-
-    </section>
+    
 
     <footer id="myFooter">
         <div class="container">
