@@ -78,7 +78,7 @@
             <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 35px 10px;">Leading the transition <br />towards a brighter future
+                    <h6 style="color: white; margin: 35px 10px;">Learn any where <br />and be skilled
                     </h6>
                 </a>
             </div>
@@ -173,7 +173,7 @@
 
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Sign Up') }}</a>
                             </li>
                         @endif
                     @else
@@ -196,7 +196,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                         document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -225,33 +225,33 @@
         </main>
         </div>
         <footer id="myFooter" style="padding-top: 30px">
-        <div class="container" style="background-color: #0c1228">
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Catagories</h5>
-                    <ul>
-                        <li><a href="">Business & Management</a></li>
-                        <li><a href="">Coding & Computing</a></li>
-                        <li><a href="">Applied Sci-Tech</a></li>
-                        <li><a href="">Languages & Culture</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Contact us</h5>
-                    <p style="color: white">Prudence College Dublin
-                        C3, ACE Enterprise Park
-                        Bawnogue Road
-                        Dublin 22, D22 KW40
-                        IRELAND</p>
-                    <p style="color: white">Ph: +353 (0)1 254 8998
-                        Email: info@prudencecollege.ie
-                        Mobile/WhatsApp: +353 87 466 9418
-                        Skype: Prudence College</p>
-                </div>
-                <!--
+            <div class="container" style="background-color: #0c1228">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Catagories</h5>
+                        <ul>
+                            <li><a href="">Business & Management</a></li>
+                            <li><a href="">Coding & Computing</a></li>
+                            <li><a href="">Applied Sci-Tech</a></li>
+                            <li><a href="">Languages & Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Contact us</h5>
+                        <p style="color: white">Prudence College Dublin
+                            C3, ACE Enterprise Park
+                            Bawnogue Road
+                            Dublin 22, D22 KW40
+                            IRELAND</p>
+                        <p style="color: white">Ph: +353 (0)1 254 8998
+                            Email: info@prudencecollege.ie
+                            Mobile/WhatsApp: +353 87 466 9418
+                            Skype: Prudence College</p>
+                    </div>
+                    <!--
                 <div class="col-sm-2">
                     <h5>Support</h5>
                     <ul>
@@ -261,24 +261,24 @@
                     </ul>
                 </div>
                 -->
-                <div class="col-sm-3">
-                    <div class="social-networks">
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
-                            class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
-                            class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
-                            class="google"><i class="fa fa-google-plus"></i></a>
+                    <div class="col-sm-3">
+                        <div class="social-networks">
+                            <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/PrudenceCollegeDublin" class="facebook"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                        <button type="button" class="btn btn-default">Follow us</button>
                     </div>
-                    <button type="button" class="btn btn-default">Follow us</button>
-                </div>
 
+                </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <p>©Prudence College Dubline </p>
-        </div>
-    </footer>
+            <div class="footer-copyright">
+                <p>©Prudence College Dubline </p>
+            </div>
+        </footer>
 
         <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js') }}"></script>
         <script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js') }}"></script>

@@ -38,10 +38,22 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="dob"><i class="zmdi  zmdi-calendar-check material-icons-name"></i></label>
-                                <input id="dob" type="date" class="textInput" name="dob" value="{{ old('dob') }}"
-                                    required autocomplete="dob" placeholder="Date of Birth" autofocus>
-                                @error('dob')
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input id="email" type="email" class="textInput" name="email" value="{{ old('email') }}"
+                                    required autocomplete="email" placeholder="E-mail">
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="phone"><i class="zmdi zmdi-phone material-icons-name"></i></label>
+                                <input id="phone" type="text" class="textInput" name="phone" value="{{ old('phone') }}"
+                                    required autocomplete="phone" placeholder="Phone Number" autofocus>
+                                @error('phone')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -59,6 +71,20 @@
                                     </span>
                                 @enderror
                             </div>
+
+
+                            <div class="form-group">
+                                <label for="dob"><i class="zmdi  zmdi-calendar-check material-icons-name"></i></label>
+                                <input id="dob" type="date" class="textInput" name="dob" value="{{ old('dob') }}"
+                                    required autocomplete="dob" placeholder="Date of Birth" autofocus>
+                                @error('dob')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
+
 
                             <div class="form-group">
                                 <label for="gender"><i class="zmdi zmdi-male-female material-icons-name"></i></label>
@@ -121,28 +147,10 @@
                                 @enderror
                             </div>
 
-                            <div class="form-group">
-                                <label for="phone"><i class="zmdi zmdi-phone material-icons-name"></i></label>
-                                <input id="phone" type="text" class="textInput" name="phone" value="{{ old('phone') }}"
-                                    required autocomplete="phone" placeholder="Phone Number" autofocus>
-                                @error('phone')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
 
 
-                            <div class="form-group">
-                                <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input id="email" type="email" class="textInput" name="email" value="{{ old('email') }}"
-                                    required autocomplete="email" placeholder="E-mail">
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
+
+
 
 
 
@@ -175,8 +183,8 @@
                             <div class="form-group form-button">
 
                                 <!-- <button type="submit" class="btn btn-primary">
-                                                                                                                                                                                        {{ __('Register') }}
-                                                                                                                                                                                    </button> -->
+                                                                                                                                                                                                                                        {{ __('Register') }}
+                                                                                                                                                                                                                                    </button> -->
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
 
                             </div>
