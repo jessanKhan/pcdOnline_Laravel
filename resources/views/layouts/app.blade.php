@@ -53,6 +53,29 @@
         href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css') }}"
         rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.css') }}">
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/slick.css') }}">
+    <!-- off canvas css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/off-canvas.css') }}">
+    <!-- linea-font css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/linea-fonts.css') }}">
+    <!-- flaticon css  -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/flaticon.css') }}">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets / css / magnific - popup . css') }}">
+    <!-- Main Menu css -->
+    <link rel="stylesheet" href="{{ asset('assets/css/rsmenu-main.css') }}">
+    <!-- spacing css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/rs-spacing.css') }}">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This stylesheet dynamically changed from style.less -->
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
 
 
 
@@ -91,11 +114,11 @@
                     <li class="has-submenu"><a href="#section4">Courses</a>
                         <ul class="sub-menu">
                             <li class="has-submenu">
-                                <div class="row"><a href="#section2">Business & Management <i
+                                <div class="row"><a href="{{ route('Business') }}">Business & Management <i
                                             class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
-                                <ul class="sub-menu">
+                                {{-- <ul class="sub-menu">
                                     <li>
                                         <div class="row"><a href="{{ route('accounting') }}">Accounting and
                                                 Finance</a>
@@ -105,13 +128,13 @@
                                         <div class="row"><a href="{{ route('digital') }}">Digital Enterprise and
                                                 Business Support</a></div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="#section3">Coding & Computing <i
+                                <div class="row"><a href="{{ route('computerProgramming') }}">Coding & Computing <i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
 
-                                <ul class="sub-menu">
+                                {{-- <ul class="sub-menu">
                                     <li>
                                         <div class="row"><a href="{{ route('machineLearning') }}">Machine Learning
                                                 with
@@ -129,23 +152,23 @@
                                                 Handling and
                                                 Programming</a></div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="#section3">Applied Sci-Tech<i
+                                <div class="row"><a href="{{ route('applied_science') }}">Applied Sci-Tech<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
-                                <ul class="sub-menu">
+                                {{-- <ul class="sub-menu">
                                     <li>
                                         <div class="row"><a href="{{ route('blockchain') }}">Blockchain for
                                                 Everyone</a>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="#section3">Language & Culture<i
+                                <div class="row"><a href="{{ route('language') }}">Language & Culture<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
-                                <ul class="sub-menu">
+                                {{-- <ul class="sub-menu">
                                     <li>
                                         <div class="row"><a href="{{ route('language') }}">General English</a></div>
                                     </li>
@@ -154,7 +177,7 @@
                                                 English</a>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
                         </ul>
                     </li>
@@ -196,7 +219,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -291,6 +314,41 @@
             });
 
         </script>
+        {{-- for top course need to optimize --}}
+        <script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
+        <!-- jquery latest version -->
+        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+        <!-- Bootstrap v4.4.1 js -->
+        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        <!-- Menu js -->
+        <script src="{{ asset('assets/js/rsmenu-main.js') }}"></script>
+        <!-- op nav js -->
+        <script src="{{ asset('assets/js/jquery.nav.js') }}"></script>
+        <!-- owl.carousel js -->
+        <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+        <!-- Slick js -->
+        <script src="{{ asset('assets/js/slick.min.js') }}"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+        <!-- imagesloaded.pkgd.min js -->
+        <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+        <!-- wow js -->
+        <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+        <!-- Skill bar js -->
+        <script src="{{ asset('assets/js/skill.bars.jquery.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+        <!-- counter top js -->
+        <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+        <!-- video js -->
+        <script src="{{ asset('assets/js/jquery.mb.YTPlayer.min.js') }}"></script>
+        <!-- magnific popup js -->
+        <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+        <!-- plugins js -->
+        <script src="{{ asset('assets/js/plugins.js') }}"></script>
+        <!-- contact form js -->
+        <script src="{{ asset('assets/js/contact.form.js') }}"></script>
+        <!-- main js -->
+        <script src="{{ asset('assets/js/main.js') }}"></script>
     </body>
 
 </html>

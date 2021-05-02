@@ -455,13 +455,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @endif
                     @endauth
                 </div>
             @endif
@@ -484,12 +484,12 @@
 
                 <li class="has-submenu"><a href="#section4">Courses</a>
                     <ul class="sub-menu">
-                        <li class="has-submenu">
+                        <li class="has-submenu" onclick="accounting()">
                             <div class="row"><a href="#section2">Business & Management <i
                                         class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
-                            <ul class="sub-menu">
+                            {{-- <ul class="sub-menu">
                                 <li onclick="accounting()">
                                     <div class="row"><a href="{{ route('accounting') }}">Accounting and Finance</a>
                                     </div>
@@ -498,13 +498,13 @@
                                     <div class="row"><a href="{{ route('digital') }}">Digital Enterprise and
                                             Business Support</a></div>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
-                        <li class="has-submenu">
+                        <li class="has-submenu" onclick="dotnetProgramming()">
                             <div class="row"><a href="#section3">Coding & Computing <i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
 
-                            <ul class="sub-menu">
+                            {{-- <ul class="sub-menu">
                                 <li onclick="machine_learning()">
                                     <div class="row"><a href="{{ route('machineLearning') }}">Machine Learning with
                                             Python
@@ -519,23 +519,23 @@
                                     <div class="row"><a href="{{ route('blockchain') }}">Blockchain for Everyone</a>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
-                        <li class="has-submenu">
-                            <div class="row"><a href="#section3">Applied Sci-Tech<i
+                        <li class="has-submenu" onclick="applied_science()">
+                            <div class="row"><a href="{{ route('applied_science') }}">Applied Sci-Tech<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
-                            <ul class="sub-menu">
+                            {{-- <ul class="sub-menu">
                                 <li onclick="applied_science()">
                                     <div class="row"><a href="{{ route('applied_science') }}">Scientific Data
                                             Handling and
                                             Programming</a></div>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
-                        <li class="has-submenu">
+                        <li class="has-submenu " onclick="language_course()">
                             <div class="row"><a href="#section3">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
-                            <ul class="sub-menu">
+                            {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
                                     <div class="row"><a href="{{ route('language') }}">General English</a></div>
                                 </li>
@@ -543,7 +543,7 @@
                                     <div class="row"><a href="{{ route('businessEnglish') }}">Business English</a>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
                     </ul>
                 </li>
@@ -586,7 +586,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -968,13 +968,13 @@
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
                             <h4>>Machine Learning with Python</h4>
-                            <p< /p>
-                                <div class="author-image">
-                                    <img src="assets/images/author-05.png" alt="">
-                                </div>
-                                <div class="text-button-pay">
-                                    <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-05.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
@@ -1232,7 +1232,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <footer id="myFooter">
         <div class="container">
@@ -1360,45 +1360,24 @@
         }
 
     </script>
-    <script>
-        function business_english() {
-            window.location = "/business_english"
-        }
 
-    </script>
     <script>
         function applied_science() {
             window.location = "/applied_science"
         }
 
     </script>
-    <script>
-        function blockchain() {
-            window.location = "/blockchain"
-        }
 
-    </script>
     <script>
         function accounting() {
-            window.location = "/accounting"
+            window.location = "/business"
         }
 
     </script>
-    <script>
-        function digital_enterprise() {
-            window.location = "/digital_enterprise"
-        }
 
-    </script>
-    <script>
-        function machine_learning() {
-            window.location = "/machine_learning"
-        }
-
-    </script>
     <script>
         function dotnetProgramming() {
-            window.location = "/dotnetProgramming"
+            window.location = "/computerProgramming"
         }
 
     </script>
