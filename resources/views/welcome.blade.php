@@ -850,7 +850,7 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="Course #1">
                         <div class="down-content">
-                            <h4>Accounting and Finance</h4>
+                            <h4>Accounting and Finance part 1</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="Author 1">
@@ -863,7 +863,7 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="Course #2">
                         <div class="down-content">
-                            <h4>Digital Enterprise and Business Support</h4>
+                            <h4>Accounting and Finance part 2</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="Author 2">
@@ -876,7 +876,7 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="Course #3">
                         <div class="down-content">
-                            <h4>Machine Learning with Python</h4>
+                            <h4>Digital Enterprise and Business Support part 1</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="Author 3">
@@ -889,7 +889,7 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="Course #4">
                         <div class="down-content">
-                            <h4>.Net Programming for Everyone</h4>
+                            <h4>Digital Enterprise and Business Support part 2</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="Author 4">
@@ -902,7 +902,7 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>Scientific Data Handling and Programming</h4>
+                            <h4>Blockchain for Everyone part 1</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -915,7 +915,7 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Blockchain for Everyone</h4>
+                            <h4>Blockchain for Everyone part 2</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -928,7 +928,7 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English</h4>
+                            <h4>Machine Learning with Python part 1</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="">
@@ -941,7 +941,7 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4>Business English</h4>
+                            <h4>Machine Learning with Python part 2</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="">
@@ -954,7 +954,7 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4>.Net Programming for Everyone</h4>
+                            <h4>.Net Programming for Everyone part 1</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="">
@@ -967,7 +967,7 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>>Machine Learning with Python</h4>
+                            <h4>.Net Programming for Everyone part 2</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -980,7 +980,7 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Scientific Data Handling and Programming</h4>
+                            <h4>Scientific Data Handling and Programming part 1</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -990,6 +990,86 @@
                             </div>
                         </div>
                     </div>
+                   
+                        <div class="item">
+                        <img src="assets/images/courses-01.jpg" alt="">
+                        <div class="down-content">
+                            <h4>Scientific Data Handling and Programming part 2</h4>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-01.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/courses-02.jpg" alt="">
+                        <div class="down-content">
+                            <h4>General English part 1</h4>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-02.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/courses-03.jpg" alt="">
+                        <div class="down-content">
+                            <h4>General English part 2</h4>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-03.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/courses-04.jpg" alt="">
+                        <div class="down-content">
+                            <h4>General English part 3</h4>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-04.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/courses-05.jpg" alt="">
+                        <div class="down-content">
+                            <h4>Business English part 1</h4>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-05.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/courses-01.jpg" alt="">
+                        <div class="down-content">
+                            <h4>Business English part 2</h4>
+                            <p></p>
+                            <div class="author-image">
+                                <img src="assets/images/author-01.png" alt="">
+                            </div>
+                            <div class="text-button-pay">
+                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    -->
                 </div>
             </div>
         </div>
