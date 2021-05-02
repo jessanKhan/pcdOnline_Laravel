@@ -53,11 +53,23 @@
                 <tfoot>
                     <tr>
                         <td>
-                            <div>
-                                <a class="btn btn-success"
-                                    href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Proceed
-                                    to Pay</a>
-                            </div>
+
+                            @guest
+
+                                @if (Route::has('login'))
+                                    <div>
+                                        <a class="btn btn-success"
+                                            href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Login</a>
+                                    </div>
+                                @endif
+                            @else
+                                <div>
+                                    <a class="btn btn-success"
+                                        href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Proceed
+                                        to Pay</a>
+                                </div>
+                            @endguest
+
 
 
 
