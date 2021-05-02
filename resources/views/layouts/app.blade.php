@@ -120,12 +120,12 @@
 
                                 {{-- <ul class="sub-menu">
                                     <li>
-                                        <div class="row"><a href="{{ route('accounting') }}">Accounting and
+                                        <div class="row"><a href="#">Accounting and
                                                 Finance</a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="row"><a href="{{ route('digital') }}">Digital Enterprise and
+                                        <div class="row"><a href="#">Digital Enterprise and
                                                 Business Support</a></div>
                                     </li>
                                 </ul> --}}
@@ -136,19 +136,19 @@
 
                                 {{-- <ul class="sub-menu">
                                     <li>
-                                        <div class="row"><a href="{{ route('machineLearning') }}">Machine Learning
+                                        <div class="row"><a href="#">Machine Learning
                                                 with
                                                 Python
                                             </a></div>
                                     </li>
                                     <li>
-                                        <div class="row"><a href="{{ route('computerProgramming') }}">.Net
+                                        <div class="row"><a href="#">.Net
                                                 Programming
                                                 for
                                                 Everyone</a></div>
                                     </li>
                                     <li>
-                                        <div class="row"><a href="{{ route('computerProgramming') }}">Scientific Data
+                                        <div class="row"><a href="#">Scientific Data
                                                 Handling and
                                                 Programming</a></div>
                                     </li>
@@ -159,7 +159,7 @@
                                             class='fa fa-angle-right fa-fw'></i></a></div>
                                 {{-- <ul class="sub-menu">
                                     <li>
-                                        <div class="row"><a href="{{ route('blockchain') }}">Blockchain for
+                                        <div class="row"><a href="#">Blockchain for
                                                 Everyone</a>
                                         </div>
                                     </li>
@@ -170,10 +170,11 @@
                                             class='fa fa-angle-right fa-fw'></i></a></div>
                                 {{-- <ul class="sub-menu">
                                     <li>
-                                        <div class="row"><a href="{{ route('language') }}">General English</a></div>
+                                        <div class="row"><a href="#">General English</a></div>
                                     </li>
                                     <li>
-                                        <div class="row"><a href="{{ route('businessEnglish') }}">Business
+                                        <div class="row">
+                                        <a href=" #">Business
                                                 English</a>
                                         </div>
                                     </li>
