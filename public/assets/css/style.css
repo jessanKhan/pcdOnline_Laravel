@@ -479,7 +479,7 @@ a.menu-link {
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(22, 34, 57, 0.85);
+    background-color: rgba(22, 34, 57, 0.5);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -2202,7 +2202,7 @@ footer p a:hover {
 }
 
 #myFooter .google:hover {
-    color: #ef1a1a;
+    color: #0077e2;
 }
 
 #myFooter .twitter:hover {

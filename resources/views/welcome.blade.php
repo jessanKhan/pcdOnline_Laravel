@@ -455,13 +455,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
                     @endauth
                 </div>
             @endif
@@ -473,7 +473,7 @@
         <div class="logo row">
             <a href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
             <a href="/">
-                <h6 style="color: white; margin: 35px 10px;">Leading the transition <br />towards a brighter future</h6>
+                <h6 style="color: white; margin: 35px 10px;">Learn any where <br />and be skilled</h6>
             </a>
         </div>
         <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -562,7 +562,7 @@
 
                     @if (Route::has('register'))
                         <li class="pp" onclick="Registerpage()">
-                            <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a href="{{ route('register') }}">{{ __('Sign Up') }}</a>
                         </li>
                     @endif
                 @else
@@ -586,7 +586,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -635,7 +635,9 @@
                                 <h4>Business & Management</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Business and Management courses are designed for people who want to understand the concepts and principles of business education while acquiring skills through practical experience in a business environment.</p>
+                                <p>Business and Management courses are designed for people who want to understand the
+                                    concepts and principles of business education while acquiring skills through
+                                    practical experience in a business environment.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">More Info.</a></div>
@@ -650,7 +652,9 @@
                                 <h4>Coding & Computing</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Computer literacy is a very important skill to possess for life in a variety of business, scientific and social contexts and a platform through which an individual sees problem in the light of solutions.</p>
+                                <p>Computer literacy is a very important skill to possess for life in a variety of
+                                    business, scientific and social contexts and a platform through which an individual
+                                    sees problem in the light of solutions.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">Details</a></div>
@@ -665,7 +669,9 @@
                                 <h4>Applied Sci-Tech </h4>
                             </div>
                             <div class="content-hide">
-                                <p>The Applied Science and technology courses provide an extensive understanding of the contents, methods, principles and applications of Science and technology and further insights at the highest level</p>
+                                <p>The Applied Science and technology courses provide an extensive understanding of the
+                                    contents, methods, principles and applications of Science and technology and further
+                                    insights at the highest level</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">Read More</a></div>
@@ -680,7 +686,9 @@
                                 <h4>Languages & Culture</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Language impacts the daily lives of members of any race, creed, and region of the world. It helps express our feelings, desires, and queries to the world around us.</p>
+                                <p>Language impacts the daily lives of members of any race, creed, and region of the
+                                    world. It helps express our feelings, desires, and queries to the world around us.
+                                </p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
                                 <div class="scroll-to-section"><a href="">More Info.</a></div>
@@ -960,13 +968,13 @@
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
                             <h4>>Machine Learning with Python</h4>
-                            <p</p>
-                            <div class="author-image">
-                                <img src="assets/images/author-05.png" alt="">
-                            </div>
-                            <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                            </div>
+                            <p< /p>
+                                <div class="author-image">
+                                    <img src="assets/images/author-05.png" alt="">
+                                </div>
+                                <div class="text-button-pay">
+                                    <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                </div>
                         </div>
                     </div>
                     <div class="item">
@@ -1129,7 +1137,7 @@
                             development while getting workplace ready. Flexible payment plans are in place to
                             accommodate learners from various socio-economic backgrounds.
                         </p>
-                        <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div>
+                        {{-- <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div> --}}
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -1264,12 +1272,12 @@
                 -->
                 <div class="col-sm-3">
                     <div class="social-networks">
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
-                            class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
-                            class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://demo.tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/Footer-with-button-logo.html#"
-                            class="google"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
+                                class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/PrudenceCollegeDublin" class="facebook"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
+                                class="fa fa-linkedin"></i></a>
                     </div>
                     <button type="button" class="btn btn-default">Follow us</button>
                 </div>
