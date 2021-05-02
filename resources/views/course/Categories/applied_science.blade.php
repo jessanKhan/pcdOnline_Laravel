@@ -40,8 +40,8 @@
                             
                         </div>
                     </a>
-                </div><!--
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
+                </div>
+                <!--<div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
                     <a class="categories-item" href="#">
                         <div class="icon-part">
                             <img src="assets/images/categories/icons/3.png" alt="">
