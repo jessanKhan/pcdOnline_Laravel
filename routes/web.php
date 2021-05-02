@@ -27,7 +27,7 @@ Route::get('/applied_science', function () {
     return view('course/Categories/applied_science');
 })->name('applied_science');
 
-Route::get('/bussiness', function () {
+Route::get('/business', function () {
     return view('course/Categories/Business');
 })->name('Business');
 
@@ -44,9 +44,9 @@ Route::get('/language', function () {
 Route::get('/accounting2', function () {
     return view('course/accounting2');
 })->name('accounting2');
-Route::get('/accounting', function () {
-    return view('course/accounting');
-})->name('accounting');
+Route::get('/accounting1', function () {
+    return view('course/accounting1');
+})->name('accounting1');
 
 Route::get('/applied_science1', function () {
     return view('course/applied_science1');
