@@ -491,7 +491,7 @@ a.menu-link {
     position: absolute;
     width: 80%;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 
