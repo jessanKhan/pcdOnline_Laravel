@@ -4,13 +4,15 @@
 
     <div class="main">
     <h2 class="form-title" style="text-align: center; color: black"><b> Digital Enterprise and Business Support</b></h2>
-    <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
+    <h3 class="form-title" style="text-align: center; color: black"><b> For Advanced Learners</b></h3>
         <!-- Sign up form 
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
-                        <h2 class="form-title">
+                        <h2 class="form-title">Digital Enterprise
+                            and
+                            Business Support
                         </h2>
                         <div class="register-form">
 

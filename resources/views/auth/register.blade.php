@@ -186,7 +186,7 @@
                     </div>
                     <div class="signup-image">
                         <figure><img src="{{ asset('images/signup-image.jpg') }}" alt="sing up image"></figure>
-                        <a href="/login" class="signup-image-link">I am already member</a>
+                        <a href="/login" class="signup-image-link">Already Registered</a>
                     </div>
                 </div>
             </div>

@@ -3,15 +3,14 @@
 @section('content')
 
     <div class="main">
-    <h2 class="form-title" style="text-align: center; color: black"><b> Digital Enterprise and Business Support</b></h2>
-    <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
+    <h2 class="form-title" style="text-align: center; color: black"><b> Accounting and Finance</b></h2>
+    <h3 class="form-title" style="text-align: center; color: black"><b> For Advanced Learners</b></h3>
         <!-- Sign up form 
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
-                        <h2 class="form-title">
-                        </h2>
+                        <h1 class="form-title"></h1>
                         <div class="register-form">
 
                             <div class="overview">
@@ -19,24 +18,14 @@
                                     Overview
                                 </h2>
                                 <p>
-                                    Course provides an opportunity to develop practicalentrepreneurialand digitalskills,aim
-                                    ed at supporting new business development and grow th within start-up and sm all/ medium
-                                    businesses.
-
-                                    <br />● GlobaleCom merce m arket is expected to reach US$ 2.7 trillion in revenues by
-                                    2023.
-
-                                    <br />● Global Digital media market is expected to reach a value of US$ 157 billion by
-                                    2023.
-
-                                    <br />● Global DigitalPayments market volume willgrow to over US$ 6.7 trillion by 2023.
-
-                                    <br />● Projected Employment growth in digitally enabled businesses of ~30% .
-
-                                    <br />● Upskilling/reskilling is a necessity for people in business sectors.
-
+                                    An integrated course focusing on financial accounting,management accounting and
+                                    financial management implication for professional students, small business owners and
+                                    business executives who want to sharpen their accounting and finance knowledge.
                                 </p>
                             </div>
+
+
+
 
                             <div class="key-facts">
                                 <h2>
@@ -48,7 +37,7 @@
                                         learning,and
                                         10
                                         hours final project). Entry-level:Leaving </li>
-                                    <li style="font-size: 12px; ">● Certificate/understandinGlevel.</li>
+                                    <li style="font-size: 12px; ">● Certificate/understanding level.</li>
                                     <li style="font-size: 12px; ">● Lesson duration: 1.5 hours lecture;2 lessons per week.
                                     </li>
                                     <li style="font-size: 12px; ">● Size of the class:10 students In-classroom and 25 in a
@@ -65,9 +54,9 @@
                                 </h2>
                                 <ul>
                                     <li style="font-size: 12px;margin: 6px 0px; ">Virtual classroom : €525 <a
-                                            class="btn btn-success" href="{{ route('add', [14]) }}">Enroll</a></li>
-                                    <li style="font-size: 12px;margin: 6px 0px;">In classroom : €750 <a
-                                            class="btn btn-success" href="{{ route('add', [13]) }}">Enroll</a></li>
+                                            class="btn btn-success" href="{{ route('add', [11]) }}">Enroll</a></li>
+                                    <li style="font-size: 12px;margin: 6px 0px;">In classroom : €725 <a
+                                            class="btn btn-success" href="{{ route('add', [12]) }}">Enroll</a></li>
                                     <div style="font-size: 14px; color:red"> Early bird registration: 20% off
                                         Yearly plan (English + any other 2 courses) : 30% discount
 
@@ -80,7 +69,7 @@
                         </div>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="{{ asset('images/debs.jpg') }}" alt="sing up image"></figure>
+                        <figure><img src="{{ asset('images/accounting.jpg') }}" alt="sing up image"></figure>
                         {{-- <a href="/login" class="signup-image-link">I am already member</a> --}}
                     </div>
                 </div>

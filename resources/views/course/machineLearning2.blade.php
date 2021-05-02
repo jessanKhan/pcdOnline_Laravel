@@ -4,7 +4,7 @@
 
     <div class="main">
     <h2 class="form-title" style="text-align: center; color: black"><b> Machine Learning with Python</b></h2>
-    <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
+    <h3 class="form-title" style="text-align: center; color: black"><b> For Advanced Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
@@ -12,17 +12,17 @@
                     
                 <div class="col-md-6">
                 <div>
-                <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}"alt="" />
+                <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python2.jpg') }}"alt="" />
                 </div>
                 <div class="COURSE FORMAT">
                                 <h2 style="color: black">
                                 COURSE FORMAT
                                 </h2>
                                 <p style="color: black">
-                                This course is designed for beginners (Irish N FQ level5) and interm ediate level(N FQ level6) learners only and delivered in both Online and Virtual Classroom environments.
+                                This course is designed for beginners (Irish N FQ level5) and interm ediate level(N FQ level6) learners only and delivered in both Face-to-Face (in-classroom ) and Virtual Classroom environments.
                                 </p>
                                 <p style="color: black">
-                                In addition to classes,course material/handouts will be accessible to students for further study either as hard copy (charge may apply) and/or online (Virtuline Hub).
+                                In addition to classes,course material/handouts will be accessible to students for further study either as hard copy (charge m ay apply) and/or online (Virtuline Hub).
                                 </p>
                                 <p style="color: black">
                                 A continuous assessment approach will be followed with daily assignments (20% ),mid-term quiz (20% ) and a project task (60% ).
@@ -97,7 +97,7 @@
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
-                                MODULES 1
+                                MODULES 2
                                 </h2>
                                 <ul>
                                     <li style="font-size: 14px; ">● Object Orientated Programming: Familiarising with definitions and concepts.</li>

@@ -4,7 +4,7 @@
 
     <div class="main">
     <h2 class="form-title" style="text-align: center; color: black"><b> Business English</b></h2>
-    <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
+    <h3 class="form-title" style="text-align: center; color: black"><b> For Advanced Learners</b></h3>
         <!-- Sign up form 
         <section class="signup">
             <div class="container">
@@ -103,9 +103,9 @@
                 </div>
             </div>
         </section>
-
-
 -->
+
+
     </div>
 
 
