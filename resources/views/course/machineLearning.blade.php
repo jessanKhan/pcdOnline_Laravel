@@ -46,11 +46,13 @@
                                     Key Facts
                                 </h2>
                                 <ul>
-                                    <li style="font-size: 12px; color: black;">● Course duration:10 weeks (30 hours taught,80 hours
+                                <li style="font-size: 12px; color: black;">● Course duration:10 weeks (30 hours taught,80 hours
                                         self-directed
                                         learning,and
                                         10
-                                        hours final project). Entry-level:Leaving </li>
+                                        hours final project).</li> 
+                                    <li style="font-size: 12px; color: black;">Entry level: Open to all.</li> 
+                                    <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
                                     <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
                                     <li style="font-size: 12px; color: black;">● Lesson duration: 1.5 hours lecture;2 lessons per week.
                                     </li>
@@ -123,6 +125,21 @@
                                     <br />● Advance knowledge and skills in python coding.
 
                                     <br />● Enter high demand IT Jobs market as Python developer.
+
+                                </p>
+                            </div>
+                            <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: black">
+                                ADDITIONAL FACILITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Evaluate field problems with .NET programming.
+
+                                    <br />● Improve technical/soft/hard skills while enjoying free time with leisure activities.
+
+                                    <br />● Access to material posted on our school online platform.
+
+                                    <br />● Support and feedback from qualified teachers.
 
                                 </p>
                             </div>

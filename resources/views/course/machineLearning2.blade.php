@@ -46,11 +46,13 @@
                                     Key Facts
                                 </h2>
                                 <ul>
-                                    <li style="font-size: 12px; color: black;">● Course duration:10 weeks (30 hours taught,80 hours
+                                <li style="font-size: 12px; color: black;">● Course duration:10 weeks (30 hours taught,80 hours
                                         self-directed
                                         learning,and
                                         10
-                                        hours final project). Entry-level:Leaving </li>
+                                        hours final project).</li> 
+                                        <li style="font-size: 12px; color: black;">Entry level: Open to all.</li> 
+                                    <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
                                     <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
                                     <li style="font-size: 12px; color: black;">● Lesson duration: 1.5 hours lecture;2 lessons per week.
                                     </li>
