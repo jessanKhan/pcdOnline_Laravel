@@ -78,6 +78,11 @@
 
 
 -->
+
+<div class="btn btn-success" >
+    <a href="{{ route('add', [11]) }}">Enroll</a>
+</div>
+
     </div>
 
 
