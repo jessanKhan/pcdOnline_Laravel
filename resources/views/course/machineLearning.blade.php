@@ -67,7 +67,8 @@
                                 </h2>
                                 <ul>
                                     <li style="font-size: 12px;margin: 6px 0px; color: black;">Virtual classroom : €770<a
-                                            class="btn btn-success" href="{{ route('add', [16]) }}">Enroll</a></li>
+                                            class="btn btn-success" >
+    <a href="{{ route('add', [16]) }}">Enroll</a></li>
                                     
                                 </ul>
                             </div>

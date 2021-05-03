@@ -62,15 +62,13 @@
                                 <ul>
                                 <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (20 hours taught, 10 hours assignments; 60
                                                         hours self-directed learning, and 30 hours final project).</li> 
-                                    <li style="font-size: 12px; color: black;">Entry level: Open to all professionals (employees of private and
-                                                        commercial semi-state organisations) and post-leaving certificate
-                                                        students. Open to all.</li> 
-                                    <li style="font-size: 12px; color: black;">● Lesson duration: 2 hours lecture + 1 hour assignment per week.</li>
+                                    <li style="font-size: 12px; color: black;">Entry level: Open to all/Understanding level.</li> 
+                                    <li style="font-size: 12px; color: black;">● Lesson duration: : 2 hours per lecture + 1 hour assignment per week.</li>
                                     
                                     <li style="font-size: 12px; color: black;">● Size of the class: 25 in a
                                         Virtual Classroom .
                                     </li>
-                                    <li style="font-size: 12px; color: black;">● Course timetable: Saturday Morning) and Wednesday Evening.
+                                    <li style="font-size: 12px; color: black;">● Course timetable: Tuesday Evening and Saturday Morning.
                                     </li>
                                     <li style="font-size: 12px; color: black;">●Course structure: One day per week and one day per weekend.
                                     </li>
@@ -81,7 +79,7 @@
                                     Course Fees
                                 </h2>
                                 <ul>
-                                    <li style="font-size: 12px;margin: 6px 0px; color: black;">Virtual classroom : €840<a
+                                    <li style="font-size: 12px;margin: 6px 0px; color: black;">Virtual classroom : €770<a
                                             class="btn btn-success" href="{{ route('add', [16]) }}">Enroll</a></li>
                                     
                                 </ul>
@@ -162,14 +160,12 @@
                                 OPPORTUNITIES
                                 </h2>
                                 <p style="color: black">
-                                Number of open positions available in different sectors such as, Start-up
-                                companies working on range of security areas such as
-                                    <br />● Top Tech Companies: IBM, Microsoft, Facebook and MasterCard,
+                                ● Academic research e.g. Research MSc and PhD.
+                                    <br />● Data science jobs across industries including academic and research institutes.
 
-                                    <br />● Governments: All sectors specifically Finance Departments that are
-                                            planning to replace payments with Blockchain Technology, and
+                                    <br />● Government research jobs.
 
-                                    <br />● Banks: Banks that are investing in Blockchain.
+                                    <br />● Consultancy jobs.
 
                                 </p>
                             </div>
@@ -178,15 +174,13 @@
                                 ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">
-                                    ● Evaluate field problems with Blockchain.
+                                    ● Opportunity to practice data analysis and programming in areas of special interest.
 
-                                    <br />● Improve technical/soft/hard skills while enjoying free time with leisure activities.
+                                    <br />● Improve skills while enjoying free time with leisure activities.
 
                                     <br />● Access to material posted on our school online platform.
 
                                     <br />● Support and feedback from qualified teachers.
-
-                                    <br />● Interactive course, practical approach enabling learning from any part of the world.
 
                                 </p>
                             </div>
