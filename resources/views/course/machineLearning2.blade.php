@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div class="main">
+<div class="main">
     <h2 class="form-title" style="text-align: center; color: black"><b> Machine Learning with Python</b></h2>
-    <h3 class="form-title" style="text-align: center; color: black"><b> For Advanced Learners</b></h3>
+    <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
@@ -12,17 +12,17 @@
                     
                 <div class="col-md-6">
                 <div>
-                <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python2.jpg') }}"alt="" />
+                <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}"alt="" />
                 </div>
                 <div class="COURSE FORMAT">
                                 <h2 style="color: black">
                                 COURSE FORMAT
                                 </h2>
                                 <p style="color: black">
-                                This course is designed for beginners (Irish N FQ level5) and interm ediate level(N FQ level6) learners only and delivered in both Face-to-Face (in-classroom ) and Virtual Classroom environments.
+                                This course is designed for beginners (Irish N FQ level5) and interm ediate level(N FQ level6) learners only and delivered in both Online and Virtual Classroom environments.
                                 </p>
                                 <p style="color: black">
-                                In addition to classes,course material/handouts will be accessible to students for further study either as hard copy (charge m ay apply) and/or online (Virtuline Hub).
+                                In addition to classes,course material/handouts will be accessible to students for further study either as hard copy (charge may apply) and/or online (Virtuline Hub).
                                 </p>
                                 <p style="color: black">
                                 A continuous assessment approach will be followed with daily assignments (20% ),mid-term quiz (20% ) and a project task (60% ).
@@ -46,20 +46,18 @@
                                     Key Facts
                                 </h2>
                                 <ul>
-                                <li style="font-size: 12px; color: black;">● Course duration:10 weeks (30 hours taught,80 hours
-                                        self-directed
-                                        learning,and
-                                        10
-                                        hours final project).</li> 
-                                        <li style="font-size: 12px; color: black;">Entry level: Open to all.</li> 
-                                    <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
-                                    <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
-                                    <li style="font-size: 12px; color: black;">● Lesson duration: 1.5 hours lecture;2 lessons per week.
+                                <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (20 hours taught, 10 hours assignments; 60
+                                                        hours self-directed learning, and 30 hours final project).</li> 
+                                    <li style="font-size: 12px; color: black;">Entry level: Open to all.</li> 
+                                    <li style="font-size: 12px; color: black;">● Lesson time: 2 hours per lecture and 1 hour assignment per week.</li>
+                                    
                                     </li>
                                     <li style="font-size: 12px; color: black;">● Size of the class: 25 in a
                                         Virtual Classroom .
                                     </li>
                                     <li style="font-size: 12px; color: black;">● Course timetable:Wednesday Evening and Sunday Morning.
+                                    </li>
+                                    <li style="font-size: 12px; color: black;">●Course structure: One day per week and one day per weekend.
                                     </li>
                                 </ul>
                             </div>
@@ -88,8 +86,8 @@
 
                                     computing.The course mainly focuses on:
 
-                                    <br />● Applying logical thinking skills to solve computational problems. Understanding
-                                    object-oriented programming terminologies and conventions.
+                                    <br />● Applying logical thinking skills to solve computational problems. 
+                                    <br />● Understanding object-oriented programming terminologies and conventions.
 
                                     <br />● Applying data handling and visualization techniques to work on machine learning.
 
@@ -115,6 +113,8 @@
                                     
                                 </ul>
                             </div>
+                            
+                            
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">
                                 OPPORTUNITIES
@@ -128,12 +128,21 @@
 
                                 </p>
                             </div>
-                            <!--
-                            
-                            
--->
+                            <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: black">
+                                ADDITIONAL FACILITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Opportunity to practice programming in areas of special interest.
 
+                                    <br />● Improve coding language skills while enjoying free time with leisure activities.
 
+                                    <br />● Access to material posted on our school online platform.
+
+                                    <br />● Support and feedback from qualified teachers.
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

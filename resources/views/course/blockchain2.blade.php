@@ -9,80 +9,155 @@
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
-                    <div class="signup-form">
-                        <h1 class="form-title"></h1>
-                        <div class="register-form">
-
-                            <div class="overview">
-                                <h2>
-                                    Overview
+                    
+                <div class="col-md-6">
+                <div>
+                <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}"alt="" />
+                </div>
+                <div class="COURSE FORMAT">
+                                <h2 style="color: black">
+                                COURSE FORMAT
                                 </h2>
-                                <p>
-                                    Globally, Blockchain (BC ) development skills rank in the top three job openings with
-                                    predicted growth of 517% over time (Computer world).
+                                <p style="color: black">
+                                This course is designed for beginners (Irish N FQ level5) and interm ediate level(N FQ level6) learners only and delivered in both Online and Virtual Classroom environments.
+                                </p>
+                                <p style="color: black">
+                                In addition to classes,course material/handouts will be accessible to students for further study either as hard copy (charge may apply) and/or online (Virtuline Hub).
+                                </p>
+                                <p style="color: black">
+                                A continuous assessment approach will be followed with daily assignments (20% ),mid-term quiz (20% ) and a project task (60% ).
+                                </p>
+                            </div>
+                            <div class="LEARNING OUTCOMES">
+                                <h2 style="color: black">
+                                LEARNING OUTCOMES
+                                </h2>
+                                <p style="color: black">
+                                    ● Gain strong foundation on Distributed Ledger Technology i.e. Blockchain.
 
-                                    It is the next wave of technology innovation that will underpin almost every
-                                    industry. This course is specifically designed for people from all sectors such as
-                                    Finance,Fashion,Food,Telecom and Automation.
+                                    <br />● Advance knowledge and skills in understanding of Smart Contracts.
 
-                                    Importantly, based on the enormous technological significance and the application
-                                    across sectors, ID A Ireland has been promoting ‘Ireland’ as the major EU Hub for
-                                    Blockchain.
+                                    <br />● Identification of application areas.
 
-                                    Prudence is for the first time in Ireland, introducing ‘Blockchain for Everyone’, to
-                                    facilitate learners without prior knowledge to become proficient in this specialised
-                                    industry area.
+                                    <br />● Learn where Blockchain Technology can be applied.
+
+                                    <br />● Build your path to becoming a Blockchain Developer.
 
                                 </p>
                             </div>
-
                             <div class="key-facts">
-                                <h2>
+                                <h2 style="color: black">
                                     Key Facts
                                 </h2>
-                                <p>
-                                    Course duration:10 w eeks (20 hours taught,10 hours assignments;60 hours self-directed
-                                    learning,and 30 hours final project).
-
-                                    Entry level:Open to all professionals (employees of private and
-
-                                    commercial semistate- organisations) and post-leaving certificate
-
-                                    students.Open to all.
-
-                                    Lesson duration:2 hours lecture + 1 hour assignment per week.
-
-                                    Size of the class:10 students In-classroom and 25 in a Virtual Classroom .
-
-                                    Course timetable:Saturday Morning) and Wednesday Evening.
-
-                                    Course structure:One day per week and one day per weekend.
-
-                                </p>
+                                <ul>
+                                <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (20 hours taught, 10 hours assignments; 60
+                                                        hours self-directed learning, and 30 hours final project).</li> 
+                                    <li style="font-size: 12px; color: black;">Entry level: Open to all professionals (employees of private and
+                                                        commercial semi-state organisations) and post-leaving certificate
+                                                        students. Open to all.</li> 
+                                    <li style="font-size: 12px; color: black;">● Lesson duration: 2 hours lecture + 1 hour assignment per week.</li>
+                                    
+                                    <li style="font-size: 12px; color: black;">● Size of the class: 25 in a
+                                        Virtual Classroom .
+                                    </li>
+                                    <li style="font-size: 12px; color: black;">● Course timetable: Saturday Morning) and Wednesday Evening.
+                                    </li>
+                                    <li style="font-size: 12px; color: black;">●Course structure: One day per week and one day per weekend.
+                                    </li>
+                                </ul>
                             </div>
                             <div class="course-fees">
-                                <h2>
+                                <h2 style="color: black">
                                     Course Fees
                                 </h2>
                                 <ul>
-                                    <li style="font-size: 12px; margin: 6px 0px; ">Virtual classroom : €840 <a
-                                            class="btn btn-success" href="{{ route('add', [20]) }}">Enroll</a></li>
-                                    <li style="font-size: 12px; margin: 6px 0px;">In classroom : €1200<a
-                                            class="btn btn-success" href="{{ route('add', [19]) }}">Enroll</a></li>
-                                    <div style="font-size: 14px; color:red"> Early bird registration: 20% off
-                                        Yearly plan (English + any other 2 courses) : 30% discount
-
-                                    </div>
+                                    <li style="font-size: 12px;margin: 6px 0px; color: black;">Virtual classroom : €840<a
+                                            class="btn btn-success" href="{{ route('add', [16]) }}">Enroll</a></li>
+                                    
                                 </ul>
                             </div>
+            </div>
+                    <div class="signup-form">
+                        
+                        <div class="overview" style="color: black">
 
+                        <div class="overview">
+                                <h2>
+                                    Overview
+                                </h2>
+                                <p style="color: black">
+                                Globally, Blockchain (BC) development skills rank in the top three job
+                                openings with predicted growth of 517% over time (Computerworld).
+                                </p>
+                                <p style="color: black">
+                                It is the next wave of technology innovation that will underpin almost
+                                every industry. This course is specifically designed for people from all
+                                sectors such as Finance, Fashion, Food, Telecom and Automation.
+                                </p>
+                                <p style="color: black">
+                                Importantly, based on the enormous technological significance and the
+                                application across sectors, IDA Ireland has been promoting ‘Ireland’ as
+                                the major EU Hub for Blockchain.
+                                </p>
+                                <p style="color: black">
+                                Prudence is for the first time in Ireland, introducing ‘Blockchain for
+                                Everyone’, to facilitate learners without prior knowledge to become
+                                proficient in this specialised industry area.
+                                </p>
+                            </div>
+                            <div class="MODULES" style="margin-top: px">
+                                <h2>
+                                MODULES 2
+                                </h2>
+                                <ul>
+                                    <li style="font-size: 14px; ">● Psychological Story.</li>
+                                    <li style="font-size: 14px; ">● Money and Blockchain Connection.</li>
+                                    <li style="font-size: 14px; ">● Gold and Crypto, War on Cash.</li>
+                                    <li style="font-size: 14px; ">● BC types, Layers, Problems and Fundamental Properties.</li>
+                                    <li style="font-size: 14px; ">● Application of BC technology and Evaluation of Use Cases.</li>
+                                    <li style="font-size: 14px; ">● Applications in all Verticals.</li>
+                                    <li style="font-size: 14px; ">● Consensus Algorithms.</li>
+                                    <li style="font-size: 14px; ">● Initial Coin Offering.</li>
+                                    <li style="font-size: 14px; ">● Smart Contracts (Write Your Own).</li>
+                                    <li style="font-size: 14px; ">● How to become a BC developer/Architect.</li>
+                                    
+                                </ul>
+                            </div>
+                            
+                            <div class="OPPORTUNITIES">
+                                <h2 style="color: black">
+                                OPPORTUNITIES
+                                </h2>
+                                <p style="color: black">
+                                Number of open positions available in different sectors such as, Start-up
+                                companies working on range of security areas such as
+                                    <br />● Top Tech Companies: IBM, Microsoft, Facebook and MasterCard,
 
+                                    <br />● Governments: All sectors specifically Finance Departments that are
+                                            planning to replace payments with Blockchain Technology, and
 
+                                    <br />● Banks: Banks that are investing in Blockchain.
+
+                                </p>
+                            </div>
+                            <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: black">
+                                ADDITIONAL FACILITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Evaluate field problems with Blockchain.
+
+                                    <br />● Improve technical/soft/hard skills while enjoying free time with leisure activities.
+
+                                    <br />● Access to material posted on our school online platform.
+
+                                    <br />● Support and feedback from qualified teachers.
+
+                                    <br />● Interactive course, practical approach enabling learning from any part of the world.
+
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="signup-image">
-                        <figure><img src="{{ asset('images/blockchain.jpg') }}" alt="sing up image"></figure>
-                        {{-- <a href="/login" class="signup-image-link">I am already member</a> --}}
                     </div>
                 </div>
             </div>
@@ -93,6 +168,10 @@
     </div>
 
 
-
+<!--
+                    <div class="signup-image">
+                        <figure><img src="{{ asset('images/blockchain.jpg') }}" alt="sing up image"></figure>
+                        {{-- <a href="/login" class="signup-image-link">I am already member</a> --}}
+                    </div>-->
 
 @endsection

@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="main">
-    <h2 class="form-title" style="text-align: center; color: black"><b>.NET Programming</b></h2>
+    <h2 class="form-title" style="text-align: center; color: black"><b>.NET PROGRAMMING</b></h2>
     <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
@@ -130,6 +130,7 @@
                                     
                                 </ul>
                             </div>
+                            
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">
                                 OPPORTUNITIES
@@ -143,14 +144,15 @@
 
                                 </p>
                             </div>
+                            
                             <div class="ADDITIONAL FACILITIES">
                                 <h2 style="color: black">
                                 ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">
-                                    ● Opportunity to practice programming in areas of special interest.
+                                    ● Evaluate field problems with .NET programming.
 
-                                    <br />● Improve coding language skills while enjoying free time with leisure activities.
+                                    <br />● Improve technical/soft/hard skills while enjoying free time with leisure activities.
 
                                     <br />● Access to material posted on our school online platform.
 
@@ -158,12 +160,7 @@
 
                                 </p>
                             </div>
-                            
-                            
-
-
-
-</div>
+                        </div>
                     </div>
                 </div>
             </div>

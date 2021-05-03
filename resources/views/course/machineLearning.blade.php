@@ -46,20 +46,18 @@
                                     Key Facts
                                 </h2>
                                 <ul>
-                                <li style="font-size: 12px; color: black;">● Course duration:10 weeks (30 hours taught,80 hours
-                                        self-directed
-                                        learning,and
-                                        10
-                                        hours final project).</li> 
+                                <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (20 hours taught, 10 hours assignments; 60
+                                                        hours self-directed learning, and 30 hours final project).</li> 
                                     <li style="font-size: 12px; color: black;">Entry level: Open to all.</li> 
-                                    <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
-                                    <li style="font-size: 12px; color: black;">● Certificate/understanding level.</li>
-                                    <li style="font-size: 12px; color: black;">● Lesson duration: 1.5 hours lecture;2 lessons per week.
+                                    <li style="font-size: 12px; color: black;">● Lesson time: 2 hours per lecture and 1 hour assignment per week.</li>
+                                    
                                     </li>
                                     <li style="font-size: 12px; color: black;">● Size of the class: 25 in a
                                         Virtual Classroom .
                                     </li>
                                     <li style="font-size: 12px; color: black;">● Course timetable:Wednesday Evening and Sunday Morning.
+                                    </li>
+                                    <li style="font-size: 12px; color: black;">●Course structure: One day per week and one day per weekend.
                                     </li>
                                 </ul>
                             </div>
@@ -88,8 +86,8 @@
 
                                     computing.The course mainly focuses on:
 
-                                    <br />● Applying logical thinking skills to solve computational problems. Understanding
-                                    object-oriented programming terminologies and conventions.
+                                    <br />● Applying logical thinking skills to solve computational problems. 
+                                    <br />● Understanding object-oriented programming terminologies and conventions.
 
                                     <br />● Applying data handling and visualization techniques to work on machine learning.
 
@@ -115,6 +113,8 @@
                                     
                                 </ul>
                             </div>
+                            
+                            
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">
                                 OPPORTUNITIES
@@ -133,9 +133,9 @@
                                 ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">
-                                    ● Evaluate field problems with .NET programming.
+                                    ● Opportunity to practice programming in areas of special interest.
 
-                                    <br />● Improve technical/soft/hard skills while enjoying free time with leisure activities.
+                                    <br />● Improve coding language skills while enjoying free time with leisure activities.
 
                                     <br />● Access to material posted on our school online platform.
 
@@ -143,12 +143,6 @@
 
                                 </p>
                             </div>
-                            <!--
-                            
-                            
--->
-
-
                         </div>
                     </div>
                 </div>
