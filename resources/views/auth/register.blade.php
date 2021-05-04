@@ -134,7 +134,7 @@
                                     placeholder="Qualification" autofocus> --}}
                                 <select class="textInput{{ $errors->has('qualification') ? ' is-invalid' : '' }}"
                                     id="qualification" name="qualification">
-                                    <option value="" selected>Choose Your Catagory</option>
+                                    <option value="" selected>Choose Your Category</option>
                                     <option value="BUSINESS & MANAGEMENT">BUSINESS & MANAGEMENT</option>
                                     <option value="CODING & COMPUTING">CODING & COMPUTING</option>
                                     <option value="APPLIED SCI-TECH">APPLIED SCI-TECH</option>

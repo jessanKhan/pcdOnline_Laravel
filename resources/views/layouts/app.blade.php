@@ -255,7 +255,7 @@
                         <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
                     </div>
                     <div class="col-sm-2">
-                        <h5>Catagories</h5>
+                        <h5>Categories</h5>
                         <ul>
                             <li><a href="">Business & Management</a></li>
                             <li><a href="">Coding & Computing</a></li>

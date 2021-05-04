@@ -928,7 +928,7 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4>Machine Learning with Python part 1</h4>
+                            <h4>Machine Learning with Python for Beginners/Intermediate Learners</h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="">
@@ -1075,131 +1075,19 @@
         </div>
     </section>
 
-    <!-- Categories Section Start -->
-    <div id="rs-categories" class="rs-categories gray-bg style1 pt-94 pb-70 md-pt-64 md-pb-40">
-        <div class="container">
-            <div class="row y-middle mb-50 md-mb-30">
-                <div class="col-md-6 sm-mb-30">
-                    <div class="sec-title">
-                        <div class="sub-title primary"></div>
-                        <h2 class="title mb-0"><b> Our Top Courses </b></h2>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/1.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Accounting and Finance</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/2.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Machine Learning with Python</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/3.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">.Net Programming for Everyone</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/4.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Blockchain for Everyone</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/5.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">General English</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/6.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Business English</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/7.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Scientific Data Handling and Programming</h4>
-                            <span class="courses">01 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/8.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Digital Enterprise and Business Support</h4>
-                            <span class="courses">02 Courses</span>
-                        </div>
-                    </a>
-                </div>
-                <!--
-                <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                    <a class="categories-item" href="#">
-                        <div class="icon-part">
-                            <img src="assets/images/categories/icons/9.png" alt="">
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title">Recipes</h4>
-                            <span class="courses">7 Courses</span>
-                        </div>
-                    </a>
-                </div>-->
-            </div>
-        </div>
-    </div>
-    <!-- Categories Section End -->
-
-    <!-- Temporary  -->
-    <section class="lead" data-section="section3">
+    <section class="enroll" data-section="section4">
         <div class="col-md-12">
-            <h2 style="
-            margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+            <h2><b> Enroll Now and Begin Your New Career</b></h2>
+            <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
+            <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
+                class="btn btn-default"><b>
+                    ENROLL NOW</b></a>
+        </div>
         </div>
     </section>
+
+    <!-- Temporary  -->
+    
     <section class="section video" data-section="section5">
         <div class="container">
             <div class="row">
@@ -1233,16 +1121,13 @@
             </div>
         </div>
     </section>
-    <section class="enroll" data-section="section4">
+    <section class="lead" data-section="section3">
         <div class="col-md-12">
-            <h2><b> Enroll Now and Begin Your New Career</b></h2>
-            <p>NEXT INTAKE: SUMMER, SUMMER+ AND AUTUMN 2021</p>
-            <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
-                class="btn btn-default"><b>
-                    ENROLL NOW</b></a>
-        </div>
+            <h2 style="
+            margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
         </div>
     </section>
+    
     <section class="cpdcourses" data-section="section7">
         <div class="col-md-6">
             <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
@@ -1265,6 +1150,7 @@
         </div>
 
     </section>
+    
     <section class="section contact" data-section="section6">
         <div class="container">
             <div class="row">
@@ -1321,7 +1207,7 @@
                     <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
                 </div>
                 <div class="col-sm-2">
-                    <h5>Catagories</h5>
+                    <h5>Categories</h5>
                     <ul>
                         <li><a href="">Business & Management</a></li>
                         <li><a href="">Coding & Computing</a></li>

@@ -59,7 +59,7 @@
                                 @if (Route::has('login'))
                                     <div>
                                         <a class="btn btn-success"
-                                            href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Login</a>
+                                            href="{{ route('register') }}">Sign Up</a>
                                     </div>
                                 @endif
                             @else
