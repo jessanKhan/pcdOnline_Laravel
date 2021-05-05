@@ -1074,8 +1074,8 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Business English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4 ><a href="{{ route('businessEnglish2') }}"> Business English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-01.png" alt=""> --}}
@@ -1220,7 +1220,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                    <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 </div>
                 <div class="col-sm-3">
                     <h5>Categories</h5>

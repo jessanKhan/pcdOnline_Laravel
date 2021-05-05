@@ -253,7 +253,7 @@
             <div class="container" style="background-color: #0c1228">
                 <div class="row">
                     <div class="col-sm-3">
-                        <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                        <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                     </div>
                     <div class="col-sm-3">
                         <h5>Categories</h5>
