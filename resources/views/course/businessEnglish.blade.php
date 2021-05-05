@@ -3,22 +3,22 @@
 @section('content')
 
     <div class="main">
-    <h2 class="form-title" style="text-align: center; color: black"><b> Business English</b></h2>
-    <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
+        <h2 class="form-title" style="text-align: center; color: black"><b> Business English</b></h2>
+        <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
-                    
-                <div class="col-md-6">
-                <div>
-                <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}"alt="" />
-                </div>
-                <div class="COURSE FORMAT">
-                                <h2 style="color: black">
+
+                    <div class="col-md-6">
+                        <div>
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                        </div>
+                        <div class="COURSE FORMAT">
+                            <h2 style="color: black">
                                 COURSE FORMAT
-                                </h2>
-                                <p style="color: black">
+                            </h2>
+                            <p style="color: black">
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -48,8 +48,8 @@
                             <div class="LEARNING OUTCOMES">
                                 <h2 style="color: black">
                                 LEARNING OUTCOMES
-                                </h2>
-                                <p style="color: black">
+                            </h2>
+                            <p style="color: black">
                                 This course aims to develop the practical skills you will need to expertly
                                 communicate in the English-speaking workplace. You will learn: reading,
                                 listening, speech and writing skills.</p>
@@ -104,9 +104,58 @@
                                     <li style="font-size: 12px; color: black;"><p style="color: black">
                                     This can be taken as a:
 
-                                    <br />● Standard Course (over 4 weeks)
+                            </ul>
+                            </p>
+                            <p style="color: black">
+                            <h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand professional language.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
 
-                                    <br />● Intensive Course (over 2 weeks)
+                            </ul>
+                            </p>
+                            <p style="color: black">
+                            <h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
+                                    interviews and
+                                    negotiating.</li>
+                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
+                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
+                            </ul>
+                            </p>
+                            <p style="color: black">
+                            <h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            </p>
+                            <p style="color: black">
+                            <h4 style="color: black">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these
+                                areas:</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in business settings.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="key-facts">
+                            <h2 style="color: black">
+                                Key Facts
+                            </h2>
 
                                     <br />● Weekend Course (over 10 weeks)
                                 </p>.</li> 
@@ -120,27 +169,65 @@
                                     <li style="font-size: 12px; color: black;"><p style="color: black">
                                     Course Timetable:
 
-                                    <br />● Standard Course: Monday to Friday, morning or evening
+                                        <br />● Intensive Course (over 2 weeks)
 
-                                    <br />● Intensive Course: Monday to Friday, morning and afternoon
+                                        <br />● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
 
-                                    <br />● Weekend Course: Weekend morning
-                                </p>.</li> 
-                                </ul>
-                            </div>
-                            <div class="course-fees">
-                                <h2 style="color: black">
-                                    Course Fees
-                                </h2>
-                                <ul>
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="color: black">
+                                        Course Timetable:
+
+                                        <br />● Standard Course: Monday to Friday, morning or evening
+
+                                        <br />● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br />● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="course-fees">
+                            <h2 style="color: black">
+                                Course Fees
+                            </h2>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <td width="50%"> Course Name </td>
+                                        <td width="40%">Course Fee</td>
+                                        <td width="10%"></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td width="50%"> Business English For Beginners/Intermediate
+                                        </td>
+                                        <td width="40%">€386</td>
+                                        <td width="10%"><a class="btn btn-success"
+                                                href="{{ route('add', [7]) }}">Enroll</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            {{-- <ul>
                                     <li style="font-size: 12px;margin: 6px 0px; color: black;">Virtual classroom : €385<a
                                             class="btn btn-success" ><a href="{{ route('add', [16]) }}">Enroll</a></li>
                                     
-                                </ul>
-                            </div>
-            </div>
+                                </ul> --}}
+                        </div>
+                    </div>
                     <div class="signup-form">
-                        
+
                         <div class="overview" style="color: black">
 
                             <div class="overview">
@@ -173,7 +260,7 @@
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
-                                MODULES 1
+                                    MODULES 1
                                 </h2>
                                 <p style="color: black">
                                 This course aims to develop the practical skills you will need to expertly
@@ -185,30 +272,38 @@
                                     <li style="font-size: 14px; ">● understanding written language input dealing with a variety of contemporary business topics.</li>
                                     <li style="font-size: 14px; ">● scanning quickly through texts and locating relevant details.</li>
                                     <li style="font-size: 14px; ">● skimming texts and identifying main points.</li>
-                                    
-                                </ul></p>
+
+                                </ul>
+                                </p>
                                 <p style="color: black">
                                 <h4>Listening: students will practise</h4>
                                 <ul>
                                     <li style="font-size: 14px; ">● understanding professional communications.</li>
-                                    <li style="font-size: 14px; ">● understanding oral language input and locating specific information.</li>
+                                    <li style="font-size: 14px; ">● understanding oral language input and locating specific
+                                        information.</li>
                                     <li style="font-size: 14px; ">● following speech and identifying the gist of ideas.</li>
-                                    
-                                </ul></p>
+
+                                </ul>
+                                </p>
                                 <p style="color: black">
                                 <h4>Speaking: students will practise</h4>
                                 <ul>
-                                    <li style="font-size: 14px; ">● engaging in professional conversation (giving presentations, interviewing, negotiating).</li>
-                                    <li style="font-size: 14px; ">● using both formal and informal register appropriately.</li>
+                                    <li style="font-size: 14px; ">● engaging in professional conversation (giving
+                                        presentations, interviewing, negotiating).</li>
+                                    <li style="font-size: 14px; ">● using both formal and informal register appropriately.
+                                    </li>
                                     <li style="font-size: 14px; ">● demonstrating knowledge of business vocabulary.</li>
-                                </ul></p>
+                                </ul>
+                                </p>
                                 <p style="color: black">
                                 <h4>Writing: students will practise</h4>
                                 <ul>
                                     <li style="font-size: 14px; ">● writing texts in a professional manner.</li>
-                                    <li style="font-size: 14px; ">● selecting a style appropriate to the reader in mind.</li>
+                                    <li style="font-size: 14px; ">● selecting a style appropriate to the reader in mind.
+                                    </li>
                                     <li style="font-size: 14px; ">● putting together viewpoints in a coherent manner.</li>
-                                </ul></p>
+                                </ul>
+                                </p>
                                 <p style="color: black">
                                 <h4>Along with integrated-skills activities, students will also be provided with
                                 appropriate tasks focused on improving their grammar, pronunciation, and lexis. The course includes:</h4>
@@ -221,11 +316,11 @@
                                     <li style="font-size: 14px; ">● pronunciation exercises to help learners sound as natural as possible.</li>
                                 </ul></p>
                             </div>
-                            
-                            
+
+
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">
-                                OPPORTUNITIES
+                                    OPPORTUNITIES
                                 </h2>
                                 <p style="color: black">
                                     ● Understanding and speaking English can empower students and help them achieve their
@@ -235,7 +330,8 @@
 
                                     <br />● Increasing chances of professional success and career advancement.
 
-                                    <br />● communicating with professionals from all over the world and succeeding in networking.
+                                    <br />● communicating with professionals from all over the world and succeeding in
+                                    networking.
 
                                     <br />● Enrolling in course in your specialisation to improve both your English and your industry
                                     know-how.
@@ -246,7 +342,7 @@
                             </div>
                             <div class="ADDITIONAL FACILITIES">
                                 <h2 style="color: black">
-                                ADDITIONAL FACILITIES
+                                    ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">
                                     ● With our general business practice scenarios, students will have the opportunity to

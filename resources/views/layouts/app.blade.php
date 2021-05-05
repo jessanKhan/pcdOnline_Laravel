@@ -237,7 +237,7 @@
                             </ul>
                         </li>
                     @endguest
-                    <li class="pp"><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <li class="pp"><a href="{{ route('cart') }}"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </header>
