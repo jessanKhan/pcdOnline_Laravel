@@ -950,7 +950,9 @@ section.coming-soon form button {
 }
 
 /* Courses */
-
+.course-fees {
+    padding: 20px 15%;
+}
 section.courses {
     background-image: url(../images/choosing-bg.jpg);
     background-repeat: no-repeat;

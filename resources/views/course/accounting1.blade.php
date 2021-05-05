@@ -69,29 +69,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="course-fees">
-                            <h2 style="color: black">
-                                Course Fees
-                            </h2>
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <td width="50%"> Course Name </td>
-                                        <td width="40%">Course Fee</td>
-                                        <td width="10%"></td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td width="50%">Accounting and Finance for Beginer and Intermediate</td>
-                                        <td width="40%">€525</td>
-                                        <td width="10%"><a class="btn btn-success"
-                                                href="{{ route('add', [11]) }}">Enroll</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
 
-                        </div>
                     </div>
                     <div class="signup-form">
 
@@ -184,11 +162,28 @@
             </div>
         </section>
 
-        <!--
-                                                                                                                <div class="btn btn-success" >
-                                                                                                                    <a href="{{ route('add', [11]) }}">Enroll</a>
-                                                                                                                </div>-->
+        <div class="course-fees">
+            <h2 style="color: black">
+                Course Fees
+            </h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td width="50%"> Course Name </td>
+                        <td width="40%">Course Fee</td>
+                        <td width="10%"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="50%">Accounting and Finance for Beginer and Intermediate</td>
+                        <td width="40%">€525</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [11]) }}">Enroll</a></td>
+                    </tr>
+                </tbody>
+            </table>
 
+        </div>
     </div>
 
 

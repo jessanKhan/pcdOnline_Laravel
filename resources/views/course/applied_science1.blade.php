@@ -81,30 +81,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="course-fees">
-                            <h2 style="color: black">
-                                Course Fees
-                            </h2>
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <td width="50%"> Course Name </td>
-                                        <td width="40%">Course Fee</td>
-                                        <td width="10%"></td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td width="50%">Scientific Data Handling and Programming For Beginners/Intermediate
-                                        </td>
-                                        <td width="40%">€770</td>
-                                        <td width="10%"><a class="btn btn-success"
-                                                href="{{ route('add', [21]) }}">Enroll</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
 
-                        </div>
                     </div>
                     <div class="signup-form">
 
@@ -210,6 +187,29 @@
                 </div>
             </div>
         </section>
+        <div class="course-fees">
+            <h2 style="color: black">
+                Course Fees
+            </h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td width="50%"> Course Name </td>
+                        <td width="40%">Course Fee</td>
+                        <td width="10%"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="50%">Scientific Data Handling and Programming For Beginners/Intermediate
+                        </td>
+                        <td width="40%">€770</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [21]) }}">Enroll</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
     </div>
 
 

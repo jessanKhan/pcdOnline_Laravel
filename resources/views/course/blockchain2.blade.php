@@ -74,30 +74,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="course-fees">
-                            <h2 style="color: black">
-                                Course Fees
-                            </h2>
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <td width="50%"> Course Name </td>
-                                        <td width="40%">Course Fee</td>
-                                        <td width="10%"></td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td width="50%"> Blockchain for Everyone For Advanced Learner
-                                        </td>
-                                        <td width="40%">€840</td>
-                                        <td width="10%"><a class="btn btn-success"
-                                                href="{{ route('add', [1200]) }}">Enroll</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
 
-                        </div>
                     </div>
                     <div class="signup-form">
 
@@ -189,15 +166,37 @@
             </div>
         </section>
 
+        <div class="course-fees">
+            <h2 style="color: black">
+                Course Fees
+            </h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td width="50%"> Course Name </td>
+                        <td width="40%">Course Fee</td>
+                        <td width="10%"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="50%"> Blockchain for Everyone For Advanced Learner
+                        </td>
+                        <td width="40%">€840</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [1200]) }}">Enroll</a></td>
+                    </tr>
+                </tbody>
+            </table>
 
+        </div>
 
     </div>
 
 
     <!--
-                                                    <div class="signup-image">
-                                                        <figure><img src="{{ asset('images/blockchain.jpg') }}" alt="sing up image"></figure>
-                                                        {{-- <a href="/login" class="signup-image-link">I am already member</a> --}}
-                                                    </div>-->
+                                                                    <div class="signup-image">
+                                                                        <figure><img src="{{ asset('images/blockchain.jpg') }}" alt="sing up image"></figure>
+                                                                        {{-- <a href="/login" class="signup-image-link">I am already member</a> --}}
+                                                                    </div>-->
 
 @endsection

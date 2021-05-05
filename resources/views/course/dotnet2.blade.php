@@ -79,29 +79,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="course-fees">
-                            <h2 style="color: black">
-                                Course Fees
-                            </h2>
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <td width="50%"> Course Name </td>
-                                        <td width="40%">Course Fee</td>
-                                        <td width="10%"></td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td width="50%"> .NET PROGRAMMING For Advanced Learners
-                                        </td>
-                                        <td width="40%">€1100</td>
-                                        <td width="10%"><a class="btn btn-success"
-                                                href="{{ route('add', [18]) }}">Enroll</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+
                     </div>
                     <div class="signup-form">
 
@@ -189,7 +167,28 @@
                 </div>
             </div>
         </section>
-
+        <div class="course-fees">
+            <h2 style="color: black">
+                Course Fees
+            </h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td width="50%"> Course Name </td>
+                        <td width="40%">Course Fee</td>
+                        <td width="10%"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="50%"> .NET PROGRAMMING For Advanced Learners
+                        </td>
+                        <td width="40%">€1100</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [18]) }}">Enroll</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
 
