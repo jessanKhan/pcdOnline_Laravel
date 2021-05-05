@@ -256,7 +256,7 @@
                     </div>
                     <div class="col-sm-2">
                         <h5>Categories</h5>
-                        <ul>
+                        <ul style="color: black">
                             <li><a href="">Business & Management</a></li>
                             <li><a href="">Coding & Computing</a></li>
                             <li><a href="">Applied Sci-Tech</a></li>
