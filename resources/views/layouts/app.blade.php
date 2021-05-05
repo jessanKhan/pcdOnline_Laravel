@@ -99,9 +99,9 @@
         <!-- Theme section -->
         <header class="main-header clearfix" role="header">
             <div class="logo row">
-                <a href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 35px 10px;">Learn any where <br />and be skilled
+                    <h6 style="color: white; margin: 35px 10px;">Learn any where <br />Brighter Future
                     </h6>
                 </a>
             </div>
@@ -220,7 +220,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                         document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -237,7 +237,8 @@
                             </ul>
                         </li>
                     @endguest
-                    <li class="pp"><a href="{{ route('cart') }}"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <li class="pp"><a href="{{ route('cart') }}"><i class="fa fa-shopping-cart"
+                                aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -254,7 +255,7 @@
                     <div class="col-sm-3">
                         <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3">
                         <h5>Categories</h5>
                         <ul style="color: black">
                             <li><a href="">Business & Management</a></li>
@@ -293,6 +294,8 @@
                                     class="fa fa-facebook"></i></a>
                             <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
                                     class="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
+                                    class="fa fa-instagram"></i></a>
                         </div>
                         <button type="button" class="btn btn-default">Follow us</button>
                     </div>
