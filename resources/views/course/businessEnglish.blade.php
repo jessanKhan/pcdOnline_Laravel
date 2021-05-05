@@ -12,7 +12,7 @@
 
                     <div class="col-md-6">
                         <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/b eng 1.jpg') }}" alt="" />
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -26,7 +26,7 @@
                             <p style="color: black">
                                 You will also be able to choose the
                                 format in which you learn as the course
-                                is delivered as virtually (live
+                                is delivered both Online as well as virtually (live
                                 stream interactive online classes).
                             </p>
                             <p style="color: black">
@@ -61,64 +61,8 @@
                                 <li style="font-size: 14px; ">● Read and condense large pieces of information, such as
                                     business reports.</li>
                                 <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
-                                    time, such as presentations.</li>
-
-                            </ul>
-                            </p>
-                            <p style="color: black">
-                            <h4 style="color: black">Listening: Students will learn to</h4>
-                            <ul style="color: black">
-                                <li style="font-size: 14px; ">● Understand professional language.</li>
-                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
-                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
-
-                            </ul>
-                            </p>
-                            <p style="color: black">
-                            <h4 style="color: black">Speaking: Students will learn to</h4>
-                            <ul style="color: black">
-                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
-                                    interviews and negotiating.</li>
-                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
-                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
-                            </ul>
-                            </p>
-                            <p style="color: black">
-                            <h4 style="color: black">Writing: Students will learn to</h4>
-                            <ul style="color: black">
-                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
-                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
-                                    audience.</li>
-                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
-                                    end.</li>
-                            </ul>
-                            </p>
-                            <p style="color: black">
-                            <h4 style="color: black">Students will get the opportunity to improve their overall grammar,
-                                pronunciation and vocabulary as this course also provides lessons in these areas:</h4>
-                            <ul style="color: black">
-                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
-                                    sentences.</li>
-                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
-                                    and tips to help
-                                    them sound more natural.</li>
-                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
-                                    with lessons
-                                    focused on: lexical sets, collocations and functional phrases commonly
-                                    used in business settings.</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="key-facts">
-                            <h2 style="color: black">
-                                Key Facts
-                            </h2>
-
-                            <ul>
-                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
-                                <li style="font-size: 12px; color: black;">
-                                    <p style="color: black">
-                                        This can be taken as a:
+                                    time, such as
+                                    presentations.</li>
 
                             </ul>
                             </p>
@@ -168,50 +112,64 @@
                             </ul>
                             </p>
                         </div>
+                        <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: black">
+                                    ADDITIONAL FACILITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● With our general business practice scenarios, students will have the opportunity to
+                                    practice what they have learnt, helping them to increase their fluency from day one.
+
+                                    <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                    more
+                                    natural way of speaking.
+
+                                    <br />● Students will have access to all course materials online for further study.
+
+                                    <br />● With access to support and feedback from our senior lecturers, students are
+                                    guaranteed
+                                    to make quick and steady progress.
+
+                                </p>
+                            </div>
                         <div class="key-facts">
                             <h2 style="color: black">
                                 Key Facts
                             </h2>
 
-                            <br />● Weekend Course (over 10 weeks)
-                            </p>.</li>
-                            <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
-                            </li>
-                            <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                            <ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="color: black">
+                                        This can be taken as a:
 
-                            </li>
-                            <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
-                                stream interactive online class (Virtual).
-                            </li>
-                            <li style="font-size: 12px; color: black;">
-                                <p style="color: black">
-                                    Course Timetable:
+                                        <br />● Standard Course (over 4 weeks)
 
-                                    <br />● Intensive Course (over 2 weeks)
+                                        <br />● Intensive Course (over 2 weeks)
 
-                                    <br />● Weekend Course (over 10 weeks)
-                                </p>.
-                            </li>
-                            <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
-                            </li>
-                            <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                        <br />● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
 
-                            </li>
-                            <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
-                                stream interactive online class (Virtual).
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
 
-                            </li>
-                            <li style="font-size: 12px; color: black;">
-                                <p style="color: black">
-                                    Course Timetable:
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="color: black">
+                                        Course Timetable:
 
-                                    <br />● Standard Course: Monday to Friday, morning or evening
+                                        <br />● Standard Course: Monday to Friday, morning or evening
 
-                                    <br />● Intensive Course: Monday to Friday, morning and afternoon
+                                        <br />● Intensive Course: Monday to Friday, morning and afternoon
 
-                                    <br />● Weekend Course: Weekend mornings
-                                </p>.
-                            </li>
+                                        <br />● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
                             </ul>
                         </div>
 
@@ -250,7 +208,7 @@
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
-                                    MODULES 1
+                                    MODULES (Part 1)
                                 </h2>
                                 <p style="color: black">
                                     This course aims to develop the practical skills you will need to expertly
@@ -260,7 +218,8 @@
                                 <h4>Reading: students will practise</h4>
                                 <ul>
                                     <li style="font-size: 14px; ">● understanding written language input dealing with a
-                                        variety of contemporary business topics.</li>
+                                        variety of contemporary
+                                        business topics.</li>
                                     <li style="font-size: 14px; ">● scanning quickly through texts and locating relevant
                                         details.</li>
                                     <li style="font-size: 14px; ">● skimming texts and identifying main points.</li>
@@ -338,26 +297,7 @@
 
                                 </p>
                             </div>
-                            <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
-                                    ADDITIONAL FACILITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● With our general business practice scenarios, students will have the opportunity to
-                                    practice what they have learnt, helping them to increase their fluency from day one.
-
-                                    <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
-                                    more
-                                    natural way of speaking.
-
-                                    <br />● Students will have access to all course materials online for further study.
-
-                                    <br />● With access to support and feedback from our senior lecturers, students are
-                                    guaranteed
-                                    to make quick and steady progress.
-
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -371,20 +311,50 @@
                 <thead>
                     <tr>
                         <td width="50%"> Course Name </td>
-                        <td width="40%">Course Fee</td>
+                        <td width="20%">Course Shift</td>
+                        <td width="20%">Course Fee</td>
                         <td width="10%"></td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td width="50%"> Business English For Beginners/Intermediate
+                        <td width="50%">Business English For Beginners Standard Monday to Friday
                         </td>
-                        <td width="40%">€386</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [7]) }}">Enroll</a></td>
+                        <td width="20%">Morning</td>
+                        <td width="20%">€385</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [23]) }}">Enroll</a></td>
+                    </tr>
+                    <tr>
+                        <td width="50%">Business English For Beginners Standard Monday to Friday
+                        </td>
+                        <td width="20%">Evening</td>
+                        <td width="20%">€385</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [25]) }}">Enroll</a></td>
+                    </tr>
+
+                    <tr>
+                        <td width="50%">Business English For Beginners Intensive Monday to Friday
+                        </td>
+                        <td width="20%">Morning</td>
+                        <td width="20%">€420</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [26]) }}">Enroll</a></td>
+                    </tr>
+                    <tr>
+                        <td width="50%">Business English For Beginners Intensive Monday to Friday
+                        </td>
+                        <td width="20%">Afternoon</td>
+                        <td width="20%">€420</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [28]) }}">Enroll</a></td>
+                    </tr>
+                    <tr>
+                        <td width="50%">Business English For Beginners Weekends
+                        </td>
+                        <td width="20%">Weekends Morning</td>
+                        <td width="20%">€420</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [29]) }}">Enroll</a></td>
                     </tr>
                 </tbody>
             </table>
-
         </div>
     </div>
 

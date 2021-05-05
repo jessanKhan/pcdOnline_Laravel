@@ -12,7 +12,7 @@
 
                     <div class="col-md-6">
                         <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/b eng 2.jpg') }}" alt="" />
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -112,6 +112,26 @@
                             </ul>
                             </p>
                         </div>
+                        <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: black">
+                                    ADDITIONAL FACILITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● With our general business practice scenarios, students will have the opportunity to
+                                    practice what they have learnt, helping them to increase their fluency from day one.
+
+                                    <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                    more
+                                    natural way of speaking.
+
+                                    <br />● Students will have access to all course materials online for further study.
+
+                                    <br />● With access to support and feedback from our senior lecturers, students are
+                                    guaranteed
+                                    to make quick and steady progress.
+
+                                </p>
+                            </div>
                         <div class="key-facts">
                             <h2 style="color: black">
                                 Key Facts
@@ -188,7 +208,7 @@
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
-                                    MODULES 2
+                                    MODULES (Part 2)
                                 </h2>
                                 <p style="color: black">
                                     This course aims to develop the practical skills you will need to expertly
@@ -277,26 +297,7 @@
 
                                 </p>
                             </div>
-                            <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
-                                    ADDITIONAL FACILITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● With our general business practice scenarios, students will have the opportunity to
-                                    practice what they have learnt, helping them to increase their fluency from day one.
-
-                                    <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
-                                    more
-                                    natural way of speaking.
-
-                                    <br />● Students will have access to all course materials online for further study.
-
-                                    <br />● With access to support and feedback from our senior lecturers, students are
-                                    guaranteed
-                                    to make quick and steady progress.
-
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -310,20 +311,50 @@
                 <thead>
                     <tr>
                         <td width="50%"> Course Name </td>
-                        <td width="40%">Course Fee</td>
+                        <td width="20%">Course Shift</td>
+                        <td width="20%">Course Fee</td>
                         <td width="10%"></td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td width="50%"> Business English For Advanced Learner
+                        <td width="50%">Business English For Beginners Standard Monday to Friday
                         </td>
-                        <td width="40%">€420</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [8]) }}">Enroll</a></td>
+                        <td width="20%">Morning</td>
+                        <td width="20%">€385</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [23]) }}">Enroll</a></td>
+                    </tr>
+                    <tr>
+                        <td width="50%">Business English For Beginners Standard Monday to Friday
+                        </td>
+                        <td width="20%">Evening</td>
+                        <td width="20%">€385</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [25]) }}">Enroll</a></td>
+                    </tr>
+
+                    <tr>
+                        <td width="50%">Business English For Beginners Intensive Monday to Friday
+                        </td>
+                        <td width="20%">Morning</td>
+                        <td width="20%">€420</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [26]) }}">Enroll</a></td>
+                    </tr>
+                    <tr>
+                        <td width="50%">Business English For Beginners Intensive Monday to Friday
+                        </td>
+                        <td width="20%">Afternoon</td>
+                        <td width="20%">€420</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [28]) }}">Enroll</a></td>
+                    </tr>
+                    <tr>
+                        <td width="50%">Business English For Beginners Weekends
+                        </td>
+                        <td width="20%">Weekends Morning</td>
+                        <td width="20%">€420</td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [29]) }}">Enroll</a></td>
                     </tr>
                 </tbody>
             </table>
-
         </div>
 
     </div>

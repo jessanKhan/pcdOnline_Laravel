@@ -850,7 +850,8 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="Course #1">
                         <div class="down-content">
-                            <h4>Accounting and Finance part 1</h4>
+                            <h4>Accounting and Finance 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="Author 1">
@@ -863,7 +864,8 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="Course #2">
                         <div class="down-content">
-                            <h4>Accounting and Finance part 2</h4>
+                            <h4>Accounting and Finance 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="Author 2">
@@ -876,7 +878,8 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="Course #3">
                         <div class="down-content">
-                            <h4>Digital Enterprise and Business Support part 1</h4>
+                            <h4>Digital Enterprise and Business Support 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="Author 3">
@@ -889,7 +892,8 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="Course #4">
                         <div class="down-content">
-                            <h4>Digital Enterprise and Business Support part 2</h4>
+                            <h4>Digital Enterprise and Business Support 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="Author 4">
@@ -902,7 +906,8 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>Blockchain for Everyone part 1</h4>
+                            <h4>Blockchain for Everyone 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -915,7 +920,8 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Blockchain for Everyone part 2</h4>
+                            <h4>Blockchain for Everyone 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -928,7 +934,8 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4>Machine Learning with Python for Beginners/Intermediate Learners</h4>
+                            <h4>Machine Learning with Python 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="">
@@ -941,7 +948,8 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4>Machine Learning with Python part 2</h4>
+                            <h4>Machine Learning with Python
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="">
@@ -954,7 +962,8 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4>.Net Programming for Everyone part 1</h4>
+                            <h4>.Net Programming for Everyone 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="">
@@ -967,7 +976,8 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>.Net Programming for Everyone part 2</h4>
+                            <h4>.Net Programming for Everyone 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -980,7 +990,8 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Scientific Data Handling and Programming part 1</h4>
+                            <h4>Scientific Data Handling and Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -994,7 +1005,8 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Scientific Data Handling and Programming part 2</h4>
+                            <h4>Scientific Data Handling and Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -1007,7 +1019,8 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English part 1</h4>
+                            <h4>General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-02.png" alt=""> --}}
@@ -1020,7 +1033,7 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English part 2</h4>
+                            <h4>General English <br /><p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-03.png" alt=""> --}}
@@ -1033,7 +1046,8 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English part 3</h4>
+                            <h4>General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-04.png" alt=""> --}}
@@ -1046,7 +1060,8 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>Business English part 1</h4>
+                            <h4>Business English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-05.png" alt=""> --}}
@@ -1059,7 +1074,8 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Business English part 2</h4>
+                            <h4 ><a href="{{ route('businessEnglish2') }}"> Business English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-01.png" alt=""> --}}
@@ -1204,7 +1220,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <a class="logo" href="/"><img src="{{ asset('assets/images/unnamed.jpg') }}" alt=""></a>
+                    <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 </div>
                 <div class="col-sm-3">
                     <h5>Categories</h5>

@@ -12,7 +12,7 @@
 
                     <div class="col-md-6">
                         <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/geng 2.jpg') }}" alt="" />
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -147,7 +147,7 @@
                                     The General English course has been specifically designed to help you hone
                                     and develop your English speaking skills needed for everyday life. The General
                                     English course also gets you qualified, providing you with a qualification in a
-                                    level 4, 5, or 6 NFQ Ireland equivalent, depending upon your ability. With
+                                    level 5 NFQ Ireland equivalent, depending upon your ability. With
                                     dynamic activities, expert guidance, and continuous feedback, our students are
                                     guaranteed to make quick and steady progress. Our senior lectures are highly
                                     qualified and trained, and can teach students at any level, so no matter if you
@@ -168,18 +168,15 @@
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
-                                    MODULES (Part 1)
+                                    MODULES (Part 2)
                                 </h2>
                                 <p style="color: black">
-                                <h4>Beginner level (Basic user)</h4>
+                                <h4>Intermediate level (Independent user)</h4>
                                 <ul>
-                                    <li style="font-size: 14px; ">● understanding language input related to familiar
-                                        subjects.</li>
-                                    <li style="font-size: 14px; ">● employing frequently used and everyday expressions.</li>
-                                    <li style="font-size: 14px; ">● communicating in tasks requiring a direct exchange of
-                                        information on familiar matters.</li>
-                                    <li style="font-size: 14px; ">● describing in simple terms aspects of their background,
-                                        immediateenvironment and matters in areas of immediate need.</li>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.</li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
 
                                 </ul>
                                 </p>

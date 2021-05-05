@@ -13,7 +13,7 @@
 
                     <div class="col-md-6">
                         <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/scientific data 2.jpg') }}" alt="" />
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -111,7 +111,7 @@
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
-                                    MODULES 2
+                                    MODULES (Part 2)
                                 </h2>
                                 <p style="color: black">
                                     Introduction to research methodology
