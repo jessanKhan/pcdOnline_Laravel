@@ -12,7 +12,7 @@
 
                     <div class="col-md-6">
                         <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/geng 1.jpg') }}" alt="" />
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -147,7 +147,7 @@
                                     The General English course has been specifically designed to help you hone
                                     and develop your English speaking skills needed for everyday life. The General
                                     English course also gets you qualified, providing you with a qualification in a
-                                    level 4, 5, or 6 NFQ Ireland equivalent, depending upon your ability. With
+                                    level 4 NFQ Ireland equivalent, depending upon your ability. With
                                     dynamic activities, expert guidance, and continuous feedback, our students are
                                     guaranteed to make quick and steady progress. Our senior lectures are highly
                                     qualified and trained, and can teach students at any level, so no matter if you
