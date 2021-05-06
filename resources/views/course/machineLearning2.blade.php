@@ -4,13 +4,13 @@
 
     <div class="main">
         <h2 class="form-title" style="text-align: center; color: black"><b> Machine Learning with Python</b></h2>
-        <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
+        <h3 class="form-title" style="text-align: center; color: black"><b> For Advanced Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
                 <div class="col-md-12">
                     <div class="course-banner">
-                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python2.jpg') }}" alt="" />
                     </div>
                 </div>
                 <div class="signup-content col-md-12">
