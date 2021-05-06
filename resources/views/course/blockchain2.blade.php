@@ -57,23 +57,7 @@
                                 quiz (20% ) and a project task (60% ).
                             </p>
                         </div>
-                        <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
-                                LEARNING OUTCOMES
-                            </h2>
-                            <p style="color: black">
-                                ● Gain strong foundation on Distributed Ledger Technology i.e. Blockchain.
-
-                                <br />● Advance knowledge and skills in understanding of Smart Contracts.
-
-                                <br />● Identification of application areas.
-
-                                <br />● Learn where Blockchain Technology can be applied.
-
-                                <br />● Build your path to becoming a Blockchain Developer.
-
-                            </p>
-                        </div>
+                        
                         <div class="key-facts">
                             <h2 style="color: black">
                                 Key Facts
@@ -127,7 +111,23 @@
 
                                 </ul>
                             </div>
+                            <div class="LEARNING OUTCOMES">
+                            <h2 style="color: black">
+                                LEARNING OUTCOMES
+                            </h2>
+                            <p style="color: black">
+                                ● Gain strong foundation on Distributed Ledger Technology i.e. Blockchain.
 
+                                <br />● Advance knowledge and skills in understanding of Smart Contracts.
+
+                                <br />● Identification of application areas.
+
+                                <br />● Learn where Blockchain Technology can be applied.
+
+                                <br />● Build your path to becoming a Blockchain Developer.
+
+                            </p>
+                        </div>
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">
                                     OPPORTUNITIES
