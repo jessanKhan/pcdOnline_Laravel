@@ -20,45 +20,49 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('accounting1') }}">
+                        <a class="categories-item" href="{{ route('accounting1') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/1.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">Accounting and Finance 1</h4>
+                                <h4 class="title"> Accounting and Finance 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('accounting2') }}">
+                        <a class="categories-item" href="{{ route('accounting2') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/2.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">Accounting and Finance 2</h4>
+                                <h4 class="title">Accounting and Finance 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('digital') }}">
+                        <a class="categories-item" href="{{ route('digital') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/3.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">Digital Enterprise and Business Support 1</h4>
+                                <h4 class="title">Digital Enterprise and Business Support 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('digital2') }}">
+                        <a class="categories-item" href="{{ route('digital2') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/4.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">Digital Enterprise and Business Support 2</h4>
+                                <h4 class="title">Digital Enterprise and Business Support 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
 
                             </div>
                         </a>
