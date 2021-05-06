@@ -485,7 +485,7 @@
                 <li class="has-submenu"><a href="#section4">Courses</a>
                     <ul class="sub-menu">
                         <li class="has-submenu" onclick="accounting()">
-                            <div class="row"><a href="{{ route('Business') }}">Business & Management <i
+                            <div class="row"><a href="{{ route('Business') }}" target="_blank" style="text-decoration:none">Business & Management <i
                                         class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
@@ -501,7 +501,7 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu" onclick="dotnetProgramming()">
-                            <div class="row"><a href="{{ route('computerProgramming') }}">Coding & Computing <i
+                            <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank" style="text-decoration:none">Coding & Computing <i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
 
                             {{-- <ul class="sub-menu">
@@ -522,7 +522,7 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu" onclick="applied_science()">
-                            <div class="row"><a href="{{ route('applied_science') }}">Applied Sci-Tech<i
+                            <div class="row"><a href="{{ route('applied_science') }}" target="_blank" style="text-decoration:none">Applied Sci-Tech<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="applied_science()">
@@ -533,7 +533,7 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu " onclick="language_course()">
-                            <div class="row"><a href="{{ route('language') }}">Languages & Culture<i
+                            <div class="row"><a href="{{ route('language') }}" target="_blank" style="text-decoration:none">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -850,154 +850,164 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="Course #1">
                         <div class="down-content">
-                            <h4>Accounting and Finance 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('accounting1') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Accounting and Finance 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="Author 1">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"> <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="Course #2">
                         <div class="down-content">
-                            <h4>Accounting and Finance 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('accounting2') }}" target="_blank" style="text-decoration:none; color:black;">
+                            Accounting and Finance 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="Author 2">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="Course #3">
                         <div class="down-content">
-                            <h4>Digital Enterprise and Business Support 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('digital') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Digital Enterprise and Business Support 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="Author 3">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="Course #4">
                         <div class="down-content">
-                            <h4>Digital Enterprise and Business Support 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('digital2') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Digital Enterprise and Business Support 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="Author 4">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"> <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>Blockchain for Everyone 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('blockchain') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Blockchain 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Blockchain for Everyone 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('blockchain2') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Blockchain 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"> <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4>Machine Learning with Python 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('machineLearning') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Machine Learning with Python 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4>Machine Learning with Python
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('machineLearning2') }}" target="_blank" style="text-decoration:none; color:black;"> 
+                            Machine Learning with Python
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4>.Net Programming for Everyone 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('dotnet1') }}" target="_blank" style="text-decoration:none; color:black;">
+                            .Net Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>.Net Programming for Everyone 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('dotnet2') }}" target="_blank" style="text-decoration:none; color:black;">
+                            .Net Programming  
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"> <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Scientific Data Handling and Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('applied_science1') }}" target="_blank" style="text-decoration:none; color:black;"> Scientific Data Handling and Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1005,83 +1015,84 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4>Scientific Data Handling and Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('applied_science2') }}" target="_blank" style="text-decoration:none; color:black;"> Scientific Data Handling and Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p></h4>
+                            <h4><a href="{{ route('generalenglish1') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-02.png" alt=""> --}}
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English <br /><p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('generalenglish2') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-03.png" alt=""> --}}
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4>General English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
+                            <h4><a href="{{ route('generalenglish3') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-04.png" alt=""> --}}
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4>Business English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <h4><a href="{{ route('businessEnglish') }}" target="_blank" style="text-decoration:none; color:black;"> Business English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-05.png" alt=""> --}}
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4 ><a href="{{ route('businessEnglish2') }}"> Business English 
+                            <h4 ><a href="{{ route('businessEnglish2') }}" target="_blank" style="text-decoration:none; color:black;"> Business English 
                             <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-01.png" alt=""> --}}
                             </div>
                             <div class="text-button-pay">
-                                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                                <a href="#"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>

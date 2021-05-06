@@ -20,56 +20,61 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('businessEnglish') }}">
+                        <a class="categories-item" href="{{ route('businessEnglish') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/1.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">Business English 1</h4>
+                                <h4 class="title">Business English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('businessEnglish2') }}">
+                        <a class="categories-item" href="{{ route('businessEnglish2') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/2.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">Business English 2</h4>
+                                <h4 class="title">Business English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('generalenglish1') }}">
+                        <a class="categories-item" href="{{ route('generalenglish1') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/3.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">General English 1</h4>
+                                <h4 class="title">General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('generalenglish2') }}">
+                        <a class="categories-item" href="{{ route('generalenglish2') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/4.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">General English 2</h4>
+                                <h4 class="title">General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p></h4>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('generalenglish3') }}">
+                        <a class="categories-item" href="{{ route('generalenglish3') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/5.png" alt="">
                             </div>
                             <div class="content-part">
-                                <h4 class="title">General English 3</h4>
+                                <h4 class="title">General English 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h4>
 
                             </div>
                         </a>

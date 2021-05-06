@@ -114,7 +114,7 @@
                     <li class="has-submenu"><a href="#section4">Courses</a>
                         <ul class="sub-menu">
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('Business') }}">Business & Management <i
+                                <div class="row"><a href="{{ route('Business') }}" target="_blank" style="text-decoration:none">Business & Management <i
                                             class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
@@ -131,7 +131,7 @@
                                 </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('computerProgramming') }}">Coding & Computing <i
+                                <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank" style="text-decoration:none">Coding & Computing <i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
 
                                 {{-- <ul class="sub-menu">
@@ -155,7 +155,7 @@
                                 </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('applied_science') }}">Applied Sci-Tech<i
+                                <div class="row"><a href="{{ route('applied_science') }}" target="_blank" style="text-decoration:none">Applied Sci-Tech<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
                                 {{-- <ul class="sub-menu">
                                     <li>
@@ -166,7 +166,7 @@
                                 </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('language') }}">Language & Culture<i
+                                <div class="row"><a href="{{ route('language') }}" target="_blank" style="text-decoration:none">Language & Culture<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
                                 {{-- <ul class="sub-menu">
                                     <li>

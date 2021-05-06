@@ -20,26 +20,28 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('applied_science1') }}">
+                        <a class="categories-item" href="{{ route('applied_science1') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/1.png" alt="">
                             </div>
                             <div class="content-part">
                                 <h4 class="title">
-                                    Scientific Data Handling and Programming 1 </h4>
+                                Scientific Data Handling and Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
 
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('applied_science2') }}">
+                        <a class="categories-item" href="{{ route('applied_science2') }}" target="_blank" style="text-decoration:none">
                             <div class="icon-part">
                                 <img src="assets/images/categories/icons/2.png" alt="">
                             </div>
                             <div class="content-part">
                                 <h4 class="title">
-                                    Scientific Data Handling and Programming 2
+                                Scientific Data Handling and Programming 
+                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
                                 </h4>
 
                             </div>
