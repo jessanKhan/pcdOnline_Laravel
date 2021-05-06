@@ -60,26 +60,7 @@
                                 quiz (20% ) and a project task (60% ).
                             </p>
                         </div>
-                        <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
-                                LEARNING OUTCOMES
-                            </h2>
-                            <p style="color: black">
-                                ● Major elements of the .NET Framework.
-
-                                <br />● Explain the basic concepts and terminology of object-oriented programming.
-
-
-                                <br />● Describe data-centric applications, ADO.NET architecture, and ADO.NET and SQL.
-
-                                <br />● Connect to SQL Server and other data sources
-
-                                <br />● Build several projects to help practice and test knowledge using quizzes.
-
-                                <br />● Deploy Windows and ASP.NET web applications.
-
-                            </p>
-                        </div>
+                        
                         <div class="key-facts">
                             <h2 style="color: black">
                                 Key Facts
@@ -135,7 +116,26 @@
 
                                 </ul>
                             </div>
+                            <div class="LEARNING OUTCOMES">
+                            <h2 style="color: black">
+                                LEARNING OUTCOMES
+                            </h2>
+                            <p style="color: black">
+                                ● Major elements of the .NET Framework.
 
+                                <br />● Explain the basic concepts and terminology of object-oriented programming.
+
+
+                                <br />● Describe data-centric applications, ADO.NET architecture, and ADO.NET and SQL.
+
+                                <br />● Connect to SQL Server and other data sources
+
+                                <br />● Build several projects to help practice and test knowledge using quizzes.
+
+                                <br />● Deploy Windows and ASP.NET web applications.
+
+                            </p>
+                        </div>
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">
                                     OPPORTUNITIES
@@ -143,7 +143,7 @@
                                 <p style="color: black">
                                     A number of open positions are available in different sectors such as Startup companies
                                     working on a range of web applications areas such as:
-                                    ● Top Tech Companies: Microsoft, IBM, Facebook, and
+                                    <br />● Top Tech Companies: Microsoft, IBM, Facebook, and
 
                                     <br />● Banks, Financial Services Companies, State and Local Governments, Enterprise,
                                     Cross Platform Mobile Development (iOS, Android, UWP) in general use C#.
