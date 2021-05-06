@@ -473,7 +473,7 @@
         <div class="logo row">
             <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
             <a href="/">
-                <h6 style="color: white; margin: 35px 10px;">Learn any where <br />Brighter Future</h6>
+                <h6 style="color: white; margin: 35px 10px;"><b>PCDonline</b></h6>
             </a>
         </div>
         <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -482,7 +482,7 @@
 
 
 
-                <li class="has-submenu"><a href="#section4">Courses</a>
+                <li class="has-submenu"><a href="#section4" style="text-decoration:none">Courses</a>
                     <ul class="sub-menu">
                         <li class="has-submenu" onclick="accounting()">
                             <div class="row"><a href="{{ route('Business') }}" target="_blank" style="text-decoration:none">Business & Management <i
@@ -552,17 +552,17 @@
                         <input type="text" placeholder="Find Your Courses">
                     </a>
                 </li>
-                <li class="pp"><a href="#section5">About Us</a></li>
+                <li class="pp"><a href="#section5" style="text-decoration:none">About Us</a></li>
                 @guest
                     @if (Route::has('login'))
                         <li class="pp" onclick="Loginpage()">
-                            <a href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a href="{{ route('login') }}" target="_blank" style="text-decoration:none">{{ __('Login') }}</a>
                         </li>
                     @endif
 
                     @if (Route::has('register'))
                         <li class="pp" onclick="Registerpage()">
-                            <a href="{{ route('register') }}">{{ __('Sign Up') }}</a>
+                            <a href="{{ route('register') }}" target="_blank" style="text-decoration:none">{{ __('Sign Up') }}</a>
                         </li>
                     @endif
                 @else
@@ -601,7 +601,7 @@
                         </ul>
                     </li>
                 @endguest
-                <li onclick="cartmenu()" class="pp"><a href="/cart"><i class="fa fa-shopping-cart"
+                <li onclick="cartmenu()" class="pp"><a href="/cart" target="_blank"><i class="fa fa-shopping-cart"
                             aria-hidden="true"></i></a></li>
             </ul>
         </nav>
@@ -848,7 +848,7 @@
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="assets/images/courses-01.jpg" alt="Course #1">
+                        <img src="assets/images/accounting 1.jpg" alt="Course #1">
                         <div class="down-content">
                             <h4><a href="{{ route('accounting1') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Accounting and Finance 
@@ -863,7 +863,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-02.jpg" alt="Course #2">
+                        <img src="assets/images/accounting 2.jpg" alt="Course #2">
                         <div class="down-content">
                             <h4><a href="{{ route('accounting2') }}" target="_blank" style="text-decoration:none; color:black;">
                             Accounting and Finance 
@@ -878,7 +878,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-03.jpg" alt="Course #3">
+                        <img src="assets/images/digital en 1.jpg" alt="Course #3">
                         <div class="down-content">
                             <h4><a href="{{ route('digital') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Digital Enterprise and Business Support 
@@ -893,7 +893,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-04.jpg" alt="Course #4">
+                        <img src="assets/images/digital en 2.jpg" alt="Course #4">
                         <div class="down-content">
                             <h4><a href="{{ route('digital2') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Digital Enterprise and Business Support 
@@ -908,7 +908,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-05.jpg" alt="">
+                        <img src="assets/images/blockchain 1.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('blockchain') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Blockchain 
@@ -923,7 +923,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-01.jpg" alt="">
+                        <img src="assets/images/blockchain 2.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('blockchain2') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Blockchain 
@@ -938,7 +938,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-02.jpg" alt="">
+                        <img src="assets/images/python1.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('machineLearning') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Machine Learning with Python 
@@ -953,7 +953,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-03.jpg" alt="">
+                        <img src="assets/images/python2.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('machineLearning2') }}" target="_blank" style="text-decoration:none; color:black;"> 
                             Machine Learning with Python
@@ -968,7 +968,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-04.jpg" alt="">
+                        <img src="assets/images/dotnet 1.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('dotnet1') }}" target="_blank" style="text-decoration:none; color:black;">
                             .Net Programming 
@@ -983,7 +983,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-05.jpg" alt="">
+                        <img src="assets/images/dotnet 2.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('dotnet2') }}" target="_blank" style="text-decoration:none; color:black;">
                             .Net Programming  
@@ -998,7 +998,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-01.jpg" alt="">
+                        <img src="assets/images/scientificdata1.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('applied_science1') }}" target="_blank" style="text-decoration:none; color:black;"> Scientific Data Handling and Programming 
                             <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
@@ -1013,7 +1013,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="assets/images/courses-01.jpg" alt="">
+                        <img src="assets/images/scientificdata2.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('applied_science2') }}" target="_blank" style="text-decoration:none; color:black;"> Scientific Data Handling and Programming 
                             <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
@@ -1027,7 +1027,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-02.jpg" alt="">
+                        <img src="assets/images/geng 1.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('generalenglish1') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
                             <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p></a></h4>
@@ -1041,7 +1041,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-03.jpg" alt="">
+                        <img src="assets/images/geng 2.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('generalenglish2') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
                             <br /><p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p></a></h4>
@@ -1055,7 +1055,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-04.jpg" alt="">
+                        <img src="assets/images/geng 3.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('generalenglish3') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
                             <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
@@ -1069,7 +1069,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-05.jpg" alt="">
+                        <img src="assets/images/b eng 1.jpg" alt="">
                         <div class="down-content">
                             <h4><a href="{{ route('businessEnglish') }}" target="_blank" style="text-decoration:none; color:black;"> Business English 
                             <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
@@ -1083,7 +1083,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/courses-01.jpg" alt="">
+                        <img src="assets/images/b eng 2.jpg" alt="">
                         <div class="down-content">
                             <h4 ><a href="{{ route('businessEnglish2') }}" target="_blank" style="text-decoration:none; color:black;"> Business English 
                             <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>

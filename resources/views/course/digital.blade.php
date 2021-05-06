@@ -58,21 +58,7 @@
                             </p>
 
                         </div>
-                        <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
-                                LEARNING OUTCOMES
-                            </h2>
-                            <p style="color: black">
-                                ● Skills in Core Marketing.
-
-                                <br />● Digital Media Planning & Activation.
-
-                                <br />● Reach, Engagement & Business Development.
-
-                                <br />● Business Model Design & Business Development.
-
-                            </p>
-                        </div>
+                        
                         <div class="key-facts">
                             <h2 style="color: black">
                                 Key Facts
@@ -122,7 +108,21 @@
 
                                 </ul>
                             </div>
+                            <div class="LEARNING OUTCOMES">
+                            <h2 style="color: black">
+                                LEARNING OUTCOMES
+                            </h2>
+                            <p style="color: black">
+                                ● Skills in Core Marketing.
 
+                                <br />● Digital Media Planning & Activation.
+
+                                <br />● Reach, Engagement & Business Development.
+
+                                <br />● Business Model Design & Business Development.
+
+                            </p>
+                        </div>
 
                             <div class="OPPORTUNITIES">
                                 <h2 style="color: black">

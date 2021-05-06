@@ -101,8 +101,7 @@
             <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 35px 10px;">Learn any where <br />Brighter Future
-                    </h6>
+                    <h6 style="color: white; margin: 35px 10px;"><b>PCDonline</b></h6>
                 </a>
             </div>
             <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -111,7 +110,7 @@
 
 
 
-                    <li class="has-submenu"><a href="#section4">Courses</a>
+                    <li class="has-submenu"><a href="#section4" style="text-decoration:none">Courses</a>
                         <ul class="sub-menu">
                             <li class="has-submenu">
                                 <div class="row"><a href="{{ route('Business') }}" target="_blank" style="text-decoration:none">Business & Management <i
@@ -191,13 +190,13 @@
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}" target="_blank">{{ __('Login') }}</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Sign Up') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}" target="_blank">{{ __('Sign Up') }}</a>
                             </li>
                         @endif
                     @else
@@ -237,7 +236,7 @@
                             </ul>
                         </li>
                     @endguest
-                    <li class="pp"><a href="{{ route('cart') }}"><i class="fa fa-shopping-cart"
+                    <li class="pp"><a href="{{ route('cart') }}" target="_blank"><i class="fa fa-shopping-cart"
                                 aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
