@@ -455,13 +455,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @endif
                     @endauth
                 </div>
             @endif
@@ -485,7 +485,8 @@
                 <li class="has-submenu"><a href="#section4">Courses</a>
                     <ul class="sub-menu">
                         <li class="has-submenu" onclick="accounting()">
-                            <div class="row"><a href="{{ route('Business') }}" target="_blank" style="text-decoration:none">Business & Management <i
+                            <div class="row"><a href="{{ route('Business') }}" target="_blank"
+                                    style="text-decoration:none">Business & Management <i
                                         class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
@@ -501,7 +502,8 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu" onclick="dotnetProgramming()">
-                            <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank" style="text-decoration:none">Coding & Computing <i
+                            <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank"
+                                    style="text-decoration:none">Coding & Computing <i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
 
                             {{-- <ul class="sub-menu">
@@ -522,7 +524,8 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu" onclick="applied_science()">
-                            <div class="row"><a href="{{ route('applied_science') }}" target="_blank" style="text-decoration:none">Applied Sci-Tech<i
+                            <div class="row"><a href="{{ route('applied_science') }}" target="_blank"
+                                    style="text-decoration:none">Applied Sci-Tech<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="applied_science()">
@@ -533,7 +536,8 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu " onclick="language_course()">
-                            <div class="row"><a href="{{ route('language') }}" target="_blank" style="text-decoration:none">Languages & Culture<i
+                            <div class="row"><a href="{{ route('language') }}" target="_blank"
+                                    style="text-decoration:none">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -586,7 +590,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -617,7 +621,8 @@
             <div class="caption">
                 <h2><em>PCD</em> ONLINE</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">Discover Courses</a></div>
+                    <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">Discover
+                            Courses</a></div>
                 </div>
             </div>
         </div>
@@ -850,9 +855,13 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="Course #1">
                         <div class="down-content">
-                            <h4><a href="{{ route('accounting1') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Accounting and Finance 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('accounting1') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Accounting and Finance
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="Author 1">
@@ -865,9 +874,12 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="Course #2">
                         <div class="down-content">
-                            <h4><a href="{{ route('accounting2') }}" target="_blank" style="text-decoration:none; color:black;">
-                            Accounting and Finance 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('accounting2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Accounting and Finance
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="Author 2">
@@ -880,9 +892,13 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="Course #3">
                         <div class="down-content">
-                            <h4><a href="{{ route('digital') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Digital Enterprise and Business Support 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('digital') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Digital Enterprise and Business Support
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="Author 3">
@@ -895,9 +911,12 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="Course #4">
                         <div class="down-content">
-                            <h4><a href="{{ route('digital2') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Digital Enterprise and Business Support 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('digital2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Digital Enterprise and Business Support
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="Author 4">
@@ -910,9 +929,13 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('blockchain') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Blockchain 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('blockchain') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Blockchain
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -925,9 +948,12 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('blockchain2') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Blockchain 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('blockchain2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Blockchain
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -940,9 +966,13 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('machineLearning') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Machine Learning with Python 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('machineLearning') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Machine Learning with Python
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-02.png" alt="">
@@ -955,9 +985,12 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('machineLearning2') }}" target="_blank" style="text-decoration:none; color:black;"> 
-                            Machine Learning with Python
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('machineLearning2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    Machine Learning with Python
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-03.png" alt="">
@@ -970,9 +1003,13 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('dotnet1') }}" target="_blank" style="text-decoration:none; color:black;">
-                            .Net Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('dotnet1') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    .Net Programming
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-04.png" alt="">
@@ -985,9 +1022,12 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('dotnet2') }}" target="_blank" style="text-decoration:none; color:black;">
-                            .Net Programming  
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('dotnet2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;">
+                                    .Net Programming
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-05.png" alt="">
@@ -1000,8 +1040,12 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('applied_science1') }}" target="_blank" style="text-decoration:none; color:black;"> Scientific Data Handling and Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('applied_science1') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> Scientific Data Handling and Programming
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -1015,8 +1059,11 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('applied_science2') }}" target="_blank" style="text-decoration:none; color:black;"> Scientific Data Handling and Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('applied_science2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> Scientific Data Handling and Programming
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 <img src="assets/images/author-01.png" alt="">
@@ -1029,8 +1076,11 @@
                     <div class="item">
                         <img src="assets/images/courses-02.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('generalenglish1') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p></a></h4>
+                            <h4><a href="{{ route('generalenglish1') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> General English
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-02.png" alt=""> --}}
@@ -1043,8 +1093,11 @@
                     <div class="item">
                         <img src="assets/images/courses-03.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('generalenglish2') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('generalenglish2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> General English
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Intermediate Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-03.png" alt=""> --}}
@@ -1057,8 +1110,11 @@
                     <div class="item">
                         <img src="assets/images/courses-04.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('generalenglish3') }}" target="_blank" style="text-decoration:none; color:black;"> General English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('generalenglish3') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> General English
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-04.png" alt=""> --}}
@@ -1071,8 +1127,12 @@
                     <div class="item">
                         <img src="assets/images/courses-05.jpg" alt="">
                         <div class="down-content">
-                            <h4><a href="{{ route('businessEnglish') }}" target="_blank" style="text-decoration:none; color:black;"> Business English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></a></h4>
+                            <h4><a href="{{ route('businessEnglish') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> Business English
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-05.png" alt=""> --}}
@@ -1085,8 +1145,11 @@
                     <div class="item">
                         <img src="assets/images/courses-01.jpg" alt="">
                         <div class="down-content">
-                            <h4 ><a href="{{ route('businessEnglish2') }}" target="_blank" style="text-decoration:none; color:black;"> Business English 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></a></h4>
+                            <h4><a href="{{ route('businessEnglish2') }}" target="_blank"
+                                    style="text-decoration:none; color:black;"> Business English
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </a></h4>
                             <p></p>
                             <div class="author-image">
                                 {{-- <img src="assets/images/author-01.png" alt=""> --}}
