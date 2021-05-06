@@ -8,11 +8,36 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/digital en 1.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/digital en 1.jpg') }}" alt="" />
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                Course provides an opportunity to develop practical entrepreneurial and
+                                digital skills, aimed at supporting new business development and growth
+                                within start-up and small / medium businesses.
+
+                                <br />● Global eCommerce market is expected to reach US$2.7 trillion in
+                                revenues by 2023.
+                                <br />● Global Digital Media market is expected to reach a value of US$157
+                                billion by 2023.
+
+                                <br />● Global Digital Payments market volume will grow to over US$6.7
+                                trillion by 2023.
+
+                                <br />● Projected Employment growth in digitally enabled businesses of
+                                ~30%.
+
+                                <br />● Upskilling/reskilling is a necessity for people in business sectors.
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -78,29 +103,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    Course provides an opportunity to develop practical entrepreneurial and
-                                    digital skills, aimed at supporting new business development and growth
-                                    within start-up and small / medium businesses.
 
-                                    <br />● Global eCommerce market is expected to reach US$2.7 trillion in
-                                    revenues by 2023.
-                                    <br />● Global Digital Media market is expected to reach a value of US$157
-                                    billion by 2023.
-
-                                    <br />● Global Digital Payments market volume will grow to over US$6.7
-                                    trillion by 2023.
-
-                                    <br />● Projected Employment growth in digitally enabled businesses of
-                                    ~30%.
-
-                                    <br />● Upskilling/reskilling is a necessity for people in business sectors.
-                                </p>
-                            </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
                                     MODULES (Part 1)

@@ -8,11 +8,30 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" style="margin-top: 20px"
+                            src="{{ asset('assets/images/accounting 2.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/accounting 2.jpg') }}" alt="" />
+                        {{-- <div>
+                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/accounting 2.jpg') }}"
+                                alt="" />
+                        </div> --}}
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                An integrated course focusing on financial accounting, management
+                                accounting and financial management implication for professional students,
+                                small business owners and business executives who want to sharpen
+                                their accounting and finance knowledge.
+
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -49,22 +68,22 @@
                                 Key Facts
                             </h2>
                             <ul>
-                                <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (30 hours taught, 80
+                                <li style="font-size: 14px; color: black;">● Course duration: 10 weeks (30 hours taught, 80
                                     hours self-directed
                                     learning, and 10 hours final project).</li>
-                                <li style="font-size: 12px; color: black;">Entry level: : Leaving Certificate/understanding
+                                <li style="font-size: 14px; color: black;">Entry level: : Leaving Certificate/understanding
                                     level.</li>
-                                <li style="font-size: 12px; color: black;">● Lesson duration: 1.5 hours lecture; 2 lessons
+                                <li style="font-size: 14px; color: black;">● Lesson duration: 1.5 hours lecture; 2 lessons
                                     per week.</li>
 
                                 </li>
-                                <li style="font-size: 12px; color: black;">● Size of the class: 25 in a
+                                <li style="font-size: 14px; color: black;">● Size of the class: 25 in a
                                     Virtual Classroom .
                                 </li>
-                                <li style="font-size: 12px; color: black;">● Course timetable:: Wednesday Evening and Sunday
+                                <li style="font-size: 14px; color: black;">● Course timetable:: Wednesday Evening and Sunday
                                     Morning.
                                 </li>
-                                <li style="font-size: 12px; color: black;">●Course structure: One day per week and one day
+                                <li style="font-size: 14px; color: black;">●Course structure: One day per week and one day
                                     per weekend.
                                 </li>
                             </ul>
@@ -75,18 +94,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    An integrated course focusing on financial accounting, management
-                                    accounting and financial management implication for professional students,
-                                    small business owners and business executives who want to sharpen
-                                    their accounting and finance knowledge.
 
-                                </p>
-                            </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
                                     MODULES (Part 2)

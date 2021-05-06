@@ -8,11 +8,41 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/geng 3.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/geng 3.jpg') }}" alt="" />
+
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 6 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>
+
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -108,63 +138,39 @@
                             </ul>
                             </p>
                         </div>
-                        <div class="key-facts">
-                            <h2 style="color: black">
-                                Key Facts
-                            </h2>
 
-                            <ul>
-                                <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4 weeks;
-                                    Intensive: 2 weeks; and weekend: 10 weeks).</li>
-                                <li style="font-size: 12px; color: black;">● Entry Level: Beginner.</li>
-                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
-                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
-                                    stream interactive online class (Virtual).</li>
-                                <li style="font-size: 12px; color: black;">
-                                    <p style="color: black">25 in a Virtual Classroom
-                                        Course Timetable:
-
-                                        <br />● Standard Course: Monday to Friday morning, afternoon, or evening,
-
-                                        <br />● Intensive Course: : Monday to Friday morning and afternoon
-
-                                        <br />● Weekend Course: Weekend morning
-                                    </p>.
-                                </li>
-                            </ul>
-                        </div>
 
                     </div>
                     <div class="signup-form">
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
+                            <div class="key-facts">
+                                <h2 style="color: black">
+                                    Key Facts
                                 </h2>
-                                <p style="color: black">
-                                    The General English course has been specifically designed to help you hone
-                                    and develop your English speaking skills needed for everyday life. The General
-                                    English course also gets you qualified, providing you with a qualification in a
-                                    level 6 NFQ Ireland equivalent, depending upon your ability. With
-                                    dynamic activities, expert guidance, and continuous feedback, our students are
-                                    guaranteed to make quick and steady progress. Our senior lectures are highly
-                                    qualified and trained, and can teach students at any level, so no matter if you
-                                    are a beginner, novice or advanced speaker this is the course for you. Take our
-                                    course from the classroom or anywhere (Virtual) in the world. With virtual
-                                    learning options as well as both morning and evening classes available, our
-                                    course can work to your schedule.
-                                </p>
-                                <p style="color: black">
-                                    Our classes prioritise a hands-on approach which allows you to practice and
-                                    improve your fluency from day one. We focus on the practical side with a taskbased
-                                    approach to learning. This allows you to learn up to date topics that will
-                                    apply to any real-life situation. If you want a practical English course that will:
-                                    give you a qualification, prepare you for the real world, and give you the ability to
-                                    speak both confidently and fluently, apply today and don’t delay.
-                                </p>
 
+                                <ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: Beginner.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="color: black">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br />● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br />● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br />● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>
                             </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
@@ -173,10 +179,14 @@
                                 <p style="color: black">
                                 <h4>Advanced level (Proficient user)</h4>
                                 <ul>
-                                    <li style="font-size: 14px; ">● using language flexibly for social, academic, and professional purposes.</li>
-                                    <li style="font-size: 14px; ">● understanding a wide range of demanding longer texts and recognising implicit meaning.</li>
-                                    <li style="font-size: 14px; ">● communicating fluently and spontaneously without much obvious searching for expressions.</li>
-                                    <li style="font-size: 14px; ">● producing clear, well-structured, detailed text on complex subjects.</li>
+                                    <li style="font-size: 14px; ">● using language flexibly for social, academic, and
+                                        professional purposes.</li>
+                                    <li style="font-size: 14px; ">● understanding a wide range of demanding longer texts and
+                                        recognising implicit meaning.</li>
+                                    <li style="font-size: 14px; ">● communicating fluently and spontaneously without much
+                                        obvious searching for expressions.</li>
+                                    <li style="font-size: 14px; ">● producing clear, well-structured, detailed text on
+                                        complex subjects.</li>
 
                                 </ul>
                                 </p>

@@ -7,12 +7,43 @@
         <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
-            <div class="container">
-                <div class="signup-content">
+            <div class="container ">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" style="margin-top: 20px"
+                            src="{{ asset('assets/images/b eng 1.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/b eng 1.jpg') }}" alt="" />
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                This course is aimed at students who want to excel in the English-speaking work
+                                environment. You will learn how to speak and write professional English, with a
+                                task-based approach guaranteed to increase your confidence in real world
+                                work-related situations. The syllabus has been specifically designed to help you
+                                to get the practical skills you will need to become a workplace communication
+                                expert.
+                            </p>
+                            <p style="color: black">
+                                Our senior lecturers are highly qualified and trained, and depending on your
+                                needs you can choose between taking either: intensive over two weeks,
+                                standard over four weeks or weekend over ten weeks.
+                            </p>
+                            <p style="color: black">
+                                We provide our students with dynamic activities, expert guidance and
+                                continuous feedback meaning you will increase your fluency from day one and
+                                make quick and steady progress.
+                            </p>
+                            <p style="color: black">
+                                Take our course from anywhere in the world. With virtual
+                                learning options as well as online classes are available, our
+                                course can work to your schedule.
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -113,25 +144,25 @@
                             </p>
                         </div>
                         <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
-                                    ADDITIONAL FACILITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● With our general business practice scenarios, students will have the opportunity to
-                                    practice what they have learnt, helping them to increase their fluency from day one.
+                            <h2 style="color: black">
+                                ADDITIONAL FACILITIES
+                            </h2>
+                            <p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
 
-                                    <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
-                                    more
-                                    natural way of speaking.
+                                <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
 
-                                    <br />● Students will have access to all course materials online for further study.
+                                <br />● Students will have access to all course materials online for further study.
 
-                                    <br />● With access to support and feedback from our senior lecturers, students are
-                                    guaranteed
-                                    to make quick and steady progress.
+                                <br />● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
 
-                                </p>
-                            </div>
+                            </p>
+                        </div>
                         <div class="key-facts">
                             <h2 style="color: black">
                                 Key Facts
@@ -178,34 +209,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    This course is aimed at students who want to excel in the English-speaking work
-                                    environment. You will learn how to speak and write professional English, with a
-                                    task-based approach guaranteed to increase your confidence in real world
-                                    work-related situations. The syllabus has been specifically designed to help you
-                                    to get the practical skills you will need to become a workplace communication
-                                    expert.
-                                </p>
-                                <p style="color: black">
-                                    Our senior lecturers are highly qualified and trained, and depending on your
-                                    needs you can choose between taking either: intensive over two weeks,
-                                    standard over four weeks or weekend over ten weeks.
-                                </p>
-                                <p style="color: black">
-                                    We provide our students with dynamic activities, expert guidance and
-                                    continuous feedback meaning you will increase your fluency from day one and
-                                    make quick and steady progress.
-                                </p>
-                                <p style="color: black">
-                                    Take our course from anywhere in the world. With virtual
-                                    learning options as well as online classes are available, our
-                                    course can work to your schedule.
-                                </p>
-                            </div>
+
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
                                     MODULES (Part 1)
@@ -297,7 +301,7 @@
 
                                 </p>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -322,14 +326,14 @@
                         </td>
                         <td width="20%">Morning</td>
                         <td width="20%">€385</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [23]) }}">Enroll</a></td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [42]) }}">Enroll</a></td>
                     </tr>
                     <tr>
                         <td width="50%">Business English For Beginners Standard Monday to Friday
                         </td>
                         <td width="20%">Evening</td>
                         <td width="20%">€385</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [25]) }}">Enroll</a></td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [43]) }}">Enroll</a></td>
                     </tr>
 
                     <tr>
@@ -337,21 +341,21 @@
                         </td>
                         <td width="20%">Morning</td>
                         <td width="20%">€420</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [26]) }}">Enroll</a></td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [44]) }}">Enroll</a></td>
                     </tr>
                     <tr>
                         <td width="50%">Business English For Beginners Intensive Monday to Friday
                         </td>
                         <td width="20%">Afternoon</td>
                         <td width="20%">€420</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [28]) }}">Enroll</a></td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [45]) }}">Enroll</a></td>
                     </tr>
                     <tr>
                         <td width="50%">Business English For Beginners Weekends
                         </td>
                         <td width="20%">Weekends Morning</td>
                         <td width="20%">€420</td>
-                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [29]) }}">Enroll</a></td>
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', [46]) }}">Enroll</a></td>
                     </tr>
                 </tbody>
             </table>

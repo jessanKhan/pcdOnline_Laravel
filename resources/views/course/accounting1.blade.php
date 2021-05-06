@@ -8,11 +8,26 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" style="margin-top: 20px"
+                            src="{{ asset('assets/images/accounting 1.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/accounting 1.jpg') }}" alt="" />
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                An integrated course focusing on financial accounting, management
+                                accounting and financial management implication for professional students,
+                                small business owners and business executives who want to sharpen
+                                their accounting and finance knowledge.
+
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -75,18 +90,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    An integrated course focusing on financial accounting, management
-                                    accounting and financial management implication for professional students,
-                                    small business owners and business executives who want to sharpen
-                                    their accounting and finance knowledge.
 
-                                </p>
-                            </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2 style="color: black">
                                     MODULES (Part 1)

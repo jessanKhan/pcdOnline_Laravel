@@ -8,11 +8,39 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/dotnet 1.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/dotnet 1.jpg') }}" alt="" />
+
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                Microsoft Visual C# is the most versatile, cross-platform programming
+                                language in the world. The C# can be used to write almost any type of
+                                software including console apps, back end services, mobile apps
+                                including iOS and Android, windows apps, and Websites, Enterprise
+                                software, blockchains, AI, and cloud applications.
+                            </p>
+                            <p style="color: black">
+                                The C# language is one of the fastest evolving programming languages.
+                                C# is easy to learn and adapt. C# also has strong support within the
+                                community, as well as support from the most valuable company in the
+                                world, Microsoft. According to Indeed, the average C# .Net developer
+                                earns a salary of €56,534 per year in Ireland, which shows that over time
+                                your skills will become valuable.
+                            </p>
+                            <p style="color: black">
+                                Prudence College is introducing ‘C# .Net for Everyone’ for the first time in
+                                Ireland to facilitate leaners without prior knowledge to become proficient
+                                in this customised course.
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -85,31 +113,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    Microsoft Visual C# is the most versatile, cross-platform programming
-                                    language in the world. The C# can be used to write almost any type of
-                                    software including console apps, back end services, mobile apps
-                                    including iOS and Android, windows apps, and Websites, Enterprise
-                                    software, blockchains, AI, and cloud applications.
-                                </p>
-                                <p style="color: black">
-                                    The C# language is one of the fastest evolving programming languages.
-                                    C# is easy to learn and adapt. C# also has strong support within the
-                                    community, as well as support from the most valuable company in the
-                                    world, Microsoft. According to Indeed, the average C# .Net developer
-                                    earns a salary of €56,534 per year in Ireland, which shows that over time
-                                    your skills will become valuable.
-                                </p>
-                                <p style="color: black">
-                                    Prudence College is introducing ‘C# .Net for Everyone’ for the first time in
-                                    Ireland to facilitate leaners without prior knowledge to become proficient
-                                    in this customised course.
-                                </p>
-                            </div>
+
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
                                     MODULES (Part 1)

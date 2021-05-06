@@ -471,6 +471,8 @@ a.menu-link {
     max-height: 100vh;
     object-fit: cover;
     z-index: -1;
+    object-position: top;
+    padding-top: 100px;
 }
 
 #bg-video::-webkit-media-controls {
@@ -482,7 +484,7 @@ a.menu-link {
     background-color: rgba(22, 34, 57, 0.5);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 5px;
     width: 100%;
 }
 

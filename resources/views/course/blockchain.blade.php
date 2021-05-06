@@ -8,11 +8,37 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/blockchain 1.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/blockchain 1.jpg') }}" alt="" />
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                Globally, Blockchain (BC) development skills rank in the top three job
+                                openings with predicted growth of 517% over time (Computerworld).
+                            </p>
+                            <p style="color: black">
+                                It is the next wave of technology innovation that will underpin almost
+                                every industry. This course is specifically designed for people from all
+                                sectors such as Finance, Fashion, Food, Telecom and Automation.
+                            </p>
+                            <p style="color: black">
+                                Importantly, based on the enormous technological significance and the
+                                application across sectors, IDA Ireland has been promoting ‘Ireland’ as
+                                the major EU Hub for Blockchain.
+                            </p>
+                            <p style="color: black">
+                                Prudence is for the first time in Ireland, introducing ‘Blockchain for
+                                Everyone’, to facilitate learners without prior knowledge to become
+                                proficient in this specialised industry area.
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -80,30 +106,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    Globally, Blockchain (BC) development skills rank in the top three job
-                                    openings with predicted growth of 517% over time (Computerworld).
-                                </p>
-                                <p style="color: black">
-                                    It is the next wave of technology innovation that will underpin almost
-                                    every industry. This course is specifically designed for people from all
-                                    sectors such as Finance, Fashion, Food, Telecom and Automation.
-                                </p>
-                                <p style="color: black">
-                                    Importantly, based on the enormous technological significance and the
-                                    application across sectors, IDA Ireland has been promoting ‘Ireland’ as
-                                    the major EU Hub for Blockchain.
-                                </p>
-                                <p style="color: black">
-                                    Prudence is for the first time in Ireland, introducing ‘Blockchain for
-                                    Everyone’, to facilitate learners without prior knowledge to become
-                                    proficient in this specialised industry area.
-                                </p>
-                            </div>
+
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
                                     MODULES (Part 1)

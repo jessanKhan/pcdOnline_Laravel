@@ -8,11 +8,33 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
-                            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/python1.jpg') }}" alt="" />
+
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                A well designed course for novice levelto step into the world of
+
+
+                                computing.The course mainly focuses on:
+
+                                <br />● Applying logical thinking skills to solve computational problems.
+                                <br />● Understanding object-oriented programming terminologies and conventions.
+
+                                <br />● Applying data handling and visualization techniques to work on machine learning.
+
+                                <br />● Understanding of machine learning techniques
+
+                            </p>
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -74,25 +96,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    A well designed course for novice levelto step into the world of
 
-
-                                    computing.The course mainly focuses on:
-
-                                    <br />● Applying logical thinking skills to solve computational problems.
-                                    <br />● Understanding object-oriented programming terminologies and conventions.
-
-                                    <br />● Applying data handling and visualization techniques to work on machine learning.
-
-                                    <br />● Understanding of machine learning techniques
-
-                                </p>
-                            </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
                                     MODULES 2

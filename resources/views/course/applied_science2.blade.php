@@ -9,11 +9,39 @@
         <!-- Sign up form -->
         <section class="signup">
             <div class="container">
-                <div class="signup-content">
+                <div class="col-md-12">
+                    <div>
+                        <img class="rounded mx-auto d-block" style="margin-top: 20px"
+                            src="{{ asset('assets/images/scientific data 2') }}" alt="" />
+                    </div>
+                </div>
+                <div class="signup-content col-md-12">
 
                     <div class="col-md-6">
-                        <div>
+                        {{-- <div>
                             <img class="rounded mx-auto d-block" src="{{ asset('assets/images/scientific data 2.jpg') }}" alt="" />
+                        </div> --}}
+                        <div class="overview">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p style="color: black">
+                                The ability to form research questions and test our hypothesis with data is a
+                                keystone skill in science. This course will equip students to understand data
+                                collection and analysis in the context of research. The course will be a practical
+                                guide to completing data collection and analysis for research with a “hands-on”
+                                approach.
+                            </p>
+                            <p style="color: black">
+                                Fundamental skills in R, Python, GIS, and other relevant computer programming
+                                languages will be discussed as tools to extract knowledge from the data.
+                                Statistical theory will be discussed in the context of problems students will
+                                encounter throughout the course to assure a comprehensive understanding
+                                without being overwhelmed. Students will learn the research process from
+                                beginning to end which will culminate in a short research project being
+                                completed to compile the skills learned throughout.
+                            </p>
+
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: black">
@@ -62,18 +90,18 @@
                                 Key Facts
                             </h2>
                             <ul>
-                                <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (20 hours taught, 10
+                                <li style="font-size: 14px; color: black;">● Course duration: 10 weeks (20 hours taught, 10
                                     hours assignments; 60
                                     hours self-directed learning, and 30 hours final project).</li>
-                                <li style="font-size: 12px; color: black;">Entry level: Open to all/Understanding level.
+                                <li style="font-size: 14px; color: black;">Entry level: Open to all/Understanding level.
                                 </li>
-                                <li style="font-size: 12px; color: black;">● Lesson duration: : 2 hours per lecture + 1 hour
+                                <li style="font-size: 14px; color: black;">● Lesson duration: : 2 hours per lecture + 1 hour
                                     assignment per week.</li>
 
-                                <li style="font-size: 12px; color: black;">● Size of the class: 25 in a
+                                <li style="font-size: 14px; color: black;">● Size of the class: 25 in a
                                     Virtual Classroom .
                                 </li>
-                                <li style="font-size: 12px; color: black;">● Course timetable: Tuesday Evening and Saturday
+                                <li style="font-size: 14px; color: black;">● Course timetable: Tuesday Evening and Saturday
                                     Morning.
                                 </li>
                                 <li style="font-size: 12px; color: black;">●Course structure: One day per week and one day
@@ -87,28 +115,7 @@
 
                         <div class="overview" style="color: black">
 
-                            <div class="overview">
-                                <h2>
-                                    Overview
-                                </h2>
-                                <p style="color: black">
-                                    The ability to form research questions and test our hypothesis with data is a
-                                    keystone skill in science. This course will equip students to understand data
-                                    collection and analysis in the context of research. The course will be a practical
-                                    guide to completing data collection and analysis for research with a “hands-on”
-                                    approach.
-                                </p>
-                                <p style="color: black">
-                                    Fundamental skills in R, Python, GIS, and other relevant computer programming
-                                    languages will be discussed as tools to extract knowledge from the data.
-                                    Statistical theory will be discussed in the context of problems students will
-                                    encounter throughout the course to assure a comprehensive understanding
-                                    without being overwhelmed. Students will learn the research process from
-                                    beginning to end which will culminate in a short research project being
-                                    completed to compile the skills learned throughout.
-                                </p>
 
-                            </div>
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
                                     MODULES (Part 2)
