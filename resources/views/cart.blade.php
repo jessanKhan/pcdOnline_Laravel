@@ -9,8 +9,8 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th width="40%">Course Name</th>
-                        <th width="30%">Course type</th>
+                        <th width="70%">Course Name</th>
+                        {{-- <th width="30%">Course type</th> --}}
                         {{-- <th width="15%">Class type</th> --}}
                         <th width="20%">Fee</th>
                         <th width="10%"></th>
@@ -26,8 +26,8 @@
                                 $total += $sub_total;
                             @endphp
                             <tr>
-                                <td width="40%">{{ $course['course_name'] }}</td>
-                                <td width="30%">{{ $course['course_type'] }}</td>
+                                <td width="70%">{{ $course['course_name'] }} {{ $course['course_type'] }}</td>
+                                {{-- <td width="30%"></td> --}}
                                 {{-- <td width="15%">{{ $course['course_type'] }}</td> --}}
                                 <td width="20%">{{ $course['course_fee'] }}</td>
                                 <td width="10%"><a href="{{ route('remove', [$id]) }}" class="btn btn-danger btn-sm">X</a>
@@ -74,7 +74,7 @@
 
 
                         </td>
-                        <td colspan="2"></td>
+                        {{-- <td colspan="2"></td> --}}
                         <td><strong>Total {{ $total }}</strong></td>
                     </tr>
                 </tfoot>
