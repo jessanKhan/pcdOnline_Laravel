@@ -146,7 +146,61 @@
                             </ul>
                             </p>
                         </div>
-                        <div class="ADDITIONAL FACILITIES">
+                        
+                        
+
+                    </div>
+                    <div class="signup-form">
+
+                        <div class="overview" style="color: black">
+
+
+                            <div class="MODULES" style="margin-top: px">
+                                <h2 style="color: black">
+                                    MODULES (Part 2)
+                                </h2>
+                                <p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
+
+                                <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
+
+                                <br />● Students will have access to all course materials online for further study.
+
+                                <br />● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
+
+                            </p>
+                            </div>
+
+
+                            <div class="OPPORTUNITIES">
+                                <h2 style="color: black">
+                                    OPPORTUNITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br />● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br />● Increasing chances of professional success and career advancement.
+
+                                    <br />● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br />● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br />● gaining access to resources online available only in English.
+
+                                </p>
+                            </div>
+                            <div class="ADDITIONAL FACILITIES">
                             <h2 style="color: black">
                                 ADDITIONAL FACILITIES
                             </h2>
@@ -174,7 +228,7 @@
                             <ul>
                                 <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
                                 <li style="font-size: 12px; color: black;">
-                                    <p style="color: black">
+                                    <p style="font-size: 12px; color: black;">
                                         This can be taken as a:
 
                                         <br />● Standard Course (over 4 weeks)
@@ -194,7 +248,7 @@
 
                                 </li>
                                 <li style="font-size: 12px; color: black;">
-                                    <p style="color: black">
+                                    <p style="font-size: 12px; color: black;">
                                         Course Timetable:
 
                                         <br />● Standard Course: Monday to Friday, morning or evening
@@ -206,105 +260,6 @@
                                 </li>
                             </ul>
                         </div>
-
-                    </div>
-                    <div class="signup-form">
-
-                        <div class="overview" style="color: black">
-
-
-                            <div class="MODULES" style="margin-top: px">
-                                <h2 style="color: black">
-                                    MODULES (Part 2)
-                                </h2>
-                                <p style="color: black">
-                                    This course aims to develop the practical skills you will need to expertly
-                                    communicate in the English-speaking workplace. You will learn: reading,
-                                    listening, speech and writing skills.</p>
-                                <p style="color: black">
-                                <h4>Reading: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● understanding written language input dealing with a
-                                        variety of contemporary
-                                        business topics.</li>
-                                    <li style="font-size: 14px; ">● scanning quickly through texts and locating relevant
-                                        details.</li>
-                                    <li style="font-size: 14px; ">● skimming texts and identifying main points.</li>
-
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Listening: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● understanding professional communications.</li>
-                                    <li style="font-size: 14px; ">● understanding oral language input and locating specific
-                                        information.</li>
-                                    <li style="font-size: 14px; ">● following speech and identifying the gist of ideas.</li>
-
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Speaking: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● engaging in professional conversation (giving
-                                        presentations, interviewing, negotiating).</li>
-                                    <li style="font-size: 14px; ">● using both formal and informal register appropriately.
-                                    </li>
-                                    <li style="font-size: 14px; ">● demonstrating knowledge of business vocabulary.</li>
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Writing: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● writing texts in a professional manner.</li>
-                                    <li style="font-size: 14px; ">● selecting a style appropriate to the reader in mind.
-                                    </li>
-                                    <li style="font-size: 14px; ">● putting together viewpoints in a coherent manner.</li>
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Along with integrated-skills activities, students will also be provided with
-                                    appropriate tasks focused on improving their grammar, pronunciation, and lexis. The
-                                    course includes:</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● grammar lessons with increased scaffolding and extensive
-                                        practise on the
-                                        target language.</li>
-                                    <li style="font-size: 14px; ">● lessons aimed at broadening students' vocabulary range
-                                        with with practise
-                                        on lexical sets, collocations, and functional phrases commonly used in
-                                        business settings.</li>
-                                    <li style="font-size: 14px; ">● pronunciation exercises to help learners sound as
-                                        natural as possible.</li>
-                                </ul>
-                                </p>
-                            </div>
-
-
-                            <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
-                                    OPPORTUNITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● Understanding and speaking English can empower students and help them achieve their
-                                    professional and personal goals.
-
-                                    <br />● Pursuing new career opportunities worldwide and improving job prospects.
-
-                                    <br />● Increasing chances of professional success and career advancement.
-
-                                    <br />● communicating with professionals from all over the world and succeeding in
-                                    networking.
-
-                                    <br />● Enrolling in course in your specialisation to improve both your English and your
-                                    industry
-                                    know-how.
-
-                                    <br />● gaining access to resources online available only in English.
-
-                                </p>
-                            </div>
-
                         </div>
                     </div>
                 </div>
