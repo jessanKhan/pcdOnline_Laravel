@@ -374,7 +374,7 @@ body {
 }
 
 .signup {
-    margin-bottom: 150px;
+    margin-bottom: 0px;
 }
 
 .signup-content {
@@ -395,6 +395,13 @@ body {
 
 .form-title {
     margin-bottom: 33px;
+}
+
+.course-banner img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .signup-image {

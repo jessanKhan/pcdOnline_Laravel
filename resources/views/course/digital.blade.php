@@ -9,7 +9,7 @@
         <section class="signup">
             <div class="container">
                 <div class="col-md-12">
-                    <div>
+                    <div class="course-banner">
                         <img class="rounded mx-auto d-block" src="{{ asset('assets/images/digital en 1.jpg') }}" alt="" />
                     </div>
                 </div>

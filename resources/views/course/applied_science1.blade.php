@@ -10,9 +10,9 @@
         <section class="signup">
             <div class="container">
                 <div class="col-md-12">
-                    <div>
+                    <div class="course-banner">
                         <img class="rounded mx-auto d-block" style="margin-top: 20px"
-                            src="{{ asset('assets/images/scientific data 1') }}" alt="" />
+                            src="{{ asset('assets/images/scientificdata1.jpg') }}" alt="" />
                     </div>
                 </div>
                 <div class="signup-content col-md-12">
@@ -118,7 +118,7 @@
 
                             <div class="MODULES" style="margin-top: px">
                                 <h2>
-                                    MODULES (Patr 1)
+                                    MODULES (Part 1)
                                 </h2>
                                 <p style="color: black">
                                     Introduction to research methodology
