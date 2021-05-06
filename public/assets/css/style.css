@@ -305,7 +305,7 @@ a.menu-link {
 }
 
 .main-header {
-    background-color: #22577a;
+    background-color: rgba(57, 87, 143, 0.95);
     height: 100px;
     position: fixed;
     z-index: 12;
@@ -313,7 +313,7 @@ a.menu-link {
     top: 0;
 }
 .main-header-layout {
-    background-color: #22577a;
+    background-color: rgba(57, 87, 143, 0.95);
     height: 100px;
     /* position: fixed; */
     z-index: 12;
