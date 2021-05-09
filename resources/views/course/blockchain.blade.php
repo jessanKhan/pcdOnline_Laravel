@@ -17,7 +17,7 @@
 
                     <div class="col-md-6">
                         <div class="overview">
-                            <h2>
+                            <h2 style="color: blue">
                                 Overview
                             </h2>
                             <p style="color: black">
@@ -41,12 +41,11 @@
                             </p>
                         </div>
                         <div class="COURSE FORMAT">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
-                                This course is designed for beginners (Irish N FQ level5) and interm ediate level(N FQ
-                                level6) learners only and delivered in both Online and Virtual Classroom environments.
+                                This course is designed for beginners (Irish NFQ level 5) learners only and delivered in both Online and Virtual Classroom                                            environments.
                             </p>
                             <p style="color: black">
                                 In addition to classes,course material/handouts will be accessible to students for further
@@ -58,7 +57,7 @@
                             </p>
                         </div>
                         <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 LEARNING OUTCOMES
                             </h2>
                             <p style="color: black">
@@ -75,7 +74,7 @@
                             </p>
                         </div>
                         <div class="key-facts">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 Key Facts
                             </h2>
                             <ul>
@@ -83,8 +82,7 @@
                                     hours assignments; 60
                                     hours self-directed learning, and 30 hours final project).</li>
                                 <li style="font-size: 12px; color: black;">Entry level: Open to all professionals (employees
-                                    of private and
-                                    commercial semi-state organisations) and post-leaving certificate
+                                    of private and commercial semi-state organisations) and post-leaving certificate
                                     students. Open to all.</li>
                                 <li style="font-size: 12px; color: black;">● Lesson duration: 2 hours lecture + 1 hour
                                     assignment per week.</li>
@@ -108,7 +106,7 @@
 
 
                             <div class="MODULES" style="margin-top: px">
-                                <h2>
+                                <h2 style="color: blue">
                                     MODULES (Part 1)
                                 </h2>
                                 <ul>
@@ -129,7 +127,7 @@
                             </div>
 
                             <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     OPPORTUNITIES
                                 </h2>
                                 <p style="color: black">
@@ -145,7 +143,7 @@
                                 </p>
                             </div>
                             <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello </title>
+    <title>PCD Online </title>
 
     <!-- Fonts -->
     <link href="{{ asset('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap') }}"
@@ -406,7 +406,7 @@
     <link href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900') }}"
         rel="stylesheet">
 
-    <title>PCD-Online Home</title>
+    <title>PCD Online</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('../vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -645,7 +645,9 @@
                                     practical experience in a business environment.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="">More Info.</a></div>
+                                <div class="scroll-to-section" onclick="ReadMore()>
+                                <a href="{{ route('Business') }}" target="_blank"
+                                    style="text-decoration:none">Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -662,7 +664,8 @@
                                     sees problem in the light of solutions.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="">Details</a></div>
+                                <div class="scroll-to-section"><a href="a href="{{ route('computerProgramming') }}" target="_blank"
+                                    style="text-decoration:none">Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -679,7 +682,8 @@
                                     insights at the highest level</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="">Read More</a></div>
+                                <div class="scroll-to-section"><a href="a href="{{ route('applied_science') }}" target="_blank"
+                                    style="text-decoration:none">Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -696,7 +700,8 @@
                                 </p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
                                     mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="">More Info.</a></div>
+                                <div class="scroll-to-section"><a href="a href="{{ route('language') }}" target="_blank"
+                                    style="text-decoration:none">Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -1329,13 +1334,13 @@
                 -->
                 <div class="col-sm-3">
                     <div class="social-networks">
-                        <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
+                        <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank><i
                                 class="fa fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/PrudenceCollegeDublin" class="facebook"><i
+                        <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank><i
                                 class="fa fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
+                        <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank><i
                                 class="fa fa-linkedin"></i></a>
-                        <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
+                        <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank><i
                                 class="fa fa-instagram"></i></a>
                     </div>
                     <button type="button" class="btn btn-default">Follow us</button>

@@ -17,7 +17,7 @@
 
                     <div class="col-md-6">
                         <div class="overview">
-                            <h2>
+                            <h2 style="color: blue">
                                 Overview
                             </h2>
                             <p style="color: black">
@@ -44,10 +44,11 @@
 
                         </div>
                         <div class="COURSE FORMAT">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 4) and                                   delivered Virtual Classroom environments.
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -73,8 +74,80 @@
                                 two weeks), standard (over four weeks).
                             </p>
                         </div>
-                        <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
+                        <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: blue">
+                                    ADDITIONAL FACILITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br />● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br />● Exposure to authentic language input.
+
+                                    <br />● Access to material posted on our school online platform.
+
+                                    <br />● Support and feedback from qualified teachers.
+
+
+                                </p>
+                            </div>
+                        <div class="key-facts">
+                                <h2 style="color: blue">
+                                    Key Facts
+                                </h2>
+
+                                <ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: Beginner.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br />● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br />● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br />● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                    </div>
+                    <div class="signup-form">
+
+                        <div class="overview" style="color: black">
+
+                            
+                            <div class="MODULES" style="margin-top: px">
+                                <h2 style="color: blue">
+                                    MODULES (Part 1)
+                                </h2>
+                                <p style="color: black">
+                                <h4>Beginner level (Basic user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding language input related to familiar
+                                        subjects.</li>
+                                    <li style="font-size: 14px; ">● employing frequently used and everyday expressions.</li>
+                                    <li style="font-size: 14px; ">● communicating in tasks requiring a direct exchange of
+                                        information on familiar matters.</li>
+                                    <li style="font-size: 14px; ">● describing in simple terms aspects of their background,
+                                        immediateenvironment and matters in areas of immediate need.</li>
+
+                                </ul>
+                                </p>
+                            </div>
+
+                            <div class="LEARNING OUTCOMES">
+                            <h2 style="color: blue">
                                 LEARNING OUTCOMES
                             </h2>
                             <p style="color: black">
@@ -122,8 +195,8 @@
                             </ul>
                             </p>
                             <p style="color: black">
-                            <h4 style="color: black">Students will get the opportunity to improve their overall grammar,
-                                pronunciation and vocabulary as this course also provides lessons in these areas:</h4>
+                            <h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
                             <ul style="color: black">
                                 <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
                                     sentences.</li>
@@ -137,62 +210,8 @@
                             </ul>
                             </p>
                         </div>
-
-
-                    </div>
-                    <div class="signup-form">
-
-                        <div class="overview" style="color: black">
-
-                            <div class="key-facts">
-                                <h2 style="color: black">
-                                    Key Facts
-                                </h2>
-
-                                <ul>
-                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
-                                        weeks;
-                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
-                                    <li style="font-size: 12px; color: black;">● Entry Level: Beginner.</li>
-                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
-                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
-                                        live
-                                        stream interactive online class (Virtual).</li>
-                                    <li style="font-size: 12px; color: black;">
-                                        <p style="color: black">25 in a Virtual Classroom
-                                            Course Timetable:
-
-                                            <br />● Standard Course: Monday to Friday morning, afternoon, or evening,
-
-                                            <br />● Intensive Course: : Monday to Friday morning and afternoon
-
-                                            <br />● Weekend Course: Weekend morning
-                                        </p>.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="MODULES" style="margin-top: px">
-                                <h2 style="color: black">
-                                    MODULES (Part 1)
-                                </h2>
-                                <p style="color: black">
-                                <h4>Beginner level (Basic user)</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● understanding language input related to familiar
-                                        subjects.</li>
-                                    <li style="font-size: 14px; ">● employing frequently used and everyday expressions.</li>
-                                    <li style="font-size: 14px; ">● communicating in tasks requiring a direct exchange of
-                                        information on familiar matters.</li>
-                                    <li style="font-size: 14px; ">● describing in simple terms aspects of their background,
-                                        immediateenvironment and matters in areas of immediate need.</li>
-
-                                </ul>
-                                </p>
-                            </div>
-
-
                             <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     OPPORTUNITIES
                                 </h2>
                                 <p style="color: black">
@@ -207,24 +226,7 @@
 
                                 </p>
                             </div>
-                            <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
-                                    ADDITIONAL FACILITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● Opportunity to practice language in areas of special interest.
-
-                                    <br />● Improve language skills while enjoying free time with leisure activities.
-
-                                    <br />● Exposure to authentic language input.
-
-                                    <br />● Access to material posted on our school online platform.
-
-                                    <br />● Support and feedback from qualified teachers.
-
-
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

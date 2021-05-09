@@ -18,7 +18,7 @@
 
                     <div class="col-md-6">
                         <div class="overview">
-                            <h2>
+                            <h2 style="color: blue">
                                 Overview
                             </h2>
                             <p style="color: black">
@@ -30,12 +30,12 @@
                             </p>
                         </div>
                         <div class="COURSE FORMAT">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
                                 This course is designed for students who understand accounting and finance i.e. for
-                                beginners (Irish NFQ level 5) to intermediate (NFQ level 6) level learners.
+                                beginners (Irish NFQ level 5) level learners.
                             </p>
                             <p style="color: black">
                                 The course is delivered in both Online and Virtual Classroom environments.
@@ -49,7 +49,7 @@
                             </p>
                         </div>
                         <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 LEARNING OUTCOMES
                             </h2>
                             <p style="color: black">
@@ -60,7 +60,7 @@
                             </p>
                         </div>
                         <div class="key-facts">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 Key Facts
                             </h2>
                             <ul>
@@ -92,7 +92,7 @@
 
 
                             <div class="MODULES" style="margin-top: px">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     MODULES (Part 1)
                                 </h2>
                                 <p style="color: black">
@@ -134,7 +134,7 @@
 
 
                             <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     OPPORTUNITIES
                                 </h2>
                                 <p style="color: black">
@@ -149,7 +149,7 @@
                                 </p>
                             </div>
                             <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">
