@@ -70,7 +70,7 @@
                                     learning,and
                                     10
                                     hours final project).</li>
-                                <li style="font-size: 12px; color: black;">Entry level: Open to all professionals (employees
+                                <li style="font-size: 12px; color: black;">● Entry level: Open to all professionals (employees
                                     of private and
                                     commercial semi-state organisations) andpost-leaving certificate
                                     students. Some understanding of common programming concepts, such
@@ -175,6 +175,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>

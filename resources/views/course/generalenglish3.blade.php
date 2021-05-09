@@ -25,7 +25,7 @@
                                 The General English course has been specifically designed to help you hone
                                 and develop your English speaking skills needed for everyday life. The General
                                 English course also gets you qualified, providing you with a qualification in a
-                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                level 6 NFQ Ireland equivalent, depending upon your ability. With
                                 dynamic activities, expert guidance, and continuous feedback, our students are
                                 guaranteed to make quick and steady progress. Our senior lectures are highly
                                 qualified and trained, and can teach students at any level, so no matter if you
@@ -49,7 +49,6 @@
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
-                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 6) and                                   delivered Virtual Classroom environments.
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -236,6 +235,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>

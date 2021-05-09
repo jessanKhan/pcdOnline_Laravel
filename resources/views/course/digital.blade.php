@@ -162,6 +162,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>

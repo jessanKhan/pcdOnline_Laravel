@@ -50,6 +50,7 @@
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -118,7 +119,7 @@
                                         <br />● Weekend Course (over 10 weeks)
                                     </p>.
                                 </li>
-                                <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
                                 </li>
                                 <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
 
@@ -229,7 +230,7 @@
                             </ul>
                             </p>
                             <p style="color: black">
-                            <h6 style="color: black">Students will get the opportunity to improve their overall grammar,
+                            <h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
                                 pronunciation and vocabulary as this course also provides lessons in these
                                 areas:</h6>
                             <ul style="color: black">
@@ -275,6 +276,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>

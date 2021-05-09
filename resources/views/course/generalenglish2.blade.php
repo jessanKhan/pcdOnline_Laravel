@@ -49,7 +49,6 @@
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
-                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -236,6 +235,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>

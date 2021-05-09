@@ -50,6 +50,7 @@
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 6) and                                   delivered Virtual Classroom environments.
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -118,7 +119,7 @@
                                         <br />● Weekend Course (over 10 weeks)
                                     </p>.
                                 </li>
-                                <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
+                                <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers(NFQ level 5 completed students).
                                 </li>
                                 <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
 
@@ -229,9 +230,9 @@
                             </ul>
                             </p>
                             <p style="color: black">
-                            <h4 style="color: black">Students will get the opportunity to improve their overall grammar,
+                            <h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
                                 pronunciation and vocabulary as this course also provides lessons in these
-                                areas:</h4>
+                                areas:</h5>
                             <ul style="color: black">
                                 <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
                                     sentences.</li>
@@ -245,73 +246,6 @@
                             </ul>
                             </p>
                         </div>
-<<<<<<< HEAD
-                        
-                        
-
-                    </div>
-                    <div class="signup-form">
-
-                        <div class="overview" style="color: black">
-
-
-                            <div class="MODULES" style="margin-top: px">
-                                <h2 style="color: black">
-                                    MODULES (Part 2)
-                                </h2>
-                                <p style="color: black">
-                                Self-introductions, describing your role and responsibilities
-
-                                <br />●  Meetings: Chairing, setting the agenda, controlling the conversation.
-
-                                <br />● Participating in discussions: turn-taking, listening, and taking notes.
-
-                                <br />● Being diplomatic, agreeing and disagreeing.
-
-                                <br />●  Reading and writing reports and proposals,
-
-                                <br />● Business correspondence: emails, register, style, standard phrasing.
-
-                                <br />● Business-specific vocabulary and conventions.
-                                
-                                <br />●  Telephoning: Checking and clarifying information.
-
-                                <br />● Giving presentations: introducing a topic, sequencing ideas and concluding.
-
-                                <br />● Describing processes and stages.
-                                
-                                <br />● Negotiating language and persuading.
-
-                                <br />● Social English: networking and small talk.
-                            </p>
-                            </div>
-
-
-                            <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
-                                    OPPORTUNITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● Understanding and speaking English can empower students and help them achieve their
-                                    professional and personal goals.
-
-                                    <br />● Pursuing new career opportunities worldwide and improving job prospects.
-
-                                    <br />● Increasing chances of professional success and career advancement.
-
-                                    <br />● communicating with professionals from all over the world and succeeding in
-                                    networking.
-
-                                    <br />● Enrolling in course in your specialisation to improve both your English and your
-                                    industry
-                                    know-how.
-
-                                    <br />● gaining access to resources online available only in English.
-
-                                </p>
-                            </div>
-=======
->>>>>>> a328ecd408b8621f8b9179bb207830427be74705
                             <div class="ADDITIONAL FACILITIES">
                             <h2 style="color: blue">
                                 ADDITIONAL FACILITIES
@@ -342,6 +276,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>
