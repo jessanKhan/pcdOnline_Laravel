@@ -1362,13 +1362,13 @@
                 </div>
                 <div class="col-sm-2">
                     <h5>Contact us</h5>
-                    <p>Prudence College Dublin
+                    <p style="font-size:14px">Prudence College Dublin
                         C3, ACE Enterprise Park
                         Bawnogue Road
                         Dublin 22, D22 KW40
                         IRELAND</p>
-                    <p>Ph: +353 (0)1 254 8998
-                        Email: info@prudencecollege.ie
+                    <p style="font-size:14px">Ph: +353 (0)1 254 8998
+                        </br>Email:info@prudencecollege.ie
                         Mobile/WhatsApp: +353 87 466 9418
                         Skype: Prudence College</p>
                 </div>
