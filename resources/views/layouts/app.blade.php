@@ -101,7 +101,7 @@
             <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 35px 10px;"><b>PCDonline</b></h6>
+                    <h6 style="color: white; margin: 43px 10px;"><b>PCDonline</b></h6>
                 </a>
             </div>
             <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -267,7 +267,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                         document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
