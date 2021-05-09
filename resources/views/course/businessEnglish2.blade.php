@@ -245,6 +245,70 @@
                             </ul>
                             </p>
                         </div>
+                        
+                        
+
+                    </div>
+                    <div class="signup-form">
+
+                        <div class="overview" style="color: black">
+
+
+                            <div class="MODULES" style="margin-top: px">
+                                <h2 style="color: black">
+                                    MODULES (Part 2)
+                                </h2>
+                                <p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br />●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br />● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br />● Being diplomatic, agreeing and disagreeing.
+
+                                <br />●  Reading and writing reports and proposals,
+
+                                <br />● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br />● Business-specific vocabulary and conventions.
+                                
+                                <br />●  Telephoning: Checking and clarifying information.
+
+                                <br />● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br />● Describing processes and stages.
+                                
+                                <br />● Negotiating language and persuading.
+
+                                <br />● Social English: networking and small talk.
+                            </p>
+                            </div>
+
+
+                            <div class="OPPORTUNITIES">
+                                <h2 style="color: black">
+                                    OPPORTUNITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br />● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br />● Increasing chances of professional success and career advancement.
+
+                                    <br />● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br />● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br />● gaining access to resources online available only in English.
+
+                                </p>
+                            </div>
                             <div class="ADDITIONAL FACILITIES">
                             <h2 style="color: blue">
                                 ADDITIONAL FACILITIES
