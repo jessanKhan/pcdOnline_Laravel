@@ -160,19 +160,29 @@
                                     MODULES (Part 2)
                                 </h2>
                                 <p style="color: black">
-                                ● With our general business practice scenarios, students will have the opportunity to
-                                practice what they have learnt, helping them to increase their fluency from day one.
+                                Self-introductions, describing your role and responsibilities
 
-                                <br />● Exposure to correct and authentic pronunciation will allow students to pick up a
-                                more
-                                natural way of speaking.
+                                <br />●  Meetings: Chairing, setting the agenda, controlling the conversation.
 
-                                <br />● Students will have access to all course materials online for further study.
+                                <br />● Participating in discussions: turn-taking, listening, and taking notes.
 
-                                <br />● With access to support and feedback from our senior lecturers, students are
-                                guaranteed
-                                to make quick and steady progress.
+                                <br />● Being diplomatic, agreeing and disagreeing.
 
+                                <br />●  Reading and writing reports and proposals,
+
+                                <br />● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br />● Business-specific vocabulary and conventions.
+                                
+                                <br />●  Telephoning: Checking and clarifying information.
+
+                                <br />● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br />● Describing processes and stages.
+                                
+                                <br />● Negotiating language and persuading.
+
+                                <br />● Social English: networking and small talk.
                             </p>
                             </div>
 
