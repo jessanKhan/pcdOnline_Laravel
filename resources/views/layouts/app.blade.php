@@ -16,7 +16,74 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<style>
+.dropbtn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url("searchicon.png");
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 20px;
+    border: 3px solid #e7b200;
+    /* border-bottom: 1px solid #e7b200; */
+}
+
+#myInput:focus {
+    outline: none;
+    /* border-radius: 30px; */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none !important;
+    position: absolute !important;
+    background-color: #f6f6f6 !important;
+    min-width: 230px !important;
+    overflow: auto !important;
+    border: 1px solid #ddd !important;
+    z-index: 1 !important;
+    top: 60px;
+    max-height: 300px;
+    min-height: 0px;
+}
+
+.dropdown-content a {
+    color: black !important;
+    padding: 12px 16px !important;
+    text-decoration: none !important;
+    display: block;
+    /* height: 50px; */
+    line-height: 13px;
+    /* margin-bottom: 13px; */
+    /* text-transform: capitalize !important; */
+}
+
+.dropdown a:hover {
+    background-color: #ddd !important;
+}
+
+.show {
+    display: block;
+}
+</style>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <meta name="description" content="">
