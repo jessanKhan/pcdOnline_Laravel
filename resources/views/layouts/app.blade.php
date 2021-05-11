@@ -299,10 +299,10 @@
         <footer id="myFooter" style="padding-top: 30px">
             <div class="container" style="background-color: #0c1228">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Categories</h5>
                         <ul style="color: black">
                             <li><a href="">Business & Management</a></li>
@@ -311,7 +311,7 @@
                             <li><a href="">Languages & Culture</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Contact us</h5>
                     <p style="font-size:14px; color: white;">Prudence College Dublin
                         C3, ACE Enterprise Park
@@ -333,7 +333,7 @@
                     </ul>
                 </div>
                 -->
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="social-networks">
                             <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
                                     class="fa fa-twitter"></i></a>

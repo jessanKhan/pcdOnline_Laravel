@@ -537,7 +537,7 @@
                         </li>
                         <li class="has-submenu " onclick="language_course()">
                             <div class="row"><a href="{{ route('language') }}" target="_blank"
-                                    style="text-decoration:none">Languages & Culture<i
+                                        style="text-decoration:none">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -1221,14 +1221,16 @@
     </section>
 
     <section class="enroll" data-section="section4">
-        <div class="col-md-12">
-            <h2><b> Enroll Now and Begin Your New Career</b></h2>
-            <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
-            <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
-                class="btn btn-default"><b>
-                    ENROLL NOW</b></a>
+    <div class="container pb-3">
+        <div class="row">
+            <div class="col-md-12">
+                <h2><b> Enroll Now and Begin Your New Career</b></h2>
+                <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
+                <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
+                    class="btn btn-default"><b>ENROLL NOW</b></a>
+            </div>
         </div>
-        </div>
+    </div>
     </section>
 
     <!-- Temporary  -->
@@ -1267,20 +1269,27 @@
         </div>
     </section>
     <section class="lead" data-section="section3">
-        <div class="col-md-12">
-            <h2 style="
-            margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+    <div class="container pb-3">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 style="
+                margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+            </div>
         </div>
+    </div>
     </section>
 
     <section class="cpdcourses" data-section="section7">
-        <div class="col-md-6">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="left-content">
             <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
                 alt="" />
-        </div>
+            </div></div>
 
-        <div class="col-md-6 ">
-            <div class="left-content">
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="content">
                 <h4><b> CPD Accreditation</b></h4>
                 <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
                     distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
@@ -1293,6 +1302,8 @@
 
             </div>
         </div>
+        </div>
+    </div>
 
     </section>
 
@@ -1348,10 +1359,10 @@
     <footer id="myFooter">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Categories</h5>
                     <ul>
                         <li><a href="">Business & Management</a></li>
@@ -1360,7 +1371,7 @@
                         <li><a href="">Languages & Culture</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Contact us</h5>
                     <p style="font-size:14px">Prudence College Dublin
                         C3, ACE Enterprise Park
@@ -1382,7 +1393,7 @@
                     </ul>
                 </div>
                 -->
-                <div class="col-sm-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="social-networks">
                         <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
                                 class=" fa fa-twitter"></i></a>

@@ -1766,7 +1766,28 @@ section.contact form button {
     color: white;
     text-align: center;
 }
-
+@media screen and (max-width:767px) {
+    .enroll {
+        width: 100%;
+        height: auto;
+        background-color: #f5a425;
+        color: white;
+        text-align: center;
+    }
+    .enroll h2 {
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width: 1070px) and (min-width: 750px){
+    .enroll {
+        width: 100%;
+        height: auto;
+        background-color: #f5a425;
+        color: white;
+        text-align: center;
+    }
+}
 .enroll h2 {
     font-size: 45px;
 }
@@ -1793,6 +1814,13 @@ section.contact form button {
     width: 100%;
     height: 780px;
     background-color: white;
+}
+@media screen and (max-width:767px) {
+    .rs-categories {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
 }
 .rs-categories h2 {
     color: #0a2d72;
@@ -1840,6 +1868,7 @@ section.contact form button {
     color: #ffffff;
     border-color: #21a7d0;
 }
+
 .rs-categories.style1 .categories-item:hover .icon-part {
     background: #ffffff;
 }
@@ -2187,9 +2216,19 @@ section.contact form button {
     color: white;
     text-align: center;
 }
-.lead h2 {
-    padding: 20 px;
+@media screen and (max-width:780px){
+    .lead {
+        width: 100%;
+        height: auto;
+        background-color: #062872;
+        color: white;
+        text-align: center;
+    }
+    .lead h2{
+        text-align: center;
+    }
 }
+
 /* Footer 
 
 footer {
@@ -2375,5 +2414,35 @@ footer p a:hover {
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 0.25px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cpdcourses {
+        background-color: white;
+        color: #0c1228;
+        padding-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .cpdcourses .left-content {
+        margin-bottom: 45px;
+        text-align: center;
+      }
+    .cpdcourses .content {
+        margin-bottom: 45px;
+        text-align: center;
+      }
+      .cpdcourses img{
+        width: 100%;
+      }
+
+    #map img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1070px) and (min-width: 750px)  {
+        #map img {
+        width: 100%;
     }
 }
