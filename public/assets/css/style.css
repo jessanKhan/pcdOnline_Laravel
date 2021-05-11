@@ -331,6 +331,13 @@ a.menu-link {
         font-weight: 700;
         line-height: 1.5;
     }
+    nav[role="navigation"] li input {
+       margin-left: 190px;
+       border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+       padding: 15px 0px;
+       display: block;
+       line-height: 1.5;
+    }
     nav[role="navigation"] li:hover a,
     nav[role="navigation"] li.active a {
         color: #f5a425;
@@ -346,6 +353,9 @@ a.menu-link {
             margin: 0 0.25em;
         }
         nav[role="navigation"] li a {
+            border: 0;
+        }
+        nav[role="navigation"] li input {
             border: 0;
         }
     }
