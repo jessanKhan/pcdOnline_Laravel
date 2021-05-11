@@ -455,13 +455,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @endif
                     @endauth
                 </div>
             @endif
@@ -537,7 +537,7 @@
                         </li>
                         <li class="has-submenu " onclick="language_course()">
                             <div class="row"><a href="{{ route('language') }}" target="_blank"
-                                        style="text-decoration:none">Languages & Culture<i
+                                    style="text-decoration:none">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -551,7 +551,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="input">
+                <li class="input search-bar">
 
                     <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
                         onkeyup="filterFunction()">
@@ -637,7 +637,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -1221,16 +1221,16 @@
     </section>
 
     <section class="enroll" data-section="section4">
-    <div class="container pb-3">
-        <div class="row">
-            <div class="col-md-12">
-                <h2><b> Enroll Now and Begin Your New Career</b></h2>
-                <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
-                <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
-                    class="btn btn-default"><b>ENROLL NOW</b></a>
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><b> Enroll Now and Begin Your New Career</b></h2>
+                    <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
+                    <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
+                        class="btn btn-default"><b>ENROLL NOW</b></a>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- Temporary  -->
@@ -1269,40 +1269,41 @@
         </div>
     </section>
     <section class="lead" data-section="section3">
-    <div class="container pb-3">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <section class="cpdcourses" data-section="section7">
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="left-content">
-            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
-                alt="" />
-            </div></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="left-content">
+                        <img class="rounded mx-auto d-block"
+                            src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
+                    </div>
+                </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 ">
-            <div class="content">
-                <h4><b> CPD Accreditation</b></h4>
-                <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
-                    distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="content">
+                        <h4><b> CPD Accreditation</b></h4>
+                        <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
+                            distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
 
-                <p> The vision of PCD is to get recognition as an academic center of excellence in higher
-                    education
-                    in Europe by attracting brilliant and deserving students from home and abroad; and providing
-                    advanced education and training to satisfy present and the future global needs.
-                </p>
+                        <p> The vision of PCD is to get recognition as an academic center of excellence in higher
+                            education
+                            in Europe by attracting brilliant and deserving students from home and abroad; and providing
+                            advanced education and training to satisfy present and the future global needs.
+                        </p>
 
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
 
     </section>
 
