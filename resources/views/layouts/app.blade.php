@@ -334,7 +334,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -366,10 +366,10 @@
         <footer id="myFooter" style="padding-top: 30px">
             <div class="container" style="background-color: #0c1228">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Categories</h5>
                         <ul style="color: black">
                             <li><a href="">Business & Management</a></li>
@@ -378,7 +378,7 @@
                             <li><a href="">Languages & Culture</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Contact us</h5>
                         <p style="font-size:14px; color: white;">Prudence College Dublin
                             C3, ACE Enterprise Park
@@ -400,7 +400,7 @@
                     </ul>
                 </div>
                 -->
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="social-networks">
                             <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
                                     class="fa fa-twitter"></i></a>
@@ -467,6 +467,68 @@
         <script src="{{ asset('assets/js/contact.form.js') }}"></script>
         <!-- main js -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
+        <script>
+            $(document).ready(function() {
+                $('.dropdown-submenu a.test').on("click", function(e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+
+        </script>
+        <script>
+            //according to loftblog tut
+            $('.nav li:first').addClass('active');
+
+            var showSection = function showSection(section, isAnimate) {
+                var
+                    direction = section.replace(/#/, ''),
+                    reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+                    reqSectionPos = reqSection.offset().top - 0;
+
+                if (isAnimate) {
+                    $('body, html').animate({
+                            scrollTop: reqSectionPos
+                        },
+                        800);
+                } else {
+                    $('body, html').scrollTop(reqSectionPos);
+                }
+
+            };
+
+            var checkSection = function checkSection() {
+                $('.section').each(function() {
+                    var
+                        $this = $(this),
+                        topEdge = $this.offset().top - 80,
+                        bottomEdge = topEdge + $this.height(),
+                        wScroll = $(window).scrollTop();
+                    if (topEdge < wScroll && bottomEdge > wScroll) {
+                        var
+                            currentId = $this.data('section'),
+                            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+                        reqLink.closest('li').addClass('active').
+                        siblings().removeClass('active');
+                    }
+                });
+            };
+
+            $('.main-menu, .scroll-to-section').on('click', 'a', function(e) {
+                if ($(e.target).hasClass('external')) {
+                    return;
+                }
+                e.preventDefault();
+                $('#menu').removeClass('active');
+                showSection($(this).attr('href'), true);
+            });
+
+            $(window).scroll(function() {
+                checkSection();
+            });
+
+        </script>
         <script>
             /* When the user clicks on the button,
             toggle between hiding and showing the dropdown content */

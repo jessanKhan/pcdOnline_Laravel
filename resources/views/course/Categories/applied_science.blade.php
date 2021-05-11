@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="main">
-        <h2 class="form-title">Applied Sciences and Technology</h2>
+        <h2 class="form-title" style="text-align: center; color: black;"><b> Applied Sciences and Technology</b></h2>
 
 
         <!-- Categories Section Start -->
@@ -27,7 +27,7 @@
                             <div class="content-part">
                                 <h4 class="title">
                                 Scientific Data Handling and Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
+                            <br /><p style="font-size: 12px; color: black;" onmouseover="this.style.color='white'"><b> For Beginners/<br />Intermediate Learners</b></p></h4>
 
 
                             </div>

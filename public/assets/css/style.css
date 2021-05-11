@@ -331,6 +331,14 @@ a.menu-link {
         font-weight: 700;
         line-height: 1.5;
     }
+    nav[role="navigation"] li input {
+        margin: auto;
+        border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+        padding: 15px 0px;
+        display: block;
+        line-height: 1.5;
+        padding: 20px 0px;
+    }
     nav[role="navigation"] li:hover a,
     nav[role="navigation"] li.active a {
         color: #f5a425;
@@ -346,6 +354,9 @@ a.menu-link {
             margin: 0 0.25em;
         }
         nav[role="navigation"] li a {
+            border: 0;
+        }
+        nav[role="navigation"] li input {
             border: 0;
         }
     }
@@ -368,6 +379,7 @@ a.menu-link {
 
     .main-menu li {
         margin-left: 5px !important;
+        border-bottom: 1px solid rgba(250, 250, 250, 0.25);
     }
 }
 
@@ -1766,7 +1778,27 @@ section.contact form button {
     color: white;
     text-align: center;
 }
-
+@media screen and (max-width: 767px) {
+    .enroll {
+        width: 100%;
+        height: auto;
+        background-color: #f5a425;
+        color: white;
+        text-align: center;
+    }
+    .enroll h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1070px) and (min-width: 750px) {
+    .enroll {
+        width: 100%;
+        height: auto;
+        background-color: #f5a425;
+        color: white;
+        text-align: center;
+    }
+}
 .enroll h2 {
     font-size: 45px;
 }
@@ -1793,6 +1825,13 @@ section.contact form button {
     width: 100%;
     height: 780px;
     background-color: white;
+}
+@media screen and (max-width: 767px) {
+    .rs-categories {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
 }
 .rs-categories h2 {
     color: #0a2d72;
@@ -1840,6 +1879,7 @@ section.contact form button {
     color: #ffffff;
     border-color: #21a7d0;
 }
+
 .rs-categories.style1 .categories-item:hover .icon-part {
     background: #ffffff;
 }
@@ -2188,8 +2228,22 @@ section.contact form button {
     text-align: center;
 }
 .lead h2 {
-    padding: 20 px;
+    margin: 60px;
 }
+@media screen and (max-width: 780px) {
+    .lead {
+        width: 100%;
+        height: auto;
+        background-color: #062872;
+        color: white;
+        text-align: center;
+    }
+    .lead h2 {
+        text-align: center;
+        margin: 0px;
+    }
+}
+
 /* Footer 
 
 footer {
@@ -2348,6 +2402,10 @@ footer p a:hover {
         display: block;
         line-height: 1;
         margin-left: 0 !important;
+        /* padding: 5px 5px; */
+    }
+    .search-bar {
+        padding: 5px 5px;
     }
 
     .main-menu li .sub-menu {
@@ -2375,5 +2433,35 @@ footer p a:hover {
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 0.25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cpdcourses {
+        background-color: white;
+        color: #0c1228;
+        padding-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .cpdcourses .left-content {
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .cpdcourses .content {
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .cpdcourses img {
+        width: 100%;
+    }
+
+    #map img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1070px) and (min-width: 750px) {
+    #map img {
+        width: 100%;
     }
 }
