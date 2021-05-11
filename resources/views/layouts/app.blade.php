@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>PCD-Online </title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,7 +24,7 @@
     <link href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900') }}"
         rel="stylesheet">
 
-    <title>PCD-Online </title>
+
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('../vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -101,7 +101,7 @@
             <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 35px 10px;"><b>PCDonline</b></h6>
+                    <h6 style="color: white; margin: 43px 10px;"><b>PCDonline</b></h6>
                 </a>
             </div>
             <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -113,7 +113,8 @@
                     <li class="has-submenu"><a href="#section4" style="text-decoration:none">Courses</a>
                         <ul class="sub-menu">
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('Business') }}" target="_blank" style="text-decoration:none">Business & Management <i
+                                <div class="row"><a href="{{ route('Business') }}" target="_blank"
+                                        style="text-decoration:none">Business & Management <i
                                             class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
@@ -130,7 +131,8 @@
                                 </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank" style="text-decoration:none">Coding & Computing <i
+                                <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank"
+                                        style="text-decoration:none">Coding & Computing <i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
 
                                 {{-- <ul class="sub-menu">
@@ -154,7 +156,8 @@
                                 </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('applied_science') }}" target="_blank" style="text-decoration:none">Applied Sci-Tech<i
+                                <div class="row"><a href="{{ route('applied_science') }}" target="_blank"
+                                        style="text-decoration:none">Applied Sci-Tech<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
                                 {{-- <ul class="sub-menu">
                                     <li>
@@ -165,7 +168,8 @@
                                 </ul> --}}
                             </li>
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('language') }}" target="_blank" style="text-decoration:none">Language & Culture<i
+                                <div class="row"><a href="{{ route('language') }}" target="_blank"
+                                        style="text-decoration:none">Language & Culture<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
                                 {{-- <ul class="sub-menu">
                                     <li>
@@ -183,7 +187,50 @@
                     </li>
                     <li class="input">
 
-                        <input type="text" placeholder="Find Your Courses">
+                        <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
+                            onkeyup="filterFunction()">
+                        <div id="myDropdown" class="dropdown-content">
+
+                            <a href="#about" onclick="redirectTo('accounting1')">Accounting and
+                                Finance For
+                                Beginners/Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('accounting2')">Accounting and Finance
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('digital')">Digital Enterprise and Business Support
+                                For Beginners/Intermediate Learners
+                            </a>
+                            <a href="#about" onclick="redirectTo('digital2')">Digital Enterprise and Business Support
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('machineLearning')">Machine Learning with Python
+                                For Beginners/Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('machineLearning2')">Machine Learning with Python
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('dotnet1')">.NET PROGRAMMING
+                                For Beginners/Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('dotnet2')">.NET PROGRAMMING
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('blockchain')">Blockchain for Everyone
+                                For Beginners/Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('blockchain2')">Blockchain for Everyone
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('applied_science1')">Scientific Data Handling and
+                                Programming
+                                For Beginners/Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('applied_science2')">Scientific Data Handling and
+                                Programming
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('businessEnglish')">Business English
+                                For Beginners/Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('businessEnglish2')">Business English
+                                For Advanced Learners</a>
+                            <a href="#about" onclick="redirectTo('generalenglish1')">General English
+                                For Beginners</a>
+                            <a href="#about" onclick="redirectTo('generalenglish2')">General English
+                                For Intermediate Learners</a>
+                            <a href="#about" onclick="redirectTo('generalenglish3')">General English
+                                For Advanced Learners</a>
+
+                        </div>
 
                     </li>
                     {{-- <li class="pp"><a href="#section5">About Us</a></li> --}}
@@ -196,7 +243,8 @@
 
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}" target="_blank">{{ __('Sign Up') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}"
+                                    target="_blank">{{ __('Sign Up') }}</a>
                             </li>
                         @endif
                     @else
@@ -219,7 +267,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                         document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -265,13 +313,13 @@
                     </div>
                     <div class="col-sm-2">
                         <h5>Contact us</h5>
-                        <p style="color: white">Prudence College Dublin
+                        <p style="font-size:14px; color: white;">Prudence College Dublin
                             C3, ACE Enterprise Park
                             Bawnogue Road
                             Dublin 22, D22 KW40
                             IRELAND</p>
-                        <p style="color: white">Ph: +353 (0)1 254 8998
-                            Email: info@prudencecollege.ie
+                        <p style="font-size:14px; color: white;">Ph: +353 (0)1 254 8998
+                            </br>Email:info@prudencecollege.ie
                             Mobile/WhatsApp: +353 87 466 9418
                             Skype: Prudence College</p>
                     </div>
@@ -352,6 +400,42 @@
         <script src="{{ asset('assets/js/contact.form.js') }}"></script>
         <!-- main js -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
+        <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            // function myFunction() {
+
+            // }
+
+            function filterFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("myInput");
+                console.log(input.value)
+                filter = input.value.toUpperCase();
+                div = document.getElementById("myDropdown");
+                a = div.getElementsByTagName("a");
+                console.log(a)
+                for (i = 0; i < a.length; i++) {
+                    txtValue = a[i].textContent || a[i].innerText;
+                    console.log(txtValue)
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        a[i].style.display = "";
+                        console.log(a[i]);
+                    } else {
+                        a[i].style.display = "none";
+                        console.log("aaaaaaaaaaaaaaaaaa", a[i]);
+                    }
+                }
+            }
+
+        </script>
+        <script>
+            function redirectTo(routename) {
+                window.location = `/${routename}`
+            }
+
+        </script>
     </body>
 
 </html>

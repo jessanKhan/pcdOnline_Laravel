@@ -18,8 +18,8 @@
 
                     <div class="col-md-6">
                         <div class="overview">
-                            <h2>
-                                Overview
+                            <h2 style="color: blue">
+                                Overview 
                             </h2>
                             <p style="color: black">
                                 This course is aimed at students who want to excel in the English-speaking work
@@ -46,10 +46,11 @@
                             </p>
                         </div>
                         <div class="COURSE FORMAT">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
                                 Students will have the option to join a
                                 class based on their own ability
                                 (intermediate or advanced).
@@ -76,8 +77,110 @@
                                 or weekend (over ten weeks).
                             </p>
                         </div>
-                        <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
+                        <div class="OPPORTUNITIES">
+                                <h2 style="color: blue">
+                                    OPPORTUNITIES
+                                </h2>
+                                <p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br />● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br />● Increasing chances of professional success and career advancement.
+
+                                    <br />● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br />● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br />● gaining access to resources online available only in English.
+
+                                </p>
+                            </div>
+                        
+                        <div class="key-facts">
+                            <h2 style="color: blue">
+                                Key Facts
+                            </h2>
+
+                            <ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        This can be taken as a:
+
+                                        <br />● Standard Course (over 4 weeks)
+
+                                        <br />● Intensive Course (over 2 weeks)
+
+                                        <br />● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        Course Timetable:
+
+                                        <br />● Standard Course: Monday to Friday, morning or evening
+
+                                        <br />● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br />● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="signup-form">
+
+                        <div class="overview" style="color: black">
+
+
+                            <div class="MODULES" style="margin-top: px">
+                                <h2 style="color: blue">
+                                    MODULES (Part 1)
+                                </h2>
+                                <p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br />●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br />● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br />● Being diplomatic, agreeing and disagreeing.
+
+                                <br />●  Reading and writing reports and proposals,
+
+                                <br />● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br />● Business-specific vocabulary and conventions.
+                                
+                                <br />●  Telephoning: Checking and clarifying information.
+
+                                <br />● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br />● Describing processes and stages.
+                                
+                                <br />● Negotiating language and persuading.
+
+                                <br />● Social English: networking and small talk.
+                            </p>
+                            </div>
+
+                            <div class="LEARNING OUTCOMES">
+                            <h2 style="color: blue">
                                 LEARNING OUTCOMES
                             </h2>
                             <p style="color: black">
@@ -127,9 +230,9 @@
                             </ul>
                             </p>
                             <p style="color: black">
-                            <h4 style="color: black">Students will get the opportunity to improve their overall grammar,
+                            <h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
                                 pronunciation and vocabulary as this course also provides lessons in these
-                                areas:</h4>
+                                areas:</h6>
                             <ul style="color: black">
                                 <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
                                     sentences.</li>
@@ -143,8 +246,8 @@
                             </ul>
                             </p>
                         </div>
-                        <div class="ADDITIONAL FACILITIES">
-                            <h2 style="color: black">
+                            <div class="ADDITIONAL FACILITIES">
+                            <h2 style="color: blue">
                                 ADDITIONAL FACILITIES
                             </h2>
                             <p style="color: black">
@@ -163,144 +266,6 @@
 
                             </p>
                         </div>
-                        <div class="key-facts">
-                            <h2 style="color: black">
-                                Key Facts
-                            </h2>
-
-                            <ul>
-                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
-                                <li style="font-size: 12px; color: black;">
-                                    <p style="color: black">
-                                        This can be taken as a:
-
-                                        <br />● Standard Course (over 4 weeks)
-
-                                        <br />● Intensive Course (over 2 weeks)
-
-                                        <br />● Weekend Course (over 10 weeks)
-                                    </p>.
-                                </li>
-                                <li style="font-size: 12px; color: black;">● Entry Level: Intermediate or Advanced Speakers.
-                                </li>
-                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
-
-                                </li>
-                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
-                                    stream interactive online class (Virtual).
-
-                                </li>
-                                <li style="font-size: 12px; color: black;">
-                                    <p style="color: black">
-                                        Course Timetable:
-
-                                        <br />● Standard Course: Monday to Friday, morning or evening
-
-                                        <br />● Intensive Course: Monday to Friday, morning and afternoon
-
-                                        <br />● Weekend Course: Weekend mornings
-                                    </p>.
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="signup-form">
-
-                        <div class="overview" style="color: black">
-
-
-                            <div class="MODULES" style="margin-top: px">
-                                <h2 style="color: black">
-                                    MODULES (Part 1)
-                                </h2>
-                                <p style="color: black">
-                                    This course aims to develop the practical skills you will need to expertly
-                                    communicate in the English-speaking workplace. You will learn: reading,
-                                    listening, speech and writing skills.</p>
-                                <p style="color: black">
-                                <h4>Reading: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● understanding written language input dealing with a
-                                        variety of contemporary
-                                        business topics.</li>
-                                    <li style="font-size: 14px; ">● scanning quickly through texts and locating relevant
-                                        details.</li>
-                                    <li style="font-size: 14px; ">● skimming texts and identifying main points.</li>
-
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Listening: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● understanding professional communications.</li>
-                                    <li style="font-size: 14px; ">● understanding oral language input and locating specific
-                                        information.</li>
-                                    <li style="font-size: 14px; ">● following speech and identifying the gist of ideas.</li>
-
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Speaking: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● engaging in professional conversation (giving
-                                        presentations, interviewing, negotiating).</li>
-                                    <li style="font-size: 14px; ">● using both formal and informal register appropriately.
-                                    </li>
-                                    <li style="font-size: 14px; ">● demonstrating knowledge of business vocabulary.</li>
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Writing: students will practise</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● writing texts in a professional manner.</li>
-                                    <li style="font-size: 14px; ">● selecting a style appropriate to the reader in mind.
-                                    </li>
-                                    <li style="font-size: 14px; ">● putting together viewpoints in a coherent manner.</li>
-                                </ul>
-                                </p>
-                                <p style="color: black">
-                                <h4>Along with integrated-skills activities, students will also be provided with
-                                    appropriate tasks focused on improving their grammar, pronunciation, and lexis. The
-                                    course includes:</h4>
-                                <ul>
-                                    <li style="font-size: 14px; ">● grammar lessons with increased scaffolding and extensive
-                                        practise on the
-                                        target language.</li>
-                                    <li style="font-size: 14px; ">● lessons aimed at broadening students' vocabulary range
-                                        with with practise
-                                        on lexical sets, collocations, and functional phrases commonly used in
-                                        business settings.</li>
-                                    <li style="font-size: 14px; ">● pronunciation exercises to help learners sound as
-                                        natural as possible.</li>
-                                </ul>
-                                </p>
-                            </div>
-
-
-                            <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
-                                    OPPORTUNITIES
-                                </h2>
-                                <p style="color: black">
-                                    ● Understanding and speaking English can empower students and help them achieve their
-                                    professional and personal goals.
-
-                                    <br />● Pursuing new career opportunities worldwide and improving job prospects.
-
-                                    <br />● Increasing chances of professional success and career advancement.
-
-                                    <br />● communicating with professionals from all over the world and succeeding in
-                                    networking.
-
-                                    <br />● Enrolling in course in your specialisation to improve both your English and your
-                                    industry
-                                    know-how.
-
-                                    <br />● gaining access to resources online available only in English.
-
-                                </p>
-                            </div>
 
                         </div>
                     </div>
@@ -311,6 +276,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>

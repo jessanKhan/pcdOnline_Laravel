@@ -22,7 +22,7 @@
                             <img class="rounded mx-auto d-block" src="{{ asset('assets/images/scientific data 1.jpg') }}" alt="" />
                         </div> --}}
                         <div class="overview">
-                            <h2>
+                            <h2 style="color: blue">
                                 Overview
                             </h2>
                             <p style="color: black">
@@ -44,14 +44,14 @@
 
                         </div>
                         <div class="COURSE FORMAT">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 COURSE FORMAT
                             </h2>
                             <p style="color: black">
                                 This course is designed for under- and
                                 post-graduate students, as well as
                                 scientific and technical professionals
-                                (NFQ levels 5 and 6) and delivered in
+                                (NFQ levels 5) and delivered in
                                 both Online and
                                 Virtual Classroom environments.
                             </p>
@@ -68,32 +68,16 @@
                                 practiced.
                             </p>
                         </div>
-                        <div class="LEARNING OUTCOMES">
-                            <h2 style="color: black">
-                                LEARNING OUTCOMES
-                            </h2>
-                            <p style="color: black">
-                                ● Understanding research.
-
-                                <br />● Hypothesis formation.
-
-                                <br />● Basic programming skills.
-
-                                <br />● Data science skills and
-
-                                <br />● Scientific writing.
-
-                            </p>
-                        </div>
+                        
                         <div class="key-facts">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 Key Facts
                             </h2>
                             <ul>
                                 <li style="font-size: 12px; color: black;">● Course duration: 10 weeks (20 hours taught, 10
                                     hours assignments; 60
                                     hours self-directed learning, and 30 hours final project).</li>
-                                <li style="font-size: 12px; color: black;">Entry level: Open to all/Understanding level.
+                                <li style="font-size: 12px; color: black;">● Entry level: Open to all/Understanding level.
                                 </li>
                                 <li style="font-size: 12px; color: black;">● Lesson duration: : 2 hours per lecture + 1 hour
                                     assignment per week.</li>
@@ -117,7 +101,7 @@
 
 
                             <div class="MODULES" style="margin-top: px">
-                                <h2>
+                                <h2 style="color: blue">
                                     MODULES (Part 1)
                                 </h2>
                                 <p style="color: black">
@@ -159,9 +143,25 @@
 
                                 </p>
                             </div>
+                            <div class="LEARNING OUTCOMES">
+                            <h2 style="color: blue">
+                                LEARNING OUTCOMES
+                            </h2>
+                            <p style="color: black">
+                                ● Understanding research.
 
+                                <br />● Hypothesis formation.
+
+                                <br />● Basic programming skills.
+
+                                <br />● Data science skills and
+
+                                <br />● Scientific writing.
+
+                            </p>
+                        </div>
                             <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     OPPORTUNITIES
                                 </h2>
                                 <p style="color: black">
@@ -175,7 +175,7 @@
                                 </p>
                             </div>
                             <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     ADDITIONAL FACILITIES
                                 </h2>
                                 <p style="color: black">
@@ -198,6 +198,7 @@
             <h2 style="color: black">
                 Course Fees
             </h2>
+            <h4>Virtual Classroom</h4>
             <table class="table table-hover">
                 <thead>
                     <tr>
