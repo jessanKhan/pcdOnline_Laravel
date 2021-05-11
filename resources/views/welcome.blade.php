@@ -1272,8 +1272,7 @@
     <div class="container pb-3">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="
-                margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+                <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
             </div>
         </div>
     </div>
