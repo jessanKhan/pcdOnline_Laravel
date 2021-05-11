@@ -536,13 +536,8 @@
                             </ul> --}}
                         </li>
                         <li class="has-submenu " onclick="language_course()">
-<<<<<<< HEAD
                             <div class="row"><a href="{{ route('language') }}" target="_blank"
                                         style="text-decoration:none">Languages & Culture<i
-=======
-                            <div class="row"><a href="{{ route('language') }}" onclick="redirectTo('language')"
-                                    target="_blank" style="text-decoration:none">Languages & Culture<i
->>>>>>> cdc3b31605260dade07babfb6be0b9b4ad47d4fb
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -1277,8 +1272,7 @@
     <div class="container pb-3">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="
-                margin: 60px "><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+                <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
             </div>
         </div>
     </div>
