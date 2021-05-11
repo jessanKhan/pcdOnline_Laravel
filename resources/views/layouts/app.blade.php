@@ -267,7 +267,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -311,21 +311,7 @@
                             <li><a href="">Languages & Culture</a></li>
                         </ul>
                     </div>
-<<<<<<< HEAD
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h5>Contact us</h5>
-                    <p style="font-size:14px; color: white;">Prudence College Dublin
-                        C3, ACE Enterprise Park
-                        Bawnogue Road
-                        Dublin 22, D22 KW40
-                        IRELAND</p>
-                    <p style="font-size:14px; color: white;">Ph: +353 (0)1 254 8998
-                        </br>Email:info@prudencecollege.ie
-                        Mobile/WhatsApp: +353 87 466 9418
-                        Skype: Prudence College</p>
-                </div>
-=======
-                    <div class="col-sm-2">
                         <h5>Contact us</h5>
                         <p style="font-size:14px; color: white;">Prudence College Dublin
                             C3, ACE Enterprise Park
@@ -337,7 +323,6 @@
                             Mobile/WhatsApp: +353 87 466 9418
                             Skype: Prudence College</p>
                     </div>
->>>>>>> cdc3b31605260dade07babfb6be0b9b4ad47d4fb
                     <!--
                 <div class="col-sm-2">
                     <h5>Support</h5>
