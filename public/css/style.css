@@ -403,11 +403,6 @@ body {
     object-fit: cover;
     object-position: center;
 }
-@media screen and (max-width: 767px) {
-    .course-banner img {
-        width: 100%;
-    }
-}
 
 .signup-image {
     margin-top: 45px;
@@ -788,10 +783,6 @@ label.valid:after {
         text-align: center;
     }
 }
-/* @media screen and (max-width: 450px) and (min-width: 300px) {
-    
-} */
-
 @media screen and (max-width: 400px) {
     .social-login {
         flex-direction: column;
@@ -800,22 +791,10 @@ label.valid:after {
         -o-flex-direction: column;
         -ms-flex-direction: column;
     }
-    .signup-form {
-        padding: 0 0;
-    }
-    .signup-form h2 {
-        font-size: 20px;
-    }
-    .course-fees {
-        padding: 10px 4%;
-    }
+
     .social-label {
         margin-right: 0px;
         margin-bottom: 10px;
-    }
-
-    nav[role="navigation"] li input {
-        margin-left: 60px;
     }
 }
 

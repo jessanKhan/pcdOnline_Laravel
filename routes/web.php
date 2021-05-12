@@ -108,7 +108,7 @@ Route::get('/machineLearning2', function () {
     return view('course/machineLearning2');
 })->name('machineLearning2');
 
-Route::get('course/{course}', [App\Http\Controllers\CourseController::class, 'show']);
+
 
 Auth::routes();
 

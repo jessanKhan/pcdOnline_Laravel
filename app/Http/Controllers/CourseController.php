@@ -59,9 +59,4 @@ class CourseController extends Controller
         session()->put('cart', $cart);
         return redirect()->route('cart')->with('success', "Added to Cart");
     }
-
-    public function show(Course $course)
-    {
-        return view('course.show', compact('course'));
-    }
 }

@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="main">
-        <h1 class="form-title" style="text-align: center; color: black;"><b> Business and Management</b></h1>
+        <h1 class="form-title">Business and Management</h1>
 
 
         <!-- Categories Section Start -->

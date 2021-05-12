@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             CountriesTableSeeder::class,
-            // CoursesTableSeeder::class,
+            CoursesTableSeeder::class,
         ]);
     }
 }
