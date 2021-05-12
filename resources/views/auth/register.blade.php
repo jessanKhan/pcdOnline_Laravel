@@ -193,7 +193,7 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="{{ asset('Images/signup-image.jpg') }}" alt="sing up image"></figure>
+                        <figure><img src="{{ asset('images/signup-image.jpg') }}" alt="sing up image"></figure>
                         <a href="/login" class="signup-image-link">Already Registered</a>
                     </div>
                 </div>
