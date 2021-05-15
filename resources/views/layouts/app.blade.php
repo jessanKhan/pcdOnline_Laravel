@@ -143,6 +143,14 @@
             display: block;
         }
 
+        @media screen and (max-width: 767px) {
+            .rs-categories {
+                width: 100%;
+                height: auto;
+                background-color: white;
+            }
+        }
+
     </style>
 
 
@@ -334,7 +342,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
