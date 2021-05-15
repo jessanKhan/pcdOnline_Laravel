@@ -2358,7 +2358,7 @@ footer p a:hover {
     height: 380px;
 }
 .cpdcourses img {
-    margin-left: 160px;
+   ;
 }
 .cpdcourses p {
     font-size: 16px;
@@ -2435,8 +2435,17 @@ footer p a:hover {
         letter-spacing: 0.25px;
     }
 }
+<<<<<<< HEAD
+@media screen and (max-width: 1070px) and (min-width: 750px)  {
+    #map img {
+    width: 100%;
+}
+}
+@media screen and (max-width:767px) {
+=======
 
 @media screen and (max-width: 767px) {
+>>>>>>> a83da5469e42c87f1a7bc32203047395a884abc8
     .cpdcourses {
         background-color: white;
         color: #0c1228;
@@ -2460,8 +2469,11 @@ footer p a:hover {
         width: 100%;
     }
 }
+<<<<<<< HEAD
+=======
 @media screen and (max-width: 1070px) and (min-width: 750px) {
     #map img {
         width: 100%;
     }
 }
+>>>>>>> a83da5469e42c87f1a7bc32203047395a884abc8
