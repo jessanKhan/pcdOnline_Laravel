@@ -695,7 +695,15 @@
                 margin-bottom: 30px;
             }
         }
-
+        @media screen and (max-width: 1085px) and (min-width: 750px) {
+            .enroll {
+                width: 100%;
+                height: auto;
+                background-color: #f5a425;
+                color: white;
+                text-align: center;
+            }
+        }
         @media screen and (max-width: 767px) {
             .enroll {
                 width: 100%;
@@ -710,15 +718,7 @@
             }
         }
 
-        @media screen and (max-width: 1070px) and (min-width: 750px) {
-            .enroll {
-                width: 100%;
-                height: auto;
-                background-color: #f5a425;
-                color: white;
-                text-align: center;
-            }
-        }
+        
 
         @media screen and (max-width: 767px) {
             .rs-categories {
@@ -1958,16 +1958,16 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h5>Contact us</h5>
-                    <p style="font-size:14px">Prudence College Dublin
-                        C3, ACE Enterprise Park
-                        Bawnogue Road
-                        Dublin 22, D22 KW40
-                        IRELAND</p>
+                <h5>Contact us</h5>
+                    <p style="font-size:14px">PCDonline Department, Prudence College Dublin
+                                        C3, ACE Enterprise Park, Bawnogue Road
+                                        Dublin 22, D22 KW40 IRELAND.
+                                        </p>
                     <p style="font-size:14px">Ph: +353 (0)1 254 8998
-                        </br>Email:info@prudencecollege.ie
-                        Mobile/WhatsApp: +353 87 466 9418
-                        Skype: Prudence College</p>
+                            Email: info@pcdonline.ie 
+                            Mobile/WhatsApp: +353 87 466 9418
+                            Skype: Prudence College
+                            </p>
                 </div>
                 <!--
                 <div class="col-sm-2">

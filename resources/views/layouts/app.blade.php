@@ -388,15 +388,15 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Contact us</h5>
-                        <p style="font-size:14px; color: white;">Prudence College Dublin
-                            C3, ACE Enterprise Park
-                            Bawnogue Road
-                            Dublin 22, D22 KW40
-                            IRELAND</p>
-                        <p style="font-size:14px; color: white;">Ph: +353 (0)1 254 8998
-                            </br>Email:info@prudencecollege.ie
+                    <p style="font-size:14px">PCDonline Department, Prudence College Dublin
+                                        C3, ACE Enterprise Park, Bawnogue Road
+                                        Dublin 22, D22 KW40 IRELAND.
+                                        </p>
+                    <p style="font-size:14px">Ph: +353 (0)1 254 8998
+                            Email: info@pcdonline.ie 
                             Mobile/WhatsApp: +353 87 466 9418
-                            Skype: Prudence College</p>
+                            Skype: Prudence College
+                            </p>
                     </div>
                     <!--
                 <div class="col-sm-2">
@@ -409,16 +409,16 @@
                 </div>
                 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="social-networks">
-                            <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
-                                    class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/PrudenceCollegeDublin" class="facebook"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
-                                    class="fa fa-linkedin"></i></a>
-                            <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
-                                    class="fa fa-instagram"></i></a>
-                        </div>
+                    <div class="social-networks">
+                        <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
+                                class=" fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank"><i
+                                class=" fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank"><i
+                                class=" fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
+                                class=" fa fa-instagram"></i></a>
+                    </div>
                         <button type="button" class="btn btn-default">Follow us</button>
                     </div>
 
