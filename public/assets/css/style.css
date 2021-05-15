@@ -2357,7 +2357,7 @@ footer p a:hover {
     height: 380px;
 }
 .cpdcourses img {
-    margin-left: 160px;
+   ;
 }
 .cpdcourses p {
     font-size: 16px;
@@ -2430,7 +2430,11 @@ footer p a:hover {
         letter-spacing: 0.25px;
     }
 }
-
+@media screen and (max-width: 1070px) and (min-width: 750px)  {
+    #map img {
+    width: 100%;
+}
+}
 @media screen and (max-width:767px) {
     .cpdcourses {
         background-color: white;
@@ -2452,11 +2456,6 @@ footer p a:hover {
       }
 
     #map img {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1070px) and (min-width: 750px)  {
-        #map img {
         width: 100%;
     }
 }
