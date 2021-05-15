@@ -13,7 +13,85 @@
 
     <!-- Styles -->
     <style>
+        #map img {
+            margin: 30px;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+
+
+
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+        .dropbtn {
+            background-color: #04aa6d;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #3e8e41;
+        }
+
+        #myInput {
+            box-sizing: border-box;
+            background-image: url("searchicon.png");
+            background-position: 14px 12px;
+            background-repeat: no-repeat;
+            font-size: 16px;
+            padding: 14px 20px 12px 20px;
+            border: 3px solid #e7b200;
+            /* border-bottom: 1px solid #e7b200; */
+        }
+
+        #myInput:focus {
+            outline: none;
+            /* border-radius: 30px; */
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none !important;
+            position: absolute !important;
+            background-color: #f6f6f6 !important;
+            min-width: 230px !important;
+            overflow: auto !important;
+            border: 1px solid #ddd !important;
+            z-index: 1 !important;
+            top: 60px;
+            max-height: 300px;
+            min-height: 0px;
+        }
+
+        .dropdown-content a {
+            color: black !important;
+            padding: 12px 16px !important;
+            text-decoration: none !important;
+            display: block;
+            /* height: 50px; */
+            line-height: 13px;
+            /* margin-bottom: 13px; */
+            /* text-transform: capitalize !important; */
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd !important;
+        }
+
+        .show {
+            display: block;
+        }
+
         html {
             line-height: 1.15;
             -webkit-text-size-adjust: 100%
@@ -291,6 +369,34 @@
             grid-template-columns: repeat(1, minmax(0, 1fr))
         }
 
+        min-width: 230px !important;
+        overflow: auto !important;
+        border: 1px solid #ddd !important;
+        z-index: 1 !important;
+        top: 60px;
+        max-height: 300px;
+        min-height: 0px;
+        }
+
+        .dropdown-content a {
+            color: black !important;
+            padding: 12px 16px !important;
+            text-decoration: none !important;
+            display: block;
+            /* height: 50px; */
+            line-height: 13px;
+            /* margin-bottom: 13px; */
+            /* text-transform: capitalize !important; */
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd !important;
+        }
+
+        .show {
+            display: block;
+        }
+
         @media (min-width:640px) {
             .sm\:rounded-lg {
                 border-radius: .5rem
@@ -393,9 +499,489 @@
 
     </style>
 
+
     <style>
         body {
             font-family: 'Nunito', sans-serif;
+        }
+
+        @media screen and (min-width: 951px) {
+            .js nav[role="navigation"] {
+                max-height: none;
+            }
+
+            nav[role="navigation"] li {
+                display: inline-block;
+                margin: 0 0.25em;
+            }
+
+            nav[role="navigation"] li a {
+                border: 0;
+            }
+
+            nav[role="navigation"] li input {
+                border: 0;
+            }
+        }
+        }
+
+        @media screen and (max-width: 767px) {
+            .features-content {
+                padding: 15px;
+            }
+
+            .features-content h4 i {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .features-content h4 {
+                font-size: 14px;
+            }
+
+            .features-content p {
+                display: none;
+            }
+
+            .features-content p.hidden-sm {
+                display: block;
+            }
+
+            .features-content a {
+                letter-spacing: 0px;
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .tabs-content {
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .tabs-content img {
+                padding-right: 0px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            section.coming-soon .continer h4 {
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+
+            section.coming-soon .continer .counter .days,
+            section.coming-soon .continer .counter .hours,
+            section.coming-soon .continer .counter .minutes,
+            section.coming-soon .continer .counter .seconds {
+                font-size: 26px;
+            }
+
+            section.coming-soon .continer .counter .days .value,
+            section.coming-soon .continer .counter .hours .value,
+            section.coming-soon .continer .counter .minutes .value,
+            section.coming-soon .continer .counter .seconds .value {
+                margin-top: 40px !important;
+            }
+
+            section.coming-soon .continer .counter span {
+                font-size: 14px !important;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            section.coming-soon .right-content {
+                margin-top: 60px;
+                margin-left: 0px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            section.video .left-content {
+                margin-bottom: 45px;
+            }
+
+            section.video .first-item .first-content h4,
+            section.video .second-item .second-content h4 {
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 800px) and (orientation: landscape),
+        screen and (max-height: 300px) {
+
+            /**
+       * Remove all paddings around the image on small screen
+       */
+            .mfp-img-mobile .mfp-image-holder {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .mfp-img-mobile img.mfp-img {
+                padding: 0;
+            }
+
+            .mfp-img-mobile .mfp-figure:after {
+                top: 0;
+                bottom: 0;
+            }
+
+            .mfp-img-mobile .mfp-figure small {
+                display: inline;
+                margin-left: 5px;
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar {
+                background: rgba(0, 0, 0, 0.6);
+                bottom: 0;
+                margin: 0;
+                top: auto;
+                padding: 3px 5px;
+                position: fixed;
+                box-sizing: border-box;
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar:empty {
+                padding: 0;
+            }
+
+            .mfp-img-mobile .mfp-counter {
+                right: 5px;
+                top: 3px;
+            }
+
+            .mfp-img-mobile .mfp-close {
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                background: rgba(0, 0, 0, 0.6);
+                position: fixed;
+                text-align: center;
+                padding: 0;
+            }
+        }
+
+        @media all and (max-width: 900px) {
+            .mfp-arrow {
+                -webkit-transform: scale(0.75);
+                transform: scale(0.75);
+            }
+
+            .mfp-arrow-left {
+                -webkit-transform-origin: 0;
+                transform-origin: 0;
+            }
+
+            .mfp-arrow-right {
+                -webkit-transform-origin: 100%;
+                transform-origin: 100%;
+            }
+
+            .mfp-container {
+                padding-left: 6px;
+                padding-right: 6px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            section.contact form {
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .enroll {
+                width: 100%;
+                height: auto;
+                background-color: #f5a425;
+                color: white;
+                text-align: center;
+            }
+
+            .enroll h2 {
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (max-width: 1070px) and (min-width: 750px) {
+            .enroll {
+                width: 100%;
+                height: auto;
+                background-color: #f5a425;
+                color: white;
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .rs-categories {
+                width: 100%;
+                height: auto;
+                background-color: white;
+            }
+        }
+
+        @media screen and (max-width: 780px) {
+            .lead {
+                width: 100%;
+                height: auto;
+                background-color: #062872;
+                color: white;
+                text-align: center;
+            }
+
+            .lead h2 {
+                text-align: center;
+                margin: 0px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            #myFooter {
+                text-align: center;
+            }
+
+            #map img {
+                margin: 0px;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .features {
+                background-color: #0c1228;
+            }
+
+            .features-content {
+                position: relative;
+            }
+
+            .features-post {
+                border-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+            .main-menu {
+                padding-right: 0 !important;
+            }
+
+            .main-header .logo {
+                line-height: 73px;
+            }
+
+            .main-menu li {
+                display: block;
+                line-height: 1;
+                margin-left: 0 !important;
+                /* padding: 5px 5px; */
+            }
+
+            .search-bar {
+                padding: 5px 5px;
+            }
+
+            .main-menu li .sub-menu {
+                opacity: 1;
+                visibility: visible;
+                position: static;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+
+            .main-menu li .sub-menu li:last-child {
+                border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+            }
+        }
+
+        @media screen and (max-width: 950px) and (max-height: 400px) {
+            nav[role="navigation"].active {
+                max-height: calc(80px + 100vh);
+                overflow-y: auto;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            footer p {
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 0.25px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .cpdcourses {
+                background-color: white;
+                color: #0c1228;
+                padding-top: 30px;
+                width: 100%;
+                height: auto !important;
+            }
+
+            .cpdcourses .left-content {
+                margin-bottom: 45px;
+                text-align: center;
+            }
+
+            .cpdcourses .content {
+                margin-bottom: 45px;
+                text-align: center;
+            }
+
+            .cpdcourses img {
+                width: 100%;
+            }
+
+            #map img {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 1070px) and (min-width: 750px) {
+            #map img {
+                width: 100%;
+            }
+        }
+
+
+        /* Header */
+        @media (max-width: 950px) {
+
+            .main-nav li:hover a,
+            .main-nav li.active a {
+                border: 2px solid transparent;
+                border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+            }
+        }
+
+        @media screen and (max-width: 1180px) {
+            .main-banner .caption h6 {
+                font-weight: 500;
+            }
+
+            .main-banner .caption h2 {
+                font-size: 58px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .main-banner .caption h6 {
+                font-weight: 500;
+            }
+
+            .main-banner .caption h2 {
+                font-size: 36px;
+            }
+        }
+
+        @media screen and (max-width: 1050px) {
+            .main-header .logo {
+                padding-left: 30px !important;
+                margin-top: 5px;
+            }
+
+            .logo {
+                margin-top: 5px;
+            }
+
+            .main-menu {
+                padding-right: 30px !important;
+            }
+
+            .main-menu li {
+                margin-left: 5px !important;
+                border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .container {
+                width: calc(100% - 30px);
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .container {
+                max-width: 1200px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .signup-content,
+            .signin-content {
+                flex-direction: column;
+                -moz-flex-direction: column;
+                -webkit-flex-direction: column;
+                -o-flex-direction: column;
+                -ms-flex-direction: column;
+                justify-content: center;
+                -moz-justify-content: center;
+                -webkit-justify-content: center;
+                -o-justify-content: center;
+                -ms-justify-content: center;
+            }
+
+            .signup-form {
+                margin-left: 0px;
+                margin-right: 0px;
+                padding-left: 0px;
+                /* box-sizing: border-box; */
+                padding: 0 30px;
+            }
+
+            .signin-image {
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 50px;
+                order: 2;
+                -moz-order: 2;
+                -webkit-order: 2;
+                -o-order: 2;
+                -ms-order: 2;
+            }
+
+            .signup-form,
+            .signup-image,
+            .signin-form,
+            .signin-image {
+                width: auto;
+            }
+
+            .social-login {
+                justify-content: center;
+                -moz-justify-content: center;
+                -webkit-justify-content: center;
+                -o-justify-content: center;
+                -ms-justify-content: center;
+            }
+
+            .form-button {
+                text-align: center;
+            }
+
+            .signin-form {
+                order: 1;
+                -moz-order: 1;
+                -webkit-order: 1;
+                -o-order: 1;
+                -ms-order: 1;
+                margin-right: 0px;
+                margin-left: 0px;
+                padding: 0 30px;
+            }
+
+            .form-title {
+                text-align: center;
+            }
         }
 
     </style>
@@ -442,10 +1028,10 @@
     <!-- spacing css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/rs-spacing.css') }}">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
     <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
 
 
 </head>
@@ -455,13 +1041,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
                     @endauth
                 </div>
             @endif
@@ -535,9 +1121,9 @@
                                 </li>
                             </ul> --}}
                         </li>
-                        <li class="has-submenu " onclick="language_course()">
+                        <li class="has-submenu " onclick="language()">
                             <div class="row"><a href="{{ route('language') }}" target="_blank"
-                                        style="text-decoration:none">Languages & Culture<i
+                                    style="text-decoration:none">Languages & Culture<i
                                         class='fa fa-angle-right fa-fw'></i></a></div>
                             {{-- <ul class="sub-menu">
                                 <li onclick="language_course()">
@@ -551,7 +1137,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="input">
+                <li class="input search-bar">
 
                     <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
                         onkeyup="filterFunction()">
@@ -637,7 +1223,7 @@
                                 <div class="row">
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -1221,16 +1807,16 @@
     </section>
 
     <section class="enroll" data-section="section4">
-    <div class="container pb-3">
-        <div class="row">
-            <div class="col-md-12">
-                <h2><b> Enroll Now and Begin Your New Career</b></h2>
-                <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
-                <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
-                    class="btn btn-default"><b>ENROLL NOW</b></a>
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><b> Enroll Now and Begin Your New Career</b></h2>
+                    <p>VIRTUAL CLASSROOM INTAKES: SPRING, SUMMER, SUMMER+ AND AUTUMN</p>
+                    <button type="button" onclick="window.location='http://prudencecollege.ie/apply-now/'" ;
+                        class="btn btn-default"><b>ENROLL NOW</b></a>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- Temporary  -->
@@ -1269,40 +1855,41 @@
         </div>
     </section>
     <section class="lead" data-section="section3">
-    <div class="container pb-3">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <section class="cpdcourses" data-section="section7">
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="left-content">
-            <img class="rounded mx-auto d-block" src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}"
-                alt="" />
-            </div></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="left-content">
+                        <img class="rounded mx-auto d-block"
+                            src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
+                    </div>
+                </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 ">
-            <div class="content">
-                <h4><b> CPD Accreditation</b></h4>
-                <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
-                    distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="content">
+                        <h4><b> CPD Accreditation</b></h4>
+                        <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
+                            distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
 
-                <p> The vision of PCD is to get recognition as an academic center of excellence in higher
-                    education
-                    in Europe by attracting brilliant and deserving students from home and abroad; and providing
-                    advanced education and training to satisfy present and the future global needs.
-                </p>
+                        <p> The vision of PCD is to get recognition as an academic center of excellence in higher
+                            education
+                            in Europe by attracting brilliant and deserving students from home and abroad; and providing
+                            advanced education and training to satisfy present and the future global needs.
+                        </p>
 
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
 
     </section>
 
@@ -1347,7 +1934,7 @@
                 </div>
                 <div class="col-md-6">
                     <div id="map">
-                        <img style="margin: 30px;" src="{{ asset('assets/images/contactimage.png') }}" />
+                        <img src="{{ asset('assets/images/contactimage.png') }}" />
                     </div>
                 </div>
             </div>
