@@ -183,8 +183,8 @@
                             <div class="form-group form-button">
 
                                 <!-- <button type="submit" class="btn btn-primary">
-                                                                                                                                                                                                                                        {{ __('Register') }}
-                                                                                                                                                                                                                                    </button> -->
+                                                                                                                                                                                                                                                        {{ __('Register') }}
+                                                                                                                                                                                                                                                    </button> -->
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
 
                             </div>
@@ -193,7 +193,7 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="{{ asset('images/signup-image.jpg') }}" alt="sing up image"></figure>
+                        <figure><img src="{{ asset('Images/signup-image.jpg') }}" alt="sing up image"></figure>
                         <a href="/login" class="signup-image-link">Already Registered</a>
                     </div>
                 </div>

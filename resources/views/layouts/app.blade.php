@@ -155,15 +155,14 @@
 
 
     <!-- Additional CSS Files -->
-    <!-- <link rel="stylesheet" href="{{ asset('../assets/css/fontawesome.css') }}">
-<link rel="stylesheet" href="{{ asset('../assets/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('../assets/css/owl.css') }}">
-<link rel="stylesheet" href="{{ asset('../assets/css/lightbox.css') }}">
-<link rel="stylesheet" href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css') }}">
 
-<link href="{{ asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css') }}" type="text/css" rel="stylesheet">
-<script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}"></script>
-<script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script> -->
+    <link rel="stylesheet"
+        href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css') }}">
+
+    <link href="{{ asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css') }}"
+        type="text/css" rel="stylesheet">
+    <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}"></script>
+    <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script> -->
 
 </head>
 
@@ -188,79 +187,35 @@
                     <li class="has-submenu"><a href="#section4" style="text-decoration:none">Courses</a>
                         <ul class="sub-menu">
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('Business') }}" target="_blank"
-                                        style="text-decoration:none">Business & Management <i
+                                <div class="row" onclick="redirectTo('business')"><a href="{{ route('Business') }}"
+                                        target="_blank" style="text-decoration:none">Business & Management <i
                                             class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">Accounting and
-                                                Finance</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="#">Digital Enterprise and
-                                                Business Support</a></div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
-                            <li class="has-submenu">
+                            <li class="has-submenu" onclick="redirectTo('computerProgramming')">
                                 <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank"
                                         style="text-decoration:none">Coding & Computing <i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
 
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">Machine Learning
-                                                with
-                                                Python
-                                            </a></div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="#">.Net
-                                                Programming
-                                                for
-                                                Everyone</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="#">Scientific Data
-                                                Handling and
-                                                Programming</a></div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
-                            <li class="has-submenu">
+                            <li class="has-submenu" onclick="redirectTo('applied_science')">
                                 <div class="row"><a href="{{ route('applied_science') }}" target="_blank"
                                         style="text-decoration:none">Applied Sci-Tech<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">Blockchain for
-                                                Everyone</a>
-                                        </div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
-                            <li class="has-submenu">
+                            <li class="has-submenu " onclick="redirectTo('language')">
                                 <div class="row"><a href="{{ route('language') }}" target="_blank"
-                                        style="text-decoration:none">Language & Culture<i
+                                        style="text-decoration:none">Languages & Culture<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">General English</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="row">
-                                        <a href=" #">Business
-                                                English</a>
-                                        </div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
                         </ul>
                     </li>
-                    <li class="input">
+                    <li class="input search-bar">
 
                         <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
                             onkeyup="filterFunction()">
@@ -307,19 +262,22 @@
 
                         </div>
 
+
+
                     </li>
-                    {{-- <li class="pp"><a href="#section5">About Us</a></li> --}}
+
                     @guest
                         @if (Route::has('login'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}" target="_blank">{{ __('Login') }}</a>
+                            <li class="pp" onclick="redirectTo('login')">
+                                <a href="{{ route('login') }}" target="_blank"
+                                    style="text-decoration:none">{{ __('Login') }}</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}"
-                                    target="_blank">{{ __('Sign Up') }}</a>
+                            <li class="pp" onclick="redirectTo('register')">
+                                <a href="{{ route('register') }}" target="_blank"
+                                    style="text-decoration:none">{{ __('Sign Up') }}</a>
                             </li>
                         @endif
                     @else
@@ -338,11 +296,12 @@
                                     </div>
 
                                 </li>
+
                                 <li class="has-submenu">
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -355,12 +314,11 @@
                                 </li>
 
 
-
                             </ul>
                         </li>
                     @endguest
-                    <li class="pp"><a href="{{ route('cart') }}" target="_blank"><i class="fa fa-shopping-cart"
-                                aria-hidden="true"></i></a></li>
+                    <li onclick="redirectTo('cart')" class="pp"><a href="/cart" target="_blank"><i
+                                class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -370,7 +328,7 @@
         <main class="py-4">
             @yield('content')
         </main>
-        </div>
+
         <footer id="myFooter" style="padding-top: 30px">
             <div class="container" style="background-color: #0c1228">
                 <div class="row">
@@ -388,15 +346,15 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Contact us</h5>
-                    <p style="font-size:14px; color:white">PCDonline Department, Prudence College Dublin
-                                        C3, ACE Enterprise Park, Bawnogue Road
-                                        Dublin 22, D22 KW40 IRELAND.
-                                        </p>
-                    <p style="font-size:14px; color:white">Ph: +353 (0)1 254 8998
-                            Email: info@pcdonline.ie 
+                        <p style="font-size:14px; color:white">PCDonline Department, Prudence College Dublin
+                            C3, ACE Enterprise Park, Bawnogue Road
+                            Dublin 22, D22 KW40 IRELAND.
+                        </p>
+                        <p style="font-size:14px; color:white">Ph: +353 (0)1 254 8998
+                            Email: info@pcdonline.ie
                             Mobile/WhatsApp: +353 87 466 9418
                             Skype: Prudence College
-                            </p>
+                        </p>
                     </div>
                     <!--
                 <div class="col-sm-2">
@@ -409,16 +367,16 @@
                 </div>
                 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="social-networks">
-                        <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
-                                class=" fa fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank"><i
-                                class=" fa fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank"><i
-                                class=" fa fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
-                                class=" fa fa-instagram"></i></a>
-                    </div>
+                        <div class="social-networks">
+                            <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
+                                    class=" fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank"><i
+                                    class=" fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank"><i
+                                    class=" fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
+                                    class=" fa fa-instagram"></i></a>
+                        </div>
                         <button type="button" class="btn btn-default">Follow us</button>
                     </div>
 
@@ -440,6 +398,18 @@
             });
 
         </script>
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+        <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+        <script src="{{ asset('assets/js/isotope.min.js') }}"></script>
+        <script src="{{ asset('assets/js/owl-carousel.js') }}"></script>
+        <script src="{{ asset('assets/js/lightbox.js') }}"></script>
+        <script src="{{ asset('assets/js/tabs.js') }}"></script>
+        <script src="{{ asset('assets/js/video.js') }}"></script>
+        <script src="{{ asset('assets/js/slick-slider.js') }}"></script>
+        <script src="{{ asset('assets/js/custom.js') }}"></script>
         {{-- for top course need to optimize --}}
         <script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
         <!-- jquery latest version -->
@@ -573,6 +543,7 @@
             }
 
         </script>
+
     </body>
 
 </html>
