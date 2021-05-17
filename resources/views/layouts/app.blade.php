@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>PCD-Online </title>
+    <title>PCDonline </title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -71,24 +71,113 @@
     <!-- spacing css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/rs-spacing.css') }}">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
     <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
+    <style>
+        .dropbtn {
+            background-color: #04aa6d;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
 
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #3e8e41;
+        }
 
+        #myInput {
+            box-sizing: border-box;
+            background-image: url("searchicon.png");
+            background-position: 14px 12px;
+            background-repeat: no-repeat;
+            font-size: 16px;
+            padding: 14px 20px 12px 20px;
+            border: 3px solid #e7b200;
+            /* border-bottom: 1px solid #e7b200; */
+        }
+
+        #myInput:focus {
+            outline: none;
+            /* border-radius: 30px; */
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none !important;
+            position: absolute !important;
+            background-color: #f6f6f6 !important;
+            min-width: 230px !important;
+            overflow: auto !important;
+            border: 1px solid #ddd !important;
+            z-index: 1 !important;
+            top: 60px;
+            max-height: 300px;
+            min-height: 0px;
+        }
+
+        .dropdown-content a {
+            color: black !important;
+            padding: 12px 16px !important;
+            text-decoration: none !important;
+            display: block;
+            /* height: 50px; */
+            line-height: 13px;
+            /* margin-bottom: 13px; */
+            /* text-transform: capitalize !important; */
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd !important;
+        }
+
+        .show {
+            display: block;
+        }
+
+        @media screen and (max-width: 767px) {
+            .rs-categories {
+                width: 100%;
+                height: auto;
+                background-color: white;
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+
+            .main-menu li {
+                text-align: -moz-center;
+                text-align: -webkit-center;
+
+            }
+
+            .main-menu li:hover .sub-menu {
+
+                text-align: -webkit-center;
+                text-align: -moz-center;
+            }
+        }
+
+    </style>
 
 
     <!-- Additional CSS Files -->
-    <!-- <link rel="stylesheet" href="{{ asset('../assets/css/fontawesome.css') }}">
-<link rel="stylesheet" href="{{ asset('../assets/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('../assets/css/owl.css') }}">
-<link rel="stylesheet" href="{{ asset('../assets/css/lightbox.css') }}">
-<link rel="stylesheet" href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css') }}">
 
-<link href="{{ asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css') }}" type="text/css" rel="stylesheet">
-<script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}"></script>
-<script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script> -->
+    <link rel="stylesheet"
+        href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css') }}">
+
+    <link href="{{ asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css') }}"
+        type="text/css" rel="stylesheet">
+    <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}"></script>
+    <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script> -->
 
 </head>
 
@@ -101,7 +190,7 @@
             <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 43px 10px;"><b>PCDonline</b></h6>
+                    <h6 style="color: white; margin: 37px 10px;"><b>PCDonline</b></h6>
                 </a>
             </div>
             <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -113,79 +202,35 @@
                     <li class="has-submenu"><a href="#section4" style="text-decoration:none">Courses</a>
                         <ul class="sub-menu">
                             <li class="has-submenu">
-                                <div class="row"><a href="{{ route('Business') }}" target="_blank"
-                                        style="text-decoration:none">Business & Management <i
+                                <div class="row" onclick="redirectTo('business')"><a href="{{ route('Business') }}"
+                                        target="_blank" style="text-decoration:none">Business & Management <i
                                             class='fa fa-angle-right fa-fw'></i></a> </div>
 
 
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">Accounting and
-                                                Finance</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="#">Digital Enterprise and
-                                                Business Support</a></div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
-                            <li class="has-submenu">
+                            <li class="has-submenu" onclick="redirectTo('computerProgramming')">
                                 <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank"
                                         style="text-decoration:none">Coding & Computing <i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
 
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">Machine Learning
-                                                with
-                                                Python
-                                            </a></div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="#">.Net
-                                                Programming
-                                                for
-                                                Everyone</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="row"><a href="#">Scientific Data
-                                                Handling and
-                                                Programming</a></div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
-                            <li class="has-submenu">
+                            <li class="has-submenu" onclick="redirectTo('applied_science')">
                                 <div class="row"><a href="{{ route('applied_science') }}" target="_blank"
                                         style="text-decoration:none">Applied Sci-Tech<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">Blockchain for
-                                                Everyone</a>
-                                        </div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
-                            <li class="has-submenu">
+                            <li class="has-submenu " onclick="redirectTo('language')">
                                 <div class="row"><a href="{{ route('language') }}" target="_blank"
-                                        style="text-decoration:none">Language & Culture<i
+                                        style="text-decoration:none">Languages & Culture<i
                                             class='fa fa-angle-right fa-fw'></i></a></div>
-                                {{-- <ul class="sub-menu">
-                                    <li>
-                                        <div class="row"><a href="#">General English</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="row">
-                                        <a href=" #">Business
-                                                English</a>
-                                        </div>
-                                    </li>
-                                </ul> --}}
+
                             </li>
                         </ul>
                     </li>
-                    <li class="input">
+                    <li class="input search-bar">
 
                         <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
                             onkeyup="filterFunction()">
@@ -232,19 +277,22 @@
 
                         </div>
 
+
+
                     </li>
-                    {{-- <li class="pp"><a href="#section5">About Us</a></li> --}}
+
                     @guest
                         @if (Route::has('login'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}" target="_blank">{{ __('Login') }}</a>
+                            <li class="pp" onclick="redirectTo('login')">
+                                <a href="{{ route('login') }}" target="_blank"
+                                    style="text-decoration:none">{{ __('Login') }}</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}"
-                                    target="_blank">{{ __('Sign Up') }}</a>
+                            <li class="pp" onclick="redirectTo('register')">
+                                <a href="{{ route('register') }}" target="_blank"
+                                    style="text-decoration:none">{{ __('Sign Up') }}</a>
                             </li>
                         @endif
                     @else
@@ -263,11 +311,12 @@
                                     </div>
 
                                 </li>
+
                                 <li class="has-submenu">
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -280,12 +329,11 @@
                                 </li>
 
 
-
                             </ul>
                         </li>
                     @endguest
-                    <li class="pp"><a href="{{ route('cart') }}" target="_blank"><i class="fa fa-shopping-cart"
-                                aria-hidden="true"></i></a></li>
+                    <li onclick="redirectTo('cart')" class="pp"><a href="/cart" target="_blank"><i
+                                class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -295,14 +343,14 @@
         <main class="py-4">
             @yield('content')
         </main>
-        </div>
+
         <footer id="myFooter" style="padding-top: 30px">
             <div class="container" style="background-color: #0c1228">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Categories</h5>
                         <ul style="color: black">
                             <li><a href="">Business & Management</a></li>
@@ -311,17 +359,20 @@
                             <li><a href="">Languages & Culture</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <h5>Contact us</h5>
-                        <p style="font-size:14px; color: white;">Prudence College Dublin
-                            C3, ACE Enterprise Park
-                            Bawnogue Road
-                            Dublin 22, D22 KW40
-                            IRELAND</p>
-                        <p style="font-size:14px; color: white;">Ph: +353 (0)1 254 8998
-                            </br>Email:info@prudencecollege.ie
-                            Mobile/WhatsApp: +353 87 466 9418
-                            Skype: Prudence College</p>
+                        <ul style="font-size:12px">
+                            <li>PCDonline Department</li>
+                            <li>Prudence College Dublin</li>
+                            <li>C3, ACE Enterprise Park</li>
+                            <li>Bawnogue Road </li>
+                            <li>Dublin 22, D22 KW40</li>
+                            <li>IRELAND.</li>
+                            <li>Email: info@pcdonline.ie </li>
+                            <li>Phone: +353 (0)1 254 8998</li>
+                            <li>Mobile/WhatsApp: +353 87 466 9418</li>
+                            <li>Skype: Prudence College</li>
+                        </ul>
                     </div>
                     <!--
                 <div class="col-sm-2">
@@ -333,18 +384,19 @@
                     </ul>
                 </div>
                 -->
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="followbtn followbtnprop">Follow us</div>
                         <div class="social-networks">
-                            <a href="https://twitter.com/prudencecollege?lang=en" class="twitter"><i
-                                    class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/PrudenceCollegeDublin" class="facebook"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
-                                    class="fa fa-linkedin"></i></a>
-                            <a href="https://www.linkedin.com/company/prudencecollege/" class="google"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
+                                    class=" fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank"><i
+                                    class=" fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank"><i
+                                    class=" fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
+                                    class=" fa fa-instagram"></i></a>
                         </div>
-                        <button type="button" class="btn btn-default">Follow us</button>
+                        {{-- <button type="button" class="btn btn-default">Follow us</button> --}}
                     </div>
 
                 </div>
@@ -365,6 +417,18 @@
             });
 
         </script>
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+        <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+        <script src="{{ asset('assets/js/isotope.min.js') }}"></script>
+        <script src="{{ asset('assets/js/owl-carousel.js') }}"></script>
+        <script src="{{ asset('assets/js/lightbox.js') }}"></script>
+        <script src="{{ asset('assets/js/tabs.js') }}"></script>
+        <script src="{{ asset('assets/js/video.js') }}"></script>
+        <script src="{{ asset('assets/js/slick-slider.js') }}"></script>
+        <script src="{{ asset('assets/js/custom.js') }}"></script>
         {{-- for top course need to optimize --}}
         <script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
         <!-- jquery latest version -->
@@ -401,11 +465,73 @@
         <!-- main js -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
         <script>
+            $(document).ready(function() {
+                $('.dropdown-submenu a.test').on("click", function(e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+
+        </script>
+        {{-- <script>
+            //according to loftblog tut
+            $('.nav li:first').addClass('active');
+
+            var showSection = function showSection(section, isAnimate) {
+                var
+                    direction = section.replace(/#/, ''),
+                    reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+                    reqSectionPos = reqSection.offset().top - 0;
+
+                if (isAnimate) {
+                    $('body, html').animate({
+                            scrollTop: reqSectionPos
+                        },
+                        800);
+                } else {
+                    $('body, html').scrollTop(reqSectionPos);
+                }
+
+            };
+
+            var checkSection = function checkSection() {
+                $('.section').each(function() {
+                    var
+                        $this = $(this),
+                        topEdge = $this.offset().top - 80,
+                        bottomEdge = topEdge + $this.height(),
+                        wScroll = $(window).scrollTop();
+                    if (topEdge < wScroll && bottomEdge > wScroll) {
+                        var
+                            currentId = $this.data('section'),
+                            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+                        reqLink.closest('li').addClass('active').
+                        siblings().removeClass('active');
+                    }
+                });
+            };
+
+            $('.main-menu, .scroll-to-section').on('click', 'a', function(e) {
+                if ($(e.target).hasClass('external')) {
+                    return;
+                }
+                e.preventDefault();
+                $('#menu').removeClass('active');
+                showSection($(this).attr('href'), true);
+            });
+
+            $(window).scroll(function() {
+                checkSection();
+            });
+
+        </script> --}}
+        <script>
             /* When the user clicks on the button,
             toggle between hiding and showing the dropdown content */
-            // function myFunction() {
-
-            // }
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
 
             function filterFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");
@@ -436,6 +562,7 @@
             }
 
         </script>
+
     </body>
 
 </html>
