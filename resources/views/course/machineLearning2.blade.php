@@ -177,7 +177,7 @@
                     <tr>
                         <td width="50%"> Machine Learning with Python For Advanced Learners
                         </td>
-                        <td width="40%">€1100</td>
+                        <td width="40%">€770</td>
                         <td width="10%"><a class="btn btn-success" href="{{ route('add', [15]) }}">Enroll</a></td>
                     </tr>
                 </tbody>

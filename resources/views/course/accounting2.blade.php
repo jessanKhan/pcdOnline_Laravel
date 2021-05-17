@@ -185,7 +185,7 @@
                 <tbody>
                     <tr>
                         <td width="50%">Accounting and Finance for Advanced Learner</td>
-                        <td width="40%">€725</td>
+                        <td width="40%">€525</td>
                         <td width="10%"><a class="btn btn-success" href="{{ route('add', [12]) }}">Enroll</a></td>
                     </tr>
                 </tbody>
