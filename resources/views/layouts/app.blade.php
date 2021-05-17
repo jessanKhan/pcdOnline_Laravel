@@ -190,7 +190,7 @@
             <div class="logo row">
                 <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
                 <a href="/">
-                    <h6 style="color: white; margin: 43px 10px;"><b>PCDonline</b></h6>
+                    <h6 style="color: white; margin: 37px 10px;"><b>PCDonline</b></h6>
                 </a>
             </div>
             <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
@@ -316,7 +316,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -360,20 +360,20 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h5>Contact us</h5>
-                    <ul style="font-size:12px">
-                        <li>PCDonline Department</li>
-                        <li>Prudence College Dublin</li>
-                        <li>C3, ACE Enterprise Park</li>
-                        <li>Bawnogue Road </li>
-                        <li>Dublin 22, D22 KW40</li>
-                        <li>IRELAND.</li>
-                        <li>Email: info@pcdonline.ie </li>
-                        <li>Phone: +353 (0)1 254 8998</li>
-                        <li>Mobile/WhatsApp: +353 87 466 9418</li>
-                        <li>Skype: Prudence College</li>
-                    </ul>
-                </div>
+                        <h5>Contact us</h5>
+                        <ul style="font-size:12px">
+                            <li>PCDonline Department</li>
+                            <li>Prudence College Dublin</li>
+                            <li>C3, ACE Enterprise Park</li>
+                            <li>Bawnogue Road </li>
+                            <li>Dublin 22, D22 KW40</li>
+                            <li>IRELAND.</li>
+                            <li>Email: info@pcdonline.ie </li>
+                            <li>Phone: +353 (0)1 254 8998</li>
+                            <li>Mobile/WhatsApp: +353 87 466 9418</li>
+                            <li>Skype: Prudence College</li>
+                        </ul>
+                    </div>
                     <!--
                 <div class="col-sm-2">
                     <h5>Support</h5>
@@ -385,6 +385,7 @@
                 </div>
                 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="followbtn followbtnprop">Follow us</div>
                         <div class="social-networks">
                             <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
                                     class=" fa fa-twitter"></i></a>
@@ -395,7 +396,7 @@
                             <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
                                     class=" fa fa-instagram"></i></a>
                         </div>
-                        <button type="button" class="btn btn-default">Follow us</button>
+                        {{-- <button type="button" class="btn btn-default">Follow us</button> --}}
                     </div>
 
                 </div>
