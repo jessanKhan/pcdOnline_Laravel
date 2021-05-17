@@ -1263,7 +1263,7 @@
             <div class="caption">
                 <h2><em>PCD</em> ONLINE</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">Discover
+                    <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">Discover Our
                             Courses</a></div>
                 </div>
             </div>
@@ -1814,7 +1814,7 @@
             </div>
         </div>
     </section>
-
+<!-- ***** enroll Area 
     <section class="enroll" data-section="section4">
         <div class="container pb-3">
             <div class="row">
@@ -1828,7 +1828,7 @@
         </div>
     </section>
 
-    <!-- Temporary  -->
+    ***** -->
 
     <section id="section5" class="section video" data-section="section5">
         <div class="container">
@@ -1886,7 +1886,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                     <div class="content">
                         <h4><b> CPD Accreditation</b></h4>
-                        <p> we are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
+                        <p> We are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
                             distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
 
                         <p> The vision of PCD is to get recognition as an academic center of excellence in higher
@@ -1968,15 +1968,18 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Contact us</h5>
-                    <p style="font-size:14px">PCDonline Department, Prudence College Dublin
-                        C3, ACE Enterprise Park, Bawnogue Road
-                        Dublin 22, D22 KW40 IRELAND.
-                    </p>
-                    <p style="font-size:14px">Ph: +353 (0)1 254 8998
-                        Email: info@pcdonline.ie
-                        Mobile/WhatsApp: +353 87 466 9418
-                        Skype: Prudence College
-                    </p>
+                    <ul style="font-size:12px">
+                        <li>PCDonline Department</li>
+                        <li>Prudence College Dublin</li>
+                        <li>C3, ACE Enterprise Park</li>
+                        <li>Bawnogue Road </li>
+                        <li>Dublin 22, D22 KW40</li>
+                        <li>IRELAND.</li>
+                        <li>Email: info@pcdonline.ie </li>
+                        <li>Phone: +353 (0)1 254 8998</li>
+                        <li>Mobile/WhatsApp: +353 87 466 9418</li>
+                        <li>Skype: Prudence College</li>
+                    </ul>
                 </div>
                 <!--
                 <div class="col-sm-2">

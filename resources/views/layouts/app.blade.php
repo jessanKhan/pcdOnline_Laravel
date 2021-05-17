@@ -360,17 +360,20 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <h5>Contact us</h5>
-                        <p style="font-size:14px; color:white">PCDonline Department, Prudence College Dublin
-                            C3, ACE Enterprise Park, Bawnogue Road
-                            Dublin 22, D22 KW40 IRELAND.
-                        </p>
-                        <p style="font-size:14px; color:white">Ph: +353 (0)1 254 8998
-                            Email: info@pcdonline.ie
-                            Mobile/WhatsApp: +353 87 466 9418
-                            Skype: Prudence College
-                        </p>
-                    </div>
+                    <h5>Contact us</h5>
+                    <ul style="font-size:12px">
+                        <li>PCDonline Department</li>
+                        <li>Prudence College Dublin</li>
+                        <li>C3, ACE Enterprise Park</li>
+                        <li>Bawnogue Road </li>
+                        <li>Dublin 22, D22 KW40</li>
+                        <li>IRELAND.</li>
+                        <li>Email: info@pcdonline.ie </li>
+                        <li>Phone: +353 (0)1 254 8998</li>
+                        <li>Mobile/WhatsApp: +353 87 466 9418</li>
+                        <li>Skype: Prudence College</li>
+                    </ul>
+                </div>
                     <!--
                 <div class="col-sm-2">
                     <h5>Support</h5>
