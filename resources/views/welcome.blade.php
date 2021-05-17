@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>PCD Online </title>
+    <title>PCDonline </title>
 
     <!-- Fonts -->
     <link href="{{ asset('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap') }}"
@@ -1106,7 +1106,7 @@
         <div class="logo row">
             <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
             <a href="/">
-                <h6 style="color: white; margin: 43px 10px;"><b>PCDonline</b></h6>
+                <h3 style="color: white; margin: 43px 10px;"><b>PCDonline</b></h3>
             </a>
         </div>
         <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
