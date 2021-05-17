@@ -301,7 +301,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -455,7 +455,7 @@
             });
 
         </script>
-        <script>
+        {{-- <script>
             //according to loftblog tut
             $('.nav li:first').addClass('active');
 
@@ -506,7 +506,7 @@
                 checkSection();
             });
 
-        </script>
+        </script> --}}
         <script>
             /* When the user clicks on the button,
             toggle between hiding and showing the dropdown content */

@@ -379,7 +379,7 @@ a.menu-link {
 
     .main-menu li {
         margin-left: 5px !important;
-        border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+        /* border-bottom: 1px solid rgba(250, 250, 250, 0.25); */
     }
 }
 
@@ -481,6 +481,10 @@ a.menu-link {
     text-align: left;
 }
 
+.main-menu li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
 .main-menu li:hover .sub-menu {
     opacity: 1;
     visibility: visible;
@@ -2358,7 +2362,6 @@ footer p a:hover {
     height: 380px;
 }
 .cpdcourses img {
-   ;
 }
 .cpdcourses p {
     font-size: 16px;
@@ -2435,12 +2438,12 @@ footer p a:hover {
         letter-spacing: 0.25px;
     }
 }
-@media screen and (max-width: 1070px) and (min-width: 750px)  {
+@media screen and (max-width: 1070px) and (min-width: 750px) {
     #map img {
-    width: 100%;
+        width: 100%;
+    }
 }
-}
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .cpdcourses {
         background-color: white;
         color: #0c1228;
