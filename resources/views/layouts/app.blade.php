@@ -151,6 +151,21 @@
             }
         }
 
+        @media screen and (max-width: 950px) {
+
+            .main-menu li {
+                text-align: -moz-center;
+                text-align: -webkit-center;
+
+            }
+
+            .main-menu li:hover .sub-menu {
+
+                text-align: -webkit-center;
+                text-align: -moz-center;
+            }
+        }
+
     </style>
 
 
@@ -301,7 +316,7 @@
                                     <div class="row">
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
