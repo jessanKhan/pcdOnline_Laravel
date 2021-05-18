@@ -24,10 +24,14 @@
                                 <img src="{{ asset($course->course_image) }}" alt="">
                             </div>
                             <div class="content-part">
+                                @php
+                                    $course_for = $course->course_for;
+                                    $course_for = implode(' /<br>', explode('/', $course_for));
+                                @endphp
                                 <h4 class="title">
                                     {{ $course->course_name }}
                                     <br /><p style="font-size: 12px; color: black;" onmouseover="this.style.color='white'"><b>
-                                    {{ $course->course_for }}</b></p></h4>
+                                    {!! $course_for !!}</b></p></h4>
                             </div>
                         </a>
                     </div>
