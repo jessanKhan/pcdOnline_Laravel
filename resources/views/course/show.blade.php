@@ -19,13 +19,13 @@
                     <div class="col-md-6">
 
                         <div class="overview">
-                            <h2>
+                            <h2 style="color: blue">
                                 Overview
                             </h2>
                             {!! $course->overview !!}
                         </div>
                         <div class="COURSE FORMAT">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 COURSE FORMAT
                             </h2>
                             {!! $course->course_format !!}
@@ -33,7 +33,7 @@
                         </div>
 
                         <div class="key-facts">
-                            <h2 style="color: black">
+                            <h2 style="color: blue">
                                 Key Facts
                             </h2>
                             {!! $course->key_facts !!}
@@ -46,26 +46,26 @@
 
 
                             <div class="MODULES" style="margin-top: px">
-                                <h2>
+                                <h2 style="color: blue;">
                                     {!! $course->module_label !!}
                                 </h2>
                                 {!! $course->module_description !!}
                             </div>
                             <div class="LEARNING OUTCOMES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     LEARNING OUTCOMES
                                 </h2>
                                 {!! $course->learning_outcome !!}
                             </div>
 
                             <div class="OPPORTUNITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     OPPORTUNITIES
                                 </h2>
                                 {!! $course->opportunities !!}
                             </div>
                             <div class="ADDITIONAL FACILITIES">
-                                <h2 style="color: black">
+                                <h2 style="color: blue">
                                     ADDITIONAL FACILITIES
                                 </h2>
                                 {!! $course->additional_facilities !!}

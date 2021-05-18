@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use App\Models\CourseCategory;
 use Illuminate\Http\Request;
 
@@ -30,8 +31,9 @@ class HomeController extends Controller
     public function welcome()
     {
         $course_categories = CourseCategory::all();
+        $courses = Course::all();
 
-        return view('welcome', compact('course_categories'));
+        return view('welcome', compact('course_categories', 'courses'));
     }
 
     public function showCourseCategory(CourseCategory $course_category)
