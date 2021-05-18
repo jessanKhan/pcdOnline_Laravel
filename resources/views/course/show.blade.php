@@ -92,7 +92,7 @@
                     <td width="50%"> Digital Enterprise and Business Support For Advanced Learners
                     </td>
                     <td width="40%">€750</td>
-                    <td width="10%"><a class="btn btn-success" href="{{ route('add', [13]) }}">Enroll</a></td>
+                    <td width="10%"><a class="btn btn-success" href="{{ route('add', ['digital-enterprise-and-business-support']) }}">Enroll</a></td>
                 </tr>
                 </tbody>
             </table>

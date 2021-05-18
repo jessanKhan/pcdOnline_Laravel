@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CourseCategory;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     /**
@@ -24,5 +25,19 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function welcome()
+    {
+        $course_categories = CourseCategory::all();
+
+        return view('welcome', compact('course_categories'));
+    }
+
+    public function showCourseCategory(CourseCategory $course_category)
+    {
+        $course_category->load('courses');
+
+        return view('course.Categories.public-index', compact('course_category'));
     }
 }

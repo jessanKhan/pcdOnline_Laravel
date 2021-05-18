@@ -19,7 +19,6 @@ class CourseController extends Controller
 
     public function addTocart(Course $course)
     {
-        dd($course);
         $cart = session()->get('cart');
         if (!$cart) {
             $cart = [$course->id => $this->sessionData($course)];
@@ -61,8 +60,8 @@ class CourseController extends Controller
         return redirect()->route('cart')->with('success', "Added to Cart");
     }
 
-    // public function show(Course $course)
-    // {
-    //     return view('course.show', compact('course'));
-    // }
+     public function show(Course $course)
+     {
+         return view('course.show', compact('course'));
+     }
 }

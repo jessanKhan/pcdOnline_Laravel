@@ -1099,7 +1099,7 @@
                 </div>
             @endif
 
-           
+
         </div> -->
 
     <header class="main-header clearfix" role="header">
@@ -1275,82 +1275,22 @@
     <section class="features">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-12">
+                @foreach($course_categories as $course_category)
+                    <div class="col-lg-3 col-12">
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4>Business & Management</h4>
+                                <h4>{{ $course_category->short_name }}</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Business and Management courses are designed for people who want to understand the
-                                    concepts and principles of business education while acquiring skills through
-                                    practical experience in a business environment.</p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                    mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="{{ route('computerProgramming') }}"
-                                        onclick="redirectTo('business')" target="_blank"
+                                <p>{{ $course_category->description }}</p>
+                                <div class="scroll-to-section"><a href="{{ route('show-course-category', $course_category->slug) }}"
                                         style="text-decoration:none">Read More</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12">
-                    <div class="features-post second-features">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4>Coding & Computing</h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>Computer literacy is a very important skill to possess for life in a variety of
-                                    business, scientific and social contexts and a platform through which an individual
-                                    sees problem in the light of solutions.</p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                    mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="{{ route('computerProgramming') }}"
-                                        onclick="redirectTo('computerProgramming')" target="_blank"
-                                        style="text-decoration:none">Read More</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-12">
-                    <div class="features-post third-features">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4>Applied Sci-Tech </h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>The Applied Science and technology courses provide an extensive understanding of the
-                                    contents, methods, principles and applications of Science and technology and further
-                                    insights at the highest level</p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                    mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="{{ route('applied_science') }}"
-                                        onclick="redirectTo('applied_science')" target="_blank"
-                                        style="text-decoration:none">Read More</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-12">
-                    <div class="features-post">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4>Languages & Culture</h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>Language impacts the daily lives of members of any race, creed, and region of the
-                                    world. It helps express our feelings, desires, and queries to the world around us.
-                                </p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                    mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="{{ route('language') }}"
-                                        onclick="redirectTo('language')" target="_blank"
-                                        style="text-decoration:none">Read More</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
@@ -1423,7 +1363,7 @@
             </div>
         </div>
     </section>
-     
+
 
   <section class="section coming-soon" data-section="section3">
     <div class="container">
@@ -1814,7 +1754,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** enroll Area 
+    <!-- ***** enroll Area
     <section class="enroll" data-section="section4">
         <div class="container pb-3">
             <div class="row">
