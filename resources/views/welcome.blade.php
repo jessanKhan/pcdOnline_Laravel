@@ -1959,7 +1959,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Categories</h5>
-                    <ul>
+                    <ul style="line-height: 2 !important">
                         <li><a href="">Business & Management</a></li>
                         <li><a href="">Coding & Computing</a></li>
                         <li><a href="">Applied Sci-Tech</a></li>
@@ -1968,7 +1968,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Contact us</h5>
-                    <ul style="font-size:12px">
+                    <ul style="font-size:12px; line-height: 1.4 !important">
                         <li>PCDonline Department</li>
                         <li>Prudence College Dublin</li>
                         <li>C3, ACE Enterprise Park</li>
