@@ -1854,6 +1854,7 @@ section.contact form button {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    height: 190px;
 }
 .rs-categories.style1 .categories-item .icon-part {
     float: left;

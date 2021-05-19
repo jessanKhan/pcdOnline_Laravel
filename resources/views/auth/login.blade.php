@@ -49,17 +49,17 @@
                             </div>
 
                             <!-- <div class="form-group">
-                                            <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" {{ old('remember') ? 'checked' : '' }} >
-                                            <label for="remember-me" class="label-agree-term"><span><span></span></span>{{ __('Remember Me') }}</label>
-                                        </div>
-                                        <div class="form-group form-button">
-                                            <input type="submit" name="signin" id="signin" class="form-submit" value="{{ __('Login') }}"/>
-                                             @if (Route::has('password.request'))
-                                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                                    {{ __('Forgot Your Password?') }}
-                                                </a>
-                                            @endif
-                                        </div> -->
+                                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" {{ old('remember') ? 'checked' : '' }} >
+                                                <label for="remember-me" class="label-agree-term"><span><span></span></span>{{ __('Remember Me') }}</label>
+                                            </div>
+                                            <div class="form-group form-button">
+                                                <input type="submit" name="signin" id="signin" class="form-submit" value="{{ __('Login') }}"/>
+                                                 @if (Route::has('password.request'))
+                                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                                        {{ __('Forgot Your Password?') }}
+                                                    </a>
+                                                @endif
+                                            </div> -->
 
 
 
@@ -79,8 +79,8 @@
                             <div class="form-group form-button ">
 
                                 <!-- <button type="submit" class="form-submit">
-                                                {{ __('Login') }}
-                                            </button> -->
+                                                    {{ __('Login') }}
+                                                </button> -->
                                 <input type="submit" name="signin" id="signin" class="form-submit"
                                     value=" {{ __('Login') }}" />
 
@@ -100,41 +100,41 @@
 
 
                         <!-- <div class="form-group row">
-                                        <div class="col-md-6 offset-md-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                            <div class="col-md-6 offset-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
-                                                <label class="form-check-label" for="remember">
-                                                    {{ __('Remember Me') }}
-                                                </label>
+                                                    <label class="form-check-label" for="remember">
+                                                        {{ __('Remember Me') }}
+                                                    </label>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div> -->
+                                        </div> -->
 
                         <!-- <div class="form-group form-button ">
-                                        <div class="col-md-8 offset-md-4">
-                                            <button type="submit" class="btn btn-primary">
-                                                {{ __('Login') }}
-                                            </button>
+                                            <div class="col-md-8 offset-md-4">
+                                                <button type="submit" class="btn btn-primary">
+                                                    {{ __('Login') }}
+                                                </button>
 
-                                            @if (Route::has('password.request'))
-                                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                                    {{ __('Forgot Your Password?') }}
-                                                </a>
-                                            @endif
-                                        </div>
-                                    </div> -->
+                                                @if (Route::has('password.request'))
+                                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                                        {{ __('Forgot Your Password?') }}
+                                                    </a>
+                                                @endif
+                                            </div>
+                                        </div> -->
                         <!-- </form> -->
 
 
-                        <div class="social-login">
+                        {{-- <div class="social-login">
                             <span class="social-label">Or login with</span>
                             <ul class="socials">
                                 <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
                                 <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
                                 <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
                             </ul>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
