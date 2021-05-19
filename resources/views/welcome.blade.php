@@ -1864,8 +1864,8 @@
         </div>
     </section>
     <section class="lead" data-section="section3">
-        <div class="container pb-3">
-            <div class="row">
+        <div class="container p-2">
+            <div class="row p-5">
                 <div class="col-md-12">
                     <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
                 </div>
@@ -2009,7 +2009,7 @@
             </div>
         </div>
         <div class="footer-copyright">
-            <p>©Prudence College Dubline </p>
+            <p>@Copyright Prudence College Dublin 2021-22</p>
         </div>
     </footer>
 
