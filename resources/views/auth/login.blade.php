@@ -126,18 +126,6 @@
                                         </div> -->
                         <!-- </form> -->
 
-<<<<<<< HEAD
-=======
-
-                        {{-- <div class="social-login">
-                            <span class="social-label">Or login with</span>
-                            <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                            </ul>
-                        </div> --}}
->>>>>>> b1d6b2eb2df48c0e478bc090dc585433624494ed
                     </div>
                 </div>
             </div>
