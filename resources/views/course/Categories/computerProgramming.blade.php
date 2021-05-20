@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="main">
-        <h2 class="form-title" style="text-align: center; color: black;"><b>Coding and Computing</b></h2>
+        <h1 class="form-title" style="text-align: center; color: black;"><b>Coding and Computing</b></h1>
 
 
         <!-- Categories Section Start -->
