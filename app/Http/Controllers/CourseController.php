@@ -19,7 +19,6 @@ class CourseController extends Controller
 
     public function addTocart(Course $course)
     {
-        dd($course);
         $cart = session()->get('cart');
         if (!$cart) {
             $cart = [$course->id => $this->sessionData($course)];
