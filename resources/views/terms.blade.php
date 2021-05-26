@@ -15,92 +15,31 @@
                             <img src="/Images/terms.jpg" alt="forget password image">
                         </div>
                         <div class="overview">
-                            <h2 style="color: rgb(0, 0, 0)">
-                                Introduction
-                            </h2>
-                            <p style="color: black">
-                                Prudence College Dublin (PCD) is a private academic institute registered in Ireland and an
-                                initiative of
-                                Green Sustainability International Ltd. The College (and its online platform PCDonline) is
-                                firmly
-                                grounded in a belief that recognizes the importance of education systems that are conducive
-                                to
-                                knowledge transfer, learning and innovation that are focused on achieving the best outcomes
-                                for its
-                                students. The College consists of four schools: (i) Business and Management, (ii) Coding and
-                                Computing, (iii) Applied Sciences and Technology, and (iv) Languages and Culture.
-                                It is committed to the delivery of world-class professional and academic teaching and
-                                learning
-                                programmes and courses using both traditional (Face-to-Face) and Virtual (Interactive – Real
-                                Time
-                                - Distance Learning) classroom methodologies, as well as Online through its online platform
-                                “PCDonline”. The College has four academic terms/sessions: Spring, Summer, Summer+ and
-                                Autumn with classes commencing in January, April, July and September, respectively.
-                                The vision of PCD is to achieve recognition as an academic centre of excellence in higher
-                                education in
-                                Europe by attracting diverse spectrum of high-calibre and deserving students from home and
-                                abroad
-                                through the provision of advanced education and training opportunities to satisfy present
-                                and future
-                                global needs.
-                                The College is committed to protecting the rights and privacy of staff, students, and other
-                                individuals
-                                (e.g. parents and members of the advisory board) in accordance with both European Union and
-                                Irish
-                                data protection legislation. It will lawfully and fairly collect and process personal data
-                                about employees,
-                                students, contractors/sub-contractors and other individuals/entities in order to contribute
-                                to its mission
-                                and functions.
-                                It rigidly enforces the data protection legislation that upholds the rights of individuals
-                                and ensures the
-                                responsibilities of College staff in processing personal data are adhered to. Accordingly,
-                                this policy
-                                document sets out the ways in which the College will process personal data and ensure that
-                                staff
-                                understand the rules governing their use of personal data over the course of their work.
-                                The EU General Data Protection Regulation (GDPR EU 2016/679) enforced from the 25th May 2018
-                                and thereby replacing the Data Protection Directive 95/46/EC, was implemented to protect and
-                                empower all EU citizens’ data privacy and to reshape the way organizations across the region
-                                approach
-                                data privacy this is the basis for the College policy, which has been adopted by College
-                                staff. This is a
-                                working document that may be modified in order to cope with changes resulting from any
-                                legislative or
-                                jurisprudential modifications.
-
-                            </p>
-                        </div>
-                        <div class="COURSE FORMAT">
-                            <h2 style="color: rgb(0, 0, 0)">
+                        <h2 style="color: rgb(0, 0, 0)">
                                 Scope
                             </h2>
                             <p style="color: black">
-                                The data protection policy covers the maintenance and processing of personal data, both in
-                                manual
-                                form and on computer, including personal data held on both staff, students,
-                                parents/guardians, board of
-                                advisors, contractors/sub-contractors and any individuals/entities who can access or use
-                                personal data
-                                in their work for the College. This policy also applies to all locations from which College
-                                personal data
-                                is accessed, including home use. However, this should not be construed as a contractual
-                                undertaking. The College reserves the right to review and amend this from time to time
-                                without notice.
-                                Data: refers to the information in a form which can be processed. It includes automated data
-                                (electronic/digital) and manual data through or as part of relevant filing systems.
-                                Relevant filing system: refers to any set of information that, while not computerised, is
-                                structured by
-                                reference to individuals, or by reference to criteria relating to individuals, so that
-                                specific information
-                                relating to a particular individual is readily accessible.
-                                Personal data: refers to data relating to a living individual who is or can be identified
-                                from the data or
-                                from the data in conjunction with other information that is in, or is likely to come into,
-                                the possession of
-                                the data controller/handler. It includes information such as identification numbers,
-                                location data and
-                                online identifiers.
+                            The data protection policy covers the maintenance and processing of personal data, both in manual
+                            form and on computer, including personal data held on both staff, students, parents/guardians, board of
+                            advisors, contractors/sub-contractors and any individuals/entities who can access or use personal data
+                            in their work for the College. This policy also applies to all locations from which College personal data
+                            is accessed, including home use. However, this should not be construed as a contractual
+                            undertaking. The College reserves the right to review and amend this from time to time without notice.
+                            </p>
+                            <p style="color: black">
+                            Data: refers to the information in a form which can be processed. It includes automated data
+                            (electronic/digital) and manual data through or as part of relevant filing systems.
+                            </p>
+                            <p style="color: black">
+                            Relevant filing system: refers to any set of information that, while not computerised, is structured by
+                            reference to individuals, or by reference to criteria relating to individuals, so that specific information
+                            relating to a particular individual is readily accessible.
+                            </p>
+                            <p style="color: black">
+                            Personal data: refers to data relating to a living individual who is or can be identified from the data or
+                            from the data in conjunction with other information that is in, or is likely to come into, the possession of
+                            the data controller/handler. It includes information such as identification numbers, location data and
+                            online identifiers.
                             </p>
                             <p style="color: black">
                                 Data Controller: A data controller/handler is the individual or legal entity which controls
@@ -110,13 +49,9 @@
                                 functions
                                 involved.
                             </p>
-                            {{-- <p style="color: black">
-                                In addition to classes,course material/handouts will be accessible to students for further
-                                study either as hard copy (charge may apply) and/or online (Virtuline Hub).
-                            </p>
-                            <p style="color: black">
-                                Lessons include theoretical and practical exercises with assessment instances.
-                            </p> --}}
+                        </div>
+                        <div class="COURSE FORMAT">
+                            
                         </div>
 
                         <div class="key-facts">
@@ -154,43 +89,6 @@
                         </div>
                         <div class="COURSE FORMAT">
                             <h2 style="color: rgb(0, 0, 0)">
-                                Mission and Vision
-                            </h2>
-                            <p style="color: black">
-                                This policy is formulated to safeguard data protection rights by ensuring compliance through
-                                guidance,
-                                supervision, and enforcement to recognise the College as an internationally respected
-                                Institution in
-                                compliance with data protection laws. That the College demonstrates professionalism,
-                                competence,
-                                and expertise in performing an implementation role under the GDPR in accordance with Irish
-                                and EU
-                                law. That it also upholds values, such as fairness, expertise, collaboration, transparency,
-                                and
-                                accountability in providing education and training, in line with statutory and regulatory
-                                bodies, and other
-                                stakeholders.
-                            </p>
-                            <p style="color: black">
-                                The College seeks to enable each student to develop his/her full potential, and can benefit
-                                from various
-                                supports, such as any relevant additional teaching or financial aid, religious education, or
-                                emergency
-                                communication with parent/guardians, while providing a safe and secure environment for
-                                learning in
-                                compliance with legislative or administrative requirements. The main purpose for keeping
-                                records of
-                                staff, members of the advisory board, and others associated with the College is mainly for
-                                administrative,
-                                financial management and marketing. It will also uphold the diversity of values, beliefs,
-                                traditions,
-                                languages, and ways of life in society, providing equal opportunity, and ensuring fair
-                                judgement for all.
-                            </p>
-
-                        </div>
-                        <div class="COURSE FORMAT">
-                            <h2 style="color: rgb(0, 0, 0)">
                                 Goals
                             </h2>
 
@@ -205,6 +103,7 @@
                             </p>
 
                         </div>
+                        
                         <div class="COURSE FORMAT">
                             <h2 style="color: rgb(0, 0, 0)">
                                 Key measures to collect data
@@ -410,13 +309,106 @@
                     </div>
                     <div class="signup-form">
 
-                        <div class="overview" style="color: black">
-
-
-
+                        
 
                             <div class="OPPORTUNITIES">
-                                <h2 style="color: rgb(8, 8, 8)">
+                            <h2 style="color: rgb(0, 0, 0)">
+                                Introduction
+                            </h2>
+                            <p style="color: black">
+                                Prudence College Dublin (PCD) is a private academic institute registered in Ireland and an
+                                initiative of
+                                Green Sustainability International Ltd. The College (and its online platform PCDonline) is
+                                firmly
+                                grounded in a belief that recognizes the importance of education systems that are conducive
+                                to
+                                knowledge transfer, learning and innovation that are focused on achieving the best outcomes
+                                for its
+                                students. The College consists of four schools: (i) Business and Management, (ii) Coding and
+                                Computing, (iii) Applied Sciences and Technology, and (iv) Languages and Culture.
+                                It is committed to the delivery of world-class professional and academic teaching and
+                                learning
+                                programmes and courses using both traditional (Face-to-Face) and Virtual (Interactive – Real
+                                Time
+                                - Distance Learning) classroom methodologies, as well as Online through its online platform
+                                “PCDonline”. The College has four academic terms/sessions: Spring, Summer, Summer+ and
+                                Autumn with classes commencing in January, April, July and September, respectively.
+                                The vision of PCD is to achieve recognition as an academic centre of excellence in higher
+                                education in
+                                Europe by attracting diverse spectrum of high-calibre and deserving students from home and
+                                abroad
+                                through the provision of advanced education and training opportunities to satisfy present
+                                and future
+                                global needs.
+                                The College is committed to protecting the rights and privacy of staff, students, and other
+                                individuals
+                                (e.g. parents and members of the advisory board) in accordance with both European Union and
+                                Irish
+                                data protection legislation. It will lawfully and fairly collect and process personal data
+                                about employees,
+                                students, contractors/sub-contractors and other individuals/entities in order to contribute
+                                to its mission
+                                and functions.
+                                It rigidly enforces the data protection legislation that upholds the rights of individuals
+                                and ensures the
+                                responsibilities of College staff in processing personal data are adhered to. Accordingly,
+                                this policy
+                                document sets out the ways in which the College will process personal data and ensure that
+                                staff
+                                understand the rules governing their use of personal data over the course of their work.
+                                The EU General Data Protection Regulation (GDPR EU 2016/679) enforced from the 25th May 2018
+                                and thereby replacing the Data Protection Directive 95/46/EC, was implemented to protect and
+                                empower all EU citizens’ data privacy and to reshape the way organizations across the region
+                                approach
+                                data privacy this is the basis for the College policy, which has been adopted by College
+                                staff. This is a
+                                working document that may be modified in order to cope with changes resulting from any
+                                legislative or
+                                jurisprudential modifications.
+
+                            </p> 
+                            </div>
+
+                            <div class="COURSE FORMAT">
+                            <h2 style="color: rgb(0, 0, 0)">
+                                Mission and Vision
+                            </h2>
+                            <p style="color: black">
+                                This policy is formulated to safeguard data protection rights by ensuring compliance through
+                                guidance,
+                                supervision, and enforcement to recognise the College as an internationally respected
+                                Institution in
+                                compliance with data protection laws. That the College demonstrates professionalism,
+                                competence,
+                                and expertise in performing an implementation role under the GDPR in accordance with Irish
+                                and EU
+                                law. That it also upholds values, such as fairness, expertise, collaboration, transparency,
+                                and
+                                accountability in providing education and training, in line with statutory and regulatory
+                                bodies, and other
+                                stakeholders.
+                            </p>
+                            <p style="color: black">
+                                The College seeks to enable each student to develop his/her full potential, and can benefit
+                                from various
+                                supports, such as any relevant additional teaching or financial aid, religious education, or
+                                emergency
+                                communication with parent/guardians, while providing a safe and secure environment for
+                                learning in
+                                compliance with legislative or administrative requirements. The main purpose for keeping
+                                records of
+                                staff, members of the advisory board, and others associated with the College is mainly for
+                                administrative,
+                                financial management and marketing. It will also uphold the diversity of values, beliefs,
+                                traditions,
+                                languages, and ways of life in society, providing equal opportunity, and ensuring fair
+                                judgement for all.
+                            </p>
+
+                        </div>
+                            
+                        <div class="overview" style="color: black">
+                        <h2 style="color: rgb(8, 8, 8)">
                                     Duration of holding data
                                 </h2>
                                 <p style="color: black">
@@ -457,7 +449,7 @@
                                     litigation ceases, in general from 2 to 6 years.
 
                                 </p>
-                            </div>
+                        </div>
                             <div class="ADDITIONAL FACILITIES">
                                 <h2 style="color: rgb(0, 0, 0)">
                                     Rights to exercise on personal data
