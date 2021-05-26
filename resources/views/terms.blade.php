@@ -262,156 +262,157 @@
                             </p>
 
                         </div>
+                        <div class="MODULES" style="margin-top: px">
+                            <h2 style="color: rgb(0, 0, 0)">
+                                Compliance arrangements
+                            </h2>
+                            <p style="color: black">
+                                The College has several arrangements in place to ensure that all personal data records
+                                held are
+                                obtained, processed, used and retained in accordance with the Data Protection Acts i.e.
+                                (i) to obtain
+                                and process information fairly, (ii) maintained only for one or more specified, explicit
+                                and lawful purpose,
+                                (iii) used and disclosed only in ways compatible with these purposes, (iv) it is kept
+                                safe and secure, (v)
+                                it is accurate, complete and up-to-date, (vi) that its adequacy, relevance and
+                                appropriateness is
+                                ensured, (vii) retained for no longer than is necessary for the purpose or purposes, and
+                                (viii) that a copy
+                                of his/her personal data can be provided to the individual on request. For additional
+                                details, A Guide for
+                                Data Controllers, should be consulted.
+                                For the minimum age at which consent can be legitimately obtained for processing and
+                                disclosure of
+                                personal data, the guidance material published on the Data Protection Commissioner’s
+                                website should
+                                be consulted: https://www.dataprotection.ie/. However, as a rule in education, “a
+                                student aged eighteen
+                                or older may give consent themselves”. A student aged from twelve up to and including
+                                seventeen
+                                should give consent themselves and, in addition, consent should also be obtained from
+                                the student's
+                                parent or guardian.” Importantly, Appendix 1 will be included on relevant forms in
+                                collecting personal
+                                information.
+                                To protect everyone associated with the College and its activities, the College ensures
+                                Privacy Policy in
+                                relation to the personal data and the data are processed currently by the College
+                                Administration
+                                (admin@prudencecollege.ie) in association with Admissions, Marketing and ICT teams.
+                                For providing efficient and associated on-time services to students and the others
+                                stated above, the
+                                College collects all legitimate personal data through website, social media, emails and
+                                other media from
+                                users having contractual right. The College reserves the right of not responding to or
+                                processing
+                                requests that do not include the requested personal data. An option will remain in place
+                                to review and
+                                update personal data by the providers and the College staff from time to time. The
+                                purposes and legal
+                                basis of processing and holding personal data is as follows:
+                            <ol>
+                                <li style="font-size: 14px; ">Contract form: This is used to contact the College for
+                                    information or suggestions, and replies to
+                                    any queries that arise, as well as sending information on education and
+                                    training-related products,
+                                    information (ads/commercial) services and activities of various communication/social
+                                    media. In
+                                    most cases, corresponding terms of agreement/consents are provided so that the
+                                    College can
+                                    respond legitimately. The processing may also be legitimized based on the
+                                    pre-contractual or
+                                    contractual relationship that may exist between the applicant and the College.</li>
+                                <li style="font-size: 14px; ">Application form for profiling: The main purpose of this
+                                    is to send a preliminary evaluation of
+                                    student’s profile based on the personal data provided including ads and commercial
+                                    materials by
+                                    various means and the services to be offered as indicated above. A pre-contractual
+                                    or contractual
+                                    relationship between the College administration and the students may also exist, and
+                                    the consent
+                                    given for providing the College services and products. For students, registers and
+                                    roll books are
+                                    maintained (manual and electronic) and stored.</li>
+                                <li style="font-size: 14px; ">Downloading prospectus/brochure: This includes details of
+                                    the programmes and courses of its
+                                    own and/or through partnerships offering by the College that is downloaded with an
+                                    intention to
+                                    study/enrol. A minimum of personal information (name, email, tel, origin, etc.) is
+                                    collected to
+                                    provide the services offering and relevant information on other products and
+                                    activities by any
+                                    communication means. This results in the given consent to send consumers the
+                                    information
+                                    including prospectus/brochure requested, and other materials/service indicated above
+                                    for
+                                    legitimate processing on the basis of the pre-contractual or contractual
+                                    relationship that may exist
+                                    between the consumer and the College.</li>
+                                <li style="font-size: 14px; ">Following social media, website and subscription to blogs
+                                    and other publications: The above
+                                    policies apply to the followers of social media (Facebook, Twitter, LinkedIn, etc),
+                                    other electronic
+                                    means (Tel, WhatsApp, Messenger, email, etc.) and subscribers to blogs and other
+                                    publications.
+                                    Through these, the College obtains consent to formalize any engagement, and to send
+                                    relevant
+                                    advertising and commercial information. The College also collects data for example
+                                    IP Addresses
+                                    and information relating to browsing mainly linked to the College activities through
+                                    its website to
+                                    manage and optimize the website legitimately while preserving the security and
+                                    integrity of the
+                                    website. The associated Privacy and Cookie policies can be consulted at
+                                    https://www.dataprotection.ie/.</li>
+                                <li style="font-size: 14px; ">Events subscription: The main purpose is to formalize the
+                                    client’s registration and participation in
+                                    the selected event including ads and commercial materials as above.</li>
+                                <li style="font-size: 14px; ">Sports, Clubs & activities registration: By registering
+                                    with sports team, clubs and other activities
+                                    where the College directly/indirectly involved in, students formalize their
+                                    registration and
+                                    participation in the selected activities. This may result in a consent given us to
+                                    send
+                                    communications about the College products, services, and activities by any means.
+                                </li>
+                                <li style="font-size: 14px; ">Application for employment opportunities: When seeking a
+                                    job opportunity, the College collect
+                                    personal, professional, and other relevant information through application form and
+                                    CV to
+                                    complete personnel selection processes. By which the applicant gives us legitimate
+                                    consent to
+                                    participate in the hiring processes that results the pre-contractual or contractual
+                                    relationship
+                                    between the applicant and the College. Once employed, the College keeps related data
+                                    includes
+                                    pay, taxation, and other related personnel service records as per rules and
+                                    regulations exist in
+                                    Ireland and the EU.</li>
+                                <li style="font-size: 14px; ">Application for employment opportunities: When seeking a
+                                    job opportunity, the College collect
+                                    personal, professional, and other relevant information through application form and
+                                    CV to
+                                    complete personnel selection processes. By which the applicant gives us legitimate
+                                    consent to
+                                    participate in the hiring processes that results the pre-contractual or contractual
+                                    relationship
+                                    between the applicant and the College. Once employed, the College keeps related data
+                                    includes
+                                    pay, taxation, and other related personnel service records as per rules and
+                                    regulations exist in
+                                    Ireland and the EU.</li>
+                            </ol>
+                            </p>
+
+                        </div>
+
                     </div>
                     <div class="signup-form">
 
                         <div class="overview" style="color: black">
 
 
-                            <div class="MODULES" style="margin-top: px">
-                                <h2 style="color: rgb(0, 0, 0)">
-                                    Compliance arrangements
-                                </h2>
-                                <p style="color: black">
-                                    The College has several arrangements in place to ensure that all personal data records
-                                    held are
-                                    obtained, processed, used and retained in accordance with the Data Protection Acts i.e.
-                                    (i) to obtain
-                                    and process information fairly, (ii) maintained only for one or more specified, explicit
-                                    and lawful purpose,
-                                    (iii) used and disclosed only in ways compatible with these purposes, (iv) it is kept
-                                    safe and secure, (v)
-                                    it is accurate, complete and up-to-date, (vi) that its adequacy, relevance and
-                                    appropriateness is
-                                    ensured, (vii) retained for no longer than is necessary for the purpose or purposes, and
-                                    (viii) that a copy
-                                    of his/her personal data can be provided to the individual on request. For additional
-                                    details, A Guide for
-                                    Data Controllers, should be consulted.
-                                    For the minimum age at which consent can be legitimately obtained for processing and
-                                    disclosure of
-                                    personal data, the guidance material published on the Data Protection Commissioner’s
-                                    website should
-                                    be consulted: https://www.dataprotection.ie/. However, as a rule in education, “a
-                                    student aged eighteen
-                                    or older may give consent themselves”. A student aged from twelve up to and including
-                                    seventeen
-                                    should give consent themselves and, in addition, consent should also be obtained from
-                                    the student's
-                                    parent or guardian.” Importantly, Appendix 1 will be included on relevant forms in
-                                    collecting personal
-                                    information.
-                                    To protect everyone associated with the College and its activities, the College ensures
-                                    Privacy Policy in
-                                    relation to the personal data and the data are processed currently by the College
-                                    Administration
-                                    (admin@prudencecollege.ie) in association with Admissions, Marketing and ICT teams.
-                                    For providing efficient and associated on-time services to students and the others
-                                    stated above, the
-                                    College collects all legitimate personal data through website, social media, emails and
-                                    other media from
-                                    users having contractual right. The College reserves the right of not responding to or
-                                    processing
-                                    requests that do not include the requested personal data. An option will remain in place
-                                    to review and
-                                    update personal data by the providers and the College staff from time to time. The
-                                    purposes and legal
-                                    basis of processing and holding personal data is as follows:
-                                <ol>
-                                    <li style="font-size: 14px; ">Contract form: This is used to contact the College for
-                                        information or suggestions, and replies to
-                                        any queries that arise, as well as sending information on education and
-                                        training-related products,
-                                        information (ads/commercial) services and activities of various communication/social
-                                        media. In
-                                        most cases, corresponding terms of agreement/consents are provided so that the
-                                        College can
-                                        respond legitimately. The processing may also be legitimized based on the
-                                        pre-contractual or
-                                        contractual relationship that may exist between the applicant and the College.</li>
-                                    <li style="font-size: 14px; ">Application form for profiling: The main purpose of this
-                                        is to send a preliminary evaluation of
-                                        student’s profile based on the personal data provided including ads and commercial
-                                        materials by
-                                        various means and the services to be offered as indicated above. A pre-contractual
-                                        or contractual
-                                        relationship between the College administration and the students may also exist, and
-                                        the consent
-                                        given for providing the College services and products. For students, registers and
-                                        roll books are
-                                        maintained (manual and electronic) and stored.</li>
-                                    <li style="font-size: 14px; ">Downloading prospectus/brochure: This includes details of
-                                        the programmes and courses of its
-                                        own and/or through partnerships offering by the College that is downloaded with an
-                                        intention to
-                                        study/enrol. A minimum of personal information (name, email, tel, origin, etc.) is
-                                        collected to
-                                        provide the services offering and relevant information on other products and
-                                        activities by any
-                                        communication means. This results in the given consent to send consumers the
-                                        information
-                                        including prospectus/brochure requested, and other materials/service indicated above
-                                        for
-                                        legitimate processing on the basis of the pre-contractual or contractual
-                                        relationship that may exist
-                                        between the consumer and the College.</li>
-                                    <li style="font-size: 14px; ">Following social media, website and subscription to blogs
-                                        and other publications: The above
-                                        policies apply to the followers of social media (Facebook, Twitter, LinkedIn, etc),
-                                        other electronic
-                                        means (Tel, WhatsApp, Messenger, email, etc.) and subscribers to blogs and other
-                                        publications.
-                                        Through these, the College obtains consent to formalize any engagement, and to send
-                                        relevant
-                                        advertising and commercial information. The College also collects data for example
-                                        IP Addresses
-                                        and information relating to browsing mainly linked to the College activities through
-                                        its website to
-                                        manage and optimize the website legitimately while preserving the security and
-                                        integrity of the
-                                        website. The associated Privacy and Cookie policies can be consulted at
-                                        https://www.dataprotection.ie/.</li>
-                                    <li style="font-size: 14px; ">Events subscription: The main purpose is to formalize the
-                                        client’s registration and participation in
-                                        the selected event including ads and commercial materials as above.</li>
-                                    <li style="font-size: 14px; ">Sports, Clubs & activities registration: By registering
-                                        with sports team, clubs and other activities
-                                        where the College directly/indirectly involved in, students formalize their
-                                        registration and
-                                        participation in the selected activities. This may result in a consent given us to
-                                        send
-                                        communications about the College products, services, and activities by any means.
-                                    </li>
-                                    <li style="font-size: 14px; ">Application for employment opportunities: When seeking a
-                                        job opportunity, the College collect
-                                        personal, professional, and other relevant information through application form and
-                                        CV to
-                                        complete personnel selection processes. By which the applicant gives us legitimate
-                                        consent to
-                                        participate in the hiring processes that results the pre-contractual or contractual
-                                        relationship
-                                        between the applicant and the College. Once employed, the College keeps related data
-                                        includes
-                                        pay, taxation, and other related personnel service records as per rules and
-                                        regulations exist in
-                                        Ireland and the EU.</li>
-                                    <li style="font-size: 14px; ">Application for employment opportunities: When seeking a
-                                        job opportunity, the College collect
-                                        personal, professional, and other relevant information through application form and
-                                        CV to
-                                        complete personnel selection processes. By which the applicant gives us legitimate
-                                        consent to
-                                        participate in the hiring processes that results the pre-contractual or contractual
-                                        relationship
-                                        between the applicant and the College. Once employed, the College keeps related data
-                                        includes
-                                        pay, taxation, and other related personnel service records as per rules and
-                                        regulations exist in
-                                        Ireland and the EU.</li>
-                                </ol>
-                                </p>
-
-                            </div>
 
 
                             <div class="OPPORTUNITIES">
@@ -502,6 +503,103 @@
                                     For exercising rights, please contact the College Administration with your proof of
                                     identity and relevant
                                     information details (e.g. dates, times and locations) at admin@prudenceCollege.ie.
+                                </p>
+                            </div>
+                            <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: rgb(0, 0, 0)">
+                                    Other Policies and Curriculum Delivery
+                                </h2>
+                                <p style="color: black">
+                                    It is particularly important to notify the College immediately at
+                                    admin@prudencecollege.ie in the event
+                                    of a data breach. Following the GDPR, the College authority will identify the nature of
+                                    the breach and
+                                    notify the Data Protection Commissioner as and where applicable. For College staff, the
+                                    line manager
+                                    is the first contact point to take such an action.
+                                    For more information on Privacy and Cookie Policies, please consult:
+                                    https://dataprotection.ie/en/
+                                </p>
+                                <p style="color: black">
+                                    It is particularly important to notify the College immediately at
+                                    admin@prudencecollege.ie in the event
+                                    of a data breach. Following the GDPR, the College authority will identify the nature of
+                                    the breach and
+                                    notify the Data Protection Commissioner as and where applicable. For College staff, the
+                                    line manager
+                                    is the first contact point to take such an action.
+                                    For more information on Privacy and Cookie Policies, please consult:
+                                    https://dataprotection.ie/en/
+                                    <br /> Currently, the College does not operate CCTV of its own and this is done by the
+                                    ACE Enterprise Park
+                                    for the safety and security of its premises, and this is equally applicable for students
+                                    and staff of the
+                                    College.
+                                    For information on data protection and privacy with Office 365, the following links can
+                                    be visited:
+
+                                <ul>
+                                    <li>
+                                        • Information about where your data is stored
+                                    </li>
+                                    <li>• Information on Office 365’s privacy policy</li>
+
+                                    <li> • Information on Office 365 Regulatory Compliance </li>
+                                    <li>• Information on Office 365 Trust Centre</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: rgb(0, 0, 0)">
+                                    Policy implementation and relevant arrangements
+                                </h2>
+                                <p style="color: black">
+                                    The policy will be implemented, monitored, reviewed, and evaluated by the CEO/President
+                                    of the
+                                    College in cooperation with the admissions office and the ICT staff responsible for
+                                    registering, recording,
+                                    and entering the information on a regular basis. A copy of the policy and other relevant
+                                    information will
+                                    be provided to all staff and students either electronically through email and/or post on
+                                    the College
+                                    website.
+                                </p>
+
+                            </div>
+                            <div class="ADDITIONAL FACILITIES">
+                                <h2 style="color: rgb(0, 0, 0)">
+                                    Appendix 1
+                                </h2>
+                                <p style="color: black">
+                                    <b> The following Data Protection Statement will be included on relevant forms when
+                                        personal
+                                        information is being requested.</b>
+                                </p>
+                                <p style="color: black">
+                                    The information collected on this form will be held by Prudence College Dublin in manual
+                                    and in
+                                    electronic format. The information will be processed in accordance with the Data
+                                    Protection Act, 1988
+                                    and the Data Protection (Amendment) Act, 2003.
+                                </p>
+                                <p style="color: black">
+                                    The purpose of holding this information is for administrative purposes/to facilitate the
+                                    College in meeting
+                                    the student’s educational needs/ any other issues relevant to operation and commercial
+                                    purposes.
+                                </p>
+                                <p style="color: black">
+                                    Disclosure of any of this information to statutory bodies such as the Department of
+                                    Education and
+                                    Science or its agencies will take place only in accordance with legislation or
+                                    regulatory requirements.
+                                    Explicit consent will be sought from Parents/Guardians or students aged 18 or over if
+                                    the school wishes
+                                    to disclose this information to a third party for any other reason.
+                                    Parents/Guardians of students and students aged 18 or over have a right to access the
+                                    personal data
+                                    held on them by the school and to correct it if necessary.
+                                    I consent to the use of the information supplied as described
                                 </p>
                             </div>
                         </div>
