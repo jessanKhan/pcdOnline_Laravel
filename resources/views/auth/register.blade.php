@@ -177,13 +177,15 @@
 
                             <div class="form-group">
                                 <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the Privacy Policy and the  <a href="#" class="term-service">Terms and Conditions</a></label>
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the
+                                    Privacy Policy and the <a href="/terms_and_conditions" class="term-service">Terms and
+                                        Conditions</a></label>
                             </div>
                             <div class="form-group form-button">
 
                                 <!-- <button type="submit" class="btn btn-primary">
-                                                                                                                                                                                                                                                        {{ __('Register') }}
-                                                                                                                                                                                                                                                    </button> -->
+                                                                                                                                                                                                                                                                {{ __('Register') }}
+                                                                                                                                                                                                                                                            </button> -->
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
 
                             </div>
