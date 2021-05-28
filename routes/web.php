@@ -113,6 +113,9 @@ Route::get('/terms_and_conditions', function () {
 })->name('terms');
 
 Route::get('course/{course}', [App\Http\Controllers\CourseController::class, 'show']);
+Route::get('/admin_home', function () {
+    return view('admin/dash_home');
+})->name('dash_home');
 
 Auth::routes();
 
