@@ -38,7 +38,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="dashboard.html">
+                    <a href="{{ route('dash_home') }}">
                         <i class="fa fa-th-large"></i>
                         Dashboard
                     </a>
@@ -54,12 +54,12 @@
                     </ul>
                 </li>
 
-                <li>
+                {{-- <li>
                     <a href="sections.html">
                         <i class="fa fa-square"></i>
                         Page Contents
                     </a>
-                </li>
+                </li> --}}
                 <li>
                     <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">
                         <i class="fa fa-clipboard"></i>
@@ -72,26 +72,26 @@
                 </li>
 
 
-                <li>
+                {{-- <li>
                     <a href="#">
                         <i class="fa fa-money"></i>
                         Accounts
                     </a>
-                </li>
+                </li> --}}
 
-                <li>
+                {{-- <li>
                     <a href="notice.html">
                         <i class="fa fa-clipboard"></i>
                         Notice
                     </a>
-                </li>
+                </li> --}}
 
-                <li>
+                {{-- <li>
                     <a href="account-setting.html">
                         <i class="fa fa-cogs"></i>
                         Account Setting
                     </a>
-                </li>
+                </li> --}}
                 <li>
                     <a href="#">
                         <i class="fa fa-align-left"></i>
