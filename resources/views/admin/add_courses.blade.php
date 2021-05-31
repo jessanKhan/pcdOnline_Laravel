@@ -5,7 +5,7 @@
             <div class="breadcrumb-wrapper">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
-                    <li class="breadcrumb-item active">Add Employee</li>
+                    <li class="breadcrumb-item active">Add Course</li>
                 </ol>
             </div>
         </div>
@@ -16,7 +16,7 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Add Stuff</h3>
+                    <h3>Add Course</h3>
                 </div>
                 <div class="col-md-6"></div>
             </div>
@@ -24,55 +24,12 @@
         <div class="panel-body">
             <form action="" method="" id="">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-tools-cover">
-                            <div class="input-group">
-                                <input type="text" name="first_name" class="" aria-describedby="basic-addon1" required>
-                                <label>Employee ID</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-tools-cover">
-                            <div class="input-group">
-                                <input type="text" name="first_name" class="" aria-describedby="basic-addon1" required>
-                                <label>Employee Name</label>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-md-6">
                         <div class="form-tools-cover">
                             <div class="input-group">
                                 <input type="text" name="first_name" class="" aria-describedby="basic-addon1" required>
-                                <label>Contact Number</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="form-tools-cover">
-                            <div class="input-group">
-                                <input type="text" name="first_name" class="" aria-describedby="basic-addon1" required>
-                                <label>Email Address</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="form-tools-cover">
-                            <div class="input-group">
-                                <textarea required></textarea>
-                                <label>Present Address</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="form-tools-cover">
-                            <div class="input-group">
-                                <textarea required></textarea>
-                                <label>Permanent Address</label>
+                                <label>Course Title </label>
                             </div>
                         </div>
                     </div>
@@ -81,10 +38,11 @@
                         <div class="form-tools-cover">
                             <div class="input-group">
                                 <select id="basic" class="selectpicker show-tick form-control" data-live-search="true">
-                                    <option selected>Select Department</option>
-                                    <option>CSE</option>
-                                    <option>BBA</option>
-                                    <option>EEE</option>
+                                    <option selected>Course Category</option>
+                                    <option>Business and Management</option>
+                                    <option>Coding and Computing</option>
+                                    <option>Applied Science</option>
+                                    <option>Language and Culture</option>
                                 </select>
                             </div>
                         </div>
@@ -93,46 +51,24 @@
                     <div class="col-md-6">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <select id="basic" class="selectpicker show-tick form-control" data-live-search="true">
-                                    <option selected>Select Gender</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                </select>
+                                <input type="text" name="first_name" class="" aria-describedby="basic-addon1" required>
+                                <label>Course fee(€)</label>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <select id="basic" class="selectpicker show-tick form-control" data-live-search="true">
-                                    <option selected>Select Religion</option>
-                                    <option>Muslim</option>
-                                    <option>Sanatan</option>
-                                    <option>Buddha</option>
-                                    <option>Christian</option>
-                                    <option>Others</option>
-                                </select>
+                                <textarea class="form-control" id="summary-ckeditor" name="summary-ckeditor"
+                                    required></textarea>
+                                <label>Course Description</label>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <div class="form-tools-cover">
-                            <div class="input-group">
-                                <select id="basic" class="selectpicker show-tick form-control" data-live-search="true">
-                                    <option selected>Select Nationality</option>
-                                    <option>Bangladeshi</option>
-                                    <option>Indian</option>
-                                    <option>Canadian</option>
-                                    <option>Australian</option>
-                                    <option>Japanese</option>
-                                    <option>Chinese</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-md-12">
                         <div class="file-upload-wrapper">

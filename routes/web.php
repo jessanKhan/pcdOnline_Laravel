@@ -113,6 +113,11 @@ Route::get('/terms_and_conditions', function () {
 })->name('terms');
 
 Route::get('course/{course}', [App\Http\Controllers\CourseController::class, 'show']);
+
+Route::get('/admin_login', function () {
+    return view('admin/adminauth');
+})->name('admin_login');
+
 Route::get('/admin_home', function () {
     return view('admin/dash_home');
 })->name('dash_home');
@@ -122,6 +127,9 @@ Route::get('/admission', function () {
 Route::get('/student_list', function () {
     return view('admin/student_list');
 })->name('student_list');
+Route::get('/student_list/profile', function () {
+    return view('admin/std_profile');
+})->name('std_profile');
 
 
 Route::get('/admin/add-courses', function () {

@@ -63,7 +63,7 @@
                 <li>
                     <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">
                         <i class="fa fa-clipboard"></i>
-                        Teacher
+                        Coruses
                     </a>
                     <ul class="collapse list-unstyled" id="pageSubmenu1">
                         <li><a href="{{ route('add_courses') }}">Add Courses</a></li>
@@ -195,7 +195,12 @@
 
 
 
+    {{-- CK Editor CDN --}}
+    <script src="//cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('summary-ckeditor');
 
+    </script>
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

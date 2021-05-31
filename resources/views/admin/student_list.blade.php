@@ -41,10 +41,10 @@
                             <thead>
                                 <tr>
                                     <th scope="col">S.ID</th>
-                                    <th scope="col">S.Name</th>
-                                    <th scope="col">Class</th>
-                                    <th scope="col">Section</th>
-                                    <th scope="col">Group</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Gender</th>
+
                                     <th scope="col">Contact</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Action</th>
@@ -53,14 +53,14 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">s-01</th>
-                                    <td>Shamitra Dutta</td>
-                                    <td>06</td>
-                                    <td>B</td>
-                                    <td>Science</td>
+                                    <td>Shamitra </td>
+                                    <td>Dutta</td>
+                                    <td>Male</td>
+
                                     <td>01742394092</td>
                                     <td>antu@gmail.com</td>
                                     <td>
-                                        <a href="student-profile.html"><i class="fa fa-eye"></i></a>
+                                        <a href="{{ route('std_profile') }}"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#confirm"><i
                                                 class="fa fa-trash"></i></a>
@@ -68,14 +68,13 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">s-02</th>
-                                    <td>Shuvash Dutta</td>
-                                    <td>07</td>
-                                    <td>A</td>
-                                    <td>Science</td>
+                                    <td>Shuvash </td>
+                                    <td>Dutta</td>
+                                    <td>Male</td>
                                     <td>01742394096</td>
                                     <td>shuvash@gmail.com</td>
                                     <td>
-                                        <a href="student-profile.html"><i class="fa fa-eye"></i></a>
+                                        <a href="{{ route('std_profile') }}"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#confirm"><i
                                                 class="fa fa-trash"></i></a>
@@ -83,14 +82,13 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">s-01</th>
-                                    <td>Andrew DS</td>
-                                    <td>10</td>
-                                    <td>A</td>
-                                    <td>Commerce</td>
+                                    <td>Andrew </td>
+                                    <td>DS</td>
+                                    <td>Male</td>
                                     <td>01742394052</td>
                                     <td>andrew@gmail.com</td>
                                     <td>
-                                        <a href="student-profile.html"><i class="fa fa-eye"></i></a>
+                                        <a href="{{ route('std_profile') }}"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#confirm"><i
                                                 class="fa fa-trash"></i></a>
@@ -123,7 +121,7 @@
                                     <div class="input-group">
                                         <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
                                             required>
-                                        <label>Last Name</label>
+                                        <label>First Name</label>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +139,7 @@
                                     <div class="input-group">
                                         <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
                                             required>
-                                        <label>Last Name</label>
+                                        <label>Email</label>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +148,51 @@
                                     <div class="input-group">
                                         <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
                                             required>
-                                        <label>Last Name</label>
+                                        <label>Phone</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-tools-cover">
+                                    <div class="input-group">
+                                        <input type="date" name="first_name" class="" aria-describedby="basic-addon1"
+                                            placeholder="Date of Birth" required>
+                                        {{-- <label>Date of Birth</label> --}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-tools-cover">
+                                    <div class="input-group">
+                                        <select id="basic" class="selectpicker show-tick form-control"
+                                            data-live-search="true">
+                                            <option selected>Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Others</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-tools-cover">
+                                    <div class="input-group">
+                                        <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
+                                            required>
+                                        <label>Address</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-tools-cover">
+                                    <div class="input-group">
+                                        <select id="basic" class="selectpicker show-tick form-control"
+                                            data-live-search="true">
+                                            <option selected>Nationality</option>
+                                            <option>USA</option>
+                                            <option>Bangladesh</option>
+                                            <option>Ireland</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>

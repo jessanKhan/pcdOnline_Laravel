@@ -40,24 +40,24 @@
                             <thead>
                                 <tr>
                                     <th scope="col">S.ID</th>
-                                    <th scope="col">S.Name</th>
-                                    <th scope="col">Class</th>
-                                    <th scope="col">Section</th>
-                                    <th scope="col">Group</th>
-                                    <th scope="col">Contact</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Course Name</th>
                                     <th scope="col">Email</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Status</th>
                                     <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <th scope="row">s-01</th>
-                                    <td>Shamitra Dutta</td>
-                                    <td>06</td>
-                                    <td>B</td>
-                                    <td>Science</td>
-                                    <td>01742394092</td>
+                                    <td>Shamitra </td>
+                                    <td>Dutta</td>
+                                    <td>Genaral English Intermediate</td>
                                     <td>antu@gmail.com</td>
+                                    <td>01742394092</td>
+                                    <td>Not confirmed</td>
                                     <td>
                                         <a href="student-profile.html"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
@@ -67,12 +67,12 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">s-02</th>
-                                    <td>Shuvash Dutta</td>
-                                    <td>07</td>
-                                    <td>A</td>
-                                    <td>Science</td>
-                                    <td>01742394096</td>
+                                    <td>Shuvash </td>
+                                    <td>Dutta</td>
+                                    <td>Genaral English Intermediate</td>
                                     <td>shuvash@gmail.com</td>
+                                    <td>01742394096</td>
+                                    <td>Not confirmed</td>
                                     <td>
                                         <a href="student-profile.html"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
@@ -82,12 +82,12 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">s-01</th>
-                                    <td>Andrew DS</td>
-                                    <td>10</td>
-                                    <td>A</td>
-                                    <td>Commerce</td>
-                                    <td>01742394052</td>
+                                    <td>Andrew </td>
+                                    <td>DS</td>
+                                    <td>Accounting And Finance Advanced</td>
                                     <td>andrew@gmail.com</td>
+                                    <td>01742394052</td>
+                                    <td>Not confirmed</td>
                                     <td>
                                         <a href="student-profile.html"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
