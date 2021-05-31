@@ -49,42 +49,11 @@
                         Student
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li><a href="student-addmision.html">Student Admission</a></li>
-                        <li><a href="student-list.html">Student List</a></li>
+                        <li><a href="{{ route('admission') }}">Enrollment Request</a></li>
+                        <li><a href="{{ route('student_list') }}">Student List</a></li>
                     </ul>
                 </li>
-                {{-- <li>
-                    <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">
-                        <i class="fa fa-users"></i>
-                        Teacher
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu1">
-                        <li><a href="add-teacher.html">Add Teacher</a></li>
-                        <li><a href="teacher-list.html">Teacher List</a></li>
-                    </ul>
-                </li> --}}
-                {{-- <li>
-                    <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false">
-                        <i class="fa fa-users"></i>
-                        Stuff
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu2">
-                        <li><a href="add-employee.html">Add Stuff</a></li>
-                        <li><a href="employee-list.html">Stuff List</a></li>
-                    </ul>
-                </li> --}}
-                <li>
-                    <a href="departments.html">
-                        <i class="fa fa-th"></i>
-                        Departments
-                    </a>
-                </li>
-                <li>
-                    <a href="classes.html">
-                        <i class="fa fa-th-large"></i>
-                        Classes
-                    </a>
-                </li>
+
                 <li>
                     <a href="sections.html">
                         <i class="fa fa-square"></i>
@@ -92,97 +61,31 @@
                     </a>
                 </li>
                 <li>
-                    <a href="groups.html">
-                        <i class="fa fa-users"></i>
-                        Groups
-                    </a>
-                </li>
-                <li>
-                    <a href="subjects.html">
+                    <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">
                         <i class="fa fa-clipboard"></i>
-                        Courses
+                        Teacher
                     </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu1">
+                        <li><a href="{{ route('add_courses') }}">Add Courses</a></li>
+                        <li><a href="{{ route('course_list') }}">Course List</a></li>
+                    </ul>
                 </li>
-                {{-- <li>
-                    <a href="#pageSubmenu10" data-toggle="collapse" aria-expanded="false">
-                        <i class="fa fa-clock-o"></i>
-                        Routine
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu10">
-                        <li><a href="routin2.html">Student Routine</a></li>
-                        <li><a href="routin2.html">Teacher Routine</a></li>
-                        <li><a href="routin2.html">Employee Routine</a></li>
-                        <li><a href="routin2.html">Add Routine</a></li>
-                    </ul>
-                </li> --}}
-                {{-- <li>
-                    <a href="#pageSubmenu11" data-toggle="collapse" aria-expanded="false">
-                        <i class="fa fa-check-circle"></i>
-                        Attendance
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu11">
-                        <li><a href="attendence-student.html">Student Attendance</a></li>
-                        <li><a href="attendence-teacher.html">Teacher Attendance</a></li>
-                        <li><a href="attendence-employee.html">Employee Attendance</a></li>
-                        <li><a href="attendence-stuffs"></a>Stuffs Attendance</li>
-                    </ul>
-                </li> --}}
-                {{-- <li>
-                    <a href="exam.html">
-                        <i class="fa fa-align-justify"></i>
-                        Exam
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu3">
-                        <li><a href="#">Manage Exam</a></li>
-                    </ul>
-                </li> --}}
-                {{-- <li>
-                    <a href="marks.html">
-                        <i class="fa fa-calculator"></i>
-                        Marks
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu8">
-                        <li><a href="#">Set Marks</a></li>
-                        <li><a href="#">Result List</a></li>
-                    </ul>
-                </li> --}}
-                {{-- <li>
-                    <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false">
-                        <i class="fa fa-book"></i>
-                        Library
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu4">
-                        <li><a href="library.html">Manage Books</a></li>
-                    </ul>
-                </li> --}}
+
+
                 <li>
                     <a href="#">
                         <i class="fa fa-money"></i>
                         Accounts
                     </a>
                 </li>
-                {{-- <li>
-                    <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false">
-                        <i class="fa fa-bus"></i>
-                        Transport
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu5">
-                        <li><a href="transport.html">Add Transport</a></li>
-                        <li><a href="transport-list.html">Transport List</a></li>
-                    </ul>
-                </li> --}}
+
                 <li>
                     <a href="notice.html">
                         <i class="fa fa-clipboard"></i>
                         Notice
                     </a>
                 </li>
-                {{-- <li>
-                    <a href="events.html">
-                        <i class="fa fa-calendar"></i>
-                        Events
-                    </a>
-                </li> --}}
+
                 <li>
                     <a href="account-setting.html">
                         <i class="fa fa-cogs"></i>

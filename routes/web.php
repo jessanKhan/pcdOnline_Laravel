@@ -116,6 +116,20 @@ Route::get('course/{course}', [App\Http\Controllers\CourseController::class, 'sh
 Route::get('/admin_home', function () {
     return view('admin/dash_home');
 })->name('dash_home');
+Route::get('/admission', function () {
+    return view('admin/admission');
+})->name('admission');
+Route::get('/student_list', function () {
+    return view('admin/student_list');
+})->name('student_list');
+
+
+Route::get('/admin/add-courses', function () {
+    return view('admin/add_courses');
+})->name('add_courses');
+Route::get('/course-list', function () {
+    return view('admin/course_list');
+})->name('course_list');
 
 Auth::routes();
 
