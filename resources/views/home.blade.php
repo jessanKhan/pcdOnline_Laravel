@@ -24,7 +24,7 @@
                             Student
                         </h6>
 
-                        <ul class="nav">
+                        <ul class="">
                             <div>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -123,114 +123,42 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <!-- <div class="profile-work">
-                                                                        <p>WORK LINK</p>
-                                                                        <a href="">Website Link</a><br/>
-                                                                        <a href="">Bootsnipp Profile</a><br/>
-                                                                        <a href="">Bootply Profile</a>
-                                                                        <p>SKILLS</p>
-                                                                        <a href="">Web Designer</a><br/>
-                                                                        <a href="">Web Developer</a><br/>
-                                                                        <a href="">WordPress</a><br/>
-                                                                        <a href="">WooCommerce</a><br/>
-                                                                        <a href="">PHP, .Net</a><br/>
-                                                                    </div> -->
+                <div class="col-md-12">
+                    <div class="course-fees">
+
+                        <h4> Enrolled Courses</h4>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <td width="70%"> Course Name </td>
+                                    {{-- <td width="20%">Course Shift</td> --}}
+                                    <td width="20%">Course Fee</td>
+                                    <td width="10%"> Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td width="70%">General English For Beginners Standard Monday to Friday Morning
+                                    </td>
+                                    {{-- <td width="20%">Morning</td> --}}
+                                    <td width="20%">€385</td>
+                                    <td width="10%"><a class="text-success">Confirmed</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="70%">General English For Beginners Standard Monday to Friday Afternoon
+                                    </td>
+                                    {{-- <td width="20%"> Afternoon </td> --}}
+                                    <td width="20%">€385</td>
+                                    <td width="10%"><a class="text-danger">Pending</a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <!-- <div class="col-md-8">
-                                                            <div class="tab-content profile-tab" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>User Id</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>Kshiti123</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Name</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>{{ Auth::user()->name }}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Email</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>{{ Auth::user()->email }}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Phone</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>123 456 7890</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Profession</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>Web Developer and Designer</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Experience</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>Expert</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Hourly Rate</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>10$/hr</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Total Projects</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>230</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>English Level</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>Expert</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <label>Availability</label>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <p>6 months</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <label>Your Bio</label><br />
-                                                                            <p>Your detail description</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div> -->
+
             </div>
         </form>
     </div>
