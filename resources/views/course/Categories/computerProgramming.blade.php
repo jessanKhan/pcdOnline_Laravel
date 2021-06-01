@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="main">
-        <h2 class="form-title" style="text-align: center; color: black;"><b>Coding and Computing</b></h2>
+        <h1 class="form-title" style="text-align: center; color: black;"><b>Coding and Computing</b></h1>
 
 
         <!-- Categories Section Start -->
@@ -20,112 +20,99 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('machineLearning') }}" target="_blank" style="text-decoration:none">
-                            <div class="icon-part">
+                        <a class="categories-item" href="{{ route('machineLearning') }}" target="_blank"
+                            style="text-decoration:none">
+                            {{-- <div class="icon-part">
                                 <img src="assets/images/categories/icons/1.png" alt="">
-                            </div>
+                            </div> --}}
                             <div class="content-part">
-                                <h5 class="title">Machine Learning with Python 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h5>
+                                <h5 class="title">Machine Learning with Python
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </h5>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('machineLearning2') }}" target="_blank" style="text-decoration:none">
-                            <div class="icon-part">
+                        <a class="categories-item" href="{{ route('machineLearning2') }}" target="_blank"
+                            style="text-decoration:none">
+                            {{-- <div class="icon-part">
                                 <img src="assets/images/categories/icons/2.png" alt="">
-                            </div>
+                            </div> --}}
                             <div class="content-part">
                                 <h5 class="title">Machine Learning with Python
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h5>
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </h5>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('dotnet1') }}" target="_blank" style="text-decoration:none">
-                            <div class="icon-part">
+                        <a class="categories-item" href="{{ route('dotnet1') }}" target="_blank"
+                            style="text-decoration:none">
+                            {{-- <div class="icon-part">
                                 <img src="assets/images/categories/icons/3.png" alt="">
-                            </div>
+                            </div> --}}
                             <div class="content-part">
-                                <h5 class="title">.Net Programming 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h5>
+                                <h5 class="title">.Net Programming
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </h5>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('dotnet2') }}" target="_blank" style="text-decoration:none">
-                            <div class="icon-part">
+                        <a class="categories-item" href="{{ route('dotnet2') }}" target="_blank"
+                            style="text-decoration:none">
+                            {{-- <div class="icon-part">
                                 <img src="assets/images/categories/icons/4.png" alt="">
-                            </div>
+                            </div> --}}
                             <div class="content-part">
-                                <h5 class="title">.Net Programming  
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h5>
+                                <h5 class="title">.Net Programming
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </h5>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('blockchain') }}" target="_blank" style="text-decoration:none">
-                            <div class="icon-part">
+                        <a class="categories-item" href="{{ route('blockchain') }}" target="_blank"
+                            style="text-decoration:none">
+                            {{-- <div class="icon-part">
                                 <img src="assets/images/categories/icons/5.png" alt="">
-                            </div>
+                            </div> --}}
                             <div class="content-part">
-                                <h5 class="title">Blockchain 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate Learners</b></p></h5>
+                                <h5 class="title">Blockchain
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Beginners/<br />Intermediate
+                                            Learners</b></p>
+                                </h5>
 
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                        <a class="categories-item" href="{{ route('blockchain2') }}" target="_blank" style="text-decoration:none">
-                            <div class="icon-part">
+                        <a class="categories-item" href="{{ route('blockchain2') }}" target="_blank"
+                            style="text-decoration:none">
+                            {{-- <div class="icon-part">
                                 <img src="assets/images/categories/icons/6.png" alt="">
-                            </div>
+                            </div> --}}
                             <div class="content-part">
-                                <h5 class="title" >Blockchain 
-                            <br /><p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p></h5>
+                                <h5 class="title">Blockchain
+                                    <br />
+                                    <p style="font-size: 12px; color: black;"><b> For Advanced Learners</b></p>
+                                </h5>
 
                             </div>
                         </a>
                     </div>
-                    <!--
-                                                                            <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                                                                                <a class="categories-item" href="#">
-                                                                                    <div class="icon-part">
-                                                                                        <img src="assets/images/categories/icons/7.png" alt="">
-                                                                                    </div>
-                                                                                    <div class="content-part">
-                                                                                        <h4 class="title">Scientific Data Handling and Programming</h4>
-                                                                                        <span class="courses">01 Courses</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                                                                                <a class="categories-item" href="#">
-                                                                                    <div class="icon-part">
-                                                                                        <img src="assets/images/categories/icons/8.png" alt="">
-                                                                                    </div>
-                                                                                    <div class="content-part">
-                                                                                        <h4 class="title">Digital Enterprise and Business Support</h4>
-                                                                                        <span class="courses">02 Courses</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            
-                                                                            <div class="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
-                                                                                <a class="categories-item" href="#">
-                                                                                    <div class="icon-part">
-                                                                                        <img src="assets/images/categories/icons/9.png" alt="">
-                                                                                    </div>
-                                                                                    <div class="content-part">
-                                                                                        <h4 class="title">Recipes</h4>
-                                                                                        <span class="courses">7 Courses</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>-->
+
                 </div>
             </div>
         </div>
@@ -133,9 +120,9 @@
 
 
 
-     </div>
-  </section>
-</div>
+    </div>
+    </section>
+    </div>
 
 
 

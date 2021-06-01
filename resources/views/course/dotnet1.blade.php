@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="main">
-        <h2 class="form-title" style="text-align: center; color: black"><b>.NET PROGRAMMING</b></h2>
+        <h2 class="form-title" style="text-align: center; color: black"><b>.Net Programming</b></h2>
         <h3 class="form-title" style="text-align: center; color: black"><b> For Beginners/Intermediate Learners</b></h3>
         <!-- Sign up form -->
         <section class="signup">
