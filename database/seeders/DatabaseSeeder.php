@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
             CountriesTableSeeder::class,
             CourseCategorySeeder::class,
             CoursesTableSeeder::class,
+            AdminSeeder::class,
         ]);
     }
 }

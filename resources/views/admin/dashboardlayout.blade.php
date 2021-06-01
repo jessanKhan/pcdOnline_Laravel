@@ -38,7 +38,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="{{ route('dash_home') }}">
+                    <a href="{{ route('dashboard') }}">
                         <i class="fa fa-th-large"></i>
                         Dashboard
                     </a>

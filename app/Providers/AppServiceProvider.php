@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
+use App\Models\CourseCategory;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -27,5 +29,8 @@ class AppServiceProvider extends ServiceProvider
         if (env('APP_ENV') !== 'local') {
             URL::forceScheme('https');
         }
+
+        $course_categories = CourseCategory::all();
+        View::share('course_categories', $course_categories);
     }
 }

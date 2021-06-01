@@ -28,9 +28,10 @@
             </div>
 
             <!-- Login Form -->
-            <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Username">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
+            <form action="{{ route('admin_login_post') }}" method="POST">
+                {{ csrf_field() }}
+                <input type="text" id="login" class="fadeIn second" name="username" placeholder="Username">
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
                 <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
 

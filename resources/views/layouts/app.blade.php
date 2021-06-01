@@ -201,33 +201,15 @@
 
                     <li class="has-submenu"><a href="#section4" style="text-decoration:none">Courses</a>
                         <ul class="sub-menu">
-                            <li class="has-submenu">
-                                <div class="row" onclick="redirectTo('business')"><a href="{{ route('Business') }}"
-                                        target="_blank" style="text-decoration:none">Business & Management <i
-                                            class='fa fa-angle-right fa-fw'></i></a> </div>
+                            @foreach($course_categories as $course_category)
+                                <li class="has-submenu" onclick="accounting()">
+                                    <div class="row"><a href="{{ route('show-course-category', $course_category->slug) }}" target="_blank"
+                                                        style="text-decoration:none">{{ $course_category->name }} <i
+                                                class='fa fa-angle-right fa-fw'></i></a></div>
 
 
-
-                            </li>
-                            <li class="has-submenu" onclick="redirectTo('computerProgramming')">
-                                <div class="row"><a href="{{ route('computerProgramming') }}" target="_blank"
-                                        style="text-decoration:none">Coding & Computing <i
-                                            class='fa fa-angle-right fa-fw'></i></a></div>
-
-
-                            </li>
-                            <li class="has-submenu" onclick="redirectTo('applied_science')">
-                                <div class="row"><a href="{{ route('applied_science') }}" target="_blank"
-                                        style="text-decoration:none">Applied Sci-Tech<i
-                                            class='fa fa-angle-right fa-fw'></i></a></div>
-
-                            </li>
-                            <li class="has-submenu " onclick="redirectTo('language')">
-                                <div class="row"><a href="{{ route('language') }}" target="_blank"
-                                        style="text-decoration:none">Languages & Culture<i
-                                            class='fa fa-angle-right fa-fw'></i></a></div>
-
-                            </li>
+                                </li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="input search-bar">

@@ -105,26 +105,31 @@ Route::get('/admin_login', function () {
     return view('admin/adminauth');
 })->name('admin_login');
 
-Route::get('/admin_home', function () {
-    return view('admin/dash_home');
-})->name('dash_home');
-Route::get('/admission', function () {
-    return view('admin/admission');
-})->name('admission');
-Route::get('/student_list', function () {
-    return view('admin/student_list');
-})->name('student_list');
-Route::get('/student_list/profile', function () {
-    return view('admin/std_profile');
-})->name('std_profile');
+Route::post('/admin_login', 'App\Http\Controllers\AdminController@login')->name('admin_login_post');
+
+Route::group(['middleware' => 'auth:admin'], function () {
+    Route::get('/dashboard', function () {
+        return view('admin/dash_home');
+    })->name('dashboard');
+    Route::get('/admission', function () {
+        return view('admin/admission');
+    })->name('admission');
+    Route::get('/student_list', function () {
+        return view('admin/student_list');
+    })->name('student_list');
+    Route::get('/student_list/profile', function () {
+        return view('admin/std_profile');
+    })->name('std_profile');
 
 
-Route::get('/admin/add-courses', function () {
-    return view('admin/add_courses');
-})->name('add_courses');
-Route::get('/course-list', function () {
-    return view('admin/course_list');
-})->name('course_list');
+    Route::get('/admin/add-courses', function () {
+        return view('admin/add_courses');
+    })->name('add_courses');
+    Route::get('/course-list', function () {
+        return view('admin/course_list');
+    })->name('course_list');
+});
+
 
 Auth::routes();
 

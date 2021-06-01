@@ -30,10 +30,8 @@ class HomeController extends Controller
 
     public function welcome()
     {
-        $course_categories = CourseCategory::all();
         $courses = Course::all();
-
-        return view('welcome', compact('course_categories', 'courses'));
+        return view('welcome', compact('courses'));
     }
 
     public function showCourseCategory(CourseCategory $course_category)
