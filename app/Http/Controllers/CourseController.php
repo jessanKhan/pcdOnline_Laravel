@@ -62,6 +62,11 @@ class CourseController extends Controller
 
      public function show(Course $course)
      {
+         $course->load('child_courses');
+
+         if ($course->child_courses->count() == 0) {
+             $course->child_courses = collect()->add($course);
+         }
          return view('course.show', compact('course'));
      }
 }

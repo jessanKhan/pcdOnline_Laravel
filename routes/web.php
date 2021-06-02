@@ -121,6 +121,7 @@ Route::group(['middleware' => 'auth:admin'], function () {
         return view('admin/std_profile');
     })->name('std_profile');
 
+    Route::get('admin/logout', 'App\Http\Controllers\AdminController@logout')->name('admin-logout');
 
     Route::get('/admin/add-courses', function () {
         return view('admin/add_courses');

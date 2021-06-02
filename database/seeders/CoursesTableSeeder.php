@@ -128,6 +128,7 @@ class CoursesTableSeeder extends Seeder
 
                                     <br>● Access to material posted on our school online platform.
                                 </p>',
+                'course_fee' => 525.00,
             ],
             [
                 'course_name' => 'Accounting and Finance',
@@ -234,6 +235,7 @@ class CoursesTableSeeder extends Seeder
 
                                     <br>● Access to material posted on our school online platform.
                                 </p>',
+                'course_fee' => 525.00,
             ],
             [
                 'course_name' => 'Digital Enterprise and Business Support',
@@ -333,6 +335,7 @@ class CoursesTableSeeder extends Seeder
                                     school online platform.
                                     <br>● Support and feedback from qualified teachers.
                                 </p>',
+                'course_fee' => 525.00,
             ],
             [
                 'course_name' => 'Digital Enterprise and Business Support',
@@ -441,6 +444,7 @@ class CoursesTableSeeder extends Seeder
                                     school online platform.
                                     <br/>● Support and feedback from qualified teachers.
                                 </p>',
+                'course_fee' => 525.00,
             ],
             [
                 'course_name' => 'Machine Learning with Python',
@@ -541,6 +545,7 @@ class CoursesTableSeeder extends Seeder
                                     <br>● Support and feedback from qualified teachers.
 
                                 </p>',
+                'course_fee' => 770.00,
             ],
             [
                 'course_name' => 'Machine Learning with Python',
@@ -642,6 +647,7 @@ class CoursesTableSeeder extends Seeder
                                     <br>● Support and feedback from qualified teachers.
 
                                 </p>',
+                'course_fee' => 770.00,
             ],
             [
                 'course_name' => '.NET PROGRAMMING',
@@ -755,6 +761,7 @@ class CoursesTableSeeder extends Seeder
                                     <br>● Support and feedback from qualified teachers.
 
                                 </p>',
+                'course_fee' => 770.00,
             ],
             [
                 'course_name' => '.NET PROGRAMMING',
@@ -869,6 +876,7 @@ class CoursesTableSeeder extends Seeder
                                     <br>● Support and feedback from qualified teachers.
 
                                 </p>',
+                'course_fee' => 770.00,
             ],
             [
                 'course_name' => 'Blockchain for Everyone',
@@ -979,6 +987,7 @@ class CoursesTableSeeder extends Seeder
                                     world.
 
                                 </p>',
+                'course_fee' => 840.00,
             ],
             [
                 'course_name' => 'Blockchain for Everyone',
@@ -1090,6 +1099,7 @@ class CoursesTableSeeder extends Seeder
                                     world.
 
                                 </p>',
+                'course_fee' => 840.00,
             ],
             [
                 'course_name' => 'Scientific Data Handling and Programming',
@@ -1222,6 +1232,7 @@ class CoursesTableSeeder extends Seeder
                                     <br>● Support and feedback from qualified teachers.
 
                                 </p>',
+                'course_fee' => 770.00,
             ],
             [
                 'course_name' => 'Scientific Data Handling and Programming',
@@ -1355,6 +1366,7 @@ class CoursesTableSeeder extends Seeder
                                     <br>● Support and feedback from qualified teachers.
 
                                 </p>',
+                'course_fee' => 770.00,
             ],
             [
                 'course_name' => 'Business English',
@@ -2295,8 +2307,2151 @@ class CoursesTableSeeder extends Seeder
             ],
         ];
 
-        $output = Course::insert($courses);
+        foreach ($courses as $index => $course) {
+            Course::create($course);
+        }
 
-        return $output;
+        $business_english_course = Course::where('slug', Str::slug('Business English', '-'))->first();
+        $business_english_2_course = Course::where('slug', Str::slug('Business English 2', '-'))->first();
+
+        $business_english_child_courses = [
+            [
+                'course_name' => 'Business English For Beginner Standard Monday to Friday',
+                'shift' => 'Morning',
+                'course_fee' => 385.00,
+                'slug' => Str::slug('Business English For Beginner Standard Monday to Friday', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Beginners/Intermediate Learners',
+                'course_image'  => 'assets/images/b eng 1.jpg',
+                'overview' => '<p style="color: black">
+                                This course is aimed at students who want to excel in the English-speaking work
+                                environment. You will learn how to speak and write professional English, with a
+                                task-based approach guaranteed to increase your confidence in real world
+                                work-related situations. The syllabus has been specifically designed to help you
+                                to get the practical skills you will need to become a workplace communication
+                                expert.
+                            </p>
+                            <p style="color: black">
+                                Our senior lecturers are highly qualified and trained, and depending on your
+                                needs you can choose between taking either: intensive over two weeks,
+                                standard over four weeks or weekend over ten weeks.
+                            </p>
+                            <p style="color: black">
+                                We provide our students with dynamic activities, expert guidance and
+                                continuous feedback meaning you will increase your fluency from day one and
+                                make quick and steady progress.
+                            </p>
+                            <p style="color: black">
+                                Take our course from anywhere in the world. With virtual
+                                learning options as well as online classes are available, our
+                                course can work to your schedule.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered both Online as well as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks),
+                                or weekend (over ten weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        This can be taken as a:
+
+                                        <br>● Standard Course (over 4 weeks)
+
+                                        <br>● Intensive Course (over 2 weeks)
+
+                                        <br>● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+
+
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        Course Timetable:
+
+                                        <br>● Standard Course: Monday to Friday, morning or evening
+
+                                        <br>● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br>● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>',
+                'module_label' => 'MODULES (Part 1)',
+                'module_description' => '<p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br>●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br>● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br>● Being diplomatic, agreeing and disagreeing.
+
+                                <br>●  Reading and writing reports and proposals,
+
+                                <br>● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br>● Business-specific vocabulary and conventions.
+
+                                <br>●  Telephoning: Checking and clarifying information.
+
+                                <br>● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br>● Describing processes and stages.
+
+                                <br>● Negotiating language and persuading.
+
+                                <br>● Social English: networking and small talk.
+                            </p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary everyday business
+                                    topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of information, such as
+                                    business reports.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time, such as
+                                    presentations.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand professional language.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
+                                    interviews and
+                                    negotiating.</li>
+                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
+                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these
+                                areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in business settings.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br>● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br>● Increasing chances of professional success and career advancement.
+
+                                    <br>● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br>● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br>● gaining access to resources online available only in English.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
+
+                                <br>● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
+
+                                <br>● Students will have access to all course materials online for further study.
+
+                                <br>● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
+
+                            </p>',
+            ],
+            [
+                'course_name' => 'Business English For Beginner Standard Monday to Friday',
+                'shift' => 'Evening',
+                'course_fee' => 385.00,
+                'slug' => Str::slug('Business English For Beginner Standard Monday to Friday 2', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Beginners/Intermediate Learners',
+                'course_image'  => 'assets/images/b eng 1.jpg',
+                'overview' => '<p style="color: black">
+                                This course is aimed at students who want to excel in the English-speaking work
+                                environment. You will learn how to speak and write professional English, with a
+                                task-based approach guaranteed to increase your confidence in real world
+                                work-related situations. The syllabus has been specifically designed to help you
+                                to get the practical skills you will need to become a workplace communication
+                                expert.
+                            </p>
+                            <p style="color: black">
+                                Our senior lecturers are highly qualified and trained, and depending on your
+                                needs you can choose between taking either: intensive over two weeks,
+                                standard over four weeks or weekend over ten weeks.
+                            </p>
+                            <p style="color: black">
+                                We provide our students with dynamic activities, expert guidance and
+                                continuous feedback meaning you will increase your fluency from day one and
+                                make quick and steady progress.
+                            </p>
+                            <p style="color: black">
+                                Take our course from anywhere in the world. With virtual
+                                learning options as well as online classes are available, our
+                                course can work to your schedule.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered both Online as well as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks),
+                                or weekend (over ten weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        This can be taken as a:
+
+                                        <br>● Standard Course (over 4 weeks)
+
+                                        <br>● Intensive Course (over 2 weeks)
+
+                                        <br>● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+
+
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        Course Timetable:
+
+                                        <br>● Standard Course: Monday to Friday, morning or evening
+
+                                        <br>● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br>● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>',
+                'module_label' => 'MODULES (Part 1)',
+                'module_description' => '<p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br>●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br>● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br>● Being diplomatic, agreeing and disagreeing.
+
+                                <br>●  Reading and writing reports and proposals,
+
+                                <br>● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br>● Business-specific vocabulary and conventions.
+
+                                <br>●  Telephoning: Checking and clarifying information.
+
+                                <br>● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br>● Describing processes and stages.
+
+                                <br>● Negotiating language and persuading.
+
+                                <br>● Social English: networking and small talk.
+                            </p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary everyday business
+                                    topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of information, such as
+                                    business reports.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time, such as
+                                    presentations.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand professional language.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
+                                    interviews and
+                                    negotiating.</li>
+                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
+                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these
+                                areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in business settings.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br>● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br>● Increasing chances of professional success and career advancement.
+
+                                    <br>● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br>● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br>● gaining access to resources online available only in English.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
+
+                                <br>● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
+
+                                <br>● Students will have access to all course materials online for further study.
+
+                                <br>● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
+
+                            </p>',
+            ],
+            [
+                'course_name' => 'Business English For Beginners intensive Monday to Friday',
+                'shift' => 'Evening',
+                'course_fee' => 420.00,
+                'slug' => Str::slug('Business English For Beginners intensive Monday to Friday', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Beginners/Intermediate Learners',
+                'course_image'  => 'assets/images/b eng 1.jpg',
+                'overview' => '<p style="color: black">
+                                This course is aimed at students who want to excel in the English-speaking work
+                                environment. You will learn how to speak and write professional English, with a
+                                task-based approach guaranteed to increase your confidence in real world
+                                work-related situations. The syllabus has been specifically designed to help you
+                                to get the practical skills you will need to become a workplace communication
+                                expert.
+                            </p>
+                            <p style="color: black">
+                                Our senior lecturers are highly qualified and trained, and depending on your
+                                needs you can choose between taking either: intensive over two weeks,
+                                standard over four weeks or weekend over ten weeks.
+                            </p>
+                            <p style="color: black">
+                                We provide our students with dynamic activities, expert guidance and
+                                continuous feedback meaning you will increase your fluency from day one and
+                                make quick and steady progress.
+                            </p>
+                            <p style="color: black">
+                                Take our course from anywhere in the world. With virtual
+                                learning options as well as online classes are available, our
+                                course can work to your schedule.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered both Online as well as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks),
+                                or weekend (over ten weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        This can be taken as a:
+
+                                        <br>● Standard Course (over 4 weeks)
+
+                                        <br>● Intensive Course (over 2 weeks)
+
+                                        <br>● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+
+
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        Course Timetable:
+
+                                        <br>● Standard Course: Monday to Friday, morning or evening
+
+                                        <br>● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br>● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>',
+                'module_label' => 'MODULES (Part 1)',
+                'module_description' => '<p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br>●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br>● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br>● Being diplomatic, agreeing and disagreeing.
+
+                                <br>●  Reading and writing reports and proposals,
+
+                                <br>● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br>● Business-specific vocabulary and conventions.
+
+                                <br>●  Telephoning: Checking and clarifying information.
+
+                                <br>● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br>● Describing processes and stages.
+
+                                <br>● Negotiating language and persuading.
+
+                                <br>● Social English: networking and small talk.
+                            </p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary everyday business
+                                    topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of information, such as
+                                    business reports.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time, such as
+                                    presentations.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand professional language.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
+                                    interviews and
+                                    negotiating.</li>
+                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
+                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these
+                                areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in business settings.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br>● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br>● Increasing chances of professional success and career advancement.
+
+                                    <br>● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br>● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br>● gaining access to resources online available only in English.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
+
+                                <br>● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
+
+                                <br>● Students will have access to all course materials online for further study.
+
+                                <br>● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
+
+                            </p>',
+            ],
+            [
+                'course_name' => 'Business English For Beginners Intensive Monday to Friday',
+                'shift' => 'Afternoon',
+                'course_fee' => 420.00,
+                'slug' => Str::slug('Business English For Beginners Intensive Monday to Friday 2', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Beginners/Intermediate Learners',
+                'course_image'  => 'assets/images/b eng 1.jpg',
+                'overview' => '<p style="color: black">
+                                This course is aimed at students who want to excel in the English-speaking work
+                                environment. You will learn how to speak and write professional English, with a
+                                task-based approach guaranteed to increase your confidence in real world
+                                work-related situations. The syllabus has been specifically designed to help you
+                                to get the practical skills you will need to become a workplace communication
+                                expert.
+                            </p>
+                            <p style="color: black">
+                                Our senior lecturers are highly qualified and trained, and depending on your
+                                needs you can choose between taking either: intensive over two weeks,
+                                standard over four weeks or weekend over ten weeks.
+                            </p>
+                            <p style="color: black">
+                                We provide our students with dynamic activities, expert guidance and
+                                continuous feedback meaning you will increase your fluency from day one and
+                                make quick and steady progress.
+                            </p>
+                            <p style="color: black">
+                                Take our course from anywhere in the world. With virtual
+                                learning options as well as online classes are available, our
+                                course can work to your schedule.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered both Online as well as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks),
+                                or weekend (over ten weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        This can be taken as a:
+
+                                        <br>● Standard Course (over 4 weeks)
+
+                                        <br>● Intensive Course (over 2 weeks)
+
+                                        <br>● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+
+
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        Course Timetable:
+
+                                        <br>● Standard Course: Monday to Friday, morning or evening
+
+                                        <br>● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br>● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>',
+                'module_label' => 'MODULES (Part 1)',
+                'module_description' => '<p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br>●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br>● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br>● Being diplomatic, agreeing and disagreeing.
+
+                                <br>●  Reading and writing reports and proposals,
+
+                                <br>● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br>● Business-specific vocabulary and conventions.
+
+                                <br>●  Telephoning: Checking and clarifying information.
+
+                                <br>● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br>● Describing processes and stages.
+
+                                <br>● Negotiating language and persuading.
+
+                                <br>● Social English: networking and small talk.
+                            </p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary everyday business
+                                    topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of information, such as
+                                    business reports.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time, such as
+                                    presentations.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand professional language.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
+                                    interviews and
+                                    negotiating.</li>
+                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
+                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these
+                                areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in business settings.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br>● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br>● Increasing chances of professional success and career advancement.
+
+                                    <br>● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br>● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br>● gaining access to resources online available only in English.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
+
+                                <br>● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
+
+                                <br>● Students will have access to all course materials online for further study.
+
+                                <br>● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
+
+                            </p>',
+            ],
+            [
+                'course_name' => 'Business English For Beginners Weekends',
+                'shift' => 'Weekends Morning',
+                'course_fee' => 420.00,
+                'slug' => Str::slug('Business English For Beginners Weekends', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Beginners/Intermediate Learners',
+                'course_image'  => 'assets/images/b eng 1.jpg',
+                'overview' => '<p style="color: black">
+                                This course is aimed at students who want to excel in the English-speaking work
+                                environment. You will learn how to speak and write professional English, with a
+                                task-based approach guaranteed to increase your confidence in real world
+                                work-related situations. The syllabus has been specifically designed to help you
+                                to get the practical skills you will need to become a workplace communication
+                                expert.
+                            </p>
+                            <p style="color: black">
+                                Our senior lecturers are highly qualified and trained, and depending on your
+                                needs you can choose between taking either: intensive over two weeks,
+                                standard over four weeks or weekend over ten weeks.
+                            </p>
+                            <p style="color: black">
+                                We provide our students with dynamic activities, expert guidance and
+                                continuous feedback meaning you will increase your fluency from day one and
+                                make quick and steady progress.
+                            </p>
+                            <p style="color: black">
+                                Take our course from anywhere in the world. With virtual
+                                learning options as well as online classes are available, our
+                                course can work to your schedule.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                This course is designed for under- and post-graduate students, as well as scientific and technical professionals (NFQ levels 5) and                                   delivered Virtual Classroom environments.
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered both Online as well as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks),
+                                or weekend (over ten weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                <li style="font-size: 12px; color: black;">● Course Duration: 60 hours.</li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        This can be taken as a:
+
+                                        <br>● Standard Course (over 4 weeks)
+
+                                        <br>● Intensive Course (over 2 weeks)
+
+                                        <br>● Weekend Course (over 10 weeks)
+                                    </p>.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Entry Level: Beginners.
+                                </li>
+                                <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+
+
+                                <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a live
+                                    stream interactive online class (Virtual).
+
+                                </li>
+                                <li style="font-size: 12px; color: black;">
+                                    <p style="font-size: 12px; color: black;">
+                                        Course Timetable:
+
+                                        <br>● Standard Course: Monday to Friday, morning or evening
+
+                                        <br>● Intensive Course: Monday to Friday, morning and afternoon
+
+                                        <br>● Weekend Course: Weekend mornings
+                                    </p>.
+                                </li>
+                            </ul>',
+                'module_label' => 'MODULES (Part 1)',
+                'module_description' => '<p style="color: black">
+                                Self-introductions, describing your role and responsibilities
+
+                                <br>●  Meetings: Chairing, setting the agenda, controlling the conversation.
+
+                                <br>● Participating in discussions: turn-taking, listening, and taking notes.
+
+                                <br>● Being diplomatic, agreeing and disagreeing.
+
+                                <br>●  Reading and writing reports and proposals,
+
+                                <br>● Business correspondence: emails, register, style, standard phrasing.
+
+                                <br>● Business-specific vocabulary and conventions.
+
+                                <br>●  Telephoning: Checking and clarifying information.
+
+                                <br>● Giving presentations: introducing a topic, sequencing ideas and concluding.
+
+                                <br>● Describing processes and stages.
+
+                                <br>● Negotiating language and persuading.
+
+                                <br>● Social English: networking and small talk.
+                            </p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary everyday business
+                                    topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of information, such as
+                                    business reports.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time, such as
+                                    presentations.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand professional language.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Use professional language e.g. giving presentations, great
+                                    interviews and
+                                    negotiating.</li>
+                                <li style="font-size: 14px; ">● Demonstrate knowledge of business vocabulary.</li>
+                                <li style="font-size: 14px; ">● Appropriately use of formal and informal language.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write in a professional manner.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size: 16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these
+                                areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in business settings.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    ● Understanding and speaking English can empower students and help them achieve their
+                                    professional and personal goals.
+
+                                    <br>● Pursuing new career opportunities worldwide and improving job prospects.
+
+                                    <br>● Increasing chances of professional success and career advancement.
+
+                                    <br>● communicating with professionals from all over the world and succeeding in
+                                    networking.
+
+                                    <br>● Enrolling in course in your specialisation to improve both your English and your
+                                    industry
+                                    know-how.
+
+                                    <br>● gaining access to resources online available only in English.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                ● With our general business practice scenarios, students will have the opportunity to
+                                practice what they have learnt, helping them to increase their fluency from day one.
+
+                                <br>● Exposure to correct and authentic pronunciation will allow students to pick up a
+                                more
+                                natural way of speaking.
+
+                                <br>● Students will have access to all course materials online for further study.
+
+                                <br>● With access to support and feedback from our senior lecturers, students are
+                                guaranteed
+                                to make quick and steady progress.
+
+                            </p>',
+            ],
+        ];
+
+        $general_english_course = Course::where('slug', Str::slug('General English', '-'))->first();
+        $general_english_2_course = Course::where('slug', Str::slug('General English 2', '-'))->first();
+        $general_english_3_course = Course::where('slug', Str::slug('General English 3', '-'))->first();
+
+        $general_english_child_courses = [
+            [
+                'course_name' => 'General English For Beginners Standard Monday to Friday',
+                'shift' => 'Morning',
+                'course_fee' => 385.00,
+                'slug' => Str::slug('General English For Beginners Standard Monday to Friday', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Intermediate Learners',
+                'course_image'  => 'assets/images/geng 2.jpg',
+                'overview' => '<p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: NFQ Level 4 completed students.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br>● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br>● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br>● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>',
+                'module_label' => 'MODULES (Part 2)',
+                'module_description' => '<p style="color: black">
+                                </p><h4>Intermediate level (Independent user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on
+                                        concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or
+                                        of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.
+                                    </li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
+
+                                </ul>
+                                <p></p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of informations.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand discussions on various topics and identify
+                                    different speakers’ viewpoints.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Present ideas and opinions on a variety of various topics.
+                                </li>
+                                <li style="font-size: 14px; ">● Engage in conversation and take an active part in
+                                    discussions on various topics.</li>
+                                <li style="font-size: 14px; ">● Articulate ideas and opinions in a coherent manner.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write detailed descriptions on various topics.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in everyday scenarios.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    Understanding and speaking English can empower students and help
+                                    them achieve their professional and personal goals, such as:
+
+                                    <br>● pursuing new career opportunities worldwide.
+
+                                    <br>● increasing chances of professional success and improving job prospects.
+
+                                    <br>● communicating with people from all over the world and exploring their cultures.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br>● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br>● Exposure to authentic language input.
+
+                                    <br>● Access to material posted on our school online platform.
+
+                                    <br>● Support and feedback from qualified teachers.
+
+
+                                </p>',
+            ],
+            [
+                'course_name' => 'General English For Beginners Standard Monday to Friday',
+                'shift' => 'Afternoon',
+                'course_fee' => 385.00,
+                'slug' => Str::slug('General English For Beginners Standard Monday to Friday 2', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Intermediate Learners',
+                'course_image'  => 'assets/images/geng 2.jpg',
+                'overview' => '<p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: NFQ Level 4 completed students.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br>● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br>● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br>● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>',
+                'module_label' => 'MODULES (Part 2)',
+                'module_description' => '<p style="color: black">
+                                </p><h4>Intermediate level (Independent user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on
+                                        concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or
+                                        of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.
+                                    </li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
+
+                                </ul>
+                                <p></p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of informations.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand discussions on various topics and identify
+                                    different speakers’ viewpoints.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Present ideas and opinions on a variety of various topics.
+                                </li>
+                                <li style="font-size: 14px; ">● Engage in conversation and take an active part in
+                                    discussions on various topics.</li>
+                                <li style="font-size: 14px; ">● Articulate ideas and opinions in a coherent manner.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write detailed descriptions on various topics.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in everyday scenarios.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    Understanding and speaking English can empower students and help
+                                    them achieve their professional and personal goals, such as:
+
+                                    <br>● pursuing new career opportunities worldwide.
+
+                                    <br>● increasing chances of professional success and improving job prospects.
+
+                                    <br>● communicating with people from all over the world and exploring their cultures.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br>● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br>● Exposure to authentic language input.
+
+                                    <br>● Access to material posted on our school online platform.
+
+                                    <br>● Support and feedback from qualified teachers.
+
+
+                                </p>',
+            ],
+            [
+                'course_name' => 'General English For Beginners Standard Monday to Friday',
+                'shift' => 'Evening',
+                'course_fee' => 385.00,
+                'slug' => Str::slug('General English For Beginners Standard Monday to Friday 3 3', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Intermediate Learners',
+                'course_image'  => 'assets/images/geng 2.jpg',
+                'overview' => '<p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: NFQ Level 4 completed students.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br>● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br>● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br>● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>',
+                'module_label' => 'MODULES (Part 2)',
+                'module_description' => '<p style="color: black">
+                                </p><h4>Intermediate level (Independent user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on
+                                        concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or
+                                        of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.
+                                    </li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
+
+                                </ul>
+                                <p></p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of informations.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand discussions on various topics and identify
+                                    different speakers’ viewpoints.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Present ideas and opinions on a variety of various topics.
+                                </li>
+                                <li style="font-size: 14px; ">● Engage in conversation and take an active part in
+                                    discussions on various topics.</li>
+                                <li style="font-size: 14px; ">● Articulate ideas and opinions in a coherent manner.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write detailed descriptions on various topics.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in everyday scenarios.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    Understanding and speaking English can empower students and help
+                                    them achieve their professional and personal goals, such as:
+
+                                    <br>● pursuing new career opportunities worldwide.
+
+                                    <br>● increasing chances of professional success and improving job prospects.
+
+                                    <br>● communicating with people from all over the world and exploring their cultures.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br>● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br>● Exposure to authentic language input.
+
+                                    <br>● Access to material posted on our school online platform.
+
+                                    <br>● Support and feedback from qualified teachers.
+
+
+                                </p>',
+            ],
+            [
+                'course_name' => 'General English For Beginners Intensive Monday to Friday',
+                'shift' => 'Morning',
+                'course_fee' => 420.00,
+                'slug' => Str::slug('General English For Beginners Intensive Monday to Friday', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Intermediate Learners',
+                'course_image'  => 'assets/images/geng 2.jpg',
+                'overview' => '<p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: NFQ Level 4 completed students.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br>● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br>● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br>● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>',
+                'module_label' => 'MODULES (Part 2)',
+                'module_description' => '<p style="color: black">
+                                </p><h4>Intermediate level (Independent user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on
+                                        concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or
+                                        of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.
+                                    </li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
+
+                                </ul>
+                                <p></p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of informations.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand discussions on various topics and identify
+                                    different speakers’ viewpoints.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Present ideas and opinions on a variety of various topics.
+                                </li>
+                                <li style="font-size: 14px; ">● Engage in conversation and take an active part in
+                                    discussions on various topics.</li>
+                                <li style="font-size: 14px; ">● Articulate ideas and opinions in a coherent manner.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write detailed descriptions on various topics.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in everyday scenarios.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    Understanding and speaking English can empower students and help
+                                    them achieve their professional and personal goals, such as:
+
+                                    <br>● pursuing new career opportunities worldwide.
+
+                                    <br>● increasing chances of professional success and improving job prospects.
+
+                                    <br>● communicating with people from all over the world and exploring their cultures.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br>● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br>● Exposure to authentic language input.
+
+                                    <br>● Access to material posted on our school online platform.
+
+                                    <br>● Support and feedback from qualified teachers.
+
+
+                                </p>',
+            ],
+            [
+                'course_name' => 'General English For Beginners Intensive Monday to Friday',
+                'shift' => 'Afternoon',
+                'course_fee' => 420.00,
+                'slug' => Str::slug('General English For Beginners Intensive Monday to Friday 2', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Intermediate Learners',
+                'course_image'  => 'assets/images/geng 2.jpg',
+                'overview' => '<p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: NFQ Level 4 completed students.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br>● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br>● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br>● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>',
+                'module_label' => 'MODULES (Part 2)',
+                'module_description' => '<p style="color: black">
+                                </p><h4>Intermediate level (Independent user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on
+                                        concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or
+                                        of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.
+                                    </li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
+
+                                </ul>
+                                <p></p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of informations.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand discussions on various topics and identify
+                                    different speakers’ viewpoints.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Present ideas and opinions on a variety of various topics.
+                                </li>
+                                <li style="font-size: 14px; ">● Engage in conversation and take an active part in
+                                    discussions on various topics.</li>
+                                <li style="font-size: 14px; ">● Articulate ideas and opinions in a coherent manner.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write detailed descriptions on various topics.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in everyday scenarios.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    Understanding and speaking English can empower students and help
+                                    them achieve their professional and personal goals, such as:
+
+                                    <br>● pursuing new career opportunities worldwide.
+
+                                    <br>● increasing chances of professional success and improving job prospects.
+
+                                    <br>● communicating with people from all over the world and exploring their cultures.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br>● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br>● Exposure to authentic language input.
+
+                                    <br>● Access to material posted on our school online platform.
+
+                                    <br>● Support and feedback from qualified teachers.
+
+
+                                </p>',
+            ],
+            [
+                'course_name' => 'General English For Beginners Weekends',
+                'shift' => 'Weekends Morning',
+                'course_fee' => 420.00,
+                'slug' => Str::slug('General English For Beginners Weekends', '-'),
+                'category_id' => $languages_and_culture->id,
+                'course_for'  => 'For Intermediate Learners',
+                'course_image'  => 'assets/images/geng 2.jpg',
+                'overview' => '<p style="color: black">
+                                The General English course has been specifically designed to help you hone
+                                and develop your English speaking skills needed for everyday life. The General
+                                English course also gets you qualified, providing you with a qualification in a
+                                level 5 NFQ Ireland equivalent, depending upon your ability. With
+                                dynamic activities, expert guidance, and continuous feedback, our students are
+                                guaranteed to make quick and steady progress. Our senior lectures are highly
+                                qualified and trained, and can teach students at any level, so no matter if you
+                                are a beginner, novice or advanced speaker this is the course for you. Take our
+                                course from the classroom or anywhere (Virtual) in the world. With virtual
+                                learning options as well as both morning and evening classes available, our
+                                course can work to your schedule.
+                            </p>
+                            <p style="color: black">
+                                Our classes prioritise a hands-on approach which allows you to practice and
+                                improve your fluency from day one. We focus on the practical side with a taskbased
+                                approach to learning. This allows you to learn up to date topics that will
+                                apply to any real-life situation. If you want a practical English course that will:
+                                give you a qualification, prepare you for the real world, and give you the ability to
+                                speak both confidently and fluently, apply today and don’t delay.
+                            </p>',
+                'course_format' => '<p style="color: black">
+                                Students will have the option to join a
+                                class based on their own ability
+                                (intermediate or advanced).
+                            </p>
+                            <p style="color: black">
+                                You will also be able to choose the
+                                format in which you learn as the course
+                                is delivered as virtually (live
+                                stream interactive online classes).
+                            </p>
+                            <p style="color: black">
+                                Course materials will be given to provide
+                                students with further study options.
+                                These will be found online (Virtuline Hub)
+                                or will be given as hard copies (charges
+                                may apply).
+                            </p>
+                            <p style="color: black">
+                                The lessons will include practical
+                                exercises and assessments. Students
+                                will have different types of lesson plans
+                                to choose from including: intensive (over
+                                two weeks), standard (over four weeks).
+                            </p>',
+                'key_facts' => '<ul>
+                                    <li style="font-size: 12px; color: black;">● Course duration: 60 hours (Standard: 4
+                                        weeks;
+                                        Intensive: 2 weeks; and weekend: 10 weeks).</li>
+                                    <li style="font-size: 12px; color: black;">● Entry Level: NFQ Level 4 completed students.</li>
+                                    <li style="font-size: 12px; color: black;">● Lesson Duration: 3 hours per lecture.</li>
+                                    <li style="font-size: 12px; color: black;">● Size of the class: up to 21 students at a
+                                        live
+                                        stream interactive online class (Virtual).</li>
+                                    <li style="font-size: 12px; color: black;">
+                                        <p style="font-size: 12px; color: black;">25 in a Virtual Classroom
+                                            Course Timetable:
+
+                                            <br>● Standard Course: Monday to Friday morning, afternoon, or evening,
+
+                                            <br>● Intensive Course: : Monday to Friday morning and afternoon
+
+                                            <br>● Weekend Course: Weekend morning
+                                        </p>.
+                                    </li>
+                                </ul>',
+                'module_label' => 'MODULES (Part 2)',
+                'module_description' => '<p style="color: black">
+                                </p><h4>Intermediate level (Independent user)</h4>
+                                <ul>
+                                    <li style="font-size: 14px; ">● understanding the main points of clear standard input on
+                                        concrete and abstract topics.</li>
+                                    <li style="font-size: 14px; ">● producing connected text on topics which are familiar or
+                                        of personal interest.</li>
+                                    <li style="font-size: 14px; ">● communicating with a degree of fluency and spontaneity.
+                                    </li>
+                                    <li style="font-size: 14px; ">● nteracting without putting strain on the listener.</li>
+
+                                </ul>
+                                <p></p>',
+                'learning_outcome' => '<p style="color: black">
+                                This course aims to develop the practical skills you will need to expertly
+                                communicate in the English-speaking workplace. You will learn: reading,
+                                listening, speech and writing skills.</p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Reading: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand a variety of contemporary topics.</li>
+                                <li style="font-size: 14px; ">● Read and condense large pieces of informations.</li>
+                                <li style="font-size: 14px; ">● Comprehend large pieces of information in a short amount of
+                                    time.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Listening: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Understand discussions on various topics and identify
+                                    different speakers’ viewpoints.</li>
+                                <li style="font-size: 14px; ">● Follow fast-paced conversations.</li>
+                                <li style="font-size: 14px; ">● Comprehend specific pieces of information.</li>
+
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Speaking: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Present ideas and opinions on a variety of various topics.
+                                </li>
+                                <li style="font-size: 14px; ">● Engage in conversation and take an active part in
+                                    discussions on various topics.</li>
+                                <li style="font-size: 14px; ">● Articulate ideas and opinions in a coherent manner.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h4 style="color: black">Writing: Students will learn to</h4>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Write detailed descriptions on various topics.</li>
+                                <li style="font-size: 14px; ">● Write in a different tone depending on the intended
+                                    audience.</li>
+                                <li style="font-size: 14px; ">● Write using coherent viewpoints with a beginning, middle and
+                                    end.</li>
+                            </ul>
+                            <p></p>
+                            <p style="color: black">
+                            </p><h5 style="color: black; font-size:16px;">Students will get the opportunity to improve their overall grammar,
+                                pronunciation and vocabulary as this course also provides lessons in these areas:</h5>
+                            <ul style="color: black">
+                                <li style="font-size: 14px; ">● Grammar: Students will learn how to properly structure
+                                    sentences.</li>
+                                <li style="font-size: 14px; ">● Pronunciation: Students will be provided with helpful hints
+                                    and tips to help
+                                    them sound more natural.</li>
+                                <li style="font-size: 14px; ">● Vocabulary: Students will broaden their vocabulary range
+                                    with lessons
+                                    focused on: lexical sets, collocations and functional phrases commonly
+                                    used in everyday scenarios.</li>
+                            </ul>
+                            <p></p>',
+                'opportunities' => '<p style="color: black">
+                                    Understanding and speaking English can empower students and help
+                                    them achieve their professional and personal goals, such as:
+
+                                    <br>● pursuing new career opportunities worldwide.
+
+                                    <br>● increasing chances of professional success and improving job prospects.
+
+                                    <br>● communicating with people from all over the world and exploring their cultures.
+
+                                </p>',
+                'additional_facilities' => '<p style="color: black">
+                                    ● Opportunity to practice language in areas of special interest.
+
+                                    <br>● Improve language skills while enjoying free time with leisure activities.
+
+                                    <br>● Exposure to authentic language input.
+
+                                    <br>● Access to material posted on our school online platform.
+
+                                    <br>● Support and feedback from qualified teachers.
+
+
+                                </p>',
+            ],
+        ];
+
+        foreach ($business_english_child_courses as $child_course) {
+            $child_course['parent_course'] = $business_english_course->id;
+            Course::create($child_course);
+
+            $child_course['slug'] = $child_course['slug'] . '-' . rand(1, 9);
+            $child_course['parent_course'] = $business_english_2_course->id;
+            Course::create($child_course);
+        }
+
+        foreach ($general_english_child_courses as $child_course) {
+            $child_course['parent_course'] = $general_english_course->id;
+            Course::create($child_course);
+
+            $child_course['slug'] = $child_course['slug'] . '-' . rand(1, 9);
+            $child_course['parent_course'] = $general_english_2_course->id;
+            Course::create($child_course);
+
+            $child_course['slug'] = $child_course['slug'] . '-' . rand(1, 9) . '-' . rand(1, 9);
+            $child_course['parent_course'] = $general_english_3_course->id;
+            Course::create($child_course);
+        }
     }
 }

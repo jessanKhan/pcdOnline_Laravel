@@ -27,6 +27,9 @@ class CreateCoursesTable extends Migration
             $table->longText('learning_outcome')->nullable();
             $table->longText('opportunities')->nullable();
             $table->longText('additional_facilities')->nullable();
+            $table->integer('parent_course')->nullable();
+            $table->string('shift')->nullable();
+            $table->float('course_fee', 5, 2)->default(0.00)->nullable();
             $table->timestamps();
         });
     }

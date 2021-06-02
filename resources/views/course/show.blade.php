@@ -83,17 +83,30 @@
                 <thead>
                 <tr>
                     <td width="50%"> Course Name</td>
-                    <td width="40%">Course Fee</td>
+                    @if ($course->child_courses->first()->id != $course->id)
+                        <td width="20%">Course Shift</td>
+                        <td width="20%">Course Fee</td>
+                    @else
+                        <td width="40%">Course Fee</td>
+                    @endif
                     <td width="10%"></td>
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td width="50%"> Digital Enterprise and Business Support For Advanced Learners
-                    </td>
-                    <td width="40%">€750</td>
-                    <td width="10%"><a class="btn btn-success" href="{{ route('add', ['digital-enterprise-and-business-support']) }}">Enroll</a></td>
-                </tr>
+                @foreach($course->child_courses as $child_courses)
+                    <tr>
+                        <td width="50%">
+                            {{ $child_courses->course_name }} @if($child_courses->id == $course->id) {{ $child_courses->course_for }}@endif
+                        </td>
+                        @if ($course->child_courses->first()->id != $course->id)
+                            <td width="20%">{{$child_courses->shift}}</td>
+                            <td width="20%">€{{$child_courses->course_fee}}</td>
+                        @else
+                            <td width="40%">€{{$child_courses->course_fee}}</td>
+                        @endif
+                        <td width="10%"><a class="btn btn-success" href="{{ route('add', $child_courses->slug) }}">Enroll</a></td>
+                    </tr>
+                @endforeach
                 </tbody>
             </table>
         </div>

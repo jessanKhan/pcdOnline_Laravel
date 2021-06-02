@@ -9,8 +9,15 @@ class Course extends Model
 {
     use HasFactory;
 
-     public function getRouteKeyName()
-     {
-         return 'slug';
-     }
+    protected $guarded = ['id'];
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
+    public function child_courses()
+    {
+        return $this->hasMany(Course::class, 'parent_course', 'id');
+    }
 }

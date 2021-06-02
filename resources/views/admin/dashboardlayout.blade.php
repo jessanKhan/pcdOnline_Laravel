@@ -135,7 +135,7 @@
                                         <li><a href="#"><i class="fa fa-user"></i>Profile</a></li>
                                         <li><a href="#"><i class="fa fa-cog"></i>System Setting</a></li>
                                         <li><a href="#"><i class="fa fa-cog"></i>Account Settings</a></li>
-                                        <li><a href="#"><i class="fa fa-power-off"></i>Logout</a></li>
+                                        <li><a href="{{ route('admin-logout') }}"><i class="fa fa-power-off"></i>Logout</a></li>
                                     </ul>
                                 </div>
                             </div>
