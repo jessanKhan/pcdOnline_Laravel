@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Admin;
+use App\Models\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -31,4 +32,25 @@ class AdminController extends Controller
 
         return redirect()->route('admin_login');
     }
+
+    public function admission()
+    {
+        $orders = Order::with('student', 'course')->where('status', 'pending')->get();
+        return view('admin/admission', compact('orders'));
+    }
+
+    public function confirmOrder(Order $order)
+    {
+        $order->update(['status' => 'confirm']);
+
+        return redirect()->back();
+    }
+
+    public function deleteOrder(Order $order)
+    {
+        $order->delete();
+
+        return redirect()->back();
+    }
 }
+

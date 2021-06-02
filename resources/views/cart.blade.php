@@ -64,11 +64,13 @@
                                     </div>
                                 @endif
                             @else
-                                <div>
-                                    <a class="btn btn-success"
-                                        href="https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx">Proceed
-                                        to Pay</a>
-                                </div>
+                                @if (session('cart'))
+                                    <div>
+                                        <a class="btn btn-success"
+                                            href="{{ route('proceed-to-pay') }}">Proceed
+                                            to Pay</a>
+                                    </div>
+                                @endif
                             @endguest
 
 

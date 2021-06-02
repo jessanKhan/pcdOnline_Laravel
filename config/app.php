@@ -228,5 +228,5 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+    'PROCEED_TO_PAY' => 'https://prudencecollegedublin.transfermateeducation.com/en/register_uni.aspx',
 ];

@@ -111,9 +111,7 @@ Route::group(['middleware' => 'auth:admin'], function () {
     Route::get('/dashboard', function () {
         return view('admin/dash_home');
     })->name('dashboard');
-    Route::get('/admission', function () {
-        return view('admin/admission');
-    })->name('admission');
+    Route::get('/admission', 'App\Http\Controllers\AdminController@admission')->name('admission');
     Route::get('/student_list', function () {
         return view('admin/student_list');
     })->name('student_list');
@@ -134,4 +132,11 @@ Route::group(['middleware' => 'auth:admin'], function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/proceed-to-pay', 'App\Http\Controllers\CourseController@proceedToPay')->name('proceed-to-pay');
+    Route::get("/order-confirm/{order}", 'App\Http\Controllers\AdminController@confirmOrder')->name('order-confirm');
+
+    Route::get("/order-delete/{order}", 'App\Http\Controllers\AdminController@deleteOrder')->name('order-delete');
+});
+

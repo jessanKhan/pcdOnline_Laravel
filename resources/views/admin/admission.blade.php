@@ -39,7 +39,6 @@
                         <table class="table table-striped" id="mydata">
                             <thead>
                                 <tr>
-                                    <th scope="col">S.ID</th>
                                     <th scope="col">First Name</th>
                                     <th scope="col">Last Name</th>
                                     <th scope="col">Course Name</th>
@@ -50,51 +49,27 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">s-01</th>
-                                    <td>Shamitra </td>
-                                    <td>Dutta</td>
-                                    <td>Genaral English Intermediate</td>
-                                    <td>antu@gmail.com</td>
-                                    <td>01742394092</td>
-                                    <td>Not confirmed</td>
-                                    <td>
-                                        <a href="student-profile.html"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#confirm"><i
-                                                class="fa fa-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">s-02</th>
-                                    <td>Shuvash </td>
-                                    <td>Dutta</td>
-                                    <td>Genaral English Intermediate</td>
-                                    <td>shuvash@gmail.com</td>
-                                    <td>01742394096</td>
-                                    <td>Not confirmed</td>
-                                    <td>
-                                        <a href="student-profile.html"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#confirm"><i
-                                                class="fa fa-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">s-01</th>
-                                    <td>Andrew </td>
-                                    <td>DS</td>
-                                    <td>Accounting And Finance Advanced</td>
-                                    <td>andrew@gmail.com</td>
-                                    <td>01742394052</td>
-                                    <td>Not confirmed</td>
-                                    <td>
-                                        <a href="student-profile.html"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#confirm"><i
-                                                class="fa fa-trash"></i></a>
-                                    </td>
-                                </tr>
+                                @foreach($orders as $order)
+                                    <tr>
+                                        <td>{{ $order->student->name }} </td>
+                                        <td>{{ $order->student->last_name }} </td>
+                                        @if ($order->course->parent_course == null || $order->course->parent_course == $order->course->id)
+                                            <td>{{ $order->course->course_name . ' ' .  $order->course->course_for }}</td>
+                                        @else
+                                            <td>{{ $order->course->course_name }}</td>
+                                        @endif
+
+                                        <td>{{ $order->student->email }}</td>
+                                        <td>{{ $order->student->phone }}</td>
+                                        <td>Not confirmed</td>
+                                        <td>
+{{--                                            {{ route('order-confirm', $order->id) }}--}}
+                                            <a href="#" onclick="order_confirm(event, '{{ $order->id }}')"><i class="fa fa-check"></i></a>
+                                            <a href="#" onclick="order_delete(event, '{{ $order->id }}')"><i
+                                                    class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>
@@ -106,68 +81,27 @@
     <!-- content close -->
     </div>
 
-    <!-- modal -->
-    <div class="modal fade" id="edit">
+    <!-- Confirm -->
+    <div class="modal fade" id="confirm">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Edit Book</h4>
+                    <h4 class="modal-title">Confirm</h4>
                     <a href="#" class="btn btn-invert" data-dismiss="modal"><i class="fa fa-times"></i></a>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <form action="#">
-                            <div class="col-md-6">
-                                <div class="form-tools-cover">
-                                    <div class="input-group">
-                                        <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
-                                            required>
-                                        <label>Last Name</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-tools-cover">
-                                    <div class="input-group">
-                                        <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
-                                            required>
-                                        <label>Last Name</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-tools-cover">
-                                    <div class="input-group">
-                                        <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
-                                            required>
-                                        <label>Last Name</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-tools-cover">
-                                    <div class="input-group">
-                                        <input type="text" name="first_name" class="" aria-describedby="basic-addon1"
-                                            required>
-                                        <label>Last Name</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <p>Are You Sure You Confirm This ???</p>
                 </div>
                 <div class="modal-footer">
                     <div class="button-cover">
-                        <a href="#" class="btn btn-primary"><i class="fa fa-check"></i>Update</a>
-                        <a href="#" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i>Close</a>
+                        <a href="#" class="btn btn-primary"><i class="fa fa-check"></i>YES</a>
+                        <a href="#" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i>NO</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Confirm -->
-    <div class="modal fade" id="confirm">
+    <div class="modal fade" id="delete">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -186,4 +120,24 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function order_confirm(event, order_id)
+        {
+            event.preventDefault();
+            var conf = confirm('Are You Sure?')
+            if (conf) {
+                window.location = '/order-confirm/' + order_id;
+            }
+        }
+
+        function order_delete(event, order_id)
+        {
+            event.preventDefault();
+            var conf = confirm('Are You Sure?')
+            if (conf) {
+                window.location = '/order-delete/' + order_id;
+            }
+        }
+    </script>
 @endsection

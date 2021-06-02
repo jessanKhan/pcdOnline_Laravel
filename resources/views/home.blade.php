@@ -137,23 +137,26 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td width="70%">General English For Beginners Standard Monday to Friday Morning
-                                    </td>
-                                    {{-- <td width="20%">Morning</td> --}}
-                                    <td width="20%">€385</td>
-                                    <td width="10%"><a class="text-success">Confirmed</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="70%">General English For Beginners Standard Monday to Friday Afternoon
-                                    </td>
-                                    {{-- <td width="20%"> Afternoon </td> --}}
-                                    <td width="20%">€385</td>
-                                    <td width="10%"><a class="text-danger">Pending</a>
-                                    </td>
-                                </tr>
+                                @foreach($orders as $order)
+                                    <tr>
+                                        @if ($order->course->parent_course == null || $order->course->parent_course == $order->course->id)
+                                            <td width="70%">
+                                                {{ $order->course->course_name . ' ' . $order->course->course_for}}
+                                            </td>
+                                        @else
+                                            <td width="70%">{{ $order->course->course_name }}</td>
+                                            <td width="20%">Morning</td>
+                                        @endif
 
+                                        <td width="20%">€{{ $order->course_price }}</td>
+                                        @if ($order->status == 'pending')
+                                            <td width="10%"><a class="text-danger">Pending</a>
+                                        @else
+                                            <td width="10%"><a class="text-success">Confirmed</a>
+                                        @endif
+                                        </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use Illuminate\Http\Request;
 use App\Models\Course;
 
@@ -15,6 +16,23 @@ class CourseController extends Controller
     public function cart()
     {
         return view('cart');
+    }
+
+    public function proceedToPay()
+    {
+        foreach (session('cart') as $course_id => $course) {
+            $order = [
+                'course_name' => $course['course_name'],
+                'course_price' => $course['course_fee'],
+                'course_id' => $course_id,
+                'user_id'   => auth()->user()->id,
+            ];
+            Order::create($order);
+        }
+
+        session()->forget('cart');
+
+        return redirect()->away(config('app.PROCEED_TO_PAY'));
     }
 
     public function addTocart(Course $course)
