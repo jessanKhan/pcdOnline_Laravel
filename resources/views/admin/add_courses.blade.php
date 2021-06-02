@@ -61,14 +61,71 @@
                     <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <textarea class="form-control" id="summary-ckeditor" name="summary-ckeditor"
-                                    required></textarea>
-                                <label>Course Description</label>
+                                <textarea class="form-control" id="overview" name="overview" required></textarea>
+                                <label>Overview</label>
                             </div>
                         </div>
                     </div>
 
-
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="course_format" name="course_format" required></textarea>
+                                <label>Course Format</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="key_facts" name="key_facts" required></textarea>
+                                <label>Key Facts</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="module_label" name="module_label" required></textarea>
+                                <label>Moudle Label</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="module_description" name="module_description"
+                                    required></textarea>
+                                <label>Module Description</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="learning_outcomer" name="learning_outcome"
+                                    required></textarea>
+                                <label>Learning Outcome</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="opportunities" name="opportunities" required></textarea>
+                                <label>Opportunities</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-tools-cover">
+                            <div class="input-group">
+                                <textarea class="form-control" id="additional_facilities" name="additional_facilities"
+                                    required></textarea>
+                                <label>Additional Facilities</label>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-md-12">
                         <div class="file-upload-wrapper">
