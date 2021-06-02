@@ -199,6 +199,14 @@
     <script src="//cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
     <script>
         CKEDITOR.replace('summary-ckeditor');
+        CKEDITOR.replace('overview');
+        CKEDITOR.replace('course_format');
+        CKEDITOR.replace('key_facts');
+        CKEDITOR.replace('module_label');
+        CKEDITOR.replace('module_description');
+        CKEDITOR.replace('learning_outcome');
+        CKEDITOR.replace('opportunities');
+        CKEDITOR.replace('additional_facilities');
 
     </script>
 
