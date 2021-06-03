@@ -18,6 +18,6 @@ class CourseCategory extends Model
 
      public function courses()
      {
-         return $this->hasMany(Course::class, 'category_id');
+         return $this->hasMany(Course::class, 'category_id')->where('parent_course', null)->orWhere('parent_course', 0);
      }
 }

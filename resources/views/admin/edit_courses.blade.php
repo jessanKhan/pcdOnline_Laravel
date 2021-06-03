@@ -4,8 +4,8 @@
         <div class="col-md-6">
             <div class="breadcrumb-wrapper">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                    <li class="breadcrumb-item active">Add Course</li>
+                    <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Edit Course</li>
                 </ol>
             </div>
         </div>
@@ -16,20 +16,20 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Add Course</h3>
+                    <h3>Edit Course</h3>
                 </div>
                 <div class="col-md-6"></div>
             </div>
         </div>
         <div class="panel-body">
-            <form action="{{ route('store_courses') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('course-update', $course->slug) }}" method="POST" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <div class="row">
 
                     <div class="col-md-6">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <input type="text" name="course_name" class="" aria-describedby="basic-addon1" required>
+                                <input type="text" name="course_name" class="" aria-describedby="basic-addon1" value="{{ $course->course_name }}" required>
                                 <label>Course Title </label>
                             </div>
                         </div>
@@ -39,10 +39,11 @@
                         <div class="form-tools-cover">
                             <label>Course Category</label>
                             <div class="input-group">
-                                <select class="selectpicker show-tick form-control" data-live-search="true" name="category_id">
+                                <select id="basic" class="selectpicker show-tick form-control" data-live-search="true" name="category_id">
                                     @foreach($courseCategories as $category_id => $category_name)
                                         <option
                                             value="{{ $category_id }}"
+                                            @if($category_id == $course->category_id) selected @endif
                                         >{{ $category_name }}</option>
                                     @endforeach
                                 </select>
@@ -53,7 +54,7 @@
                     <div class="col-md-6">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <input type="text" name="course_for" class="" aria-describedby="basic-addon1" required>
+                                <input type="text" name="course_for" class="" aria-describedby="basic-addon1" value="{{ $course->course_for }}" required>
                                 <label>Course For</label>
                             </div>
                         </div>
@@ -62,7 +63,7 @@
                     <div class="col-md-6">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <input type="text" name="course_fee" class="" aria-describedby="basic-addon1" required>
+                                <input type="text" name="course_fee" class="" aria-describedby="basic-addon1" value="{{ $course->course_fee }}" required>
                                 <label>Course fee(€)</label>
                             </div>
                         </div>
@@ -72,11 +73,12 @@
                         <div class="form-tools-cover">
                             <label>Parent Category</label>
                             <div class="input-group">
-                                <select class="selectpicker show-tick form-control" data-live-search="true" name="parent_course">
+                                <select id="basic" class="selectpicker show-tick form-control" data-live-search="true" name="parent_course">
                                     <option value="0">Select Parent Course</option>
                                     @foreach($parent_courses as $parent_course)
                                         <option
                                             value="{{ $parent_course->id }}"
+                                            @if($parent_course->id == $course->parent_course) selected @endif
                                         >{{ $parent_course->course_name . ' ' . $parent_course->course_for }}</option>
                                     @endforeach
                                 </select>
@@ -87,7 +89,7 @@
                     <div class="col-md-6">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <input type="text" name="shift" class="" aria-describedby="basic-addon1">
+                                <input type="text" name="shift" class="" aria-describedby="basic-addon1" value="{{ $course->shift }}">
                                 <label>Shift</label>
                             </div>
                         </div>
@@ -96,7 +98,7 @@
                     <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <textarea class="form-control" id="overview" name="overview" required></textarea>
+                                <textarea class="form-control" id="overview" name="overview" required>{{ $course->overview }}</textarea>
                                 <label>Overview</label>
                             </div>
                         </div>
@@ -105,7 +107,7 @@
                     <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <textarea class="form-control" id="course_format" name="course_format" required></textarea>
+                                <textarea class="form-control" id="course_format" name="course_format" required>{{ $course->course_format }}</textarea>
                                 <label>Course Format</label>
                             </div>
                         </div>
@@ -113,7 +115,7 @@
                     <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <textarea class="form-control" id="key_facts" name="key_facts" required></textarea>
+                                <textarea class="form-control" id="key_facts" name="key_facts" required>{{ $course->key_facts }}</textarea>
                                 <label>Key Facts</label>
                             </div>
                         </div>
@@ -121,7 +123,7 @@
                     <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <input type="text" name="module_label" class="" aria-describedby="basic-addon1" required>
+                                <input type="text" name="module_label" class="" aria-describedby="basic-addon1" value="{{ $course->module_label }}" required>
                                 <label>Moudle Label</label>
                             </div>
                         </div>
@@ -130,7 +132,7 @@
                         <div class="form-tools-cover">
                             <div class="input-group">
                                 <textarea class="form-control" id="module_description" name="module_description"
-                                          required></textarea>
+                                    required>{{ $course->module_description }}</textarea>
                                 <label>Module Description</label>
                             </div>
                         </div>
@@ -139,7 +141,7 @@
                         <div class="form-tools-cover">
                             <div class="input-group">
                                 <textarea class="form-control" id="learning_outcome" name="learning_outcome"
-                                          required></textarea>
+                                    required>{{ $course->learning_outcome }}</textarea>
                                 <label>Learning Outcome</label>
                             </div>
                         </div>
@@ -147,7 +149,7 @@
                     <div class="col-md-12">
                         <div class="form-tools-cover">
                             <div class="input-group">
-                                <textarea class="form-control" id="opportunities" name="opportunities" required></textarea>
+                                <textarea class="form-control" id="opportunities" name="opportunities" required>{{ $course->opportunities }}</textarea>
                                 <label>Opportunities</label>
                             </div>
                         </div>
@@ -156,7 +158,7 @@
                         <div class="form-tools-cover">
                             <div class="input-group">
                                 <textarea class="form-control" id="additional_facilities" name="additional_facilities"
-                                          required></textarea>
+                                    required>{{ $course->additional_facilities }}</textarea>
                                 <label>Additional Facilities</label>
                             </div>
                         </div>
@@ -168,7 +170,9 @@
                                 <div class="col-md-12">
                                     <div class="left-section">
                                         <div class="icon-headline-wrapper">
-                                            <h1><i class="fa fa-cloud-upload"></i></h1>
+                                            <h1>
+                                                <img src="{{ asset($course->course_image) }}" style="width: 60%;">
+                                            </h1>
                                             <p>Drag & Drop Files Here Or</p>
                                         </div>
                                         <div class="image-storage-wrapper">

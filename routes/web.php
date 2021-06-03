@@ -121,12 +121,11 @@ Route::group(['middleware' => 'auth:admin'], function () {
 
     Route::get('admin/logout', 'App\Http\Controllers\AdminController@logout')->name('admin-logout');
 
-    Route::get('/admin/add-courses', function () {
-        return view('admin/add_courses');
-    })->name('add_courses');
-    Route::get('/course-list', function () {
-        return view('admin/course_list');
-    })->name('course_list');
+    Route::get('/admin/add-courses', 'App\Http\Controllers\CourseController@courseAddFrom')->name('add_courses');
+    Route::post('/admin/store-courses', 'App\Http\Controllers\CourseController@courseStore')->name('store_courses');
+    Route::get('/course-edit/{course}', 'App\Http\Controllers\CourseController@courseEdit')->name('course-edit');
+    Route::post('/course-update/{course}', 'App\Http\Controllers\CourseController@courseUpdate')->name('course-update');
+    Route::get('/course-list', 'App\Http\Controllers\CourseController@courseIndex')->name('course_list');
 });
 
 

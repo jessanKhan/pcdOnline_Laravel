@@ -5,7 +5,7 @@
         <div class="col-md-6">
             <div class="breadcrumb-wrapper">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ route('dash_home') }}">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
                     <li class="breadcrumb-item active">Student Profile</li>
                 </ol>
             </div>

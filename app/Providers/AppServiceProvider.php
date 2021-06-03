@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\CourseCategory;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -32,5 +33,6 @@ class AppServiceProvider extends ServiceProvider
 
         $course_categories = CourseCategory::all();
         View::share('course_categories', $course_categories);
+        Paginator::useBootstrap();
     }
 }
