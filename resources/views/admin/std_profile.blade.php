@@ -27,33 +27,37 @@
                 <div class="col-md-5">
                     <div class="potrait-wrapper">
                         <div class="img-wrapper">
-                            <img src="{{ asset('/assets/images/student.jpg') }}" alt="Profile Picture" />
+                            @if ($student->image != null)
+                                <img src="{{ asset($student->image) }}" alt="Profile Picture" />
+                            @else
+                                <img src="{{ asset('../assets/images/profilepic.jpg') }}" alt="Profile Picture"/>
+                            @endif
                         </div>
                         <div class="potrait-table">
                             <table class="table">
                                 <tr>
                                     <th>ID:</th>
-                                    <td>UG02-36-14-026</td>
+                                    <td>{{ $student->id }}</td>
                                 </tr>
                                 <tr>
                                     <th>Name:</th>
-                                    <td>Shamitra</td>
+                                    <td>{{ $student->name }}</td>
                                 </tr>
                                 <tr>
                                     <th>Last Name:</th>
-                                    <td>Dutta</td>
+                                    <td>{{ $student->last_name }}</td>
                                 </tr>
                                 <tr>
                                     <th>Primery Category:</th>
-                                    <td>BUsiness and Management</td>
+                                    <td>{{ $student->qualification }}</td>
                                 </tr>
                                 <tr>
                                     <th>Date of Birth:</th>
-                                    <td>20/12/1999</td>
+                                    <td>{{ $student->dob }}</td>
                                 </tr>
                                 <tr>
                                     <th>Gender:</th>
-                                    <td>Male</td>
+                                    <td>{{ $student->gender }}</td>
                                 </tr>
                             </table>
                         </div>
@@ -78,19 +82,19 @@
 
                                             <tr>
                                                 <th>Address:</th>
-                                                <td>41/45 road 3, Mymensingh</td>
+                                                <td>{{ $student->address }}</td>
                                             </tr>
                                             <tr>
                                                 <th>Contact:</th>
-                                                <td>01742394092</td>
+                                                <td>{{ $student->phone }}</td>
                                             </tr>
                                             <tr>
                                                 <th>Email:</th>
-                                                <td>my@gmail.com</td>
+                                                <td>{{ $student->email }}</td>
                                             </tr>
                                             <tr>
                                                 <th>Nationality:</th>
-                                                <td>Bangladeshi</td>
+                                                <td>{{ $student->country->name }}</td>
                                             </tr>
                                         </table>
                                     </div>
@@ -117,14 +121,24 @@
                                 <div class="col-md-12">
                                     <div class="potrait-table">
                                         <table class="table">
-                                            <tr>
-                                                <th>Genaral English for Beginer:</th>
-                                                <td>535 Euros</td>
-                                            </tr>
+                                            @php
+                                                $total_amount = 0;
+                                            @endphp
+                                            @foreach($student->orders as $order)
+                                                @if ($order->status == 'confirmed')
+                                                    <tr>
+                                                        <th>{{ $order->course_name }}:</th>
+                                                        <td>{{ $order->course_price }} Euros</td>
+                                                    </tr>
+                                                    @php
+                                                        $total_amount += $order->course_price;
+                                                    @endphp
+                                                @endif
+                                            @endforeach
 
                                             <tr>
                                                 <th>Total Paid:</th>
-                                                <td>535 Euros</td>
+                                                <td>{{ $total_amount }}</td>
                                             </tr>
                                         </table>
                                     </div>

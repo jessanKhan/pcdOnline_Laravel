@@ -27,6 +27,7 @@ class User extends Authenticatable
         'phone',
         'email',
         'password',
+        'image',
     ];
 
     /**
@@ -47,4 +48,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function country()
+    {
+        return $this->belongsTo(Country::class, 'nationality', 'id');
+    }
+
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
 }

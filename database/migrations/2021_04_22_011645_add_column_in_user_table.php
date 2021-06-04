@@ -21,6 +21,7 @@ class AddColumnInUserTable extends Migration
             $table->string('phone')->after('name');
             $table->string('address')->after('name');
             $table->string('qualification')->after('name');
+            $table->string('image')->nullable()->after('qualification');
         });
     }
 

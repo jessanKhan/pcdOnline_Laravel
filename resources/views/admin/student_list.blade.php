@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="table-wrapper">
-                        <table class="table table-striped" id="mydata">
+                        <table class="table table-striped">
                             <thead>
                                 <tr>
                                     <th scope="col">S.ID</th>
@@ -51,49 +51,23 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">s-01</th>
-                                    <td>Shamitra </td>
-                                    <td>Dutta</td>
-                                    <td>Male</td>
+                                @foreach($students as $student)
+                                    <tr>
+                                    <th scope="row">{{ $student->id }}</th>
+                                    <td>{{ $student->name }}</td>
+                                    <td>{{ $student->last_name }}</td>
+                                    <td>{{ $student->gender }}</td>
 
-                                    <td>01742394092</td>
-                                    <td>antu@gmail.com</td>
+                                    <td>{{ $student->phone }}</td>
+                                    <td>{{ $student->email }}</td>
                                     <td>
-                                        <a href="{{ route('std_profile') }}"><i class="fa fa-eye"></i></a>
+                                        <a href="{{ route('std_profile', $student->id) }}"><i class="fa fa-eye"></i></a>
                                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#confirm"><i
-                                                class="fa fa-trash"></i></a>
+{{--                                        <a href="#" data-toggle="modal" data-target="#confirm"><i--}}
+{{--                                                class="fa fa-trash"></i></a>--}}
                                     </td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">s-02</th>
-                                    <td>Shuvash </td>
-                                    <td>Dutta</td>
-                                    <td>Male</td>
-                                    <td>01742394096</td>
-                                    <td>shuvash@gmail.com</td>
-                                    <td>
-                                        <a href="{{ route('std_profile') }}"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#confirm"><i
-                                                class="fa fa-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">s-01</th>
-                                    <td>Andrew </td>
-                                    <td>DS</td>
-                                    <td>Male</td>
-                                    <td>01742394052</td>
-                                    <td>andrew@gmail.com</td>
-                                    <td>
-                                        <a href="{{ route('std_profile') }}"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#confirm"><i
-                                                class="fa fa-trash"></i></a>
-                                    </td>
-                                </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>

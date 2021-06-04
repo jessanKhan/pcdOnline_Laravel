@@ -112,12 +112,8 @@ Route::group(['middleware' => 'auth:admin'], function () {
         return view('admin/dash_home');
     })->name('dashboard');
     Route::get('/admission', 'App\Http\Controllers\AdminController@admission')->name('admission');
-    Route::get('/student_list', function () {
-        return view('admin/student_list');
-    })->name('student_list');
-    Route::get('/student_list/profile', function () {
-        return view('admin/std_profile');
-    })->name('std_profile');
+    Route::get('/student_list', 'App\Http\Controllers\AdminController@studentIndex')->name('student_list');
+    Route::get('/student_list/profile/{id}', 'App\Http\Controllers\AdminController@studentProfile')->name('std_profile');
 
     Route::get('admin/logout', 'App\Http\Controllers\AdminController@logout')->name('admin-logout');
 
@@ -135,7 +131,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('/proceed-to-pay', 'App\Http\Controllers\CourseController@proceedToPay')->name('proceed-to-pay');
     Route::get("/order-confirm/{order}", 'App\Http\Controllers\AdminController@confirmOrder')->name('order-confirm');
-
+    Route::post('profile-image-upload', 'App\Http\Controllers\HomeController@profileImageUpload')->name('profile-image-upload');
     Route::get("/order-delete/{order}", 'App\Http\Controllers\AdminController@deleteOrder')->name('order-delete');
 });
 

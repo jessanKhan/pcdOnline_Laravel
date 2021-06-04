@@ -6,6 +6,7 @@ use App\Models\Course;
 use App\Models\CourseCategory;
 use App\Models\Order;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -41,5 +42,19 @@ class HomeController extends Controller
         $course_category->load('courses');
 
         return view('course.Categories.public-index', compact('course_category'));
+    }
+
+    public function profileImageUpload(Request $request)
+    {
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+            $path = $file->storeAs('assets/images', $file->getClientOriginalName(), 'public_uploads');
+
+            Auth::user()->update([
+                'image' => $path
+            ]);
+        }
+
+        return redirect()->back();
     }
 }

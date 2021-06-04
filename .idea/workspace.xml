@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f153dec8-ce2d-40a6-80d4-7e8eed7753dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/edit_courses.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CourseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CourseCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CourseCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/add_courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/add_courses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/course_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/course_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_22_011645_add_column_in_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_22_011645_add_column_in_user_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/std_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/std_profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/student_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/student_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +194,7 @@
       <workItem from="1622037415434" duration="688000" />
       <workItem from="1622585743695" duration="2505000" />
       <workItem from="1622740951754" duration="31000" />
-      <workItem from="1622741369129" duration="8621000" />
+      <workItem from="1622741369129" duration="12577000" />
     </task>
     <servers />
   </component>

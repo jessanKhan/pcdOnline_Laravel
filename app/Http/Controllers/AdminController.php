@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Admin;
 use App\Models\Order;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -51,6 +52,16 @@ class AdminController extends Controller
         $order->delete();
 
         return redirect()->back();
+    }
+
+    public function studentIndex() {
+        $students = User::paginate(10);
+        return view('admin/student_list', compact('students'));
+    }
+
+    public function studentProfile($id) {
+        $student = User::with('country', 'orders')->find($id);
+        return view('admin/std_profile', compact('student'));
     }
 }
 
