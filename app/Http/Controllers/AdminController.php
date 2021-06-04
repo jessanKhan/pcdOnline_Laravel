@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Admin;
+use App\Models\Country;
 use App\Models\Order;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -62,6 +63,19 @@ class AdminController extends Controller
     public function studentProfile($id) {
         $student = User::with('country', 'orders')->find($id);
         return view('admin/std_profile', compact('student'));
+    }
+
+    public function studentEdit($id)
+    {
+        $student = User::find($id);
+        $countries = Country::pluck('name', 'id');
+        return view('admin/student_edit', compact('student', 'countries'));
+    }
+
+    public function studentUpdate(Request $request, $id)
+    {
+        User::find($id)->update($request->all());
+        return redirect()->route('std_profile', $id);
     }
 }
 

@@ -114,6 +114,8 @@ Route::group(['middleware' => 'auth:admin'], function () {
     Route::get('/admission', 'App\Http\Controllers\AdminController@admission')->name('admission');
     Route::get('/student_list', 'App\Http\Controllers\AdminController@studentIndex')->name('student_list');
     Route::get('/student_list/profile/{id}', 'App\Http\Controllers\AdminController@studentProfile')->name('std_profile');
+    Route::get('/std_edit/edit/{id}', 'App\Http\Controllers\AdminController@studentEdit')->name('std_edit');
+    Route::post('/stu_update/{id}', 'App\Http\Controllers\AdminController@studentUpdate')->name('std_update');
 
     Route::get('admin/logout', 'App\Http\Controllers\AdminController@logout')->name('admin-logout');
 

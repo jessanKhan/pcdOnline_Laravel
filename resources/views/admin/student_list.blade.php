@@ -62,7 +62,7 @@
                                     <td>{{ $student->email }}</td>
                                     <td>
                                         <a href="{{ route('std_profile', $student->id) }}"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
+                                        <a href="{{ route('std_edit', $student->id) }}"><i class="fa fa-edit"></i></a>
 {{--                                        <a href="#" data-toggle="modal" data-target="#confirm"><i--}}
 {{--                                                class="fa fa-trash"></i></a>--}}
                                     </td>
