@@ -87,7 +87,7 @@
                                     <label>Nationality</label>
                                 </div>
                                 <div class="col-md-6">
-                                    <p>{{ Auth::user()->nationality }}</p>
+                                    <p>{{ Auth::user()->country->name }}</p>
                                 </div>
                             </div>
                             <div class="row">
