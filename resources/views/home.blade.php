@@ -10,7 +10,7 @@
                     @if (Auth::user()->image != null)
                         <img src="{{ asset(Auth::user()->image) }}" alt=""/>
                     @else
-                        <img src="{{ asset('../assets/images/profilepic.jpg') }}" alt=""/>
+                        <img src="{{ asset('../assets/images/images.png') }}" alt=""/>
                     @endif
                     <div class="file btn btn-lg btn-primary">
                         <form action="{{ route('profile-image-upload') }}" id="profile_image_form" method="POST"
@@ -87,7 +87,7 @@
                                     <label>Nationality</label>
                                 </div>
                                 <div class="col-md-6">
-                                    <p>{{ Auth::user()->nationality }}</p>
+                                    <p>{{ Auth::user()->country->name }}</p>
                                 </div>
                             </div>
                             <div class="row">

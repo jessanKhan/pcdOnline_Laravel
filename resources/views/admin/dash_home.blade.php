@@ -30,11 +30,11 @@
                     <div class="row">
                         <div class="col-md-2">
                             <div class="single-dashboard-menu-wrapper">
-                                <a href="student-addmision.html"><i class="fa fa-user-plus"></i></a>
-                                <a href="student-addmision.html">Student Admission</a>
+                                <a href="{{ route('admission') }}"><i class="fa fa-user-plus"></i></a>
+                                <a href="{{ route('admission') }}">Enrollment Requests</a>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        {{-- <div class="col-md-2">
                             <div class="single-dashboard-menu-wrapper">
                                 <a href="add-teacher.html"><i class="fa fa-user-plus"></i></a>
                                 <a href="add-teacher.html">Add Teacher</a>
@@ -45,27 +45,27 @@
                                 <a href="add-employee.html"><i class="fa fa-user-plus"></i></a>
                                 <a href="add-employee.html">Add Stuff</a>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="col-md-2">
                             <div class="single-dashboard-menu-wrapper">
-                                <a href="student-list.html"><i class="fa fa-list"></i></a>
-                                <a href="student-list.html">Student List</a>
+                                <a href="{{ route('student_list') }}"><i class="fa fa-list"></i></a>
+                                <a href="{{ route('student_list') }}">Student List</a>
                             </div>
                         </div>
 
                         <div class="col-md-2">
                             <div class="single-dashboard-menu-wrapper">
-                                <a href="classes.html"><i class="fa fa-th"></i></a>
-                                <a href="classes.html">Classes</a>
+                                <a href="{{ route('add_courses') }}"><i class="fa fa-square"></i></a>
+                                <a href="{{ route('add_courses') }}">Add Course</a>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="single-dashboard-menu-wrapper">
-                                <a href="sections.html"><i class="fa fa-square"></i></a>
-                                <a href="sections.html">Sections</a>
+                                <a href="{{ route('course_list') }}"><i class="fa fa-list"></i></a>
+                                <a href="{{ route('course_list') }}">Course List</a>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        {{-- <div class="col-md-2">
                             <div class="single-dashboard-menu-wrapper">
                                 <a href="groups.html"><i class="fa fa-users"></i></a>
                                 <a href="groups.html">Groups</a>
@@ -92,7 +92,7 @@
                                 <a href="account-setting.html"><i class="fa fa-cogs"></i></a>
                                 <a href="account-setting.html">Account Setting</a>
                             </div>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>

@@ -22,13 +22,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="action-btn-cover btn-group pull-right">
-                        <a href="student-addmision.html"><i class="fa fa-plus"></i></a>
+                        {{-- <a href="student-addmision.html"><i class="fa fa-plus"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-print"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-download"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-share"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-envelope"></i></a>
-                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-trash"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-trash"></i></a> --}}
                     </div>
                 </div>
             </div>
@@ -51,22 +51,23 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($students as $student)
+                                @foreach ($students as $student)
                                     <tr>
-                                    <th scope="row">{{ $student->id }}</th>
-                                    <td>{{ $student->name }}</td>
-                                    <td>{{ $student->last_name }}</td>
-                                    <td>{{ $student->gender }}</td>
+                                        <th scope="row">{{ $student->id }}</th>
+                                        <td>{{ $student->name }}</td>
+                                        <td>{{ $student->last_name }}</td>
+                                        <td>{{ $student->gender }}</td>
 
-                                    <td>{{ $student->phone }}</td>
-                                    <td>{{ $student->email }}</td>
-                                    <td>
-                                        <a href="{{ route('std_profile', $student->id) }}"><i class="fa fa-eye"></i></a>
-                                        <a href="{{ route('std_edit', $student->id) }}"><i class="fa fa-edit"></i></a>
-{{--                                        <a href="#" data-toggle="modal" data-target="#confirm"><i--}}
-{{--                                                class="fa fa-trash"></i></a>--}}
-                                    </td>
-                                </tr>
+                                        <td>{{ $student->phone }}</td>
+                                        <td>{{ $student->email }}</td>
+                                        <td>
+                                            <a href="{{ route('std_profile', $student->id) }}"><i
+                                                    class="fa fa-eye"></i></a>
+                                            <a href="{{ route('std_edit', $student->id) }}"><i class="fa fa-edit"></i></a>
+                                            {{-- <a href="#" data-toggle="modal" data-target="#confirm"><i --}}
+                                            {{-- class="fa fa-trash"></i></a> --}}
+                                        </td>
+                                    </tr>
                                 @endforeach
                             </tbody>
                         </table>

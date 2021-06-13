@@ -21,13 +21,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="action-btn-cover btn-group pull-right">
-                        <a href="student-addmision.html"><i class="fa fa-plus"></i></a>
+                        {{-- <a href="student-addmision.html"><i class="fa fa-plus"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-print"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-download"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-share"></i></a>
                         <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-envelope"></i></a>
-                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-trash"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-trash"></i></a> --}}
                     </div>
                 </div>
             </div>
@@ -49,12 +49,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($orders as $order)
+                                @foreach ($orders as $order)
                                     <tr>
                                         <td>{{ $order->student->name }} </td>
                                         <td>{{ $order->student->last_name }} </td>
                                         @if ($order->course->parent_course == null || $order->course->parent_course == $order->course->id)
-                                            <td>{{ $order->course->course_name . ' ' .  $order->course->course_for }}</td>
+                                            <td>{{ $order->course->course_name . ' ' . $order->course->course_for }}</td>
                                         @else
                                             <td>{{ $order->course->course_name }}</td>
                                         @endif
@@ -63,8 +63,9 @@
                                         <td>{{ $order->student->phone }}</td>
                                         <td>Not confirmed</td>
                                         <td>
-{{--                                            {{ route('order-confirm', $order->id) }}--}}
-                                            <a href="#" onclick="order_confirm(event, '{{ $order->id }}')"><i class="fa fa-check"></i></a>
+                                            {{-- {{ route('order-confirm', $order->id) }} --}}
+                                            <a href="#" onclick="order_confirm(event, '{{ $order->id }}')"><i
+                                                    class="fa fa-check"></i></a>
                                             <a href="#" onclick="order_delete(event, '{{ $order->id }}')"><i
                                                     class="fa fa-trash"></i></a>
                                         </td>
@@ -122,8 +123,7 @@
     </div>
 
     <script>
-        function order_confirm(event, order_id)
-        {
+        function order_confirm(event, order_id) {
             event.preventDefault();
             var conf = confirm('Are You Sure?')
             if (conf) {
@@ -131,13 +131,13 @@
             }
         }
 
-        function order_delete(event, order_id)
-        {
+        function order_delete(event, order_id) {
             event.preventDefault();
             var conf = confirm('Are You Sure?')
             if (conf) {
                 window.location = '/order-delete/' + order_id;
             }
         }
+
     </script>
 @endsection

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>School College Management System - Dashboard</title>
+    <title>PCD Online - Dashboard</title>
     <!-- Bootstrap CSS CDN -->
     <link href="{{ asset('/assets/css/font-awesome.min.css" rel="stylesheet') }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -32,8 +32,8 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Reliable Accountant</h3>
-                <strong>RA</strong>
+                <h3>PCD Online Dashboard</h3>
+                <strong>PCD</strong>
             </div>
 
             <ul class="list-unstyled components">
@@ -129,18 +129,19 @@
                                         <i class="fa fa-user"></i>
                                     </a>
                                     <ul class="dropdown-menu right-aligned">
-                                        <li>
+                                        {{-- <li>
                                             <p><i class="fa fa-user"></i>Admin</p>
                                         </li>
                                         <li><a href="#"><i class="fa fa-user"></i>Profile</a></li>
                                         <li><a href="#"><i class="fa fa-cog"></i>System Setting</a></li>
-                                        <li><a href="#"><i class="fa fa-cog"></i>Account Settings</a></li>
-                                        <li><a href="{{ route('admin-logout') }}"><i class="fa fa-power-off"></i>Logout</a></li>
+                                        <li><a href="#"><i class="fa fa-cog"></i>Account Settings</a></li> --}}
+                                        <li><a href="{{ route('admin-logout') }}"><i
+                                                    class="fa fa-power-off"></i>Logout</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="admin-dropdown-cover pull-right">
+                        {{-- <div class="admin-dropdown-cover pull-right">
                             <div class="dropdown-btn-cover">
                                 <div class="btn-group" role="group">
                                     <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
@@ -180,7 +181,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- admin notification bar close-->
                     </div>
                 </div>
