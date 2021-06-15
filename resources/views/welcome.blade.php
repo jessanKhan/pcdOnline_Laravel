@@ -1117,10 +1117,29 @@
 
                 <li class="has-submenu"><a href="#" style="text-decoration:none">Courses</a>
                     <ul class="sub-menu">
+                    <li class="has-submenu" >
+                            <div class="row"><a href=""
+                                    style="text-decoration:none">Business & Management <i
+                                        class='fa fa-angle-right fa-fw'></i></a>
+
+										<ul class="sub-menu">
                         <li class="has-submenu" onclick="accounting()">
                             <div class="row"><a href="{{ route('Business') }}" target="_blank"
-                                    style="text-decoration:none">Business & Management <i
+                                    style="text-decoration:none">Virtual Courses <i
                                         class='fa fa-angle-right fa-fw'></i></a> </div>
+
+
+
+                        </li>
+                        <li class="has-submenu" onclick="dotnetProgramming()">
+                            <div class="row"><a href="" target="_blank"
+                                    style="text-decoration:none">Online Courses <i
+                                        class='fa fa-angle-right fa-fw'></i></a></div>
+
+
+                        </li>
+						</ul>
+										</div>
 
 
 
