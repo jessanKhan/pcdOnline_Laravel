@@ -9,10 +9,18 @@
 
     <!-- Fonts -->
     <link href="{{ asset('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap') }}"
-          rel="stylesheet">
+        rel="stylesheet">
 
     <!-- Styles -->
     <style>
+        .main-button h1 strong {
+            color: #F5A425;
+        }
+
+        .main-button h1 {
+            font-weight: bolder;
+        }
+
         #map img {
             margin: 30px;
         }
@@ -367,47 +375,13 @@
             grid-template-columns: repeat(1, minmax(0, 1fr))
         }
 
-        min-width:
-
-        230
-        px
-
-        !important
-        ;
-        overflow: auto
-
-        !important
-        ;
-        border:
-
-        1
-        px solid #ddd
-
-        !important
-        ;
-        z-index:
-
-        1
-        !important
-        ;
-        top:
-
-        60
-        px
-
-        ;
-        max-height:
-
-        300
-        px
-
-        ;
-        min-height:
-
-        0
-        px
-
-        ;
+        min-width: 230 px !important;
+        overflow: auto !important;
+        border: 1 px solid #ddd !important;
+        z-index: 1 !important;
+        top: 60 px;
+        max-height: 300 px;
+        min-height: 0 px;
         }
 
         .dropdown-content a {
@@ -533,6 +507,24 @@
 
 
     <style>
+        .block-click {
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .block-click-a {
+            padding: 40px 0px;
+            color: white;
+            font-weight: bold;
+            /* border-radius: 10px; */
+            /* margin: 10px;  */
+        }
+
+        .block-click:hover .block-click-a {
+            color: #0c1228
+        }
+
         body {
             font-family: 'Nunito', sans-serif;
         }
@@ -644,7 +636,8 @@
             }
         }
 
-        @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+        @media screen and (max-width: 800px) and (orientation: landscape),
+        screen and (max-height: 300px) {
 
             /**
        * Remove all paddings around the image on small screen
@@ -1068,7 +1061,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900') }}"
-          rel="stylesheet">
+        rel="stylesheet">
 
     <title>PCD Online</title>
 
@@ -1081,10 +1074,10 @@
     <link rel="stylesheet" href="{{ asset('../assets/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('../assets/css/lightbox.css') }}">
     <link rel="stylesheet"
-          href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css') }}">
+        href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css') }}">
 
     <link href="{{ asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css') }}"
-          type="text/css" rel="stylesheet">
+        type="text/css" rel="stylesheet">
     <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}"></script>
     <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js') }}"></script>
 
@@ -1115,17 +1108,17 @@
 </head>
 
 <body class="antialiased">
-<!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+    <!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
     <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
 @auth
-        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @if (Route::has('register'))
-            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @endif
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @if (Route::has('register'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @endif
     @endauth
         </div>
 @endif
@@ -1133,363 +1126,440 @@
 
     </div> -->
 
-<header class="main-header clearfix" role="header">
-    <div class="logo row">
-        <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
-        <a href="/">
-            <h3 style="color: white; margin: 37px 10px;"><b>PCDonline</b></h3>
-        </a>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-        <ul class="main-menu">
+    <header class="main-header clearfix" role="header">
+        <div class="logo row">
+            <a href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
+            <a href="/">
+                <h3 style="color: white; margin: 37px 10px;"><b>PCDonline</b></h3>
+            </a>
+        </div>
+        <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+        <nav id="menu" class="main-nav" role="navigation">
+            <ul class="main-menu">
 
 
-            <li class="has-submenu"><a href="#" style="text-decoration:none">Courses</a>
-                <ul class="sub-menu">
-                    @foreach($course_categories as $course_category)
-                        <li class="has-submenu" onclick="accounting()">
-                            <div class="row"><a href="{{ route('show-course-category', $course_category->slug) }}" target="_blank"
-                                                style="text-decoration:none">{{ $course_category->name }} <i
-                                        class='fa fa-angle-right fa-fw'></i></a></div>
-
-
-                        </li>
-                    @endforeach
-                </ul>
-            </li>
-            <li class="input search-bar">
-
-                <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
-                       onkeyup="filterFunction()">
-                <div id="myDropdown" class="dropdown-content">
-
-                    <a href="#about" onclick="redirectTo('accounting1')">Accounting and
-                        Finance For
-                        Beginners/Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('accounting2')">Accounting and Finance
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('digital')">Digital Enterprise and Business Support
-                        For Beginners/Intermediate Learners
-                    </a>
-                    <a href="#about" onclick="redirectTo('digital2')">Digital Enterprise and Business Support
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('machineLearning')">Machine Learning with Python
-                        For Beginners/Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('machineLearning2')">Machine Learning with Python
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('dotnet1')">.NET PROGRAMMING
-                        For Beginners/Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('dotnet2')">.NET PROGRAMMING
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('blockchain')">Blockchain for Everyone
-                        For Beginners/Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('blockchain2')">Blockchain for Everyone
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('applied_science1')">Scientific Data Handling and
-                        Programming
-                        For Beginners/Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('applied_science2')">Scientific Data Handling and
-                        Programming
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('businessEnglish')">Business English
-                        For Beginners/Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('businessEnglish2')">Business English
-                        For Advanced Learners</a>
-                    <a href="#about" onclick="redirectTo('generalenglish1')">General English
-                        For Beginners</a>
-                    <a href="#about" onclick="redirectTo('generalenglish2')">General English
-                        For Intermediate Learners</a>
-                    <a href="#about" onclick="redirectTo('generalenglish3')">General English
-                        For Advanced Learners</a>
-
-                </div>
-
-
-            </li>
-            <li class="pp"><a href="#section5" style="text-decoration:none">About Us</a></li>
-            @guest
-                @if (Route::has('login'))
-                    <li class="pp" onclick="Loginpage()">
-                        <a href="{{ route('login') }}" target="_blank"
-                           style="text-decoration:none">{{ __('Login') }}</a>
-                    </li>
-                @endif
-
-                @if (Route::has('register'))
-                    <li class="pp" onclick="Registerpage()">
-                        <a href="{{ route('register') }}" target="_blank"
-                           style="text-decoration:none">{{ __('Sign Up') }}</a>
-                    </li>
-                @endif
-            @else
-                <li class="has-submenu">
-                    <a id="navbarDropdown" href="#">
-                        {{ Auth::user()->name }}
-                    </a>
-
+                <li class="has-submenu"><a href="#" style="text-decoration:none">Courses</a>
                     <ul class="sub-menu">
-                        <li class="has-submenu">
-                            <div class="row">
-                                <a href="{{ route('home') }}" onclick="window.location='/home'">
-                                    {{ __('Profile') }}
-                                </a>
-
-                            </div>
-
-                        </li>
-
-                        <li class="has-submenu">
-                            <div class="row">
-                                <a href="{{ route('logout') }}"
-                                   onclick="event.preventDefault();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
-                            </div>
-
-                        </li>
+                        @foreach ($course_categories as $course_category)
+                            <li class="has-submenu" onclick="accounting()">
+                                <div class="row"><a
+                                        href="{{ route('show-course-category', $course_category->slug) }}"
+                                        target="_blank" style="text-decoration:none">{{ $course_category->name }} <i
+                                            class='fa fa-angle-right fa-fw'></i></a></div>
 
 
+                            </li>
+                        @endforeach
                     </ul>
                 </li>
-            @endguest
-            <li onclick="cartmenu()" class="pp"><a href="/cart" target="_blank"><i class="fa fa-shopping-cart"
-                                                                                   aria-hidden="true"></i></a></li>
-        </ul>
-    </nav>
-</header>
+                <li class="input search-bar">
 
-<!-- ***** Main Banner Area Start ***** -->
-<section class="section main-banner" id="top" data-section="section1">
-    <video autoplay muted loop id="bg-video">
-        <source src="assets/images/pcd-courses 1.mp4" type="video/mp4"/>
-    </video>
+                    <input type="text" onclick="myFunction()" placeholder="Find Your Courses" id="myInput"
+                        onkeyup="filterFunction()">
+                    <div id="myDropdown" class="dropdown-content">
 
-    <div class="video-overlay header-text">
-        <div class="caption">
-            <h2><em>PCD</em> ONLINE</h2>
-            <div class="main-button">
-                <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">Discover Our
-                        Courses</a></div>
+                        <a href="#about" onclick="redirectTo('accounting1')">Accounting and
+                            Finance For
+                            Beginners/Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('accounting2')">Accounting and Finance
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('digital')">Digital Enterprise and Business Support
+                            For Beginners/Intermediate Learners
+                        </a>
+                        <a href="#about" onclick="redirectTo('digital2')">Digital Enterprise and Business Support
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('machineLearning')">Machine Learning with Python
+                            For Beginners/Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('machineLearning2')">Machine Learning with Python
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('dotnet1')">.NET PROGRAMMING
+                            For Beginners/Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('dotnet2')">.NET PROGRAMMING
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('blockchain')">Blockchain for Everyone
+                            For Beginners/Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('blockchain2')">Blockchain for Everyone
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('applied_science1')">Scientific Data Handling and
+                            Programming
+                            For Beginners/Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('applied_science2')">Scientific Data Handling and
+                            Programming
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('businessEnglish')">Business English
+                            For Beginners/Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('businessEnglish2')">Business English
+                            For Advanced Learners</a>
+                        <a href="#about" onclick="redirectTo('generalenglish1')">General English
+                            For Beginners</a>
+                        <a href="#about" onclick="redirectTo('generalenglish2')">General English
+                            For Intermediate Learners</a>
+                        <a href="#about" onclick="redirectTo('generalenglish3')">General English
+                            For Advanced Learners</a>
+
+                    </div>
+
+
+                </li>
+                <li class="pp"><a href="#section5" style="text-decoration:none">About Us</a></li>
+                @guest
+                    @if (Route::has('login'))
+                        <li class="pp" onclick="Loginpage()">
+                            <a href="{{ route('login') }}" target="_blank"
+                                style="text-decoration:none">{{ __('Login') }}</a>
+                        </li>
+                    @endif
+
+                    @if (Route::has('register'))
+                        <li class="pp" onclick="Registerpage()">
+                            <a href="{{ route('register') }}" target="_blank"
+                                style="text-decoration:none">{{ __('Sign Up') }}</a>
+                        </li>
+                    @endif
+                @else
+                    <li class="has-submenu">
+                        <a id="navbarDropdown" href="#">
+                            {{ Auth::user()->name }}
+                        </a>
+
+                        <ul class="sub-menu">
+                            <li class="has-submenu">
+                                <div class="row">
+                                    <a href="{{ route('home') }}" onclick="window.location='/home'">
+                                        {{ __('Profile') }}
+                                    </a>
+
+                                </div>
+
+                            </li>
+
+                            <li class="has-submenu">
+                                <div class="row">
+                                    <a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+
+                            </li>
+
+
+                        </ul>
+                    </li>
+                @endguest
+                <li onclick="cartmenu()" class="pp"><a href="/cart" target="_blank"><i class="fa fa-shopping-cart"
+                            aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section5" class="section video" data-section="section5">
+        <div class="container">
+            <div class="caption " style="text-align: center">
+
+                <div class="main-button">
+                    <h1><strong>PCD</strong> ONLINE</h1>
+                    <div><a style="text-decoration: none" href="#section4">Discover
+                            Our
+                            Virtual Courses</a></div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- ***** Main Banner Area End ***** -->
+            <div class="row">
 
 
-<section class="features">
-    <div class="container">
-        <div class="row">
-            @foreach($course_categories as $course_category)
-                <div class="col-lg-3 col-12">
-                    <div class="features-post">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4>{{ $course_category->short_name }}</h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>{{ $course_category->description }}</p>
-                                <div class="scroll-to-section"><a
-                                        href="{{ route('show-course-category', $course_category->slug) }}"
-                                        style="text-decoration:none">Read More</a></div>
-                            </div>
-                        </div>
+                <div class="col-md-4">
+                    <article class="video-item">
+                        <h4>Affiliated with</h4>
+                        {{-- <div class="video-caption">
+                            <h4>Affiliated with</h4>
+                        </div> --}}
+                        <figure>
+                            <img src="{{ asset('assets/images/edx-logo-300x126.png') }}" alt="">
+                        </figure>
+                    </article>
+                </div>
+
+                <div class="col-md-8 align-self-center">
+                    <div class="left-content">
+                        <p>Boost your employment prospects as companies are shifting from traditional hiring practices
+                            to a skills-based, capabilities-driven mindset as their newest competitive advantage.
+
+                        </p>
+
+                        <p> Check out our edX affiliate online courses delivered by the top-ranking universities of the
+                            world either by clicking <a href="">here</a>
+                            or
+                            the following button of your choice(s).
+                        </p>
+                        {{-- <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div> --}}
                     </div>
                 </div>
-            @endforeach
-        </div>
-    </div>
-</section>
 
-<section class="section courses" data-section="section4" id="section4">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-heading">
-                    <h2>Courses Currently Offering</h2>
-                </div>
             </div>
-            <div class="owl-carousel owl-theme">
-                @foreach($courses as $course)
-                    <div class="item">
-                        <img src="{{ asset($course->course_image) }}" alt="{{ $course->course_name }}">
-                        <div class="down-content">
-                            <h4><a href="{{ route('course-public-show', $course->slug) }}" target="_blank"
-                                   style="text-decoration:none; color:black;">
-                                    {{ $course->course_name }}
-                                    <br/>
-                                    <p style="font-size: 12px; color: black;">
-                                        <b> {{ $course->course_for }}</b>
-                                    </p>
-                                </a></h4>
-                            <p></p>
+
+            <div class="row" style="text-align: center">
+
+                <div class="col-md-2 block-click" style="background-color: #436095 ;"> <a
+                        href="https://www.awin1.com/cread.php?awinmid=6798&awinaffid=887627&clickref2=business-management&ued=https%3A%2F%2Fwww.edx.org%2Fcourse%2Fsubject%2Fbusiness-management"
+                        class="block-click-a">
+                        Business and
+                        Management</a> </div>
+                <div class="col-md-2 block-click" style="background-color: #F5A425 ;"> <a
+                        href="https://www.edx.org/course/subject/computer-science?source=aw&awc=6798_1623601446_24de6c8c7e16593987bba61a2e9e3cf6&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
+                        class="block-click-a">
+                        Coding and
+                        Computing</a> </div>
+                <div class="col-md-2 block-click " style="background-color: #436095 ;"> <a
+                        href="https://www.edx.org/course/subject/data-science?source=aw&awc=6798_1623601423_a07a1d81d345ba3a19f7351f8826c985&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
+                        class="block-click-a">
+                        Applied Science</a>
+                </div>
+                <div class="col-md-2 block-click" style="background-color: #F5A425 ;">
+                    <a href="https://www.awin1.com/cread.php?awinmid=6798&awinaffid=887627&clickref2=language&ued=https%3A%2F%2Fwww.edx.org%2Fcourse%2Fsubject%2Flanguage"
+                        class="block-click-a">Languages and
+                        Culture</a>
+                </div>
+                <div class="col-md-2 block-click" style="background-color: #436095 ;">
+                    <a href="https://www.edx.org/course/subject/humanities?source=aw&awc=6798_1623599162_481aa83f3d541f2aeffe455344441d2f&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
+                        class="block-click-a">Humanities</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <section class="section main-banner" id="top" data-section="section1">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/images/pcd-courses 1.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+
+                {{-- <div class="main-button">
+                    <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">Discover Our
+                            Courses</a></div>
+                </div> --}}
+            </div>
+        </div>
+    </section>
+    <!-- ***** Main Banner Area End ***** -->
+
+
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                @foreach ($course_categories as $course_category)
+                    <div class="col-lg-3 col-12">
+                        <div class="features-post">
+                            <div class="features-content">
+                                <div class="content-show">
+                                    <h4>{{ $course_category->short_name }}</h4>
+                                </div>
+                                <div class="content-hide">
+                                    <p>{{ $course_category->description }}</p>
+                                    <div class="scroll-to-section"><a
+                                            href="{{ route('show-course-category', $course_category->slug) }}"
+                                            style="text-decoration:none">Read More</a></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 @endforeach
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<section id="section5" class="section video" data-section="section5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 align-self-center">
-                <div class="left-content">
-                    <h4>PCDonline</em></h4>
-                    <p>PCDonline is an e-learning platform of Prudence College Dublin (PCD) with a difference to
-                        offer high quality, accredited and industry-focused online courses driven by well-educated
-                        and experienced tutors as well as globally recognised partners. We offer professional
-                        diplomas and short courses to learn anywhere at your own pace with or without tutor support.
-                    </p>
-
-                    <p> Our online course materials are developed in a virtual classroom environment to facilitate
-                        engagement, gain knowledge, and secure real-world experience and skills for career
-                        development while getting workplace ready. Flexible payment plans are in place to
-                        accommodate learners from various socio-economic backgrounds.
-                    </p>
-                    {{-- <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div> --}}
-                </div>
-            </div>
-            <div class="col-md-6">
-                <article class="video-item">
-                    <div class="video-caption">
-                        <h4></h4>
+    <section class="section courses" data-section="section4" id="section4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>Courses Currently Offering</h2>
                     </div>
-                    <figure>
-                        <a href="/"><img src="{{ asset('assets/images/about.png') }}" alt=""></a>
-                    </figure>
-                </article>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="lead" data-section="section3">
-    <div class="container p-2">
-        <div class="row p-5">
-            <div class="col-md-12">
-                <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="cpdcourses" data-section="section7">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="left-content">
-                    <img class="rounded mx-auto d-block"
-                         src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt=""/>
                 </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                <div class="content">
-                    <h4><b> CPD Accreditation</b></h4>
-                    <p> We are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
-                        distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
-
-                    <p> The vision of PCD is to get recognition as an academic center of excellence in higher
-                        education
-                        in Europe by attracting brilliant and deserving students from home and abroad; and providing
-                        advanced education and training to satisfy present and the future global needs.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="section contact" data-section="section6">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-heading">
-                    <h2>Let’s Keep In Touch</h2>
-                </div>
-            </div>
-            <div class="col-md-6">
-
-
-                <form id="contact" action="" method="post">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <fieldset>
-                                <input name="name" type="text" class="form-control" id="name"
-                                       placeholder="Your Name" required="">
-                            </fieldset>
+                <div class="owl-carousel owl-theme">
+                    @foreach ($courses as $course)
+                        <div class="item">
+                            <img src="{{ asset($course->course_image) }}" alt="{{ $course->course_name }}">
+                            <div class="down-content">
+                                <h4><a href="{{ route('course-public-show', $course->slug) }}" target="_blank"
+                                        style="text-decoration:none; color:black;">
+                                        {{ $course->course_name }}
+                                        <br />
+                                        <p style="font-size: 12px; color: black;">
+                                            <b> {{ $course->course_for }}</b>
+                                        </p>
+                                    </a></h4>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <fieldset>
-                                <input name="email" type="text" class="form-control" id="email"
-                                       placeholder="Your Email" required="">
-                            </fieldset>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section5" class="section video" data-section="section5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="left-content">
+                        <h4>PCDonline</em></h4>
+                        <p>PCDonline is an e-learning platform of Prudence College Dublin (PCD) with a difference to
+                            offer high quality, accredited and industry-focused online courses driven by well-educated
+                            and experienced tutors as well as globally recognised partners. We offer professional
+                            diplomas and short courses to learn anywhere at your own pace with or without tutor support.
+                        </p>
+
+                        <p> Our online course materials are developed in a virtual classroom environment to facilitate
+                            engagement, gain knowledge, and secure real-world experience and skills for career
+                            development while getting workplace ready. Flexible payment plans are in place to
+                            accommodate learners from various socio-economic backgrounds.
+                        </p>
+                        {{-- <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div> --}}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <article class="video-item">
+                        <div class="video-caption">
+                            <h4></h4>
                         </div>
-                        <div class="col-md-12">
-                            <fieldset>
+                        <figure>
+                            <a href="/"><img src="{{ asset('assets/images/about.png') }}" alt=""></a>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lead" data-section="section3">
+        <div class="container p-2">
+            <div class="row p-5">
+                <div class="col-md-12">
+                    <h2 style=""><b> LEADING THE TRANSITION TOWARDS A BRIGHTER FUTURE</b></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cpdcourses" data-section="section7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="left-content">
+                        <img class="rounded mx-auto d-block"
+                            src="{{ asset('assets/images/CPD-Acceditation-Logo-253x300.jpg') }}" alt="" />
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="content">
+                        <h4><b> CPD Accreditation</b></h4>
+                        <p> We are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
+                            distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
+
+                        <p> The vision of PCD is to get recognition as an academic center of excellence in higher
+                            education
+                            in Europe by attracting brilliant and deserving students from home and abroad; and providing
+                            advanced education and training to satisfy present and the future global needs.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section contact" data-section="section6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>Let’s Keep In Touch</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name"
+                                        placeholder="Your Name" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="email" type="text" class="form-control" id="email"
+                                        placeholder="Your Email" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
                                     <textarea name="message" rows="6" class="form-control" id="message"
-                                              placeholder="Your message..." required=""></textarea>
-                            </fieldset>
+                                        placeholder="Your message..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                                </fieldset>
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                            <fieldset>
-                                <button type="submit" id="form-submit" class="button">Send Message Now</button>
-                            </fieldset>
-                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div id="map">
+                        <img src="{{ asset('assets/images/contactimage.png') }}" />
                     </div>
-                </form>
-            </div>
-            <div class="col-md-6">
-                <div id="map">
-                    <img src="{{ asset('assets/images/contactimage.png') }}"/>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-<footer id="myFooter">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h5>Categories</h5>
-                <ul style="line-height: 2 !important">
-                    <li><a href="">Business & Management</a></li>
-                    <li><a href="">Coding & Computing</a></li>
-                    <li><a href="">Applied Sci-Tech</a></li>
-                    <li><a href="">Languages & Culture</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h5>Contact us</h5>
-                <ul style="font-size:12px; line-height: 1.4 !important">
-                    <li>PCDonline Department</li>
-                    <li>Prudence College Dublin</li>
-                    <li>C3, ACE Enterprise Park</li>
-                    <li>Bawnogue Road</li>
-                    <li>Dublin 22, D22 KW40</li>
-                    <li>IRELAND.</li>
-                    <li>Email: info@pcdonline.ie</li>
-                    <li>Phone: +353 (0)1 254 8998</li>
-                    <li>Mobile/WhatsApp: +353 87 466 9418</li>
-                    <li>Skype: Prudence College</li>
-                </ul>
-            </div>
-            <!--
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a class="logo" href="/"><img src="{{ asset('assets/images/newlogo.png') }}" alt=""></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h5>Categories</h5>
+                    <ul style="line-height: 2 !important">
+                        <li><a href="">Business & Management</a></li>
+                        <li><a href="">Coding & Computing</a></li>
+                        <li><a href="">Applied Sci-Tech</a></li>
+                        <li><a href="">Languages & Culture</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h5>Contact us</h5>
+                    <ul style="font-size:12px; line-height: 1.4 !important">
+                        <li>PCDonline Department</li>
+                        <li>Prudence College Dublin</li>
+                        <li>C3, ACE Enterprise Park</li>
+                        <li>Bawnogue Road</li>
+                        <li>Dublin 22, D22 KW40</li>
+                        <li>IRELAND.</li>
+                        <li>Email: info@pcdonline.ie</li>
+                        <li>Phone: +353 (0)1 254 8998</li>
+                        <li>Mobile/WhatsApp: +353 87 466 9418</li>
+                        <li>Skype: Prudence College</li>
+                    </ul>
+                </div>
+                <!--
             <div class="col-sm-2">
                 <h5>Support</h5>
                 <ul>
@@ -1499,141 +1569,141 @@
                 </ul>
             </div>
             -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="followbtn followbtnprop">Follow us</div>
-                <div class="social-networks">
-                    <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
-                            class=" fa fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank"><i
-                            class=" fa fa-facebook"></i></a>
-                    <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank"><i
-                            class=" fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
-                            class=" fa fa-instagram"></i></a>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="followbtn followbtnprop">Follow us</div>
+                    <div class="social-networks">
+                        <a href="https://twitter.com/PCDonline1" class="twitter" target="_blank"><i
+                                class=" fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/PCDonline1" class="facebook" target="_blank"><i
+                                class=" fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/pcdonline/" class="google" target="_blank"><i
+                                class=" fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/pcdonline1/" class="google" target="_blank"><i
+                                class=" fa fa-instagram"></i></a>
+                    </div>
+
                 </div>
 
             </div>
-
         </div>
-    </div>
-    <div class="footer-copyright">
-        <p>@Copyright Prudence College Dublin 2021-22</p>
-    </div>
-</footer>
+        <div class="footer-copyright">
+            <p>@Copyright Prudence College Dublin 2021-22</p>
+        </div>
+    </footer>
 
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
-<script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-<script src="{{ asset('assets/js/isotope.min.js') }}"></script>
-<script src="{{ asset('assets/js/owl-carousel.js') }}"></script>
-<script src="{{ asset('assets/js/lightbox.js') }}"></script>
-<script src="{{ asset('assets/js/tabs.js') }}"></script>
-<script src="{{ asset('assets/js/video.js') }}"></script>
-<script src="{{ asset('assets/js/slick-slider.js') }}"></script>
-<script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl-carousel.js') }}"></script>
+    <script src="{{ asset('assets/js/lightbox.js') }}"></script>
+    <script src="{{ asset('assets/js/tabs.js') }}"></script>
+    <script src="{{ asset('assets/js/video.js') }}"></script>
+    <script src="{{ asset('assets/js/slick-slider.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 
-{{-- for top course need to optimize --}}
-<script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
-<!-- jquery latest version -->
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-<!-- Bootstrap v4.4.1 js -->
-<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-<!-- Menu js -->
-<script src="{{ asset('assets/js/rsmenu-main.js') }}"></script>
-<!-- op nav js -->
-<script src="{{ asset('assets/js/jquery.nav.js') }}"></script>
-<!-- owl.carousel js -->
-<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-<!-- Slick js -->
-<script src="{{ asset('assets/js/slick.min.js') }}"></script>
-<!-- isotope.pkgd.min js -->
-<script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
-<!-- imagesloaded.pkgd.min js -->
-<script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
-<!-- wow js -->
-<script src="{{ asset('assets/js/wow.min.js') }}"></script>
-<!-- Skill bar js -->
-<script src="{{ asset('assets/js/skill.bars.jquery.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
-<!-- counter top js -->
-<script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
-<!-- video js -->
-<script src="{{ asset('assets/js/jquery.mb.YTPlayer.min.js') }}"></script>
-<!-- magnific popup js -->
-<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-<!-- plugins js -->
-<script src="{{ asset('assets/js/plugins.js') }}"></script>
-<!-- contact form js -->
-<script src="{{ asset('assets/js/contact.form.js') }}"></script>
-<!-- main js -->
-<script src="{{ asset('assets/js/main.js') }}"></script>
+    {{-- for top course need to optimize --}}
+    <script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
+    <!-- jquery latest version -->
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <!-- Bootstrap v4.4.1 js -->
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <!-- Menu js -->
+    <script src="{{ asset('assets/js/rsmenu-main.js') }}"></script>
+    <!-- op nav js -->
+    <script src="{{ asset('assets/js/jquery.nav.js') }}"></script>
+    <!-- owl.carousel js -->
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <!-- Slick js -->
+    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
+    <!-- isotope.pkgd.min js -->
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <!-- imagesloaded.pkgd.min js -->
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <!-- wow js -->
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <!-- Skill bar js -->
+    <script src="{{ asset('assets/js/skill.bars.jquery.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <!-- counter top js -->
+    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <!-- video js -->
+    <script src="{{ asset('assets/js/jquery.mb.YTPlayer.min.js') }}"></script>
+    <!-- magnific popup js -->
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <!-- plugins js -->
+    <script src="{{ asset('assets/js/plugins.js') }}"></script>
+    <!-- contact form js -->
+    <script src="{{ asset('assets/js/contact.form.js') }}"></script>
+    <!-- main js -->
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
-<script>
-    function redirectTo(routename) {
-        window.open = `/${routename}`
-    }
+    <script>
+        function redirectTo(routename) {
+            window.open = `/${routename}`
+        }
 
-</script>
+    </script>
 
-<script>
-    function Loginpage() {
-        window.open = "/login"
-    }
+    <script>
+        function Loginpage() {
+            window.open = "/login"
+        }
 
-</script>
-<script>
-    function Registerpage() {
-        window.open = "/register"
-    }
+    </script>
+    <script>
+        function Registerpage() {
+            window.open = "/register"
+        }
 
-</script>
-<script>
-    function language() {
-        window.open = "/language"
-    }
+    </script>
+    <script>
+        function language() {
+            window.open = "/language"
+        }
 
-</script>
+    </script>
 
-<script>
-    function applied_science() {
-        window.open = "/applied_science"
-    }
+    <script>
+        function applied_science() {
+            window.open = "/applied_science"
+        }
 
-</script>
+    </script>
 
-<script>
-    function accounting() {
-        window.open = "/business"
-    }
+    <script>
+        function accounting() {
+            window.open = "/business"
+        }
 
-</script>
+    </script>
 
-<script>
-    function dotnetProgramming() {
-        window.open = "/computerProgramming"
-    }
+    <script>
+        function dotnetProgramming() {
+            window.open = "/computerProgramming"
+        }
 
-</script>
-<script>
-    function cartmenu() {
-        window.open = "/cart"
-    }
+    </script>
+    <script>
+        function cartmenu() {
+            window.open = "/cart"
+        }
 
-</script>
-<script>
-    $(document).ready(function () {
-        $('.dropdown-submenu a.test').on("click", function (e) {
-            $(this).next('ul').toggle();
-            e.stopPropagation();
-            e.preventDefault();
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-submenu a.test').on("click", function(e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
         });
-    });
 
-</script>
-{{-- <script>
+    </script>
+    {{-- <script>
     //according to loftblog tut
     $('.nav li:first').addClass('active');
 
@@ -1685,53 +1755,53 @@
     });
 
 </script> --}}
-<script>
-    /* When the user clicks on the button,
+    <script>
+        /* When the user clicks on the button,
     toggle between hiding and showing the dropdown content */
-    // function myFunction() {
+        // function myFunction() {
 
-    // }
+        // }
 
-    function filterFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-        var input, filter, ul, li, a, i;
-        input = document.getElementById("myInput");
-        console.log(input.value)
-        filter = input.value.toUpperCase();
-        div = document.getElementById("myDropdown");
-        a = div.getElementsByTagName("a");
-        console.log(a)
-        for (i = 0; i < a.length; i++) {
-            txtValue = a[i].textContent || a[i].innerText;
-            console.log(txtValue)
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                a[i].style.display = "";
-                console.log(a[i]);
-            } else {
-                a[i].style.display = "none";
-                console.log("aaaaaaaaaaaaaaaaaa", a[i]);
+        function filterFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            console.log(input.value)
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            console.log(a)
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                console.log(txtValue)
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                    console.log(a[i]);
+                } else {
+                    a[i].style.display = "none";
+                    console.log("aaaaaaaaaaaaaaaaaa", a[i]);
+                }
             }
         }
-    }
 
-</script>
+    </script>
 
-<script>
-    $(function () {
-        $("a[href*='#']").not("a[href='#']").click(function () {
-            e.preventDefault();
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
+    <script>
+        $(function() {
+            $("a[href*='#']").not("a[href='#']").click(function() {
+                e.preventDefault();
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            });
         });
-    });
 
-</script>
+    </script>
 
 </body>
 
