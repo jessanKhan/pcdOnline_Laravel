@@ -1151,8 +1151,12 @@
 
 
                             </li>
+                            
+                            
                         @endforeach
                     </ul>
+                    
+
                 </li>
                 <li class="input search-bar">
 
@@ -1266,7 +1270,7 @@
 
                 <div class="main-button">
                     <h1><strong>PCD</strong> ONLINE</h1>
-                    <div><a style="text-decoration: none" href="#section4">Discover
+                    <div><a style="text-decoration: none" href="">Discover
                             Our
                             Online Courses</a></div>
                 </div>
@@ -1310,12 +1314,12 @@
                         Business and
                         Management</a> </div>
                 <div class="col-md-2 block-click" style="background-color: #F5A425 ;"> <a
-                        href="https://www.edx.org/course/subject/computer-science?source=aw&awc=6798_1623601446_24de6c8c7e16593987bba61a2e9e3cf6&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
+                        href="https://www.awin1.com/cread.php?awinmid=6798&awinaffid=887627&clickref2=computer-science&ued=https%3A%2F%2Fwww.edx.org%2Fcourse%2Fsubject%2Fcomputer-science"
                         class="block-click-a">
                         Computer Science</a> </div>
                 <div class="col-md-2 block-click " style="background-color: #436095 ;"> <a
-                        href="https://www.edx.org/course/subject/data-science?source=aw&awc=6798_1623601423_a07a1d81d345ba3a19f7351f8826c985&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
-                        class="block-click-a">
+                        href="https://www.awin1.com/cread.php?awinmid=6798&awinaffid=887627&clickref2=data-science&ued=https%3A%2F%2Fwww.edx.org%2Fcourse%2Fsubject%2Fdata-science"
+                        class="block-click-a">Data
                         Analysis and Statistics</a>
                 </div>
                 <div class="col-md-2 block-click" style="background-color: #F5A425 ;">
@@ -1323,7 +1327,7 @@
                         class="block-click-a">Language</a>
                 </div>
                 <div class="col-md-2 block-click" style="background-color: #436095 ;">
-                    <a href="https://www.edx.org/course/subject/humanities?source=aw&awc=6798_1623599162_481aa83f3d541f2aeffe455344441d2f&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
+                    <a href="https://www.awin1.com/cread.php?awinmid=6798&awinaffid=887627&clickref2=humanities&ued=https%3A%2F%2Fwww.edx.org%2Fcourse%2Fsubject%2Fhumanities"
                         class="block-click-a">Humanities</a>
                 </div>
 
