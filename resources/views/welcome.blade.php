@@ -19,6 +19,8 @@
 
         .main-button h1 {
             font-weight: bolder;
+            color: blue;
+            font-size:46px;
         }
 
         #map img {
@@ -1266,7 +1268,7 @@
                     <h1><strong>PCD</strong> ONLINE</h1>
                     <div><a style="text-decoration: none" href="#section4">Discover
                             Our
-                            Virtual Courses</a></div>
+                            Online Courses</a></div>
                 </div>
             </div>
             <div class="row">
@@ -1291,10 +1293,8 @@
 
                         </p>
 
-                        <p> Check out our edX affiliate online courses delivered by the top-ranking universities of the
-                            world either by clicking <a href="">here</a>
-                            or
-                            the following button of your choice(s).
+                        <p> PCDonline is a subsidiary of Prudence College Dublin (PCD) and affiliated with edX to offer online courses of 
+                        various popular disciplines delivered by the reputed and prestigeous colleges and universities of the world.
                         </p>
                         {{-- <div class="main-button"><a rel="" href="" target="_parent">Read More</a></div> --}}
                     </div>
@@ -1312,17 +1312,15 @@
                 <div class="col-md-2 block-click" style="background-color: #F5A425 ;"> <a
                         href="https://www.edx.org/course/subject/computer-science?source=aw&awc=6798_1623601446_24de6c8c7e16593987bba61a2e9e3cf6&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
                         class="block-click-a">
-                        Coding and
-                        Computing</a> </div>
+                        Computer Science</a> </div>
                 <div class="col-md-2 block-click " style="background-color: #436095 ;"> <a
                         href="https://www.edx.org/course/subject/data-science?source=aw&awc=6798_1623601423_a07a1d81d345ba3a19f7351f8826c985&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
                         class="block-click-a">
-                        Applied Science</a>
+                        Analysis and Statistics</a>
                 </div>
                 <div class="col-md-2 block-click" style="background-color: #F5A425 ;">
                     <a href="https://www.awin1.com/cread.php?awinmid=6798&awinaffid=887627&clickref2=language&ued=https%3A%2F%2Fwww.edx.org%2Fcourse%2Fsubject%2Flanguage"
-                        class="block-click-a">Languages and
-                        Culture</a>
+                        class="block-click-a">Language</a>
                 </div>
                 <div class="col-md-2 block-click" style="background-color: #436095 ;">
                     <a href="https://www.edx.org/course/subject/humanities?source=aw&awc=6798_1623599162_481aa83f3d541f2aeffe455344441d2f&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=887627_Prudence+College+Dublin"
@@ -1341,13 +1339,14 @@
         </video>
 
         <div class="video-overlay header-text">
+        <div class="video-overlay header-text">
             <div class="caption">
-
-                {{-- <div class="main-button">
-                    <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">Discover Our
-                            Courses</a></div>
-                </div> --}}
+                
+                <div class="main-button">
+                    <div class="scroll-to-section"><a style="text-decoration: none" href="#section4">EXPLORE OUR VIRTUAL COURSES</a></div>
+                </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- ***** Main Banner Area End ***** -->
@@ -1382,7 +1381,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Courses Currently Offering</h2>
+                        <h2>Replace by Virtual courses currently offering</h2>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme">
@@ -1450,6 +1449,15 @@
             </div>
         </div>
     </section>
+    <section class="lead" data-section="section3" style="background-color: white;">
+        <div class="container " >
+            <div class="row" >
+                <div class="col-md-12" style="background-color: #f5a425;">
+                    <h2 style="font-size: 22px;"><b> Affiliation / accreditation / partnership</b></h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="cpdcourses" data-section="section7">
         <div class="container">
@@ -1461,18 +1469,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 ">
-                    <div class="content">
-                        <h4><b> CPD Accreditation</b></h4>
-                        <p> We are also promoting courses (CPD Accredited) delivered virtually (interactive, realtime,
-                            distance learning) by Prudence College Dublin (www.prudencecollege.ie).</p>
-
-                        <p> The vision of PCD is to get recognition as an academic center of excellence in higher
-                            education
-                            in Europe by attracting brilliant and deserving students from home and abroad; and providing
-                            advanced education and training to satisfy present and the future global needs.
-                        </p>
-
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="right-content">
+                        <img class="rounded mx-auto d-block"
+                            src="{{ asset('assets/images/edx-logo-300x126.png') }}" alt="" />
                     </div>
                 </div>
             </div>
